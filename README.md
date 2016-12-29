@@ -54,7 +54,7 @@ Parameter | Beschreibung
 `task-existingEntries`| aktueller Bearbeitungsschritt für bestehende Einträge; dieser wird als `<change>`-Element in die `<revisionDesc>` aufgenommen
 `schemaPath` | Pfad zum Verzeichnis, welches das XML-Schema (`.rng-Datei`) enthält
 `comparisonBase`| aktuelles Datenverzeichnis; die FileMaker-Exportdateien werden mit den in diesem Verzeichnis liegenden Dateien abgeglichen; für Workflow-Tests lässt sich hier ein weniger umfangreiches Verzeichnis angeben
-`outputScenario` | hier lässt sich für Workflow-Tests mit `'oneFile'` die Ausgabe in einer Einzeldatei festlegen (ohne `teiHeader`); jeder andere Wert führt zur Standardausgabe (eine Datei pro Eintrag)
+`outputScenario` | hier lässt sich für Workflow-Tests mit `'oneFile'` die Ausgabe in einer Einzeldatei festlegen; jeder andere Wert führt zur Standardausgabe (eine Datei pro Eintrag)
 
 Die Werte müssen mit umschließenden einfachen Anführungszeichen eingetragen werden.
 

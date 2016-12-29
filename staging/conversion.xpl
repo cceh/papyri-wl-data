@@ -85,6 +85,22 @@
         </p:input>
     </p:xslt>
     
+    <p:documentation>
+        <h2>Metadata / teiHeader</h2>
+        <p>This step builds up a teiHeader from the parameter values defined above and the change 
+            elements present in the current data.</p>
+    </p:documentation>
+    <p:xslt>
+        <p:with-param name="editor" select="$editor"/>
+        <p:with-param name="task-newEntries" select="$task-newEntries"/>
+        <p:with-param name="task-existingEntries" select="$task-existingEntries"/>
+        <p:with-param name="schemaPath" select="$schemaPath"/>
+        <p:with-param name="comparisonBase" select="$comparisonBase"/>
+        <p:input port="stylesheet">
+            <p:document href="conversion/5-build-teiHeader.xsl"/>
+        </p:input>
+    </p:xslt>
+    
     <p:choose>
         <p:when test="$outputScenario='oneFile'">
             <p:documentation>
@@ -102,18 +118,8 @@
                 <p>This steps supplies each entry with a metdata section (teiHeader) and creates a file containing this header and content.</p>
             </p:documentation>
             <p:for-each>
-                <p:iteration-source select="/*//*:div"/>
+                <p:iteration-source select="/*//*:TEI"/>
                 <p:variable name="filename" select="concat('output/',//*:entry/@xml:id, '.xml')"/>
-                <p:xslt>
-                    <p:with-param name="editor" select="$editor"/>
-                    <p:with-param name="task-newEntries" select="$task-newEntries"/>
-                    <p:with-param name="task-existingEntries" select="$task-existingEntries"/>
-                    <p:with-param name="schemaPath" select="$schemaPath"/>
-                    <p:with-param name="comparisonBase" select="$comparisonBase"/>
-                    <p:input port="stylesheet">
-                        <p:document href="conversion/5-build-teiHeader.xsl"/>
-                    </p:input>
-                </p:xslt>
                 <p:store>
                     <p:with-option name="href" select="$filename"/>
                     <p:with-option name="indent" select="'true'"/>
