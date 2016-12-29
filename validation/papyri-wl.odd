@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+	xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>papyri-wl</title>
+				<author>Sebastian Rahtz</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TEI Consortium</publisher>
+				<availability status="free">
+					<p>This template file is freely available and you are
+hereby authorised to copy, modify, and redistribute it in
+any way without further reference or permissions.</p>
+					<p>When making such modifications, you are strongly
+recommended to change the present text to include an
+accurate statement of the licencing conditions applicable
+to your modified text.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="ns">http://www.example.org/ns/nonTEI</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Written from scratch.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>TEI Corpus</head>
+			<p>This TEI customization file includes the minimum TEI modules&#13;
+likely to be needed in the creation of linguistic corpora.</p>
+			<schemaSpec ident="papyri-wl" start="TEI teiCorpus" prefix="">
+				<!-- required modules -->
+				<moduleRef key="header"/>
+				<moduleRef key="core"/>
+				<moduleRef key="tei"/>
+				<moduleRef key="textstructure"/>
+				<!-- optional modules -->
+				<moduleRef key="dictionaries" except=""/>
+				<moduleRef key="namesdates" except=""/>
+				<!-- required to avoid Sanity Checker complaint -->
+				<elementSpec ident="handNote" mode="delete" module="header"/>
+			</schemaSpec>
+			<!-- element specifications -->
+			<!-- module core -->
+			<elementSpec ident="note" module="core" mode="change">
+				<attList>
+					<attDef ident="type" mode="change" usage="req">
+						<datatype>
+							<rng:text/>
+						</datatype>
+						<valList type="closed" mode="replace">
+							<valItem ident="resp">
+								<desc>Informationen zur Erstellung</desc>
+							</valItem>
+							<valItem ident="addInfo">
+								<desc>Zusätzliche Informationen</desc>
+							</valItem>
+							<valItem ident="ref">
+								<desc>Enthält Verweis</desc>
+							</valItem>
+						</valList>
+					</attDef>
+				</attList>
+			</elementSpec>
+			<!-- module textstructure -->
+			<elementSpec ident="div" module="textstructure" mode="change">
+				<attList>
+					<attDef ident="type" mode="change" usage="req">
+						<datatype>
+							<rng:text/>
+						</datatype>
+						<valList type="closed" mode="replace">
+							<valItem ident="monthsDays">
+								<desc>Monate und Tage</desc>
+							</valItem>
+							<valItem ident="persons">
+								<desc>Personennamen</desc>
+							</valItem>
+							<valItem ident="geography">
+								<desc>Geographie</desc>
+							</valItem>
+							<valItem ident="religion">
+								<desc>Götter, Heiligtümer (s. auch unter Geographie), Feste</desc>
+							</valItem>
+							<valItem ident="general">
+								<desc>Allgemeines Wörterverzeichnis</desc>
+							</valItem>
+						</valList>
+					</attDef>
+				</attList>
+			</elementSpec>
+			<!-- module dictionaries -->
+			<elementSpec ident="entry" module="dictionaries" mode="change">
+				<attList>
+					<attDef ident="type" mode="change" usage="req">
+						<datatype>
+							<rng:text/>
+						</datatype>
+						<valList type="closed" mode="replace">
+							<valItem ident="main">
+								<desc>Lemma</desc>
+							</valItem>
+							<!-- Weitere Typen müssten hier aufgenommen werden, oder @type in valList auf "open" -->
+						</valList>
+					</attDef>
+				</attList>
+			</elementSpec>
+			<elementSpec ident="form" module="dictionaries" mode="change">
+				<attList>
+					<attDef ident="type" mode="change" usage="req">
+						<datatype>
+							<rng:text/>
+						</datatype>
+						<valList type="closed" mode="replace">
+							<valItem ident="lemma">
+								<desc>Das Hauptwort selbst</desc>
+							</valItem>
+							<valItem ident="derivative">
+								<desc>Vom Hauptwort abgeleitetes Wort (abgeleitete Schreibung)</desc>
+							</valItem>
+						</valList>
+					</attDef>
+					<attDef ident="value" mode="change" usage="">
+						<datatype>
+							<rng:text/>
+						</datatype>
+						<valList type="closed" mode="replace">
+							<valItem ident="reverse">
+								<desc>Schreibung in umgekehrter Buchstabenreihenfolge</desc>
+							</valItem>
+						</valList>
+					</attDef>
+				</attList>
+			</elementSpec>
+			<elementSpec ident="orth" module="dictionaries" mode="change">
+				<attList>
+					<attDef ident="type" mode="change" usage="req">
+						<datatype>
+							<rng:text/>
+						</datatype>
+						<valList type="closed" mode="replace">
+							<valItem ident="original">
+								<desc>Schreibweise wie gefunden</desc>
+							</valItem>
+							<valItem ident="regularised">
+								<desc>Regularisierte Schreibung</desc>
+							</valItem>
+						</valList>
+					</attDef>
+					<attDef ident="extent" mode="change" usage="req">
+						<datatype>
+							<rng:text/>
+						</datatype>
+						<valList type="closed" mode="replace">
+							<valItem ident="full">
+								<desc>Vollständiges Wort</desc>
+							</valItem>
+							<valItem ident="part">
+								<desc>Teil eines Wortes</desc>
+							</valItem>
+						</valList>
+					</attDef>
+				</attList>
+			</elementSpec>
+		</body>
+	</text>
+</TEI>
