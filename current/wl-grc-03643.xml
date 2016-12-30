@@ -1,0 +1,119 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-03643">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">ἐλαιουργός</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">ελαιουργος</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςόγρυοιαλἐ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςογρυοιαλε</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__06">An.Pap. 06</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__12">An.Pap. 12</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__26">An.Pap. 26</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18710">BGU 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17118">BL 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Chron_Eg__82">Chron.Eg. 82</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19232">Łajtar, Deir el-Bahari</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18426">O.Heid.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19060">P.Count</ref>
+                        <note type="addInfo" anchored="true">Index vii</note>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b70710">P.Lond. Copt. 1077</ref>
+                        <note type="addInfo" anchored="true">Index 3</note>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80606">P.Lond. Herm.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Monts__Roca_04">P.Monts. Roca 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17700">P.Oxy. 68</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Oxy__78">P.Oxy. 78</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14666">P.Oxy. 984</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18001">P.Paramone</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21621">P.Prag. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Turku">P.Turku</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16656">P.Yale 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19858">SPP 03².1</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_09">Tyche 09</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18384">Zuckerman, Registre fiscal</ref>
+                        <note type="addInfo" anchored="true">V</note>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

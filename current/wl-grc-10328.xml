@@ -1,0 +1,93 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-10328">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">σεαυτοῦ</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">σεαυτου</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ῦοτυαεσ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">υοτυαεσ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+                  <note type="ref" anchored="true">s. auch σαυτοῦ</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b13861">BGU 16</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18710">BGU 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Chron_Eg__84">Chron.Eg. 84</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14684">O.Claud. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81797">O.Did.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Aktenbuch">P.Aktenbuch</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15468">P.Ammon 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17907">P.Horak</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16452">P.Köln 09</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14804">P.Oxy. 64</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16373">P.Oxy. 67</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21439">P.Oxy. 75</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Oxy__78">P.Oxy. 78</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19840">P.Sijp.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_10">Tyche 10</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

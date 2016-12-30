@@ -1,0 +1,86 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-00472">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">ἀλλαγή</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">αλλαγη</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ήγαλλἀ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ηγαλλα</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BASP_43-50">BASP 43-50</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BGU_20">BGU 20</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16831">CPR 22</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21293">CPR 30</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81797">O.Did.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15462">O.Eleph. DAIK</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b82190">O.Petr. Mus.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16093">P.Bingen</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19060">P.Count</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80627">P.Herakl. Bank</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19894">P.Köln 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18001">P.Paramone</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81813">P.Pintaudi</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19840">P.Sijp.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

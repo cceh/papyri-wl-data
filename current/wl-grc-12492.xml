@@ -1,0 +1,98 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-12492">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">χαλκεύς</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">χαλκευς</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςύεκλαχ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςυεκλαχ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b13861">BGU 16</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18710">BGU 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14684">O.Claud. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15951">O.Claud. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20700">O.Claud. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15849">O.Douch 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18379">O.Kellis</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80208">O.Trim. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15219">P.Eirene 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18239">P.Eirene 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21301">P.Eirene 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17907">P.Horak</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21216">P.Köln 12</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80606">P.Lond. Herm.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14532">P.Oxy. 63</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15603">P.Oxy. 66</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

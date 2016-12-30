@@ -1,0 +1,96 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-03976">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">ἐξ</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">εξ</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ξἐ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ξε</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+                  <note type="ref" anchored="true">s. auch ἐκ</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__08_09">An.Pap. 08/09</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18710">BGU 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18092">CPR 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16831">CPR 22</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17079">CPR 24</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19306">CPR 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18436">O.Ber. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20700">O.Claud. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14549">P.Gen. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20984">P.Gen. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15286">P.Hamb. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16599">P.Harrauer</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16013">P.Lond. 1177</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15271">P.Louvre 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b76273">P.Minnesota</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19164">P.Oxy. 70</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20490">P.Worp</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20138">SPP 03².2</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20109">SPP 03².5</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-11705">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">τοπογραμματεύς</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">τοπογραμματευς</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςύεταμμαργοποτ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςυεταμμαργοποτ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__06">An.Pap. 06</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b13861">BGU 16</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16165">BGU 18,1</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17118">BL 11</ref>
+                        <note type="addInfo" anchored="true">Index 6</note>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18426">O.Heid.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17122">P.Berl. Salm.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14549">P.Gen. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16511">P.Heid. 08</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18982">P.Heid. 09</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80627">P.Herakl. Bank</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17706">P.Köln 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19894">P.Köln 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Köln_13">P.Köln 13</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20830">P.Oxy. 74</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Oxy__78">P.Oxy. 78</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18001">P.Paramone</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18867">P.Tebt. 05</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Turku">P.Turku</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

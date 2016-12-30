@@ -1,0 +1,137 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-01892">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">ἀφίημι</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">αφιημι</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ιμηίφἀ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ιμηιφα</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b70685">Aegyptus 81</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BGU_20">BGU 20</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18436">O.Ber. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14684">O.Claud. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20700">O.Claud. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81797">O.Did.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18535">O.Krok. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15468">P.Ammon 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19568">P.Berl. Cohen</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14327">P.Col. 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21301">P.Eirene 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20221">P.Iand. Zen.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17706">P.Köln 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16943">P.Lips. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18650">P.Louvre 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14538">P.Mich. 18</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21002">P.NYU 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14180">P.Oxy. 62</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15252">P.Oxy. 65</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20869">P.Oxy. 73</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80206">P.Petra 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16381">P.Polit. Iud.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21621">P.Prag. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21351">P.Sorb. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b79358">P.Vet. Aelii</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20297">PSI 15</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_PSI_16">PSI 16</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18448">PSI Com. 06</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_PUG_05">PUG 05</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_11">Tyche 11</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

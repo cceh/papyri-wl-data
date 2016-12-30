@@ -1,0 +1,156 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="geography" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-13103">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">Αἴγυπτος</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">Αιγυπτος</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςοτπυγἴΑ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςοτπυγιΑ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+                  <note type="ref" anchored="true">s. auch Lateinisch Aegyptus</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b16831">CPR 22</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17261">CPR 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17079">CPR 24</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15587">I.Herm.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18436">O.Ber. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14684">O.Claud. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20700">O.Claud. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81797">O.Did.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18535">O.Krok. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15468">P.Ammon 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19265">P.Ammon 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16093">P.Bingen</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14543">P.Bodl. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14327">P.Col. 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Heid__10">P.Heid. 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17907">P.Horak</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14664">P.Kell. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14664">P.Kell. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16943">P.Lips. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15271">P.Louvre 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Monts__Roca_04">P.Monts. Roca 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14532">P.Oxy. 63</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14804">P.Oxy. 64</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15252">P.Oxy. 65</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15603">P.Oxy. 66</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16373">P.Oxy. 67</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20869">P.Oxy. 73</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Oxy__79">P.Oxy. 79</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18001">P.Paramone</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21621">P.Prag. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19840">P.Sijp.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b79358">P.Vet. Aelii</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20297">PSI 15</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_10">Tyche 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_16">Tyche 16</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-11359">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">σωλήν</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">σωλην</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">νήλωσ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">νηλωσ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__05">An.Pap. 05</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20700">O.Claud. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15712">P.Kell. Copt. 01</ref>
+                        <note type="addInfo" anchored="true">A</note>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16013">P.Lond. 1177</ref>
+                        <note type="addInfo" anchored="true">Index 1 u. 3</note>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14804">P.Oxy. 64</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

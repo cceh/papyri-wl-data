@@ -1,0 +1,90 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-05208">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">θεά</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">θεα</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">άεθ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">αεθ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__18_20">An.Pap. 18/20</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__23_24">An.Pap. 23/24</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16326">I.Alex.ptol.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15587">I.Herm.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19232">Łajtar, Deir el-Bahari</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18436">O.Ber. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15462">O.Eleph. DAIK</ref>
+                        <note type="addInfo" anchored="true">Index VIII</note>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15219">P.Eirene 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15286">P.Hamb. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14792">P.Köln 08</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16943">P.Lips. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15271">P.Louvre 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19164">P.Oxy. 70</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81764">Short Texts 02</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

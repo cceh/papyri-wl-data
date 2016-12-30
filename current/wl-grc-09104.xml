@@ -1,0 +1,110 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-09104">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">περίβλεπτος</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">περιβλεπτος</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςοτπελβίρεπ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςοτπελβιρεπ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b61760">BGU 17</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18710">BGU 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17118">BL 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17079">CPR 24</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19306">CPR 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21293">CPR 30</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Bagnall">P.Bagnall</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16093">P.Bingen</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20984">P.Gen. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14538">P.Mich. 18</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15603">P.Oxy. 66</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17700">P.Oxy. 68</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18607">P.Oxy. 69</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20459">P.Oxy. 72</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21439">P.Oxy. 75</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20490">P.Worp</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_PSI_Com__11">PSI Com. 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19858">SPP 03².1</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_10">Tyche 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_17">Tyche 17</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BASP_43-50">BASP 43-50</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

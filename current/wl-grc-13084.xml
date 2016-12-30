@@ -1,0 +1,59 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="geography" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-13084">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">Ἀθηναῖος</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">Αθηναιος</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςοῖανηθἈ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςοιανηθΑ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b16326">I.Alex.ptol.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Cairo_Preis_2">P.Cairo Preis.²</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17907">P.Horak</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20963">P.Jena 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15182">P.Lugd. Bat. 30</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

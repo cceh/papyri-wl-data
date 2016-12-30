@@ -1,0 +1,111 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-07400">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">μεγαλοπρεπέστατος</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">μεγαλοπρεπεστατος</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςοτατσέπερπολαγεμ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςοτατσεπερπολαγεμ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b18092">CPR 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17261">CPR 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19306">CPR 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21293">CPR 30</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19587">P.Brux. Bawit</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14327">P.Col. 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18239">P.Eirene 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20984">P.Gen. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16599">P.Harrauer</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17907">P.Horak</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17700">P.Oxy. 68</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19164">P.Oxy. 70</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20459">P.Oxy. 72</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80206">P.Petra 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19858">SPP 03².1</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_09">Tyche 09</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_11">Tyche 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_28">Tyche 28</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_29">Tyche 29</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18384">Zuckerman, Registre fiscal</ref>
+                        <note type="addInfo" anchored="true">III</note>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

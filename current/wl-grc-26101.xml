@@ -1,0 +1,80 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="persons" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-26101">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">Σαραπόδωρος</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">Σαραποδωρος</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςορωδόπαραΣ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςορωδοπαραΣ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b15468">P.Ammon 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14543">P.Bodl. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15286">P.Hamb. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16599">P.Harrauer</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20963">P.Jena 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80638">P.Mich. 20</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14532">P.Oxy. 63</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Oxy__78">P.Oxy. 78</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b79358">P.Vet. Aelii</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16656">P.Yale 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18384">Zuckerman, Registre fiscal</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="persons" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-18238">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">Ἁρπαῆσις</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">Αρπαησις</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςισῆαπρἉ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςισηαπρΑ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b13861">BGU 16</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BGU_20">BGU 20</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Chang__Dossier">Chang, Dossier</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19232">Łajtar, Deir el-Bahari</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_O_Bankes">O.Bankes</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15462">O.Eleph. DAIK</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18426">O.Heid.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18379">O.Kellis</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80208">O.Trim. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16093">P.Bingen</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19060">P.Count</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b79288">P.Dime 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17154">P.Dryton</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80627">P.Herakl. Bank</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16943">P.Lips. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15271">P.Louvre 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14538">P.Mich. 18</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14180">P.Oxy. 62</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19644">P.Oxy. 71</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20459">P.Oxy. 72</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Oxy__80">P.Oxy. 80</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21291">P.Schøyen 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19840">P.Sijp.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20490">P.Worp</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81764">Short Texts 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_09">Tyche 09</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

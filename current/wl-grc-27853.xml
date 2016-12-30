@@ -1,0 +1,126 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="persons" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-27853">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">Τιθοῆς</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">Τιθοης</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςῆοθιΤ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςηοθιΤ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__26">An.Pap. 26</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BASP_43-50">BASP 43-50</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17118">BL 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19232">Łajtar, Deir el-Bahari</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b68842">O.Ber. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18436">O.Ber. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14684">O.Claud. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20700">O.Claud. 04</ref>
+                        <note type="addInfo" anchored="true">s. auch s.n. Παχῆμις</note>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81797">O.Did.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18426">O.Heid.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18379">O.Kellis</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18535">O.Krok. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b70719">O.Narm. Corr.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b82190">O.Petr. Mus.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20775">O.Strasb. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80208">O.Trim. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14549">P.Gen. 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14664">P.Kell. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15712">P.Kell. Copt. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15271">P.Louvre 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b80638">P.Mich. 20</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14666">P.Oxy. 984</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19840">P.Sijp.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Tebt_Pad_01">P.Tebt. Pad. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81764">Short Texts 02</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

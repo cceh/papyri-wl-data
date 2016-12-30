@@ -1,0 +1,89 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="general" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-03882">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">ἐνίσταμαι</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">ενισταμαι</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ιαματσίνἐ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ιαματσινε</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#b18710">BGU 19</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81797">O.Did.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19265">P.Ammon 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b15250">P.Bub. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Cairo_Mich__02">P.Cairo Mich. 02</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20984">P.Gen. 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Heid__10">P.Heid. 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14792">P.Köln 08</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19894">P.Köln 11</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Monts__Roca_04">P.Monts. Roca 04</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14804">P.Oxy. 64</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_P_Oxy__79">P.Oxy. 79</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18001">P.Paramone</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17397">P.Phrur. Diosk.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16381">P.Polit. Iud.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b18448">PSI Com. 06</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_08">Tyche 08</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>

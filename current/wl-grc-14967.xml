@@ -1,0 +1,77 @@
+<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterliste</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="geography" part="N" org="uniform" sample="complete">
+            <entry type="main" xml:id="wl-grc-14967">
+               <form type="lemma" opt="false">
+                  <orth xml:lang="grc" type="original" extent="full" opt="false">Ναρμοῦθις</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">Ναρμουθις</orth>
+                  <form type="derivative" value="reverse" opt="false">
+                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςιθῦομραΝ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςιθυομραΝ</orth>
+                  </form>
+                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
+                     <date type="creation" instant="false">vor 2016</date>.</note>
+               </form>
+               <!--Belegstellen-->
+               <xr opt="false">
+                  <list>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_An_Pap__05">An.Pap. 05</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BASP_43-50">BASP 43-50</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#ohne_Verweis_BGU_20">BGU 20</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b20909">BL 12</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b14830">P.Graux 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b16452">P.Köln 09</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b21045">P.Narm. 2006</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b81813">P.Pintaudi</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19840">P.Sijp.</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b67807">SB 21</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b17117">SB 23</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b77425">SB 25</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#b19826">SB 27</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>
