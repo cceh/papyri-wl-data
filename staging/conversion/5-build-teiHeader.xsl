@@ -43,8 +43,8 @@
                     <publicationStmt>
                         <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
                         <availability>
-                            <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2017-01-01">
-                                <p>Dieses Dokument wurde unter der <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported-Lizenz (CC BY 3.0)</ref> veröffentlicht.</p>
+                            <licence target="http://creativecommons.org/licenses/by/4.0/" notBefore="2017-01-01">
+                                <p>Dieses Dokument wurde unter der <ref type="license" target="http://choosealicense.com/licenses/cc-by-4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
                                 <p>Die Lizenz wurde per 1. Januar 2017 hinzugefügt.</p>
                             </licence>
                         </availability>
