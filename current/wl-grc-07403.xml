@@ -1,33 +1,58 @@
-<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader type="text">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterliste</title>
+            <title>Papyri-Wörterliste: μέγας</title>
          </titleStmt>
          <publicationStmt>
-            <p part="N">Publication Information</p>
+            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"
+                        notBefore="2017-01-01">
+                  <p>Dieses Dokument wurde unter der <ref type="license" target="http://choosealicense.com/licenses/cc-by-4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
+                  <p>Die Lizenz wurde per 1. Januar 2017 hinzugefügt.</p>
+               </licence>
+            </availability>
          </publicationStmt>
-         <sourceDesc default="false">
-            <p part="N">Information about the source</p>
+         <sourceDesc>
+            <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filmakerdatenbanken von Prof. D. Hagedorn.</p>
+            <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
+         <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
+         <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
+         <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
+         <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+      </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="en">
       <body>
-         <div type="general" part="N" org="uniform" sample="complete">
+         <div type="general">
             <entry type="main" xml:id="wl-grc-07403">
-               <form type="lemma" opt="false">
-                  <orth xml:lang="grc" type="original" extent="full" opt="false">μέγας</orth>
-                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">μεγας</orth>
-                  <form type="derivative" value="reverse" opt="false">
-                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςαγέμ</orth>
-                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςαγεμ</orth>
+               <form type="lemma">
+                  <orth xml:lang="grc" type="original" extent="full">μέγας</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full">μεγας</orth>
+                  <form type="derivative" value="reverse">
+                     <orth xml:lang="grc" type="original" extent="full"/>
+                     <orth xml:lang="grc" type="regularised" extent="full">ςαγεμ</orth>
                   </form>
-                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
-                     <date type="creation" instant="false">vor 2016</date>.</note>
+                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                     <date type="creation">vor 2016</date>.</note>
+                  <idno type="fp7">7174</idno>
                </form>
                <!--Belegstellen-->
-               <xr opt="false">
+               <xr>
                   <list>
                      <item>
                         <ref target="literature.xml#b70685">Aegyptus 81</ref>
@@ -48,7 +73,7 @@
                         <ref target="literature.xml#ohne_Verweis_An_Pap__23_24">An.Pap. 23/24</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#ohne_Verweis_BASP_43">BASP 43-50</ref>
+                        <ref target="literature.xml#ohne_Verweis_BASP_43-50">BASP 43-50</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b13861">BGU 16</ref>
@@ -96,10 +121,13 @@
                         <ref target="literature.xml#b19232">Łajtar, Deir el-Bahari</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b20519">Litinas, Vessels' Notations</ref>
+                        <ref target="literature.xml#">Litinas, Vessels' Notations</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b68842">O.Ber. 01</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#">O.Ber. 03</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14684">O.Claud. 02</ref>
@@ -120,7 +148,7 @@
                         <ref target="literature.xml#b18379">O.Kellis</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b18535">O.Krok. 01</ref>
+                        <ref target="literature.xml#">O.Krok. 01</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b82190">O.Petr. Mus.</ref>
@@ -129,8 +157,8 @@
                         <ref target="literature.xml#b20775">O.Strasb. 02</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#ohne_Verweis_P_Aktenbuch">P.Aktenbuch</ref>
-                        <note type="addInfo" anchored="true">Index 5</note>
+                        <ref target="literature.xml#">P.Aktenbuch</ref>
+                        <note type="addInfo">Index 5</note>
                      </item>
                      <item>
                         <ref target="literature.xml#b15468">P.Ammon 01</ref>
@@ -151,7 +179,13 @@
                         <ref target="literature.xml#b19587">P.Brux. Bawit</ref>
                      </item>
                      <item>
+                        <ref target="literature.xml#">P.Coles</ref>
+                     </item>
+                     <item>
                         <ref target="literature.xml#b19060">P.Count</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#">P.Daris</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b79288">P.Dime 03</ref>
@@ -164,6 +198,9 @@
                      </item>
                      <item>
                         <ref target="literature.xml#b21301">P.Eirene 03</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#">P.Gascou</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14549">P.Gen. 03</ref>
@@ -191,6 +228,9 @@
                      </item>
                      <item>
                         <ref target="literature.xml#b21216">P.Köln 12</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#">P.Köln 14</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b16943">P.Lips. 02</ref>
@@ -283,8 +323,8 @@
                         <ref target="literature.xml#b21621">P.Prag. 03</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b80636">P.Scholl</ref>
-                        <note type="addInfo" anchored="true">Index A II</note>
+                        <ref target="literature.xml#">P.Scholl</ref>
+                        <note type="addInfo">Index A II</note>
                      </item>
                      <item>
                         <ref target="literature.xml#b19840">P.Sijp.</ref>
@@ -317,16 +357,19 @@
                         <ref target="literature.xml#b19826">SB 27</ref>
                      </item>
                      <item>
+                        <ref target="literature.xml#">SB 29</ref>
+                     </item>
+                     <item>
                         <ref target="literature.xml#b81764">Short Texts 02</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b19858">SPP 03².1</ref>
+                        <ref target="literature.xml#">SPP 03².1</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b20138">SPP 03².2</ref>
+                        <ref target="literature.xml#">SPP 03².2</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b20109">SPP 03².5</ref>
+                        <ref target="literature.xml#">SPP 03².5</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_Tyche_09">Tyche 09</ref>

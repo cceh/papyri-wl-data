@@ -1,33 +1,58 @@
-<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader type="text">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterliste</title>
+            <title>Papyri-Wörterliste: τρίτος</title>
          </titleStmt>
          <publicationStmt>
-            <p part="N">Publication Information</p>
+            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"
+                        notBefore="2017-01-01">
+                  <p>Dieses Dokument wurde unter der <ref type="license" target="http://choosealicense.com/licenses/cc-by-4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
+                  <p>Die Lizenz wurde per 1. Januar 2017 hinzugefügt.</p>
+               </licence>
+            </availability>
          </publicationStmt>
-         <sourceDesc default="false">
-            <p part="N">Information about the source</p>
+         <sourceDesc>
+            <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filmakerdatenbanken von Prof. D. Hagedorn.</p>
+            <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
+         <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
+         <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
+         <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
+         <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+      </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="en">
       <body>
-         <div type="general" part="N" org="uniform" sample="complete">
+         <div type="general">
             <entry type="main" xml:id="wl-grc-11825">
-               <form type="lemma" opt="false">
-                  <orth xml:lang="grc" type="original" extent="full" opt="false">τρίτος</orth>
-                  <orth xml:lang="grc" type="regularised" extent="full" opt="false">τριτος</orth>
-                  <form type="derivative" value="reverse" opt="false">
-                     <orth xml:lang="grc" type="original" extent="full" opt="false">ςοτίρτ</orth>
-                     <orth xml:lang="grc" type="regularised" extent="full" opt="false">ςοτιρτ</orth>
+               <form type="lemma">
+                  <orth xml:lang="grc" type="original" extent="full">τρίτος</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full">τριτος</orth>
+                  <form type="derivative" value="reverse">
+                     <orth xml:lang="grc" type="original" extent="full"/>
+                     <orth xml:lang="grc" type="regularised" extent="full">ςοτιρτ</orth>
                   </form>
-                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
-                     <date type="creation" instant="false">vor 2016</date>.</note>
+                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                     <date type="creation">vor 2016</date>.</note>
+                  <idno type="fp7">11448</idno>
                </form>
                <!--Belegstellen-->
-               <xr opt="false">
+               <xr>
                   <list>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_An_Pap__05">An.Pap. 05</ref>
@@ -78,7 +103,7 @@
                         <ref target="literature.xml#b21024">O.Edfou Copte</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b15462">O.Eleph. DAIK</ref>
+                        <ref target="literature.xml#">O.Eleph. DAIK</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b18426">O.Heid.</ref>
@@ -96,6 +121,9 @@
                         <ref target="literature.xml#ohne_Verweis_P_Bagnall">P.Bagnall</ref>
                      </item>
                      <item>
+                        <ref target="literature.xml#">P.Bastianini</ref>
+                     </item>
+                     <item>
                         <ref target="literature.xml#b16122">P.Ben. Mus.</ref>
                      </item>
                      <item>
@@ -111,10 +139,16 @@
                         <ref target="literature.xml#b15250">P.Bub. 02</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#ohne_Verweis_P_Cairo_Preis_2">P.Cairo Preis.²</ref>
+                        <ref target="literature.xml#">P.Cairo Preis.²</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14327">P.Col. 10</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#">P.Coles</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#">P.Daris</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b79288">P.Dime 03</ref>
@@ -246,7 +280,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Tarich_">P.Tarich.</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#ohne_Verweis_P_Tebt_Pad_01">P.Tebt. Pad. 01</ref>
+                        <ref target="literature.xml#">P.Tebt. Pad. 01</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b16439">P.Thomas</ref>
@@ -259,6 +293,9 @@
                      </item>
                      <item>
                         <ref target="literature.xml#b20297">PSI 15</ref>
+                     </item>
+                     <item>
+                        <ref target="literature.xml#">PSI Com. 12</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_PUG_05">PUG 05</ref>
@@ -276,16 +313,19 @@
                         <ref target="literature.xml#b19826">SB 27</ref>
                      </item>
                      <item>
+                        <ref target="literature.xml#">SB 29</ref>
+                     </item>
+                     <item>
                         <ref target="literature.xml#b81764">Short Texts 02</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b19858">SPP 03².1</ref>
+                        <ref target="literature.xml#">SPP 03².1</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b20138">SPP 03².2</ref>
+                        <ref target="literature.xml#">SPP 03².2</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#b20109">SPP 03².5</ref>
+                        <ref target="literature.xml#">SPP 03².5</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_Tyche_09">Tyche 09</ref>

@@ -1,33 +1,58 @@
-<?xml-model href="../../Datenmodell/papyri-wl.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader type="text">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterliste</title>
+            <title>Papyri-Wörterliste: ]ασζητ</title>
          </titleStmt>
          <publicationStmt>
-            <p part="N">Publication Information</p>
+            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"
+                        notBefore="2017-01-01">
+                  <p>Dieses Dokument wurde unter der <ref type="license" target="http://choosealicense.com/licenses/cc-by-4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
+                  <p>Die Lizenz wurde per 1. Januar 2017 hinzugefügt.</p>
+               </licence>
+            </availability>
          </publicationStmt>
-         <sourceDesc default="false">
-            <p part="N">Information about the source</p>
+         <sourceDesc>
+            <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filmakerdatenbanken von Prof. D. Hagedorn.</p>
+            <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
+         <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
+         <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
+         <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
+         <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+      </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="en">
       <body>
-         <div type="persons" part="N" org="uniform" sample="complete">
+         <div type="persons">
             <entry type="main" xml:id="wl-grc-29313">
-               <form type="lemma" opt="false">
-                  <orth xml:lang="grc" type="original" extent="part" opt="false">]ασζητ</orth>
-                  <orth xml:lang="grc" type="regularised" extent="part" opt="false">]ασζητ</orth>
-                  <form type="derivative" value="reverse" opt="false">
-                     <orth xml:lang="grc" type="original" extent="part" opt="false"/>
-                     <orth xml:lang="grc" type="regularised" extent="part" opt="false">τηζσα]</orth>
+               <form type="lemma">
+                  <orth xml:lang="grc" type="original" extent="part">]ασζητ</orth>
+                  <orth xml:lang="grc" type="regularised" extent="part">]ασζητ</orth>
+                  <form type="derivative" value="reverse">
+                     <orth xml:lang="grc" type="original" extent="part"/>
+                     <orth xml:lang="grc" type="regularised" extent="part">τηζσα]</orth>
                   </form>
-                  <note type="resp" anchored="true">Anlage des Lemmas durch <name ref="editors.xml#hagedorn" full="yes" instant="false">D. Hagedorn</name>
-                     <date type="creation" instant="false">vor 2016</date>.</note>
+                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                     <date type="creation">vor 2016</date>.</note>
+                  <idno type="fp7">11892</idno>
                </form>
                <!--Belegstellen-->
-               <xr opt="false">
+               <xr>
                   <list>
                      <item>
                         <ref target="literature.xml#b16831">CPR 22</ref>
