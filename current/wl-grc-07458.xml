@@ -28,7 +28,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-12-31" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
          <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
@@ -121,7 +121,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Bagnall">P.Bagnall</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Bastianini</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Bastianini">P.Bastianini</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b19568">P.Berl. Cohen</ref>
@@ -157,7 +157,7 @@
                         <ref target="literature.xml#b21301">P.Eirene 03</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Gascou</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Gascou">P.Gascou</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14549">P.Gen. 03</ref>
@@ -202,7 +202,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Köln_13">P.Köln 13</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Köln 14</ref>
+                        <ref target="literature.xml#ohne_Verweis_P_Köln_14">P.Köln 14</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b20743">P.Kramer</ref>
@@ -355,7 +355,7 @@
                         <ref target="literature.xml#b18448">PSI Com. 06</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">PSI Com. 12</ref>
+                        <ref target="literature.xml#ohne_Verweis_PSI_Com__12">PSI Com. 12</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b67807">SB 21</ref>
@@ -370,7 +370,7 @@
                         <ref target="literature.xml#b19826">SB 27</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">SB 29</ref>
+                        <ref target="literature.xml#ohne_Verweis_SB_29">SB 29</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#">SPP 03².1</ref>
@@ -391,7 +391,7 @@
                         <ref target="literature.xml#ohne_Verweis_Tyche_16">Tyche 16</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">Tyche 30</ref>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_30">Tyche 30</ref>
                      </item>
                   </list>
                </xr>

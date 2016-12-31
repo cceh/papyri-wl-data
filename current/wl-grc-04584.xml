@@ -28,7 +28,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-12-31" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
          <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
@@ -82,7 +82,7 @@
                         <ref target="literature.xml#b15928">DJD 38</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">O.Ber. 03</ref>
+                        <ref target="literature.xml#ohne_Verweis_O.Ber.03">O.Ber. 03</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b15951">O.Claud. 03</ref>
@@ -122,13 +122,13 @@
                         <ref target="literature.xml#b14543">P.Bodl. 01</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Daris</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Daris">P.Daris</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b79288">P.Dime 03</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Gascou</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Gascou">P.Gascou</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b20984">P.Gen. 04</ref>
@@ -215,7 +215,7 @@
                         <ref target="literature.xml#ohne_Verweis_PSI_Com__09">PSI Com. 09</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">PSI Com. 12</ref>
+                        <ref target="literature.xml#ohne_Verweis_PSI_Com__12">PSI Com. 12</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b67807">SB 21</ref>
@@ -230,7 +230,7 @@
                         <ref target="literature.xml#b19826">SB 27</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">SB 29</ref>
+                        <ref target="literature.xml#ohne_Verweis_SB_29">SB 29</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b81764">Short Texts 02</ref>

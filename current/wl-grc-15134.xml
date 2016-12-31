@@ -28,7 +28,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-12-31" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
          <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
@@ -77,7 +77,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Bagnall">P.Bagnall</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Bastianini</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Bastianini">P.Bastianini</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b16093">P.Bingen</ref>
@@ -86,10 +86,10 @@
                         <ref target="literature.xml#b14327">P.Col. 10</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Coles</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Col.10">P.Coles</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Daris</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Daris">P.Daris</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b20984">P.Gen. 04</ref>
@@ -107,7 +107,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Köln_13">P.Köln 13</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Köln 14</ref>
+                        <ref target="literature.xml#ohne_Verweis_P_Köln_14">P.Köln 14</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14538">P.Mich. 18</ref>
@@ -194,7 +194,7 @@
                         <ref target="literature.xml#ohne_Verweis_PSI_Com__11">PSI Com. 11</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">PSI Com. 12</ref>
+                        <ref target="literature.xml#ohne_Verweis_PSI_Com__12">PSI Com. 12</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b67807">SB 21</ref>
@@ -216,7 +216,7 @@
                         <ref target="literature.xml#ohne_Verweis_Tyche_21">Tyche 21</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">Tyche 30</ref>
+                        <ref target="literature.xml#ohne_Verweis_Tyche_30">Tyche 30</ref>
                      </item>
                   </list>
                </xr>

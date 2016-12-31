@@ -28,7 +28,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-12-31" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
          <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
@@ -99,7 +99,7 @@
                         <ref target="literature.xml#">P.Cairo Preis.²</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Daris</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Daris">P.Daris</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b17154">P.Dryton</ref>
@@ -108,7 +108,7 @@
                         <ref target="literature.xml#b21301">P.Eirene 03</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Gascou</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Gascou">P.Gascou</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14549">P.Gen. 03</ref>
@@ -156,7 +156,7 @@
                         <ref target="literature.xml#b19840">P.Sijp.</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Tebt. Pad. 01</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Tebt.Pad.01">P.Tebt. Pad. 01</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b67807">SB 21</ref>

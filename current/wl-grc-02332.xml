@@ -28,7 +28,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-12-31" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
          <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
@@ -112,7 +112,7 @@
                         <ref target="literature.xml#b21293">CPR 30</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">O.Bankes</ref>
+                        <ref target="literature.xml#ohne_Verweis_O.Bankes">O.Bankes</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b15849">O.Douch 04</ref>
@@ -163,14 +163,14 @@
                         <ref target="literature.xml#b14327">P.Col. 10</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Coles</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Col.10">P.Coles</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#">P.Count</ref>
                         <note type="addInfo">Index vii</note>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Daris</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Daris">P.Daris</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b18239">P.Eirene 02</ref>
@@ -182,7 +182,7 @@
                         <ref target="literature.xml#b17065">P.Erl. Diosp.</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Gascou</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Gascou">P.Gascou</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14549">P.Gen. 03</ref>
@@ -215,7 +215,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Köln_13">P.Köln 13</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Köln 14</ref>
+                        <ref target="literature.xml#ohne_Verweis_P_Köln_14">P.Köln 14</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#">P.Lond. Copt. 1077, Index 3</ref>
@@ -287,7 +287,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Tarich_">P.Tarich.</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Tebt. Pad. 01</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Tebt.Pad.01">P.Tebt. Pad. 01</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_P_Turku">P.Turku</ref>
@@ -305,7 +305,7 @@
                         <ref target="literature.xml#ohne_Verweis_PSI_Com__11">PSI Com. 11</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">PUG 04</ref>
+                        <ref target="literature.xml#ohne_Verweis_PUG_04">PUG 04</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_PUG_05">PUG 05</ref>
@@ -323,7 +323,7 @@
                         <ref target="literature.xml#b19826">SB 27</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">SB 29</ref>
+                        <ref target="literature.xml#ohne_Verweis_SB_29">SB 29</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_Tyche_10">Tyche 10</ref>

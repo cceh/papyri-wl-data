@@ -28,7 +28,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-12-31" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
          <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
@@ -104,7 +104,7 @@
                         <ref target="literature.xml#b17261">CPR 23</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">O.Ber. 03</ref>
+                        <ref target="literature.xml#ohne_Verweis_O.Ber.03">O.Ber. 03</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14684">O.Claud. 02</ref>
@@ -155,7 +155,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Bagnall">P.Bagnall</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Bastianini</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Bastianini">P.Bastianini</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b20349">P.Bawit Clackson</ref>
@@ -185,7 +185,7 @@
                         <ref target="literature.xml#b14327">P.Col. 10</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Coles</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Col.10">P.Coles</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b19060">P.Count</ref>
@@ -242,7 +242,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Köln_13">P.Köln 13</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Köln 14</ref>
+                        <ref target="literature.xml#ohne_Verweis_P_Köln_14">P.Köln 14</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b16943">P.Lips. 02</ref>
@@ -347,7 +347,7 @@
                         <ref target="literature.xml#ohne_Verweis_PSI_16">PSI 16</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">PUG 04</ref>
+                        <ref target="literature.xml#ohne_Verweis_PUG_04">PUG 04</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_PUG_05">PUG 05</ref>
@@ -365,7 +365,7 @@
                         <ref target="literature.xml#b19826">SB 27</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">SB 29</ref>
+                        <ref target="literature.xml#ohne_Verweis_SB_29">SB 29</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b81764">Short Texts 02</ref>

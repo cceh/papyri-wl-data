@@ -28,7 +28,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-12-30" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-12-31" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
          <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
@@ -109,13 +109,13 @@
                         <ref target="literature.xml#b19232">Łajtar, Deir el-Bahari</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">O.Bankes</ref>
+                        <ref target="literature.xml#ohne_Verweis_O.Bankes">O.Bankes</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b18436">O.Ber. 02</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">O.Ber. 03</ref>
+                        <ref target="literature.xml#ohne_Verweis_O.Ber.03">O.Ber. 03</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14684">O.Claud. 02</ref>
@@ -160,7 +160,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Bagnall">P.Bagnall</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Bastianini</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Bastianini">P.Bastianini</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b19568">P.Berl. Cohen</ref>
@@ -187,13 +187,13 @@
                         <ref target="literature.xml#b14327">P.Col. 10</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Coles</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Col.10">P.Coles</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b19060">P.Count</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Daris</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Daris">P.Daris</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b17154">P.Dryton</ref>
@@ -205,7 +205,7 @@
                         <ref target="literature.xml#b17065">P.Erl. Diosp.</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Gascou</ref>
+                        <ref target="literature.xml#ohne_Verweis_P.Gascou">P.Gascou</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b14549">P.Gen. 03</ref>
@@ -256,7 +256,7 @@
                         <ref target="literature.xml#ohne_Verweis_P_Köln_13">P.Köln 13</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">P.Köln 14</ref>
+                        <ref target="literature.xml#ohne_Verweis_P_Köln_14">P.Köln 14</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#b16943">P.Lips. 02</ref>
@@ -364,10 +364,10 @@
                         <ref target="literature.xml#ohne_Verweis_PSI_16">PSI 16</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">PSI Com. 12</ref>
+                        <ref target="literature.xml#ohne_Verweis_PSI_Com__12">PSI Com. 12</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">PUG 04</ref>
+                        <ref target="literature.xml#ohne_Verweis_PUG_04">PUG 04</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#ohne_Verweis_PUG_05">PUG 05</ref>
@@ -385,7 +385,7 @@
                         <ref target="literature.xml#b19826">SB 27</ref>
                      </item>
                      <item>
-                        <ref target="literature.xml#">SB 29</ref>
+                        <ref target="literature.xml#ohne_Verweis_SB_29">SB 29</ref>
                      </item>
                      <item>
                         <ref target="literature.xml#">SPP 03².1</ref>
