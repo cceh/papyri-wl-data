@@ -38,10 +38,19 @@
             <teiHeader type="text" xml:lang="de">
                 <fileDesc>
                     <titleStmt>
-                        <title>Papyri-Wörterlisten: <xsl:value-of select="*:entry/*:form/*:orth[@type='original']"/></title>
+                        <title>Papyri-Wörterlisten. Lemma <xsl:value-of select="*:entry/*:form/*:orth[@type='original']"/></title>
+                        <respStmt>
+                            <resp>kompiliert von</resp>
+                            <name>Dieter Hagedorn</name>
+                        </respStmt>
                     </titleStmt>
                     <publicationStmt>
                         <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+                        <pubPlace>Köln</pubPlace>
+                        <date>
+                            <xsl:attribute name="when" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
+                            <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
+                        </date>
                         <availability>
                             <licence target="http://creativecommons.org/licenses/by/4.0/" notBefore="2017-01-01">
                                 <p>Dieses Dokument wurde unter der <ref type="license" target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
@@ -50,7 +59,7 @@
                         </availability>
                     </publicationStmt>
                     <sourceDesc>
-                        <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn.</p>
+                        <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten">http://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
                         <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
                     </sourceDesc>
                 </fileDesc>
