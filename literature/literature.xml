@@ -57,7 +57,7 @@
             </bibl>
             <bibl xml:id="b17118" type="monograph">
                <title type="short">BL 11</title>
-               <title type="long">H.-A. Rupprecht - A.M.F.W. Verhoogt, Berichtigungsliste der Griechischen Papyrus¬urkunden aus Ägypten, Elfter Band, Leiden -Boston 2002 (V. Indices der vorgeschlagenen Lesarten)</title>
+               <title type="long">H.-A. Rupprecht - A.M.F.W. Verhoogt, Berichtigungsliste der Griechischen Papyrusurkunden aus Ägypten, Elfter Band, Leiden -Boston 2002 (V. Indices der vorgeschlagenen Lesarten)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
@@ -255,7 +255,7 @@
             </bibl>
             <bibl xml:id="b18426" type="monograph">
                <title type="short">O.Heid.</title>
-               <title type="long">Charikleia Armoni, James M.S. Cowey und Dieter Hagedorn, mit Beiträgen von Wolfgang Habermann, Die griechischen Ostraka der Heidelberger Papyrus-Sammlung (Veröffent¬lichungen aus der Heidelberger Papyrus-Sammlung, N.F. 11), Heidelberg (Winter) 2005</title>
+               <title type="long">Charikleia Armoni, James M.S. Cowey und Dieter Hagedorn, mit Beiträgen von Wolfgang Habermann, Die griechischen Ostraka der Heidelberger Papyrus-Sammlung (Veröffentlichungen aus der Heidelberger Papyrus-Sammlung, N.F. 11), Heidelberg (Winter) 2005</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
@@ -520,7 +520,7 @@
             </bibl>
             <bibl xml:id="b15286" type="monograph">
                <title type="short">P.Hamb. 04</title>
-               <title type="long">Bärbel Kramer und Dieter Hagedorn, Griechische Papyri der Staats- und Universitäts¬bibliothek Hamburg (P. Hamb. IV). (APF, Beiheft 4), Stuttgart - Leipzig, B.G. Teubner, 1998</title>
+               <title type="long">Bärbel Kramer und Dieter Hagedorn, Griechische Papyri der Staats- und Universitätsbibliothek Hamburg (P. Hamb. IV). (APF, Beiheft 4), Stuttgart - Leipzig, B.G. Teubner, 1998</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
