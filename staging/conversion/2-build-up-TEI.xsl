@@ -179,10 +179,16 @@
                                 <xsl:otherwise>full</xsl:otherwise>
                             </xsl:choose>
                         </xsl:attribute>
-                        <!--<xsl:call-template name="reverse">
-                            <xsl:with-param name="input" select="normalize-unicode(replace(normalize-unicode( *:COL[5], 'NFKD' ), '\p{Mn}', '' ),'NFKC')"></xsl:with-param>
-                        </xsl:call-template>-->
-                        <xsl:value-of select="*:COL[5]"/>
+                        <xsl:choose>
+                            <!-- case: Lemma revers present -->
+                            <xsl:when test="*:COL[5]/*:DATA/*"><xsl:value-of select="*:COL[5]/*:DATA"/></xsl:when>
+                            <!-- case: Lemma revers missing -->
+                            <xsl:otherwise>
+                                <xsl:call-template name="reverse">
+                                    <xsl:with-param name="input" select="*:COL[3]"/>
+                                </xsl:call-template>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </orth>
                     <orth>
                         <xsl:attribute name="xml:lang">
@@ -197,7 +203,7 @@
                             </xsl:choose>
                         </xsl:attribute>
                         <xsl:call-template name="reverse">
-                            <xsl:with-param name="input" select="normalize-unicode(replace(normalize-unicode( *:COL[3], 'NFKD' ), '\p{Mn}', '' ),'NFKC')"></xsl:with-param>
+                            <xsl:with-param name="input" select="normalize-unicode(replace(normalize-unicode( *:COL[3], 'NFKD' ), '\p{Mn}', '' ),'NFKC')"/>
                         </xsl:call-template>
                     </orth>
                 </form>
