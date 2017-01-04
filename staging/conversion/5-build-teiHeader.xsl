@@ -38,7 +38,12 @@
             <teiHeader type="text" xml:lang="de">
                 <fileDesc>
                     <titleStmt>
-                        <title>Papyri-Wörterlisten. Lemma <xsl:value-of select="*:entry/*:form/*:orth[@type='original']"/></title>
+                        <title>Papyri-Wörterlisten. Lemma 
+                            <ref>
+                                <xsl:attribute name="target" select="concat('http://papyri.uni-koeln.de/papyri-woerterlisten/wort/',*:entry/@xml:id)"/>
+                                <xsl:value-of select="*:entry/*:form/*:orth[@type='original']"/>
+                            </ref>
+                        </title>
                         <respStmt>
                             <resp>kompiliert von</resp>
                             <name>Dieter Hagedorn</name>
