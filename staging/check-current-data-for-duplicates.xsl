@@ -24,6 +24,7 @@
                     <xsl:copy-of select="@xml:lang"/>
                     <xsl:copy-of select="ancestor::*:entry/@xml:id"/>
                     <xsl:attribute name="category" select="ancestor::*:div/@type"/>
+                    <xsl:attribute name="filemakerID" select="following-sibling::*:idno"/>
                     <xsl:copy-of select="text()"/>
                 </xsl:copy>
             </xsl:for-each>
@@ -31,7 +32,7 @@
     </xsl:variable>
     
     <xsl:template match="/">
-        <xsl:result-document href="duplicates.xml">           
+        <xsl:result-document href="duplicates.xml">
             <xsl:variable name="duplicates">
                 <!-- grouping all orth elements by category -->
                 <xsl:for-each-group select="$current-lemmata//*:orth" group-by="@category">
