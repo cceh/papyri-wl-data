@@ -28,9 +28,10 @@
     <xsl:template match="/">
         <md-wrapper>
          <!--<xsl:result-document href="output/foo.txt" method="text">-->
-<xsl:text># WL Import Report </xsl:text><xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/><xsl:text>
+<xsl:text>
+# WL Import Report </xsl:text><xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/><xsl:text>
 
-*Check this report for sanity. If all looks good replace ´current´ directory by ´output´ directory and create a commit.*
+*Check this report for sanity. If all looks good replace `current` directory by `output` directory and create a commit.*
 </xsl:text>
             <xsl:if test="not($comparisonBase = 'current')">
 <xsl:text>
@@ -40,21 +41,24 @@
 </xsl:text>
             </xsl:if>
             
-<xsl:text>## Number of files/lemmata before and after import
+<xsl:text>
+## Number of files/lemmata before and after import
 
 </xsl:text>
-<xsl:text>#### Greek 
+<xsl:text>
+### Greek 
 
 </xsl:text>
-            <xsl:call-template name="table-by-category">
+            <xsl:call-template name="count-table-by-category">
                 <xsl:with-param name="language" select="'grc'"/>
             </xsl:call-template>
             <xsl:text>
 </xsl:text>
-<xsl:text>#### Latin 
+<xsl:text>
+### Latin 
 
 </xsl:text>
-            <xsl:call-template name="table-by-category">
+            <xsl:call-template name="count-table-by-category">
                 <xsl:with-param name="language" select="'la'"/>
             </xsl:call-template>
             <xsl:text>
@@ -63,22 +67,61 @@
 ## New files/lemmata
 
 </xsl:text>
-<!-- to do: apply category grouping -->
+            <xsl:if test="not($comparisonBase = 'current')">
 <xsl:text>
-* *will be grouped by language and category*
-* *this list will eventually be much shorter*
+
+**CAUTION: Reporting based on test dataset (restricted input, restricted base for comparison) – many of the following entries are not new**
 
 </xsl:text>
-<xsl:for-each select="//*:TEI[//*:change[contains(text(),'Neuanlage')]]">
-<xsl:text>* </xsl:text><xsl:value-of select=".//*:entry/*:form/*:orth[@type='original']"/><xsl:text>
-</xsl:text>
-</xsl:for-each>            
+            </xsl:if>
+            <xsl:apply-templates/>
             
             <!--</xsl:result-document>-->
         </md-wrapper>
     </xsl:template>
     
-    <xsl:template name="table-by-category">
+    <xsl:template match="*:grc">
+<xsl:text>
+### Greek 
+
+</xsl:text>
+        <xsl:call-template name="entry-table-by-category"/>
+    </xsl:template>
+    
+    <xsl:template match="*:la">
+<xsl:text>
+### Latin 
+
+</xsl:text>
+        <xsl:call-template name="entry-table-by-category"/>
+    </xsl:template>
+    
+    <xsl:template name="entry-table-by-category">
+        <xsl:for-each-group select="*:TEI" group-by="*:text/*:body/*:div/@type">
+<xsl:text>#### Type: </xsl:text><xsl:value-of select="*:text/*:body/*:div/@type"/><xsl:text>
+</xsl:text>
+<xsl:text>
+| Lemma        | WL ID | FileMaker RecordId | references |
+| -----------|-------------|-------------|-------------|
+</xsl:text>
+            <xsl:for-each select="current-group()/*:teiHeader[//*:change[contains(text(),'Neuanlage')]]">
+<xsl:text>| </xsl:text>
+                <xsl:value-of select="parent::*:TEI/*:text//*:entry/*:form/*:orth[@type='original']"/>
+<xsl:text>| </xsl:text>
+                <xsl:value-of select="parent::*:TEI/*:text//*:entry/@xml:id"/>
+<xsl:text>| </xsl:text>
+                <xsl:value-of select="parent::*:TEI/*:text//*:entry/*:form/*:idno[@type='fp7']"/>
+<xsl:text>| </xsl:text>
+                <xsl:for-each select="parent::*:TEI/*:text//*:entry/*:xr/*:list/*:item">
+<xsl:text>`</xsl:text><xsl:value-of select="*:ref"/><xsl:text>`</xsl:text>                    
+                </xsl:for-each>
+<xsl:text>|
+</xsl:text>
+            </xsl:for-each>            
+        </xsl:for-each-group>
+    </xsl:template>
+    
+    <xsl:template name="count-table-by-category">
         <xsl:param name="language"/>
 <xsl:text>
 | category        | count before import | count after import | difference | difference (%) |
@@ -88,13 +131,13 @@
             <xsl:variable name="count-old" select="count($files//*:TEI[//*:div[@type=current()]/*:entry[contains(@xml:id,$language)]])"/>
             <xsl:variable name="count-new" select="count($rootNode/*:wl-wrapper/*[local-name()=$language]/*:TEI/*:text/*:body/*:div[@type=current()])"/>
 <xsl:text>| </xsl:text>
-<xsl:value-of select="current()"/>
+            <xsl:value-of select="current()"/>
 <xsl:text>| </xsl:text>
-<xsl:value-of select="$count-old"/>
+            <xsl:value-of select="$count-old"/>
 <xsl:text>| </xsl:text>
-<xsl:value-of select="$count-new"/>
+            <xsl:value-of select="$count-new"/>
 <xsl:text>| </xsl:text>
-<xsl:value-of select="$count-new - $count-old"/>
+            <xsl:value-of select="$count-new - $count-old"/>
 <xsl:text>| </xsl:text>
             <xsl:choose>
                 <xsl:when test="$count-old gt 0">

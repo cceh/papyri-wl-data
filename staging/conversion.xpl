@@ -189,7 +189,7 @@
     <!--<p:sink/>-->
     
     <p:store method="text">
-        <p:with-option name="href" select="concat('reporting/import-report_',format-date(current-date(), '[Y0001][M01][D01]'),'.txt')"/>
+        <p:with-option name="href" select="concat('reporting/import-report_',format-date(current-date(), '[Y0001][M01][D01]'),'.md')"/>
     </p:store>
     
 </p:declare-step>
