@@ -17,7 +17,7 @@
     
     <xsl:variable name="current-lemmata">
         <current>
-            <xsl:for-each select="collection(concat('../',$comparisonBase,'/?select=wl-*.xml'))//*:entry/*:form/*:orth[@type='original'][text()]">
+            <xsl:for-each select="collection(concat('../../',$comparisonBase,'/?select=wl-*.xml'))//*:entry/*:form/*:orth[@type='original'][text()]">
                 <xsl:copy>
                     <xsl:copy-of select="@xml:lang"/>
                     <xsl:copy-of select="ancestor::*:entry/@xml:id"/>
@@ -30,7 +30,7 @@
     </xsl:variable>
     
     <xsl:template match="/">
-        <xsl:result-document href="duplicates.xml">
+        <!--<xsl:result-document href="duplicates.xml">-->
             <xsl:variable name="duplicates">
                 <!-- grouping all orth elements by category -->
                 <xsl:for-each-group select="$current-lemmata//*:orth" group-by="@category">
@@ -55,7 +55,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </current>
-        </xsl:result-document>
+        <!--</xsl:result-document>-->
     </xsl:template>
     
 </xsl:stylesheet>

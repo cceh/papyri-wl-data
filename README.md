@@ -12,29 +12,22 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 Datentransformation
 -------------------------------------
 
-### Duplikat-Check
-
-Die Daten umfassen fünf unterschiedliche Kategorien. Jedes Lemma kann in einer bestimmten Schreibweise in jeder Kategorie nur einmal vorkommen.
-
-Bevor die Import-Pipeline erfolgreich ausgeführt werden kann, sind problematische Duplikate mit `staging/check-current-data-for-duplicates.xsl` zu identifizieren und ggf. manuell zu bereinigen. Die resultierende Datei `duplicates.xml` kann nach der Bereinigung entfernt werden.
-
 ### Import-Pipeline
 
 #### Kurzanleitung
 
-1. Duplikat-Check ausführen (s.o.)
-2. FileMaker-XML-Dateien in das Verzeichnis `staging/input` speichern.
-3. `conversion.xpl` ausführen
-4. Dateien in `staging/output` mit den bisherigen Dateien vergleichen (`current`)
-5. Dateien in `current` durch Dateien in `staging/output` ersetzen
-6. `git commit` bzw. Pull-Request erstellen
+1. FileMaker-XML-Dateien in das Verzeichnis `staging/input` speichern.
+2. `conversion.xpl` ausführen
+3. Reporting auswerten bzw. Dateien in `staging/output` mit den bisherigen Dateien vergleichen (`current`)
+4. Dateien in `current` durch Dateien in `staging/output` ersetzen
+5. `git commit` bzw. Pull-Request erstellen
 
 #### Ausführliche Anleitung
 
-Der Datenabgleich/Import verläuft nur erfolgreich, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Mit dem Duplikat-Check (s.o.) lässt sich das vor Beginn des Abgleichs leicht ermitteln.
-
 Der eigentliche Abgleich ist als [XProc](http://www.w3.org/TR/xproc/)-Pipeline angelegt. Innerhalb der Pipeline werden verschiedene XSL-Transformationen ausgeführt und die einzelnen Einträge schließlich als Einzeldateien ins Output-Verzeichnis geschrieben. Die Transformationsschritte umfassen:
 
+- Überprüfung des `Output`-Verzeichnis
+- Duplikat-Check
 - Vereinigung der Importdateien
 - Strukturangleichung der Importdateien
 - Erstellung der TEI-Struktur mit Übernahme bestehender Identifikatoren
@@ -50,13 +43,19 @@ In der Datei `staging/conversion.xpl` lassen sich mehrere Parameter konfiguriere
 Parameter | Beschreibung
 ------------ | -------------
 `editor` | Bearbeiter; z.B. als Github-Konto, Verweis auf eine `xml:id` oder als Klarnamen
-`task-newEntries` | aktueller Bearbeitungsschritt für Neuaufnahmen; dieser wird als `<change>`-Element in die `<revisionDesc>` aufgenommen
+`task-newEntries` | aktueller Bearbeitungsschritt für Neuaufnahmen (z.B. Auflistung der neuen Kurztitel); dieser wird als `<change>`-Element in die `<revisionDesc>` aufgenommen
 `task-existingEntries`| aktueller Bearbeitungsschritt für bestehende Einträge; dieser wird als `<change>`-Element in die `<revisionDesc>` aufgenommen
 `schemaPath` | Pfad zum Verzeichnis, welches das XML-Schema (`.rng-Datei`) enthält
 `comparisonBase`| aktuelles Datenverzeichnis; die FileMaker-Exportdateien werden mit den in diesem Verzeichnis liegenden Dateien abgeglichen; für Workflow-Tests lässt sich hier ein weniger umfangreiches Verzeichnis angeben
 `outputScenario` | hier lässt sich für Workflow-Tests mit `'oneFile'` die Ausgabe in einer Einzeldatei festlegen; jeder andere Wert führt zur Standardausgabe (eine Datei pro Eintrag)
 
 Die Werte müssen mit umschließenden einfachen Anführungszeichen eingetragen werden.
+
+##### Zum Duplikat-Check (Teil der Konversion)
+
+Die Daten umfassen fünf unterschiedliche Kategorien. Jedes Lemma kann in einer bestimmten Schreibweise in jeder Kategorie nur einmal vorkommen.
+
+Der Datenabgleich/Import verläuft nur erfolgreich, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Dieser Sachverhalt wird in einem der ersten Schritte der Pipeline überprüft. Dabei werden problematische Duplikate identifiziert und in einer Liste ausgegeben (Markdown-Format). Nach manueller Bereinigung der Duplikate kann die Konversion neu gestartet werden.
 
 Kontakt/Mitarbeit
 ---------------------------
