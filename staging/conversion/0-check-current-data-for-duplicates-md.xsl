@@ -12,8 +12,8 @@ Please make sure that each lemma is unique within its category.
 ## Duplicate lemmata
 
 
-| Lemma   | language     | WL ID | FileMaker RecordId | category |
-| -----------|-----------|-------------|-------------|-------------|
+| Lemma   | language     | WL ID | FileMaker RecordId | category | references |
+| -----------|-----------|-------------|-------------|-------------|-------------|
 </xsl:text>
             <xsl:for-each select="*:current/*:orth">
                 <xsl:sort select="text()"/>
@@ -28,6 +28,7 @@ Please make sure that each lemma is unique within its category.
                 <xsl:text>| </xsl:text>
                 <xsl:value-of select="@category"/>
                 <xsl:text>| </xsl:text>
+                <xsl:value-of select="@xr"/>
                 <xsl:text>|
 </xsl:text>
                 

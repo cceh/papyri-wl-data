@@ -6,12 +6,15 @@
     <xsl:strip-space elements="*"/>
     <xsl:output indent="yes"/>
     
-    <!-- This is a check for identical lemmata that occur within the same category. These cases are not handled 
-        by the ingest pipeline and if they indeed should be part of the dataset, they need to be added manually. -->
+    <!-- 
+        <p:documentation>
+            <h2>Duplicate check</h2>
+            <p>This step checks for identical lemmata that occur within the same category. Such cases are not handled 
+        by the ingest pipeline and if they indeed should be part of the dataset, they need to be added manually.</p>
+        </p:documentation>
+    -->
     
-    <!-- This step should be incorporated in the main pipeline (secondary output). -->
-    
-    <xsl:param name="comparisonBase" select="'current'"/>
+    <xsl:param name="comparisonBase"/>
     
     <xsl:strip-space elements="*"/>
     
@@ -23,6 +26,11 @@
                     <xsl:copy-of select="ancestor::*:entry/@xml:id"/>
                     <xsl:attribute name="category" select="ancestor::*:div/@type"/>
                     <xsl:attribute name="filemakerID" select="following-sibling::*:idno"/>
+                    <xsl:attribute name="xr">
+                        <xsl:for-each select="ancestor::*:form/following-sibling::*:xr/*:list/*:item">
+                            <xsl:text>`</xsl:text><xsl:value-of select="*:ref"/><xsl:text>` </xsl:text>
+                        </xsl:for-each>
+                    </xsl:attribute>
                     <xsl:copy-of select="text()"/>
                 </xsl:copy>
             </xsl:for-each>
