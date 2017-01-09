@@ -88,14 +88,16 @@
                             </change>
                             <!-- inherit existing changes -->
                             <xsl:variable name="currentID" select="*:entry/@xml:id"/>
-                            <!--<xsl:apply-templates select="$files//*:TEI[*:text//*:entry[@xml:id = $currentID]]/*:teiHeader/*:revisionDesc/*:change"/>-->
+                            <xsl:apply-templates select="$files//*:TEI[*:text//*:entry[@xml:id = $currentID]]/*:teiHeader/*:revisionDesc/*:change"/>
                             
-                            <!-- initial changes; remove after first run -->
+                            <!-- initial changes; removed after first run -->
+                            <!--
                             <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
                             <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
                             <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
                             <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
                             <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+                            -->
                         </xsl:otherwise>
                     </xsl:choose>
                 </revisionDesc>

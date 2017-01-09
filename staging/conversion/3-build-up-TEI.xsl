@@ -6,9 +6,15 @@
     <xsl:strip-space elements="*"/>
     <xsl:output indent="yes"/>
     
-    <!-- Whereas greek entries are exported in one file per category (5 lists), latin entries are exported in 
+    <!-- 
+        <p:documentation>
+            <h2>Initial TEI structure</h2>
+            <p>In this step, the entries are transformed to fit the TEI model of the project. IDs are taken from existing entries.</p>
+            <p>Whereas greek entries are exported in one file per category (5 lists), latin entries are exported in 
         a single file (1 list) and the respective category is recorded in one of the fields. This transformation
-        thus applies slightly different templates to greek and latin entries. -->
+        thus applies slightly different templates to greek and latin entries.</p>
+        </p:documentation>
+    -->
     
     <xsl:param name="comparisonBase"/>
     <xsl:param name="schemaPath"/>

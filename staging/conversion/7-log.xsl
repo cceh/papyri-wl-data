@@ -13,7 +13,7 @@
     
     <xsl:strip-space elements="*"/>
     
-    <xsl:param name="comparisonBase" select="'current'"/>
+    <xsl:param name="comparisonBase"/>
     
     <xsl:variable name="current-lemmata">
         <current>
