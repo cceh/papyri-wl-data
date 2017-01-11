@@ -35,7 +35,7 @@
 
     <p:output port="result-secondary" primary="false"/>
     
-    <p:import href="conversion/transformation.xpl"/>
+    <p:import href="library/pwl-library.xpl"/>
     
     <p:documentation>
         <h2>Assert empty output directory</h2>
@@ -79,10 +79,10 @@
     <p:xslt name="duplicate-check">
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
         <p:input port="source">
-            <p:document href="conversion/0-check-current-data-for-duplicates.xsl"/>
+            <p:document href="library/transformation/0-check-current-data-for-duplicates.xsl"/>
         </p:input>
         <p:input port="stylesheet">
-            <p:document href="conversion/0-check-current-data-for-duplicates.xsl"/>
+            <p:document href="library/transformation/0-check-current-data-for-duplicates.xsl"/>
         </p:input>
     </p:xslt>
     <p:choose>
@@ -90,7 +90,7 @@
         <p:when test="*:current/*:orth">
             <p:xslt>
                 <p:input port="stylesheet">
-                    <p:document href="conversion/0-check-current-data-for-duplicates-md.xsl"/>
+                    <p:document href="library/transformation/0-check-current-data-for-duplicates-md.xsl"/>
                 </p:input>
             </p:xslt>
         </p:when>
@@ -114,18 +114,7 @@
         <p:input port="source"/>
     </p:identity>
     
-    <p:documentation>
-        <h2>Import reporting</h2>
-        <p>This step generates a report in markdown format showing the proportion between previously existing and newly added entries.</p>
-    </p:documentation>
-    <p:xslt>
-        <p:input port="stylesheet">
-            <p:document href="conversion/7-log.xsl"/>
-        </p:input>
-    </p:xslt>
-    <p:store method="text">
-        <p:with-option name="href" select="concat('reporting/import-report_',format-date(current-date(), '[Y0001][M01][D01]'),'.md')"/>
-    </p:store>
+    <pwl:log/>
     
     <!-- preliminary output that illustrates the structure on which statistical output may be generated (using p:xslt/p:xquery and p:store) -->
     <p:identity>
@@ -138,7 +127,7 @@
         <p:with-option name="indent" select="'true'"/>
     </p:store>
     
-    <!-- generation of statistical data and perhaps the README file -->
+    <!-- generation of statistical data and perhaps the README file (as pwl:stat steps) -->
     
     <!--<p:sink/>-->
     

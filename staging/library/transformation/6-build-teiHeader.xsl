@@ -20,7 +20,7 @@
     <xsl:param name="comparisonBase"/>
     <xsl:param name="quot">"</xsl:param>
     
-    <xsl:variable name="files" select="collection(concat('../../',$comparisonBase,'/?select=wl-*.xml'))"/>
+    <xsl:variable name="files" select="collection(concat('../../../',$comparisonBase,'/?select=wl-*.xml'))"/>
     
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model"><xsl:value-of select="concat('href=',$quot,$schemaPath,'/papyri-wl.rng',$quot,' type=',$quot,'application/xml',$quot,' schematypens=',$quot,'http://relaxng.org/ns/structure/1.0',$quot)"/></xsl:processing-instruction>

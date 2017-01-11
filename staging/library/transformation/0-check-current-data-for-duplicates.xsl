@@ -20,7 +20,7 @@
     
     <xsl:variable name="current-lemmata">
         <current>
-            <xsl:for-each select="collection(concat('../../',$comparisonBase,'/?select=wl-*.xml'))//*:entry/*:form/*:orth[@type='original'][text()]">
+            <xsl:for-each select="collection(concat('../../../',$comparisonBase,'/?select=wl-*.xml'))//*:entry/*:form/*:orth[@type='original'][text()]">
                 <xsl:copy>
                     <xsl:copy-of select="@xml:lang"/>
                     <xsl:copy-of select="ancestor::*:entry/@xml:id"/>

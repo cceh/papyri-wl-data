@@ -22,7 +22,7 @@
     <xsl:template match="/">
         <wl-wrapper>
             <!-- global rule -->
-            <xsl:apply-templates select="collection('../input/?select=*.xml')/*:FMPXMLRESULT"/>
+            <xsl:apply-templates select="collection('../../input/?select=*.xml')/*:FMPXMLRESULT"/>
             
             <!-- individual rules -->
             <!--

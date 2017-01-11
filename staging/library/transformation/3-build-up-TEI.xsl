@@ -22,7 +22,7 @@
     
     <xsl:strip-space elements="*"/>
     
-    <xsl:variable name="files" select="collection(concat('../../',$comparisonBase,'/?select=wl-*.xml'))"/>
+    <xsl:variable name="files" select="collection(concat('../../../',$comparisonBase,'/?select=wl-*.xml'))"/>
     
     <xsl:template match="/">
         <!-- Processing instruction -->
@@ -225,7 +225,7 @@
                 <list>
                     <xsl:for-each select="tokenize(*:COL[8],';\s')">
                         <!-- Extract reference from literature.xml -->
-                        <xsl:variable name="literature-xml" select="doc('../../literature/literature.xml')"/>
+                        <xsl:variable name="literature-xml" select="doc('../../../literature/literature.xml')"/>
                         <xsl:variable name="litID">
                             <xsl:value-of select="$literature-xml//*:title[@type='short'][text()=current()]/parent::*:bibl/@xml:id"/>
                         </xsl:variable>
