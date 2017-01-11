@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten" version="1.0" type="pwl:transform" name="wl-input-subpipeline">
+    
     <p:input port="source"/>
     <p:input port="parameters" kind="parameter"/>
-    <p:output port="result"/>
+    <p:output port="result" sequence="true"/>
     
     <p:option name="editor" select="$editor"/>
     <p:option name="task-newEntries" select="$task-newEntries"/>
@@ -122,22 +123,13 @@
                     <p:with-option name="indent" select="'true'"/>
                 </p:store>
                 <!-- reroute previous result (at a stage where new entries are easily and reliably detectable) -->
-                <p:identity>
-                    <p:input port="source">
-                        <p:pipe port="result" step="assign-new-IDs"/>
-                    </p:input>
-                </p:identity>
             </p:for-each>
+            <p:identity>
+                <p:input port="source">
+                    <p:pipe port="result" step="assign-new-IDs"/>
+                </p:input>
+            </p:identity>
         </p:otherwise>
     </p:choose>
     
-    <p:documentation>
-        <h2>Import reporting</h2>
-        <p>This step generates a report in markdown format showing the proportion between previously existing and newly added entries.</p>
-    </p:documentation>
-    <p:xslt>
-        <p:input port="stylesheet">
-            <p:document href="7-log.xsl"/>
-        </p:input>
-    </p:xslt>
 </p:declare-step>

@@ -18,11 +18,11 @@
     <p:option name="schemaPath" select="'../validation'"/>
     <p:option name="comparisonBase" select="'current-test'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
+    <p:option name="result-path" select="'../output'"/>
     
     <p:documentation>
         <p>Output definition for alternative output scenario (cf. below)</p>
     </p:documentation>
-    <p:option name="result-path" select="'../output'"/>
     <p:option name="result-url" select="concat($result-path,'/output.xml')"/>
     
     <p:input port="source" primary="true">
@@ -96,6 +96,7 @@
         </p:when>
         <!-- case: no duplicates in 'current' -->
         <p:otherwise>
+            <!-- run the main transformation -->
             <pwl:transform>
                 <p:with-param name="editor" select="$editor"/>
                 <p:with-param name="task-newEntries" select="$task-newEntries"/>
@@ -109,10 +110,36 @@
         </p:otherwise>
     </p:choose>
     
-    <!--<p:sink/>-->
+    <p:identity name="wrapped-transformation-result">
+        <p:input port="source"/>
+    </p:identity>
     
+    <p:documentation>
+        <h2>Import reporting</h2>
+        <p>This step generates a report in markdown format showing the proportion between previously existing and newly added entries.</p>
+    </p:documentation>
+    <p:xslt>
+        <p:input port="stylesheet">
+            <p:document href="conversion/7-log.xsl"/>
+        </p:input>
+    </p:xslt>
     <p:store method="text">
         <p:with-option name="href" select="concat('reporting/import-report_',format-date(current-date(), '[Y0001][M01][D01]'),'.md')"/>
     </p:store>
+    
+    <!-- preliminary output that illustrates the structure on which statistical output may be generated (using p:xslt/p:xquery and p:store) -->
+    <p:identity>
+        <p:input port="source">
+            <p:pipe port="result" step="wrapped-transformation-result"/>
+        </p:input>
+    </p:identity>
+    <p:store>
+        <p:with-option name="href" select="concat('output/filebase_',format-date(current-date(), '[Y0001][M01][D01]'),'.xml')"/>
+        <p:with-option name="indent" select="'true'"/>
+    </p:store>
+    
+    <!-- generation of statistical data and perhaps the README file -->
+    
+    <!--<p:sink/>-->
     
 </p:declare-step>
