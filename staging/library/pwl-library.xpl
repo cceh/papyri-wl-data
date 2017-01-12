@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p:library xmlns:p="http://www.w3.org/ns/xproc" xmlns:c="http://www.w3.org/ns/xproc-step" xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten" version="1.0">
-   <p:declare-step type="pwl:transform" name="wl-input-transformation">
+
+    <p:declare-step type="pwl:transform" name="wl-input-transformation">
        
        <p:input port="source"/>
        <p:input port="parameters" kind="parameter"/>
@@ -156,4 +157,27 @@
         </p:store>
         
     </p:declare-step>
+    
+    <p:declare-step type="pwl:readme" name="wl-input-readme">
+        
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter"/>
+        
+        <p:documentation>
+            <h2>Generate README</h2>
+            <p>This step generates the README file for the repository. Conseqently, the README file should never be edited in the root directory, but in the xsl file that is referenced here.</p>
+        </p:documentation>
+        
+        <p:xslt>
+            <p:input port="stylesheet">
+                <p:document href="stats/9-writeReadme.xsl"/>
+            </p:input>
+        </p:xslt>
+        
+        <p:store method="text">
+            <p:with-option name="href" select="'../../README.md'"/>
+        </p:store>
+        
+    </p:declare-step>
+    
 </p:library>

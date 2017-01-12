@@ -127,7 +127,17 @@
         <p:with-option name="indent" select="'true'"/>
     </p:store>
     
-    <!-- generation of statistical data and perhaps the README file (as pwl:stat steps) -->
+    <!-- generation of statistical data (as pwl:stat steps) -->
+    
+    
+    <!-- generate the README -->
+    <p:identity>
+        <p:input port="source">
+            <!-- just preliminary; the statistical output will be piped here -->
+            <p:pipe port="result" step="wrapped-transformation-result"/>
+        </p:input>
+    </p:identity>
+    <pwl:readme/>
     
     <!--<p:sink/>-->
     
