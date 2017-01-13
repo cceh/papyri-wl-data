@@ -127,7 +127,17 @@
         <p:with-option name="indent" select="'true'"/>
     </p:store>
     
+    <!-- generation of TEI corpus (including statistical data) -->
     <!-- generation of statistical data (as pwl:stat steps) -->
+    <p:identity>
+        <p:input port="source">
+            <p:pipe port="result" step="wrapped-transformation-result"/>
+        </p:input>
+    </p:identity>
+    <pwl:corpus>
+        <p:with-param name="editor" select="$editor"/>
+        <p:with-param name="comparisonBase" select="$comparisonBase"/>
+    </pwl:corpus>
     
     
     <!-- generate the README -->
