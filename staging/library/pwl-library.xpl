@@ -5,6 +5,7 @@
         
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter"/>
+        <p:output port="result"/>
         
         <p:option name="result-path" select="$result-path"/>
         <p:option name="result-url" select="$result-url"/>
@@ -16,7 +17,7 @@
             <p>This steps creates a corpus file with xi:include references to all entries/files.</p>
         </p:documentation>
         
-        <p:xslt>
+        <p:xslt name="create-corpus">
             <p:input port="stylesheet">
                 <p:document href="corpus/1-corpus.xsl"/>
             </p:input>
@@ -26,6 +27,12 @@
             <p:with-option name="href" select="$filename"/>
             <p:with-option name="indent" select="'true'"/>
         </p:store>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="create-corpus"/>
+            </p:input>    
+        </p:identity>
         
     </p:declare-step>
     

@@ -134,7 +134,7 @@
             <p:pipe port="result" step="wrapped-transformation-result"/>
         </p:input>
     </p:identity>
-    <pwl:corpus>
+    <pwl:corpus name="corpus">
         <p:with-param name="editor" select="$editor"/>
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
     </pwl:corpus>
@@ -142,8 +142,7 @@
     <!-- generate the README -->
     <p:identity>
         <p:input port="source">
-            <!-- just preliminary; the statistical output will be piped here -->
-            <p:pipe port="result" step="wrapped-transformation-result"/>
+            <p:pipe port="result" step="corpus"/>
         </p:input>
     </p:identity>
     <pwl:readme/>

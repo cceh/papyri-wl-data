@@ -74,7 +74,24 @@
                     <projectDesc>
                         <p>Die folgenden Listen enthalten statistische Angaben zum Korpusinhalt.</p>
                         <p>
-                            <list type="index" subtype="grc_la">
+                            <list type="index" subtype="total_grc_la">
+                                <head>Einträge insgesamt</head>
+                                <item>
+                                    <label>Sprachübergreifend</label>
+                                    <num><xsl:value-of select="count(/*/*/*:div)"/></num>
+                                </item>
+                                <item>
+                                    <label>Griechisch</label>
+                                    <num><xsl:value-of select="count(/*/*:grc/*:div)"/></num>
+                                </item>
+                                <item>
+                                    <label>Lateinisch</label>
+                                    <num><xsl:value-of select="count(/*/*:la/*:div)"/></num>
+                                </item>
+                            </list>
+                        </p>
+                        <p>
+                            <list type="index" subtype="cat_grc_la">
                                 <head>Einträge pro Kategorie (sprachübergreifend)</head>
                                 <xsl:for-each-group select="/*/*/*:div" group-by="@type">
                                     <item>
@@ -85,7 +102,7 @@
                             </list>
                         </p>
                         <p>
-                            <list type="index" subtype="grc">
+                            <list type="index" subtype="cat_grc">
                                 <head>Einträge pro Kategorie (griechisch)</head>
                                 <xsl:for-each-group select="/*/*:grc/*:div" group-by="@type">
                                     <item>
@@ -96,7 +113,7 @@
                             </list>
                         </p>
                         <p>
-                            <list type="index" subtype="la">
+                            <list type="index" subtype="cat_la">
                                 <head>Einträge pro Kategorie (lateinisch)</head>
                                 <xsl:for-each-group select="/*/*:la/*:div" group-by="@type">
                                     <item>
@@ -107,7 +124,7 @@
                             </list>
                         </p>
                         <p>
-                            <list type="index" subtype="grc">
+                            <list type="index" subtype="cat_abc_grc">
                                 <head>Einträge pro Kategorie und Initial (griechisch)</head>
                                 <xsl:for-each-group select="/*/*:grc/*:div" group-by="@type">
                                     <item>
@@ -129,7 +146,7 @@
                             </list>
                         </p>
                         <p>
-                            <list type="index" subtype="la">
+                            <list type="index" subtype="cat_abc_la">
                                 <head>Einträge pro Kategorie und Initial (lateinisch)</head>
                                 <xsl:for-each-group select="/*/*:la/*:div" group-by="@type">
                                     <item>
@@ -153,7 +170,7 @@
                     </projectDesc>
                 </encodingDesc>
                 <xenoData>
-                <!-- similar as json in xenodata -->
+                <!-- statistics as json in xenodata -->
                     <pwl:json>
                         <pwl:json lang="la">
                             <xsl:text>{&#10;    "name" : "kategorien",&#10;    "children" : [</xsl:text>

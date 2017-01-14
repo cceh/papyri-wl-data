@@ -10,6 +10,9 @@
             <p>This step generates the README file for the repository. Conseqently, the README file should never be edited in the root directory, but in the xsl file that is referenced here.</p>
         </p:documentation>
     -->
+    
+    <!-- set the scale of the chart -->
+    <xsl:variable name="divisor" select="25"/>
 
 <xsl:template match="/">
     <wrapper>
@@ -29,12 +32,56 @@ Prof. Dr. D. Hagedorn erstellt seit 1996 (unter anfänglicher Mithilfe von Pia B
 Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Exporten sowie die daraus resultierenden Wörterlisten-Dateien in `TEI-XML`.
 
 </xsl:text>
-        <!--<xsl:text>
-### Statistik
-
-test test test
-</xsl:text>-->
         <xsl:text>
+### Datenumfang
+
+Die Wörterlisten umfassen  </xsl:text>
+        <xsl:value-of select="//*:projectDesc//*:list[@subtype='total_grc_la']/*:item[1]/*:num"/>
+        <xsl:text> Einträge, wovon </xsl:text>
+        <xsl:value-of select="//*:projectDesc//*:list[@subtype='total_grc_la']/*:item[2]/*:num"/>
+        <xsl:text> in griechischer und </xsl:text>
+        <xsl:value-of select="//*:projectDesc//*:list[@subtype='total_grc_la']/*:item[3]/*:num"/>
+        <xsl:text> in lateinischer Sprache (Stand </xsl:text><xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
+        <xsl:text>). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+
+**Sprachübergreifend**
+
+```txt</xsl:text>
+
+        <xsl:call-template name="stats">
+            <xsl:with-param name="subtype" select="'cat_grc_la'"/>
+            <xsl:with-param name="divisor" select="$divisor"/>
+        </xsl:call-template>
+        
+        <xsl:text>
+```
+
+**Griechisch**
+
+```txt</xsl:text>
+        
+        <xsl:call-template name="stats">
+            <xsl:with-param name="subtype" select="'cat_grc'"/>
+            <xsl:with-param name="divisor" select="$divisor"/>
+        </xsl:call-template>
+        
+        <xsl:text>
+```
+
+**Lateinisch**
+
+```txt</xsl:text>
+        
+        <xsl:call-template name="stats">
+            <xsl:with-param name="subtype" select="'cat_la'"/>
+            <xsl:with-param name="divisor" select="$divisor"/>
+        </xsl:call-template>
+        
+        <xsl:text>
+            
+| = </xsl:text><xsl:value-of select="$divisor"/><xsl:text> Einträge            
+```
+
 
 Datentransformation
 -------------------------------------
@@ -97,5 +144,24 @@ Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-
 </xsl:text>
     </wrapper>
 </xsl:template>
+    
+    <xsl:template name="stats">
+        <xsl:param name="divisor"/>
+        <xsl:param name="subtype"/>
+        <xsl:for-each select="//*:projectDesc//*:p[*:list[@subtype=$subtype]][1]/*:list[@subtype=$subtype]//*:item">
+            <xsl:variable name="fill" select="12 - string-length(*:label/@type)"/>
+            <xsl:variable name="chart" select="round(*:num idiv $divisor)"/>
+            <xsl:text>&#10;</xsl:text>
+            <xsl:value-of select="*:label/@type"/>
+            <xsl:text>: </xsl:text>
+            <xsl:for-each select="1 to $fill">
+                <xsl:text> </xsl:text>
+            </xsl:for-each>
+            <xsl:for-each select="1 to $chart">
+                <xsl:text>|</xsl:text>
+            </xsl:for-each>
+            <xsl:value-of select="*:num"/>
+        </xsl:for-each>
+    </xsl:template>
     
 </xsl:stylesheet>
