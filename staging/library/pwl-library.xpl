@@ -49,6 +49,8 @@
             <p:with-option name="href" select="concat('../reporting/import-report_',format-date(current-date(), '[Y0001][M01][D01]'),'.md')"/>
         </p:store>
         
+        <!-- if needed store statistical output as xml/json -->
+        
     </p:declare-step>
     
     <p:declare-step type="pwl:readme" name="wl-input-readme">

@@ -114,10 +114,11 @@
         <p:input port="source"/>
     </p:identity>
     
+    <!-- generation of import reporting -->
     <pwl:log/>
     
     <!-- preliminary output that illustrates the structure on which statistical output may be generated (using p:xslt/p:xquery and p:store) -->
-    <p:identity>
+    <!--<p:identity>
         <p:input port="source">
             <p:pipe port="result" step="wrapped-transformation-result"/>
         </p:input>
@@ -125,10 +126,9 @@
     <p:store>
         <p:with-option name="href" select="concat('output/filebase_',format-date(current-date(), '[Y0001][M01][D01]'),'.xml')"/>
         <p:with-option name="indent" select="'true'"/>
-    </p:store>
+    </p:store>-->
     
     <!-- generation of TEI corpus (including statistical data) -->
-    <!-- generation of statistical data (as pwl:stat steps) -->
     <p:identity>
         <p:input port="source">
             <p:pipe port="result" step="wrapped-transformation-result"/>
@@ -138,7 +138,6 @@
         <p:with-param name="editor" select="$editor"/>
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
     </pwl:corpus>
-    
     
     <!-- generate the README -->
     <p:identity>

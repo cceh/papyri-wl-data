@@ -3,6 +3,7 @@
     xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:xi="http://www.w3.org/2003/XInclude"
+    xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
     exclude-result-prefixes="xs" version="2.0">
     <xsl:strip-space elements="*"/>
     <xsl:output indent="yes"/>
@@ -18,6 +19,7 @@
     <xsl:param name="comparisonBase"/>
     
     <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc/*:change"/>
+    <xsl:variable name="literature" select="document('../../../literature/literature.xml')//*:bibl"/>
     
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -52,8 +54,141 @@
                     </publicationStmt>
                     <sourceDesc>
                         <p>Die in dieser Datei referenzierten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten">http://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
+                        <p>
+                            <listBibl>
+                                <head>Berücksichtigte Publikationen</head>
+                                <xsl:for-each select="$literature">
+                                    <xsl:sort select="*:title[@type='short']"/>
+                                    <xsl:copy-of select="."/>
+                                </xsl:for-each>
+                            </listBibl>
+                        </p>
                     </sourceDesc>
                 </fileDesc>
+                <encodingDesc>
+                    <appInfo>
+                        <application version="{format-date(current-date(), '[Y0001][M01][D01]')}" ident="pwl-XProc">
+                            <label>XProc-Pipeline</label>
+                        </application>
+                    </appInfo>
+                    <projectDesc>
+                        <p>Die folgenden Listen enthalten statistische Angaben zum Korpusinhalt.</p>
+                        <p>
+                            <list type="index" subtype="grc_la">
+                                <head>Einträge pro Kategorie (sprachübergreifend)</head>
+                                <xsl:for-each-group select="/*/*/*:div" group-by="@type">
+                                    <item>
+                                        <label><xsl:copy-of select="current-group()/@type"/></label>
+                                        <num><xsl:value-of select="count(current-group())"/></num>
+                                    </item>
+                                </xsl:for-each-group>
+                            </list>
+                        </p>
+                        <p>
+                            <list type="index" subtype="grc">
+                                <head>Einträge pro Kategorie (griechisch)</head>
+                                <xsl:for-each-group select="/*/*:grc/*:div" group-by="@type">
+                                    <item>
+                                        <label><xsl:copy-of select="current-group()/@type"/></label>
+                                        <num><xsl:value-of select="count(current-group())"/></num>
+                                    </item>
+                                </xsl:for-each-group>
+                            </list>
+                        </p>
+                        <p>
+                            <list type="index" subtype="la">
+                                <head>Einträge pro Kategorie (lateinisch)</head>
+                                <xsl:for-each-group select="/*/*:la/*:div" group-by="@type">
+                                    <item>
+                                        <label><xsl:copy-of select="current-group()/@type"/></label>
+                                        <num><xsl:value-of select="count(current-group())"/></num>
+                                    </item>
+                                </xsl:for-each-group>
+                            </list>
+                        </p>
+                        <p>
+                            <list type="index" subtype="grc">
+                                <head>Einträge pro Kategorie und Initial (griechisch)</head>
+                                <xsl:for-each-group select="/*/*:grc/*:div" group-by="@type">
+                                    <item>
+                                        <label><xsl:copy-of select="current-group()/@type"/></label>
+                                        <num><xsl:value-of select="count(current-group())"/></num>
+                                    </item>
+                                    <item>
+                                        <list type="index" subtype="{current-group()[1]/@type}">
+                                            <xsl:for-each-group select="current-group()/*:entry" group-by="*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)">
+                                                <xsl:sort select="current-group()/*:entry/*:form/*:orth[@type='regularised']"/>
+                                                <item>
+                                                    <label><xsl:value-of select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)"/></label>
+                                                    <num><xsl:value-of select="count(current-group())"/></num>
+                                                </item>    
+                                            </xsl:for-each-group>
+                                        </list>
+                                    </item>
+                                </xsl:for-each-group>
+                            </list>
+                        </p>
+                        <p>
+                            <list type="index" subtype="la">
+                                <head>Einträge pro Kategorie und Initial (lateinisch)</head>
+                                <xsl:for-each-group select="/*/*:la/*:div" group-by="@type">
+                                    <item>
+                                        <label><xsl:copy-of select="current-group()/@type"/></label>
+                                        <num><xsl:value-of select="count(current-group())"/></num>
+                                    </item>
+                                    <item>
+                                        <list type="index" subtype="{current-group()[1]/@type}">
+                                            <xsl:for-each-group select="current-group()/*:entry" group-by="*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)">
+                                                <xsl:sort select="current-group()/*:entry/*:form/*:orth[@type='regularised']"/>
+                                                <item>
+                                                    <label><xsl:value-of select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)"/></label>
+                                                    <num><xsl:value-of select="count(current-group())"/></num>
+                                                </item>    
+                                            </xsl:for-each-group>
+                                        </list>
+                                    </item>
+                                </xsl:for-each-group>
+                            </list>
+                        </p>
+                    </projectDesc>
+                </encodingDesc>
+                <xenoData>
+                <!-- similar as json in xenodata -->
+                    <pwl:json>
+                        <pwl:json lang="la">
+                            <xsl:text>{&#10;    "name" : "kategorien",&#10;    "children" : [</xsl:text>
+                            <xsl:for-each-group select="/*/*:la/*:div" group-by="@type">
+                                <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "children" : [</xsl:text>
+                                <xsl:for-each-group select="current-group()/*:entry" group-by="*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)">
+                                    <xsl:sort select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)"/>
+                                    <xsl:text>{"name": "</xsl:text>
+                                    <xsl:value-of select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)"/>
+                                    <xsl:text>","size":</xsl:text>
+                                    <xsl:value-of select="count(current-group())"/>
+                                    <xsl:text>}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                                </xsl:for-each-group>
+                                <xsl:text>]&#10;        }</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                            </xsl:for-each-group>
+                            <xsl:text>]}</xsl:text>
+                        </pwl:json>
+                        <pwl:json lang="grc">
+                            <xsl:text>{&#10;    "name" : "kategorien",&#10;    "children" : [</xsl:text>
+                            <xsl:for-each-group select="/*/*:grc/*:div" group-by="@type">
+                                <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "children" : [</xsl:text>
+                                <xsl:for-each-group select="current-group()/*:entry" group-by="*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)">
+                                    <xsl:sort select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)"/>
+                                    <xsl:text>{"name": "</xsl:text>
+                                    <xsl:value-of select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)"/>
+                                    <xsl:text>","size":</xsl:text>
+                                    <xsl:value-of select="count(current-group())"/>
+                                    <xsl:text>}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                                </xsl:for-each-group>
+                                <xsl:text>]&#10;        }</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                            </xsl:for-each-group>
+                            <xsl:text>]}</xsl:text>
+                        </pwl:json>
+                    </pwl:json>
+                </xenoData>
                 <profileDesc>
                     <langUsage>
                         <language ident="de">Deutsch</language>
