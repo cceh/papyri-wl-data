@@ -1,3 +1,6 @@
+
+Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/readme/9-writeReadme.xsl)            
+            
 Papyri Wörterlisten – Data
 ===========================================================
 
@@ -6,8 +9,46 @@ Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [W
 Über die Daten
 -------------------------------------
 
-Prof. Dr. D. Hagedorn erstellt seit 1996 (unter anfänglicher Mithilfe von Pia Breit, Wolfgang Habermann, Ursula Hagedorn, Bärbel Kramer, Gertrud Marohn und Jörn Salewski) Wörterlisten aus den Registern von Publikationen griechischer und lateinischer dokumentarischer Papyri und Ostraka. Zur Verwendung kam dafür eine selbst entwickelte [HyperCard](https://en.wikipedia.org/wiki/HyperCard)-Anwendung, die mit der Zeit auch parallel in [FileMaker](https://en.wikipedia.org/wiki/FileMaker) gepflegt wurde.
+Prof. Dr. D. Hagedorn erstellt seit 1996 (unter anfänglicher Mithilfe von Pia Breit, Wolfgang Habermann, Ursula Hagedorn, Bärbel Kramer, Gertrud Marohn und Jörn Salewski) Wörterlisten aus den Registern von Publikationen griechischer und lateinischer dokumentarischer Papyri und Ostraka. Zur Verwendung kam dafür eine selbst entwickelte [HyperCard](https://en.wikipedia.org/wiki/HyperCard)-Anwendung, die mit der Zeit auch parallel in [FileMaker](https://en.wikipedia.org/wiki/FileMaker) gepflegt wurde.
 Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Exporten sowie die daraus resultierenden Wörterlisten-Dateien in `TEI-XML`.
+
+
+### Datenumfang
+
+Die Wörterlisten umfassen  33116 Einträge, wovon 30931 in griechischer und 2185 in lateinischer Sprache (Stand 15. Januar 2017). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+
+**Sprachübergreifend**
+
+```txt
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15020
+geography:    |||||||||||||||||||3972
+monthsDays:   119
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13619
+religion:     |386
+```
+
+**Griechisch**
+
+```txt
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13580
+geography:    |||||||||||||||||||3906
+monthsDays:   97
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||12972
+religion:     |376
+```
+
+**Lateinisch**
+
+```txt
+monthsDays:   22
+persons:      |||647
+geography:    66
+religion:     10
+general:      |||||||1440
+            
+| = 200 Einträge            
+```
+
 
 Datentransformation
 -------------------------------------

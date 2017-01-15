@@ -72,7 +72,7 @@
         
         <p:xslt>
             <p:input port="stylesheet">
-                <p:document href="stats/9-writeReadme.xsl"/>
+                <p:document href="readme/1-writeReadme.xsl"/>
             </p:input>
         </p:xslt>
         

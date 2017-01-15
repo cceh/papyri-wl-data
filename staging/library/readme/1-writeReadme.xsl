@@ -11,14 +11,14 @@
         </p:documentation>
     -->
     
-    <!-- set the scale of the chart -->
-    <xsl:variable name="divisor" select="25"/>
+    <!-- set the scale of the chart; 1 chart unit represents {$divisor} entries; some 80 units should fit the viewport comfortably -->
+    <xsl:variable name="divisor" select="200"/>
 
 <xsl:template match="/">
     <wrapper>
         <!-- The README file is generated in the conversion process. Thus it should not be edited in the root directory but here in this file. -->
         <xsl:text>
-[README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/stats/</xsl:text><xsl:value-of select="base-uri(document(''))"/><xsl:text>)            
+Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/readme/</xsl:text><xsl:value-of select="tokenize(base-uri(document('')),'/')[last()]"/><xsl:text>)            
             
 Papyri Wörterlisten – Data
 ===========================================================
