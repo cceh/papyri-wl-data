@@ -1,5 +1,5 @@
 
-Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/readme/9-writeReadme.xsl)            
+Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/readme/1-writeReadme.xsl)            
             
 Papyri Wörterlisten – Data
 ===========================================================
