@@ -1,0 +1,6 @@
+{
+    "name" : "kategorien",
+    "children" : [{
+        "name" : "monthsDays",
+        "children" : [{"name": "Α","size":12},{"name": "Β","size":2},{"name": "Γ","size":3},{"name": "Δ","size":10},{"name": "Ε","size":4},{"name": "Ζ","size":1},{"name": "Η","size":1},{"name": "Θ","size":5},{"name": "Ι","size":3},{"name": "Κ","size":4},{"name": "Λ","size":1},{"name": "Μ","size":4},{"name": "Ν","size":8},{"name": "Ξ","size":3},{"name": "Ο","size":3},{"name": "Π","size":10},{"name": "Ρ","size":1},{"name": "Σ","size":13},{"name": "Τ","size":2},{"name": "Υ","size":2},{"name": "Φ","size":4},{"name": "Χ","size":1}]
+        }]}
