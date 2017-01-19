@@ -16,7 +16,7 @@
     <p:option name="task-newEntries" select="'XProc-Workflow; Neuanlage des Eintrags und Vergabe der xml:id'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
     <p:option name="task-existingEntries" select="'XProc-Workflow; Anpassung des bestehenden Eintrags'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
     <p:option name="schemaPath" select="'../validation'"/>
-    <p:option name="comparisonBase" select="'current'"/><!-- current -->
+    <p:option name="comparisonBase" select="'current-test'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
     <p:option name="result-path" select="'../output'"/>
     
@@ -129,6 +129,10 @@
     </p:store>-->
     
     <!-- generation of TEI corpus (including statistical data) -->
+    <p:documentation>
+        <h2>...</h2>
+        <p>...</p>
+    </p:documentation>
     <p:identity>
         <p:input port="source">
             <p:pipe port="result" step="wrapped-transformation-result"/>
@@ -140,12 +144,28 @@
     </pwl:corpus>
     
     <!-- generate the README -->
+    <p:documentation>
+        <h2>...</h2>
+        <p>...</p>
+    </p:documentation>
     <p:identity>
         <p:input port="source">
             <p:pipe port="result" step="corpus"/>
         </p:input>
     </p:identity>
     <pwl:readme/>
+    
+    <!-- generate util output (data used in webapp) -->
+    <p:documentation>
+        <h2>Webapp output</h2>
+        <p>This step generates files that are used in the webapp. They are written to the 'util' directory.</p>
+    </p:documentation>
+    <p:identity>
+        <p:input port="source">
+            <p:pipe port="result" step="corpus"/>
+        </p:input>
+    </p:identity>
+    <pwl:util/>
     
     <!--<p:sink/>-->
     

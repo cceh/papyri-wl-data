@@ -56,7 +56,253 @@
             <p:with-option name="href" select="concat('../reporting/import-report_',format-date(current-date(), '[Y0001][M01][D01]'),'.md')"/>
         </p:store>
         
-        <!-- if needed store statistical output as xml/json -->
+    </p:declare-step>
+    
+    <p:declare-step type="pwl:util" name="wl-util">
+        
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter"/>
+        <!--<p:output port="result"/>-->
+        
+        <p:variable name="filepath" select="'../util/'"/>
+        
+        <p:documentation>
+            <h2>Webapp output</h2>
+            <p>This step generates files that are used in the webapp. They are written to the 'util' directory.</p>
+        </p:documentation>
+        
+        <p:identity name="corpus"/>
+        
+        <p:group name="st-grc-cat">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/1-st-grc-cat.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:namespace-rename from="http://www.tei-c.org/ns/1.0" to=""/>
+            <p:namespace-rename from="http://papyri.uni-koeln.de/papyri-woerterlisten" to=""/>
+            <p:namespace-rename from="http://www.w3.org/2003/XInclude" to=""/>
+            
+            <p:store>
+                <p:with-option name="href" select="concat($filepath,'st-grc-cat.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'false'"/>
+                <p:with-option name="indent" select="'true'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="st-la-cat">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/2-st-la-cat.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:namespace-rename from="http://www.tei-c.org/ns/1.0" to=""/>
+            <p:namespace-rename from="http://papyri.uni-koeln.de/papyri-woerterlisten" to=""/>
+            <p:namespace-rename from="http://www.w3.org/2003/XInclude" to=""/>
+            
+            <p:store>
+                <p:with-option name="href" select="concat($filepath,'st-la-cat.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'false'"/>
+                <p:with-option name="indent" select="'true'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="st-grc-cat-abc">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/3-st-grc-cat-abc.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:namespace-rename from="http://www.tei-c.org/ns/1.0" to=""/>
+            <p:namespace-rename from="http://papyri.uni-koeln.de/papyri-woerterlisten" to=""/>
+            <p:namespace-rename from="http://www.w3.org/2003/XInclude" to=""/>
+            
+            <p:store>
+                <p:with-option name="href" select="concat($filepath,'st-grc-cat-abc.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'false'"/>
+                <p:with-option name="indent" select="'true'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="st-la-cat-abc">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/4-st-la-cat-abc.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:namespace-rename from="http://www.tei-c.org/ns/1.0" to=""/>
+            <p:namespace-rename from="http://papyri.uni-koeln.de/papyri-woerterlisten" to=""/>
+            <p:namespace-rename from="http://www.w3.org/2003/XInclude" to=""/>
+            
+            <p:store>
+                <p:with-option name="href" select="concat($filepath,'st-la-cat-abc.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'false'"/>
+                <p:with-option name="indent" select="'true'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="st-grc-cat-json">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/5-st-grc-cat-abc.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'st-grc-cat-abc.json')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="st-la-cat-json">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/6-st-la-cat-abc.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'st-grc-cat-abc.json')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <!--<p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="nav-grc">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/7-nav-grc.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'nav-grc.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="nav-la">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/8-nav-la.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'nav-la.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="nav-grc-cat">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/9-nav-grc-cat.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'nav-grc-cat.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="corpus"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="nav-la-cat">
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/10-nav-la-cat.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'nav-la-cat.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+            
+        </p:group>-->
+        
         
     </p:declare-step>
     
