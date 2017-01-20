@@ -110,28 +110,20 @@
         </p:otherwise>
     </p:choose>
     
+    <!-- generation of import reporting -->
+    <p:documentation>
+        <h2>Import reporting</h2>
+        <p>This step generates a report in markdown format showing the proportion between previously existing and newly added entries.</p>
+    </p:documentation>
     <p:identity name="wrapped-transformation-result">
         <p:input port="source"/>
     </p:identity>
-    
-    <!-- generation of import reporting -->
     <pwl:log/>
-    
-    <!-- preliminary output that illustrates the structure on which statistical output may be generated (using p:xslt/p:xquery and p:store) -->
-    <!--<p:identity>
-        <p:input port="source">
-            <p:pipe port="result" step="wrapped-transformation-result"/>
-        </p:input>
-    </p:identity>
-    <p:store>
-        <p:with-option name="href" select="concat('output/filebase_',format-date(current-date(), '[Y0001][M01][D01]'),'.xml')"/>
-        <p:with-option name="indent" select="'true'"/>
-    </p:store>-->
     
     <!-- generation of TEI corpus (including statistical data) -->
     <p:documentation>
-        <h2>...</h2>
-        <p>...</p>
+        <h2>TEI Corpus</h2>
+        <p>This steps creates a corpus file with xi:include references to all entries/files.</p>
     </p:documentation>
     <p:identity>
         <p:input port="source">
@@ -143,10 +135,10 @@
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
     </pwl:corpus>
     
-    <!-- generate the README -->
+    <!-- generation of the README -->
     <p:documentation>
-        <h2>...</h2>
-        <p>...</p>
+        <h2>Import reporting</h2>
+        <p>This step generates a report in markdown format showing the proportion between previously existing and newly added entries.</p>
     </p:documentation>
     <p:identity>
         <p:input port="source">
@@ -162,6 +154,7 @@
     </p:documentation>
     <p:identity>
         <p:input port="source">
+            <p:pipe port="result" step="wrapped-transformation-result"/>
             <p:pipe port="result" step="corpus"/>
         </p:input>
     </p:identity>

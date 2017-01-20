@@ -60,20 +60,38 @@
     
     <p:declare-step type="pwl:util" name="wl-util">
         
-        <p:input port="source"/>
+        <p:documentation>
+            <h2>...</h2>
+            <p>This step ...</p>
+        </p:documentation>
+        
+        <p:input port="source" sequence="true"/>
         <p:input port="parameters" kind="parameter"/>
         <!--<p:output port="result"/>-->
         
-        <p:variable name="filepath" select="'../util/'"/>
+        <p:option name="filepath" select="'../util/'"/>
         
         <p:documentation>
             <h2>Webapp output</h2>
             <p>This step generates files that are used in the webapp. They are written to the 'util' directory.</p>
         </p:documentation>
         
-        <p:identity name="corpus"/>
+        <p:split-sequence test="/*:wl-wrapper" name="Split"/>
+        
+        <p:identity name="corpus">
+            <p:input port="source">
+                <p:pipe port="not-matched" step="Split"/>
+            </p:input>
+        </p:identity>
         
         <p:group name="st-grc-cat">
+            
+            <p:documentation>
+                <h2>Statistical listing: by category (XML)</h2>
+                <p>This step saves statistical information contained in the corpus file in an XML file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
             
             <p:xslt>
                 <p:input port="stylesheet">
@@ -95,11 +113,18 @@
         
         <p:identity>
             <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
+                <p:pipe port="not-matched" step="Split"/>
             </p:input>
         </p:identity>
         
         <p:group name="st-la-cat">
+            
+            <p:documentation>
+                <h2>Statistical listing: by category (XML)</h2>
+                <p>This step saves statistical information contained in the corpus file in an XML file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
             
             <p:xslt>
                 <p:input port="stylesheet">
@@ -121,11 +146,18 @@
         
         <p:identity>
             <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
+                <p:pipe port="not-matched" step="Split"/>
             </p:input>
         </p:identity>
         
         <p:group name="st-grc-cat-abc">
+            
+            <p:documentation>
+                <h2>Statistical listing: by category and initials (XML)</h2>
+                <p>This step saves statistical information contained in the corpus file in an XML file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
             
             <p:xslt>
                 <p:input port="stylesheet">
@@ -147,11 +179,18 @@
         
         <p:identity>
             <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
+                <p:pipe port="not-matched" step="Split"/>
             </p:input>
         </p:identity>
         
         <p:group name="st-la-cat-abc">
+            
+            <p:documentation>
+                <h2>Statistical listing: by category and initials (XML)</h2>
+                <p>This step saves statistical information contained in the corpus file in an XML file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
             
             <p:xslt>
                 <p:input port="stylesheet">
@@ -173,15 +212,22 @@
         
         <p:identity>
             <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
+                <p:pipe port="not-matched" step="Split"/>
             </p:input>
         </p:identity>
         
         <p:group name="st-grc-cat-json">
             
+            <p:documentation>
+                <h2>Statistical listing: by category (JSON)</h2>
+                <p>This step saves statistical information contained in the corpus file in a JSON file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
+            
             <p:xslt>
                 <p:input port="stylesheet">
-                    <p:document href="util/5-st-grc-cat-abc.xsl"/>
+                    <p:document href="util/5-st-grc-cat-abc-json.xsl"/>
                 </p:input>
             </p:xslt>
             
@@ -195,114 +241,88 @@
         
         <p:identity>
             <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
+                <p:pipe port="not-matched" step="Split"/>
             </p:input>
         </p:identity>
         
         <p:group name="st-la-cat-json">
             
+            <p:documentation>
+                <h2>Statistical listing: by category (JSON)</h2>
+                <p>This step saves statistical information contained in the corpus file in a JSON file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
+            
             <p:xslt>
                 <p:input port="stylesheet">
-                    <p:document href="util/6-st-la-cat-abc.xsl"/>
+                    <p:document href="util/6-st-la-cat-abc-json.xsl"/>
                 </p:input>
             </p:xslt>
             
             <p:store method="text">
-                <p:with-option name="href" select="concat($filepath,'st-grc-cat-abc.json')"/>
+                <p:with-option name="href" select="concat($filepath,'st-la-cat-abc.json')"/>
                 <p:with-option name="omit-xml-declaration" select="'true'"/>
                 <p:with-option name="indent" select="'false'"/>
             </p:store>
             
         </p:group>
         
-        <!--<p:identity>
+        <p:identity name="wrapped-transformation-result">
             <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
+                <p:pipe port="matched" step="Split"/>
             </p:input>
         </p:identity>
         
-        <p:group name="nav-grc">
+        <p:group name="nav">
+            
+            <p:documentation>
+                <h2>Navigation by initials</h2>
+                <p>This step generates a list containing counts of lemmata starting in the same two characters by initials in a format expected by the webapp.</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
             
             <p:xslt>
                 <p:input port="stylesheet">
-                    <p:document href="util/7-nav-grc.xsl"/>
+                    <p:document href="util/7-nav.xsl"/>
                 </p:input>
             </p:xslt>
             
-            <p:store method="text">
-                <p:with-option name="href" select="concat($filepath,'nav-grc.xml')"/>
-                <p:with-option name="omit-xml-declaration" select="'true'"/>
-                <p:with-option name="indent" select="'false'"/>
-            </p:store>
-            
-        </p:group>
-        
-        <p:identity>
-            <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
-            </p:input>
-        </p:identity>
-        
-        <p:group name="nav-la">
-            
-            <p:xslt>
-                <p:input port="stylesheet">
-                    <p:document href="util/8-nav-la.xsl"/>
-                </p:input>
-            </p:xslt>
-            
-            <p:store method="text">
-                <p:with-option name="href" select="concat($filepath,'nav-la.xml')"/>
-                <p:with-option name="omit-xml-declaration" select="'true'"/>
-                <p:with-option name="indent" select="'false'"/>
+            <p:store>
+                <p:with-option name="href" select="concat($filepath,'nav.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'false'"/>
+                <p:with-option name="indent" select="'true'"/>
             </p:store>
             
         </p:group>
         
         <p:identity>
             <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
+                <p:pipe port="matched" step="Split"/>
             </p:input>
         </p:identity>
         
-        <p:group name="nav-grc-cat">
+        <p:group name="nav-cat">
+            
+            <p:documentation>
+                <h2>Navigation by category</h2>
+                <p>This step generates a list containing counts of lemmata starting in the same two characters by category in a format expected by the webapp.</p>
+            </p:documentation>
             
             <p:xslt>
                 <p:input port="stylesheet">
-                    <p:document href="util/9-nav-grc-cat.xsl"/>
+                    <p:document href="util/8-nav-cat.xsl"/>
                 </p:input>
             </p:xslt>
             
-            <p:store method="text">
-                <p:with-option name="href" select="concat($filepath,'nav-grc-cat.xml')"/>
-                <p:with-option name="omit-xml-declaration" select="'true'"/>
-                <p:with-option name="indent" select="'false'"/>
+            <p:store>
+                <p:with-option name="href" select="concat($filepath,'nav-cat.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'false'"/>
+                <p:with-option name="indent" select="'true'"/>
             </p:store>
             
         </p:group>
-        
-        <p:identity>
-            <p:input port="source">
-                <p:pipe port="result" step="corpus"/>
-            </p:input>
-        </p:identity>
-        
-        <p:group name="nav-la-cat">
-            
-            <p:xslt>
-                <p:input port="stylesheet">
-                    <p:document href="util/10-nav-la-cat.xsl"/>
-                </p:input>
-            </p:xslt>
-            
-            <p:store method="text">
-                <p:with-option name="href" select="concat($filepath,'nav-la-cat.xml')"/>
-                <p:with-option name="omit-xml-declaration" select="'true'"/>
-                <p:with-option name="indent" select="'false'"/>
-            </p:store>
-            
-        </p:group>-->
-        
         
     </p:declare-step>
     

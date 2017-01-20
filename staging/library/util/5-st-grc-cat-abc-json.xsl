@@ -10,8 +10,8 @@
     
     <!-- 
         <p:documentation>
-            <h2></h2>
-            <p>...</p>
+            <h2>Statistical listing: by category (JSON)</h2>
+            <p>This step saves statistical information contained in the corpus file in a JSON file (as understood by the webapp).</p>
         </p:documentation>
     -->
     

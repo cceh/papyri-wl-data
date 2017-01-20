@@ -10,8 +10,8 @@
     
     <!-- 
         <p:documentation>
-            <h2></h2>
-            <p>...</p>
+            <h2>Statistical listing: by category and initials (XML)</h2>
+            <p>This step saves statistical information contained in the corpus file in an XML file (as understood by the webapp).</p>
         </p:documentation>
     -->
     
