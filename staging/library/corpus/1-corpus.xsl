@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    xmlns:xi="http://www.w3.org/2003/XInclude"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
     exclude-result-prefixes="xs" version="2.0">
     <xsl:strip-space elements="*"/>
@@ -225,7 +225,9 @@
                 </revisionDesc>
             </teiHeader>
             <xsl:for-each select="/*/*/*:div">
-                <xi:include href="{*:entry/@xml:id}"/>
+                <xsl:element name="xi:include">
+                    <xsl:attribute name="href" select="concat(*:entry/@xml:id,'.xml')"></xsl:attribute>
+                </xsl:element>
             </xsl:for-each>
         </teiCorpus>
     </xsl:template>
