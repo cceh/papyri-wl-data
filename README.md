@@ -15,7 +15,7 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen  33116 Einträge, wovon 30931 in griechischer und 2185 in lateinischer Sprache (Stand 15. Januar 2017). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen  33116 Einträge, wovon 30931 in griechischer und 2185 in lateinischer Sprache (Stand 21. Januar 2017). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 

@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list type="index" subtype="cat_grc">
+<list xmlns:xi="http://www.w3.org/2001/XInclude"
+      type="index"
+      subtype="cat_grc">
    <head>Einträge pro Kategorie (griechisch)</head>
+   <item>
+      <label type="general"/>
+      <num>13580</num>
+   </item>
+   <item>
+      <label type="geography"/>
+      <num>3906</num>
+   </item>
    <item>
       <label type="monthsDays"/>
       <num>97</num>
+   </item>
+   <item>
+      <label type="persons"/>
+      <num>12972</num>
+   </item>
+   <item>
+      <label type="religion"/>
+      <num>376</num>
    </item>
 </list>

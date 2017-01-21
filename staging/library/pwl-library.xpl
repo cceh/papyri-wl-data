@@ -60,11 +60,6 @@
     
     <p:declare-step type="pwl:util" name="wl-util">
         
-        <p:documentation>
-            <h2>...</h2>
-            <p>This step ...</p>
-        </p:documentation>
-        
         <p:input port="source" sequence="true"/>
         <p:input port="parameters" kind="parameter"/>
         <!--<p:output port="result"/>-->

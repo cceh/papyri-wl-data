@@ -1,0 +1,6721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nav>
+   <item id="grc"><!--Griechisch-->
+      <item id="general">
+         <amount>13580</amount>
+         <item id="(">
+            <name>(</name>
+            <amount>1</amount>
+            <item id="(-">
+               <name>(-</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="-">
+            <name>-</name>
+            <amount>8</amount>
+            <item id="-α">
+               <name>-α</name>
+               <amount>1</amount>
+            </item>
+            <item id="-ε">
+               <name>-ε</name>
+               <amount>1</amount>
+            </item>
+            <item id="-ι">
+               <name>-ι</name>
+               <amount>1</amount>
+            </item>
+            <item id="-λ">
+               <name>-λ</name>
+               <amount>1</amount>
+            </item>
+            <item id="-π">
+               <name>-π</name>
+               <amount>3</amount>
+            </item>
+            <item id="-ψ">
+               <name>-ψ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="]">
+            <name>]</name>
+            <amount>69</amount>
+            <item id="]α">
+               <name>]α</name>
+               <amount>13</amount>
+            </item>
+            <item id="]β">
+               <name>]β</name>
+               <amount>4</amount>
+            </item>
+            <item id="]γ">
+               <name>]γ</name>
+               <amount>2</amount>
+            </item>
+            <item id="]δ">
+               <name>]δ</name>
+               <amount>3</amount>
+            </item>
+            <item id="]ε">
+               <name>]ε</name>
+               <amount>4</amount>
+            </item>
+            <item id="]η">
+               <name>]η</name>
+               <amount>1</amount>
+            </item>
+            <item id="]θ">
+               <name>]θ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]ι">
+               <name>]ι</name>
+               <amount>1</amount>
+            </item>
+            <item id="]κ">
+               <name>]κ</name>
+               <amount>4</amount>
+            </item>
+            <item id="]λ">
+               <name>]λ</name>
+               <amount>3</amount>
+            </item>
+            <item id="]μ">
+               <name>]μ</name>
+               <amount>2</amount>
+            </item>
+            <item id="]ν">
+               <name>]ν</name>
+               <amount>1</amount>
+            </item>
+            <item id="]ο">
+               <name>]ο</name>
+               <amount>2</amount>
+            </item>
+            <item id="]π">
+               <name>]π</name>
+               <amount>8</amount>
+            </item>
+            <item id="]ρ">
+               <name>]ρ</name>
+               <amount>2</amount>
+            </item>
+            <item id="]σ">
+               <name>]σ</name>
+               <amount>4</amount>
+            </item>
+            <item id="]τ">
+               <name>]τ</name>
+               <amount>2</amount>
+            </item>
+            <item id="]υ">
+               <name>]υ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]φ">
+               <name>]φ</name>
+               <amount>6</amount>
+            </item>
+            <item id="]χ">
+               <name>]χ</name>
+               <amount>4</amount>
+            </item>
+            <item id="]ω">
+               <name>]ω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Α">
+            <name>Α</name>
+            <amount>2036</amount>
+            <item id="Α]">
+               <name>Α]</name>
+               <amount>1</amount>
+            </item>
+            <item id="Αβ">
+               <name>Αβ</name>
+               <amount>35</amount>
+            </item>
+            <item id="Αγ">
+               <name>Αγ</name>
+               <amount>119</amount>
+            </item>
+            <item id="Αδ">
+               <name>Αδ</name>
+               <amount>57</amount>
+            </item>
+            <item id="Αε">
+               <name>Αε</name>
+               <amount>6</amount>
+            </item>
+            <item id="Αζ">
+               <name>Αζ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Αη">
+               <name>Αη</name>
+               <amount>6</amount>
+            </item>
+            <item id="Αθ">
+               <name>Αθ</name>
+               <amount>32</amount>
+            </item>
+            <item id="Αι">
+               <name>Αι</name>
+               <amount>78</amount>
+            </item>
+            <item id="Ακ">
+               <name>Ακ</name>
+               <amount>101</amount>
+            </item>
+            <item id="Αλ">
+               <name>Αλ</name>
+               <amount>120</amount>
+            </item>
+            <item id="Αμ">
+               <name>Αμ</name>
+               <amount>124</amount>
+            </item>
+            <item id="Αν">
+               <name>Αν</name>
+               <amount>458</amount>
+            </item>
+            <item id="Αξ">
+               <name>Αξ</name>
+               <amount>15</amount>
+            </item>
+            <item id="Αο">
+               <name>Αο</name>
+               <amount>8</amount>
+            </item>
+            <item id="Απ">
+               <name>Απ</name>
+               <amount>353</amount>
+            </item>
+            <item id="Αρ">
+               <name>Αρ</name>
+               <amount>228</amount>
+            </item>
+            <item id="Ας">
+               <name>Ας</name>
+               <amount>108</amount>
+            </item>
+            <item id="Ατ">
+               <name>Ατ</name>
+               <amount>29</amount>
+            </item>
+            <item id="Αυ">
+               <name>Αυ</name>
+               <amount>67</amount>
+            </item>
+            <item id="Αφ">
+               <name>Αφ</name>
+               <amount>51</amount>
+            </item>
+            <item id="Αχ">
+               <name>Αχ</name>
+               <amount>28</amount>
+            </item>
+            <item id="Αψ">
+               <name>Αψ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Αω">
+               <name>Αω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Β">
+            <name>Β</name>
+            <amount>295</amount>
+            <item id="Βα">
+               <name>Βα</name>
+               <amount>89</amount>
+            </item>
+            <item id="Βδ">
+               <name>Βδ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Βε">
+               <name>Βε</name>
+               <amount>28</amount>
+            </item>
+            <item id="Βη">
+               <name>Βη</name>
+               <amount>7</amount>
+            </item>
+            <item id="Βι">
+               <name>Βι</name>
+               <amount>39</amount>
+            </item>
+            <item id="Βλ">
+               <name>Βλ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Βο">
+               <name>Βο</name>
+               <amount>68</amount>
+            </item>
+            <item id="Βρ">
+               <name>Βρ</name>
+               <amount>27</amount>
+            </item>
+            <item id="Βυ">
+               <name>Βυ</name>
+               <amount>15</amount>
+            </item>
+            <item id="Βω">
+               <name>Βω</name>
+               <amount>10</amount>
+            </item>
+         </item>
+         <item id="Γ">
+            <name>Γ</name>
+            <amount>249</amount>
+            <item id="Γα">
+               <name>Γα</name>
+               <amount>38</amount>
+            </item>
+            <item id="Γε">
+               <name>Γε</name>
+               <amount>64</amount>
+            </item>
+            <item id="Γη">
+               <name>Γη</name>
+               <amount>7</amount>
+            </item>
+            <item id="Γι">
+               <name>Γι</name>
+               <amount>6</amount>
+            </item>
+            <item id="Γλ">
+               <name>Γλ</name>
+               <amount>26</amount>
+            </item>
+            <item id="Γν">
+               <name>Γν</name>
+               <amount>24</amount>
+            </item>
+            <item id="Γο">
+               <name>Γο</name>
+               <amount>21</amount>
+            </item>
+            <item id="Γρ">
+               <name>Γρ</name>
+               <amount>34</amount>
+            </item>
+            <item id="Γυ">
+               <name>Γυ</name>
+               <amount>27</amount>
+            </item>
+            <item id="Γω">
+               <name>Γω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Δ">
+            <name>Δ</name>
+            <amount>733</amount>
+            <item id="Δα">
+               <name>Δα</name>
+               <amount>40</amount>
+            </item>
+            <item id="Δε">
+               <name>Δε</name>
+               <amount>131</amount>
+            </item>
+            <item id="Δη">
+               <name>Δη</name>
+               <amount>30</amount>
+            </item>
+            <item id="Δι">
+               <name>Δι</name>
+               <amount>400</amount>
+            </item>
+            <item id="Δο">
+               <name>Δο</name>
+               <amount>43</amount>
+            </item>
+            <item id="Δρ">
+               <name>Δρ</name>
+               <amount>29</amount>
+            </item>
+            <item id="Δυ">
+               <name>Δυ</name>
+               <amount>33</amount>
+            </item>
+            <item id="Δω">
+               <name>Δω</name>
+               <amount>26</amount>
+            </item>
+            <item id="Δ‹">
+               <name>Δ‹</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ε">
+            <name>Ε</name>
+            <amount>1874</amount>
+            <item id="Ε]">
+               <name>Ε]</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εα">
+               <name>Εα</name>
+               <amount>6</amount>
+            </item>
+            <item id="Εβ">
+               <name>Εβ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Εγ">
+               <name>Εγ</name>
+               <amount>95</amount>
+            </item>
+            <item id="Εδ">
+               <name>Εδ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Εζ">
+               <name>Εζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εθ">
+               <name>Εθ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ει">
+               <name>Ει</name>
+               <amount>153</amount>
+            </item>
+            <item id="Εκ">
+               <name>Εκ</name>
+               <amount>188</amount>
+            </item>
+            <item id="Ελ">
+               <name>Ελ</name>
+               <amount>82</amount>
+            </item>
+            <item id="Εμ">
+               <name>Εμ</name>
+               <amount>89</amount>
+            </item>
+            <item id="Εν">
+               <name>Εν</name>
+               <amount>199</amount>
+            </item>
+            <item id="Εξ">
+               <name>Εξ</name>
+               <amount>164</amount>
+            </item>
+            <item id="Εο">
+               <name>Εο</name>
+               <amount>7</amount>
+            </item>
+            <item id="Επ">
+               <name>Επ</name>
+               <amount>480</amount>
+            </item>
+            <item id="Ερ">
+               <name>Ερ</name>
+               <amount>95</amount>
+            </item>
+            <item id="Εσ">
+               <name>Εσ</name>
+               <amount>16</amount>
+            </item>
+            <item id="Ετ">
+               <name>Ετ</name>
+               <amount>19</amount>
+            </item>
+            <item id="Ευ">
+               <name>Ευ</name>
+               <amount>198</amount>
+            </item>
+            <item id="Εφ">
+               <name>Εφ</name>
+               <amount>38</amount>
+            </item>
+            <item id="Εχ">
+               <name>Εχ</name>
+               <amount>15</amount>
+            </item>
+            <item id="Εψ">
+               <name>Εψ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Εω">
+               <name>Εω</name>
+               <amount>4</amount>
+            </item>
+         </item>
+         <item id="Ζ">
+            <name>Ζ</name>
+            <amount>86</amount>
+            <item id="Ζα">
+               <name>Ζα</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ζε">
+               <name>Ζε</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ζη">
+               <name>Ζη</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ζι">
+               <name>Ζι</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ζμ">
+               <name>Ζμ</name>
+               <amount>9</amount>
+            </item>
+            <item id="Ζυ">
+               <name>Ζυ</name>
+               <amount>27</amount>
+            </item>
+            <item id="Ζω">
+               <name>Ζω</name>
+               <amount>20</amount>
+            </item>
+         </item>
+         <item id="Η">
+            <name>Η</name>
+            <amount>133</amount>
+            <item id="Η">
+               <name>Η</name>
+               <amount>2</amount>
+            </item>
+            <item id="Η ">
+               <name>Η </name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηβ">
+               <name>Ηβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηγ">
+               <name>Ηγ</name>
+               <amount>9</amount>
+            </item>
+            <item id="Ηδ">
+               <name>Ηδ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Ηθ">
+               <name>Ηθ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ηκ">
+               <name>Ηκ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ηλ">
+               <name>Ηλ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ημ">
+               <name>Ημ</name>
+               <amount>65</amount>
+            </item>
+            <item id="Ην">
+               <name>Ην</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ηπ">
+               <name>Ηπ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ηρ">
+               <name>Ηρ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ησ">
+               <name>Ησ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ητ">
+               <name>Ητ</name>
+               <amount>6</amount>
+            </item>
+         </item>
+         <item id="Θ">
+            <name>Θ</name>
+            <amount>205</amount>
+            <item id="Θα">
+               <name>Θα</name>
+               <amount>27</amount>
+            </item>
+            <item id="Θβ">
+               <name>Θβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Θε">
+               <name>Θε</name>
+               <amount>79</amount>
+            </item>
+            <item id="Θη">
+               <name>Θη</name>
+               <amount>19</amount>
+            </item>
+            <item id="Θι">
+               <name>Θι</name>
+               <amount>5</amount>
+            </item>
+            <item id="Θλ">
+               <name>Θλ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Θμ">
+               <name>Θμ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Θν">
+               <name>Θν</name>
+               <amount>2</amount>
+            </item>
+            <item id="Θο">
+               <name>Θο</name>
+               <amount>4</amount>
+            </item>
+            <item id="Θρ">
+               <name>Θρ</name>
+               <amount>24</amount>
+            </item>
+            <item id="Θυ">
+               <name>Θυ</name>
+               <amount>29</amount>
+            </item>
+            <item id="Θω">
+               <name>Θω</name>
+               <amount>9</amount>
+            </item>
+            <item id="Θϙ">
+               <name>Θϙ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ι">
+            <name>Ι</name>
+            <amount>226</amount>
+            <item id="Ια">
+               <name>Ια</name>
+               <amount>17</amount>
+            </item>
+            <item id="Ιβ">
+               <name>Ιβ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ιδ">
+               <name>Ιδ</name>
+               <amount>27</amount>
+            </item>
+            <item id="Ιε">
+               <name>Ιε</name>
+               <amount>37</amount>
+            </item>
+            <item id="Ιη">
+               <name>Ιη</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ιθ">
+               <name>Ιθ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ικ">
+               <name>Ικ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ιλ">
+               <name>Ιλ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Ιμ">
+               <name>Ιμ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ιν">
+               <name>Ιν</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ιξ">
+               <name>Ιξ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ιο">
+               <name>Ιο</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ιπ">
+               <name>Ιπ</name>
+               <amount>21</amount>
+            </item>
+            <item id="Ιρ">
+               <name>Ιρ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ισ">
+               <name>Ισ</name>
+               <amount>34</amount>
+            </item>
+            <item id="Ιτ">
+               <name>Ιτ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ιφ">
+               <name>Ιφ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ιχ">
+               <name>Ιχ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Ιψ">
+               <name>Ιψ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Κ">
+            <name>Κ</name>
+            <amount>1348</amount>
+            <item id="Κ]">
+               <name>Κ]</name>
+               <amount>1</amount>
+            </item>
+            <item id="Κα">
+               <name>Κα</name>
+               <amount>592</amount>
+            </item>
+            <item id="Κε">
+               <name>Κε</name>
+               <amount>92</amount>
+            </item>
+            <item id="Κη">
+               <name>Κη</name>
+               <amount>30</amount>
+            </item>
+            <item id="Κθ">
+               <name>Κθ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Κι">
+               <name>Κι</name>
+               <amount>46</amount>
+            </item>
+            <item id="Κλ">
+               <name>Κλ</name>
+               <amount>63</amount>
+            </item>
+            <item id="Κν">
+               <name>Κν</name>
+               <amount>12</amount>
+            </item>
+            <item id="Κο">
+               <name>Κο</name>
+               <amount>290</amount>
+            </item>
+            <item id="Κρ">
+               <name>Κρ</name>
+               <amount>88</amount>
+            </item>
+            <item id="Κτ">
+               <name>Κτ</name>
+               <amount>16</amount>
+            </item>
+            <item id="Κυ">
+               <name>Κυ</name>
+               <amount>83</amount>
+            </item>
+            <item id="Κω">
+               <name>Κω</name>
+               <amount>33</amount>
+            </item>
+         </item>
+         <item id="Λ">
+            <name>Λ</name>
+            <amount>373</amount>
+            <item id="Λ(">
+               <name>Λ(</name>
+               <amount>2</amount>
+            </item>
+            <item id="Λα">
+               <name>Λα</name>
+               <amount>82</amount>
+            </item>
+            <item id="Λε">
+               <name>Λε</name>
+               <amount>73</amount>
+            </item>
+            <item id="Λη">
+               <name>Λη</name>
+               <amount>25</amount>
+            </item>
+            <item id="Λι">
+               <name>Λι</name>
+               <amount>74</amount>
+            </item>
+            <item id="Λο">
+               <name>Λο</name>
+               <amount>69</amount>
+            </item>
+            <item id="Λυ">
+               <name>Λυ</name>
+               <amount>31</amount>
+            </item>
+            <item id="Λω">
+               <name>Λω</name>
+               <amount>17</amount>
+            </item>
+         </item>
+         <item id="Μ">
+            <name>Μ</name>
+            <amount>619</amount>
+            <item id="Μα">
+               <name>Μα</name>
+               <amount>154</amount>
+            </item>
+            <item id="Με">
+               <name>Με</name>
+               <amount>193</amount>
+            </item>
+            <item id="Μη">
+               <name>Μη</name>
+               <amount>61</amount>
+            </item>
+            <item id="Μι">
+               <name>Μι</name>
+               <amount>50</amount>
+            </item>
+            <item id="Μν">
+               <name>Μν</name>
+               <amount>15</amount>
+            </item>
+            <item id="Μο">
+               <name>Μο</name>
+               <amount>91</amount>
+            </item>
+            <item id="Μυ">
+               <name>Μυ</name>
+               <amount>47</amount>
+            </item>
+            <item id="Μω">
+               <name>Μω</name>
+               <amount>8</amount>
+            </item>
+         </item>
+         <item id="Ν">
+            <name>Ν</name>
+            <amount>154</amount>
+            <item id="Ν">
+               <name>Ν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Να">
+               <name>Να</name>
+               <amount>30</amount>
+            </item>
+            <item id="Νε">
+               <name>Νε</name>
+               <amount>40</amount>
+            </item>
+            <item id="Νη">
+               <name>Νη</name>
+               <amount>10</amount>
+            </item>
+            <item id="Νι">
+               <name>Νι</name>
+               <amount>13</amount>
+            </item>
+            <item id="Νο">
+               <name>Νο</name>
+               <amount>41</amount>
+            </item>
+            <item id="Νυ">
+               <name>Νυ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Νω">
+               <name>Νω</name>
+               <amount>6</amount>
+            </item>
+         </item>
+         <item id="Ξ">
+            <name>Ξ</name>
+            <amount>68</amount>
+            <item id="Ξα">
+               <name>Ξα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ξε">
+               <name>Ξε</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ξη">
+               <name>Ξη</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ξι">
+               <name>Ξι</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ξο">
+               <name>Ξο</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ξυ">
+               <name>Ξυ</name>
+               <amount>35</amount>
+            </item>
+            <item id="Ξω">
+               <name>Ξω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ο">
+            <name>Ο</name>
+            <amount>569</amount>
+            <item id="Ο ">
+               <name>Ο </name>
+               <amount>1</amount>
+            </item>
+            <item id="Οα">
+               <name>Οα</name>
+               <amount>2</amount>
+            </item>
+            <item id="Οβ">
+               <name>Οβ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ογ">
+               <name>Ογ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Οδ">
+               <name>Οδ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Οζ">
+               <name>Οζ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Οη">
+               <name>Οη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Οθ">
+               <name>Οθ</name>
+               <amount>12</amount>
+            </item>
+            <item id="Οι">
+               <name>Οι</name>
+               <amount>84</amount>
+            </item>
+            <item id="Οκ">
+               <name>Οκ</name>
+               <amount>22</amount>
+            </item>
+            <item id="Ολ">
+               <name>Ολ</name>
+               <amount>35</amount>
+            </item>
+            <item id="Ομ">
+               <name>Ομ</name>
+               <amount>51</amount>
+            </item>
+            <item id="Ον">
+               <name>Ον</name>
+               <amount>38</amount>
+            </item>
+            <item id="Οξ">
+               <name>Οξ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Οπ">
+               <name>Οπ</name>
+               <amount>39</amount>
+            </item>
+            <item id="Ορ">
+               <name>Ορ</name>
+               <amount>87</amount>
+            </item>
+            <item id="Ος">
+               <name>Ος</name>
+               <amount>32</amount>
+            </item>
+            <item id="Οτ">
+               <name>Οτ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ου">
+               <name>Ου</name>
+               <amount>68</amount>
+            </item>
+            <item id="Οφ">
+               <name>Οφ</name>
+               <amount>20</amount>
+            </item>
+            <item id="Οχ">
+               <name>Οχ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Οψ">
+               <name>Οψ</name>
+               <amount>19</amount>
+            </item>
+         </item>
+         <item id="Π">
+            <name>Π</name>
+            <amount>1601</amount>
+            <item id="Π(">
+               <name>Π(</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πα">
+               <name>Πα</name>
+               <amount>427</amount>
+            </item>
+            <item id="Πε">
+               <name>Πε</name>
+               <amount>237</amount>
+            </item>
+            <item id="Πη">
+               <name>Πη</name>
+               <amount>18</amount>
+            </item>
+            <item id="Πι">
+               <name>Πι</name>
+               <amount>53</amount>
+            </item>
+            <item id="Πλ">
+               <name>Πλ</name>
+               <amount>122</amount>
+            </item>
+            <item id="Πν">
+               <name>Πν</name>
+               <amount>4</amount>
+            </item>
+            <item id="Πο">
+               <name>Πο</name>
+               <amount>150</amount>
+            </item>
+            <item id="Πρ">
+               <name>Πρ</name>
+               <amount>511</amount>
+            </item>
+            <item id="Πτ">
+               <name>Πτ</name>
+               <amount>21</amount>
+            </item>
+            <item id="Πυ">
+               <name>Πυ</name>
+               <amount>43</amount>
+            </item>
+            <item id="Πω">
+               <name>Πω</name>
+               <amount>14</amount>
+            </item>
+         </item>
+         <item id="Ρ">
+            <name>Ρ</name>
+            <amount>104</amount>
+            <item id="Ρ ">
+               <name>Ρ </name>
+               <amount>1</amount>
+            </item>
+            <item id="Ρα">
+               <name>Ρα</name>
+               <amount>32</amount>
+            </item>
+            <item id="Ρε">
+               <name>Ρε</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ρη">
+               <name>Ρη</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ρι">
+               <name>Ρι</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ρο">
+               <name>Ρο</name>
+               <amount>23</amount>
+            </item>
+            <item id="Ρυ">
+               <name>Ρυ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Ρω">
+               <name>Ρω</name>
+               <amount>8</amount>
+            </item>
+         </item>
+         <item id="Σ">
+            <name>Σ</name>
+            <amount>1204</amount>
+            <item id="Σα">
+               <name>Σα</name>
+               <amount>99</amount>
+            </item>
+            <item id="Σβ">
+               <name>Σβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σε">
+               <name>Σε</name>
+               <amount>47</amount>
+            </item>
+            <item id="Ση">
+               <name>Ση</name>
+               <amount>30</amount>
+            </item>
+            <item id="Σι">
+               <name>Σι</name>
+               <amount>117</amount>
+            </item>
+            <item id="Σκ">
+               <name>Σκ</name>
+               <amount>101</amount>
+            </item>
+            <item id="Σμ">
+               <name>Σμ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Σο">
+               <name>Σο</name>
+               <amount>23</amount>
+            </item>
+            <item id="Σπ">
+               <name>Σπ</name>
+               <amount>52</amount>
+            </item>
+            <item id="Στ">
+               <name>Στ</name>
+               <amount>206</amount>
+            </item>
+            <item id="Συ">
+               <name>Συ</name>
+               <amount>440</amount>
+            </item>
+            <item id="Σφ">
+               <name>Σφ</name>
+               <amount>31</amount>
+            </item>
+            <item id="Σχ">
+               <name>Σχ</name>
+               <amount>26</amount>
+            </item>
+            <item id="Σω">
+               <name>Σω</name>
+               <amount>20</amount>
+            </item>
+         </item>
+         <item id="Τ">
+            <name>Τ</name>
+            <amount>540</amount>
+            <item id="Τα">
+               <name>Τα</name>
+               <amount>114</amount>
+            </item>
+            <item id="Τε">
+               <name>Τε</name>
+               <amount>139</amount>
+            </item>
+            <item id="Τη">
+               <name>Τη</name>
+               <amount>17</amount>
+            </item>
+            <item id="Τι">
+               <name>Τι</name>
+               <amount>37</amount>
+            </item>
+            <item id="Το">
+               <name>Το</name>
+               <amount>55</amount>
+            </item>
+            <item id="Τρ">
+               <name>Τρ</name>
+               <amount>158</amount>
+            </item>
+            <item id="Τυ">
+               <name>Τυ</name>
+               <amount>20</amount>
+            </item>
+         </item>
+         <item id="Υ">
+            <name>Υ</name>
+            <amount>329</amount>
+            <item id="Υα">
+               <name>Υα</name>
+               <amount>8</amount>
+            </item>
+            <item id="Υβ">
+               <name>Υβ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Υγ">
+               <name>Υγ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Υδ">
+               <name>Υδ</name>
+               <amount>31</amount>
+            </item>
+            <item id="Υε">
+               <name>Υε</name>
+               <amount>4</amount>
+            </item>
+            <item id="Υι">
+               <name>Υι</name>
+               <amount>8</amount>
+            </item>
+            <item id="Υλ">
+               <name>Υλ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Υμ">
+               <name>Υμ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Υν">
+               <name>Υν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Υο">
+               <name>Υο</name>
+               <amount>3</amount>
+            </item>
+            <item id="Υπ">
+               <name>Υπ</name>
+               <amount>219</amount>
+            </item>
+            <item id="Υς">
+               <name>Υς</name>
+               <amount>10</amount>
+            </item>
+            <item id="Υφ">
+               <name>Υφ</name>
+               <amount>15</amount>
+            </item>
+            <item id="Υψ">
+               <name>Υψ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Υω">
+               <name>Υω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Φ">
+            <name>Φ</name>
+            <amount>273</amount>
+            <item id="Φα">
+               <name>Φα</name>
+               <amount>45</amount>
+            </item>
+            <item id="Φε">
+               <name>Φε</name>
+               <amount>9</amount>
+            </item>
+            <item id="Φη">
+               <name>Φη</name>
+               <amount>4</amount>
+            </item>
+            <item id="Φθ">
+               <name>Φθ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Φι">
+               <name>Φι</name>
+               <amount>57</amount>
+            </item>
+            <item id="Φλ">
+               <name>Φλ</name>
+               <amount>15</amount>
+            </item>
+            <item id="Φν">
+               <name>Φν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φο">
+               <name>Φο</name>
+               <amount>51</amount>
+            </item>
+            <item id="Φρ">
+               <name>Φρ</name>
+               <amount>33</amount>
+            </item>
+            <item id="Φυ">
+               <name>Φυ</name>
+               <amount>36</amount>
+            </item>
+            <item id="Φω">
+               <name>Φω</name>
+               <amount>14</amount>
+            </item>
+         </item>
+         <item id="Χ">
+            <name>Χ</name>
+            <amount>370</amount>
+            <item id="Χα">
+               <name>Χα</name>
+               <amount>83</amount>
+            </item>
+            <item id="Χε">
+               <name>Χε</name>
+               <amount>49</amount>
+            </item>
+            <item id="Χη">
+               <name>Χη</name>
+               <amount>11</amount>
+            </item>
+            <item id="Χθ">
+               <name>Χθ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Χι">
+               <name>Χι</name>
+               <amount>14</amount>
+            </item>
+            <item id="Χλ">
+               <name>Χλ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Χμ">
+               <name>Χμ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Χν">
+               <name>Χν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Χο">
+               <name>Χο</name>
+               <amount>60</amount>
+            </item>
+            <item id="Χρ">
+               <name>Χρ</name>
+               <amount>83</amount>
+            </item>
+            <item id="Χυ">
+               <name>Χυ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Χφ">
+               <name>Χφ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Χω">
+               <name>Χω</name>
+               <amount>38</amount>
+            </item>
+         </item>
+         <item id="Ψ">
+            <name>Ψ</name>
+            <amount>59</amount>
+            <item id="Ψα">
+               <name>Ψα</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ψε">
+               <name>Ψε</name>
+               <amount>13</amount>
+            </item>
+            <item id="Ψη">
+               <name>Ψη</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ψι">
+               <name>Ψι</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ψο">
+               <name>Ψο</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ψυ">
+               <name>Ψυ</name>
+               <amount>12</amount>
+            </item>
+            <item id="Ψω">
+               <name>Ψω</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="Ω">
+            <name>Ω</name>
+            <amount>53</amount>
+            <item id="Ω">
+               <name>Ω</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωα">
+               <name>Ωα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωδ">
+               <name>Ωδ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ωθ">
+               <name>Ωθ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωκ">
+               <name>Ωκ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ωλ">
+               <name>Ωλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωμ">
+               <name>Ωμ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ων">
+               <name>Ων</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ωο">
+               <name>Ωο</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ωρ">
+               <name>Ωρ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ως">
+               <name>Ως</name>
+               <amount>9</amount>
+            </item>
+            <item id="Ωτ">
+               <name>Ωτ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ωφ">
+               <name>Ωφ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ωχ">
+               <name>Ωχ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="ϙ">
+            <name>ϙ</name>
+            <amount>1</amount>
+            <item id="ϙθ">
+               <name>ϙθ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+      </item>
+      <item id="geography">
+         <amount>3906</amount>
+         <item id=" ">
+            <name> </name>
+            <amount>1</amount>
+            <item id="  ">
+               <name>  </name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="¥">
+            <name>¥</name>
+            <amount>2</amount>
+            <item id="¥γ">
+               <name>¥γ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Α">
+            <name>Α</name>
+            <amount>536</amount>
+            <item id="Α ">
+               <name>Α </name>
+               <amount>2</amount>
+            </item>
+            <item id="Αβ">
+               <name>Αβ</name>
+               <amount>32</amount>
+            </item>
+            <item id="Αγ">
+               <name>Αγ</name>
+               <amount>41</amount>
+            </item>
+            <item id="Αδ">
+               <name>Αδ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Αζ">
+               <name>Αζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Αθ">
+               <name>Αθ</name>
+               <amount>17</amount>
+            </item>
+            <item id="Αι">
+               <name>Αι</name>
+               <amount>19</amount>
+            </item>
+            <item id="Ακ">
+               <name>Ακ</name>
+               <amount>17</amount>
+            </item>
+            <item id="Αλ">
+               <name>Αλ</name>
+               <amount>60</amount>
+            </item>
+            <item id="Αμ">
+               <name>Αμ</name>
+               <amount>37</amount>
+            </item>
+            <item id="Αν">
+               <name>Αν</name>
+               <amount>76</amount>
+            </item>
+            <item id="Απ">
+               <name>Απ</name>
+               <amount>50</amount>
+            </item>
+            <item id="Αρ">
+               <name>Αρ</name>
+               <amount>81</amount>
+            </item>
+            <item id="Ασ">
+               <name>Ασ</name>
+               <amount>30</amount>
+            </item>
+            <item id="Ατ">
+               <name>Ατ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Αυ">
+               <name>Αυ</name>
+               <amount>16</amount>
+            </item>
+            <item id="Αφ">
+               <name>Αφ</name>
+               <amount>23</amount>
+            </item>
+            <item id="Αχ">
+               <name>Αχ</name>
+               <amount>9</amount>
+            </item>
+            <item id="Αψ">
+               <name>Αψ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Β">
+            <name>Β</name>
+            <amount>124</amount>
+            <item id="Β ">
+               <name>Β </name>
+               <amount>1</amount>
+            </item>
+            <item id="Βα">
+               <name>Βα</name>
+               <amount>30</amount>
+            </item>
+            <item id="Βε">
+               <name>Βε</name>
+               <amount>26</amount>
+            </item>
+            <item id="Βη">
+               <name>Βη</name>
+               <amount>13</amount>
+            </item>
+            <item id="Βι">
+               <name>Βι</name>
+               <amount>12</amount>
+            </item>
+            <item id="Βλ">
+               <name>Βλ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Βο">
+               <name>Βο</name>
+               <amount>27</amount>
+            </item>
+            <item id="Βρ">
+               <name>Βρ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Βυ">
+               <name>Βυ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Βω">
+               <name>Βω</name>
+               <amount>4</amount>
+            </item>
+         </item>
+         <item id="Γ">
+            <name>Γ</name>
+            <amount>44</amount>
+            <item id="Γ ">
+               <name>Γ </name>
+               <amount>3</amount>
+            </item>
+            <item id="Γα">
+               <name>Γα</name>
+               <amount>9</amount>
+            </item>
+            <item id="Γε">
+               <name>Γε</name>
+               <amount>18</amount>
+            </item>
+            <item id="Γλ">
+               <name>Γλ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Γο">
+               <name>Γο</name>
+               <amount>5</amount>
+            </item>
+            <item id="Γρ">
+               <name>Γρ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Γυ">
+               <name>Γυ</name>
+               <amount>6</amount>
+            </item>
+         </item>
+         <item id="Δ">
+            <name>Δ</name>
+            <amount>116</amount>
+            <item id="Δ ">
+               <name>Δ </name>
+               <amount>3</amount>
+            </item>
+            <item id="Δα">
+               <name>Δα</name>
+               <amount>14</amount>
+            </item>
+            <item id="Δε">
+               <name>Δε</name>
+               <amount>4</amount>
+            </item>
+            <item id="Δη">
+               <name>Δη</name>
+               <amount>11</amount>
+            </item>
+            <item id="Δι">
+               <name>Δι</name>
+               <amount>57</amount>
+            </item>
+            <item id="Δο">
+               <name>Δο</name>
+               <amount>6</amount>
+            </item>
+            <item id="Δρ">
+               <name>Δρ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Δυ">
+               <name>Δυ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Δω">
+               <name>Δω</name>
+               <amount>10</amount>
+            </item>
+         </item>
+         <item id="Ε">
+            <name>Ε</name>
+            <amount>174</amount>
+            <item id="Ε ">
+               <name>Ε </name>
+               <amount>2</amount>
+            </item>
+            <item id="Εβ">
+               <name>Εβ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Εγ">
+               <name>Εγ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εδ">
+               <name>Εδ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εθ">
+               <name>Εθ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ει">
+               <name>Ει</name>
+               <amount>11</amount>
+            </item>
+            <item id="Εκ">
+               <name>Εκ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ελ">
+               <name>Ελ</name>
+               <amount>25</amount>
+            </item>
+            <item id="Εμ">
+               <name>Εμ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Εν">
+               <name>Εν</name>
+               <amount>8</amount>
+            </item>
+            <item id="Εξ">
+               <name>Εξ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Επ">
+               <name>Επ</name>
+               <amount>17</amount>
+            </item>
+            <item id="Ερ">
+               <name>Ερ</name>
+               <amount>58</amount>
+            </item>
+            <item id="Εσ">
+               <name>Εσ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ετ">
+               <name>Ετ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ευ">
+               <name>Ευ</name>
+               <amount>27</amount>
+            </item>
+            <item id="Εφ">
+               <name>Εφ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Εψ">
+               <name>Εψ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ζ">
+            <name>Ζ</name>
+            <amount>16</amount>
+            <item id="Ζ ">
+               <name>Ζ </name>
+               <amount>1</amount>
+            </item>
+            <item id="Ζα">
+               <name>Ζα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ζε">
+               <name>Ζε</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ζη">
+               <name>Ζη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ζι">
+               <name>Ζι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ζμ">
+               <name>Ζμ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ζο">
+               <name>Ζο</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ζω">
+               <name>Ζω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Η">
+            <name>Η</name>
+            <amount>62</amount>
+            <item id="Η ">
+               <name>Η </name>
+               <amount>2</amount>
+            </item>
+            <item id="Ηγ">
+               <name>Ηγ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ηι">
+               <name>Ηι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηλ">
+               <name>Ηλ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Ημ">
+               <name>Ημ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ην">
+               <name>Ην</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηρ">
+               <name>Ηρ</name>
+               <amount>40</amount>
+            </item>
+            <item id="Ησ">
+               <name>Ησ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηφ">
+               <name>Ηφ</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Θ">
+            <name>Θ</name>
+            <amount>157</amount>
+            <item id="Θ ">
+               <name>Θ </name>
+               <amount>2</amount>
+            </item>
+            <item id="Θα">
+               <name>Θα</name>
+               <amount>15</amount>
+            </item>
+            <item id="Θε">
+               <name>Θε</name>
+               <amount>60</amount>
+            </item>
+            <item id="Θη">
+               <name>Θη</name>
+               <amount>12</amount>
+            </item>
+            <item id="Θι">
+               <name>Θι</name>
+               <amount>4</amount>
+            </item>
+            <item id="Θμ">
+               <name>Θμ</name>
+               <amount>37</amount>
+            </item>
+            <item id="Θο">
+               <name>Θο</name>
+               <amount>6</amount>
+            </item>
+            <item id="Θρ">
+               <name>Θρ</name>
+               <amount>9</amount>
+            </item>
+            <item id="Θυ">
+               <name>Θυ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Θφ">
+               <name>Θφ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Θω">
+               <name>Θω</name>
+               <amount>8</amount>
+            </item>
+         </item>
+         <item id="Ι">
+            <name>Ι</name>
+            <amount>149</amount>
+            <item id="Ι ">
+               <name>Ι </name>
+               <amount>2</amount>
+            </item>
+            <item id="Ια">
+               <name>Ια</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ιβ">
+               <name>Ιβ</name>
+               <amount>36</amount>
+            </item>
+            <item id="Ιγ">
+               <name>Ιγ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιδ">
+               <name>Ιδ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ιε">
+               <name>Ιε</name>
+               <amount>28</amount>
+            </item>
+            <item id="Ιζ">
+               <name>Ιζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιη">
+               <name>Ιη</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ικ">
+               <name>Ικ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιλ">
+               <name>Ιλ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ιμ">
+               <name>Ιμ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιο">
+               <name>Ιο</name>
+               <amount>10</amount>
+            </item>
+            <item id="Ιπ">
+               <name>Ιπ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ις">
+               <name>Ις</name>
+               <amount>41</amount>
+            </item>
+            <item id="Ιτ">
+               <name>Ιτ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ιχ">
+               <name>Ιχ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιω">
+               <name>Ιω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Κ">
+            <name>Κ</name>
+            <amount>316</amount>
+            <item id="Κ ">
+               <name>Κ </name>
+               <amount>1</amount>
+            </item>
+            <item id="Κ.">
+               <name>Κ.</name>
+               <amount>3</amount>
+            </item>
+            <item id="Κα">
+               <name>Κα</name>
+               <amount>106</amount>
+            </item>
+            <item id="Κε">
+               <name>Κε</name>
+               <amount>54</amount>
+            </item>
+            <item id="Κη">
+               <name>Κη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Κι">
+               <name>Κι</name>
+               <amount>12</amount>
+            </item>
+            <item id="Κλ">
+               <name>Κλ</name>
+               <amount>19</amount>
+            </item>
+            <item id="Κμ">
+               <name>Κμ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Κν">
+               <name>Κν</name>
+               <amount>2</amount>
+            </item>
+            <item id="Κο">
+               <name>Κο</name>
+               <amount>49</amount>
+            </item>
+            <item id="Κρ">
+               <name>Κρ</name>
+               <amount>25</amount>
+            </item>
+            <item id="Κτ">
+               <name>Κτ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Κυ">
+               <name>Κυ</name>
+               <amount>25</amount>
+            </item>
+            <item id="Κω">
+               <name>Κω</name>
+               <amount>14</amount>
+            </item>
+         </item>
+         <item id="Λ">
+            <name>Λ</name>
+            <amount>108</amount>
+            <item id="Λα">
+               <name>Λα</name>
+               <amount>25</amount>
+            </item>
+            <item id="Λε">
+               <name>Λε</name>
+               <amount>23</amount>
+            </item>
+            <item id="Λη">
+               <name>Λη</name>
+               <amount>11</amount>
+            </item>
+            <item id="Λι">
+               <name>Λι</name>
+               <amount>19</amount>
+            </item>
+            <item id="Λο">
+               <name>Λο</name>
+               <amount>10</amount>
+            </item>
+            <item id="Λυ">
+               <name>Λυ</name>
+               <amount>18</amount>
+            </item>
+            <item id="Λω">
+               <name>Λω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Μ">
+            <name>Μ</name>
+            <amount>244</amount>
+            <item id="Μα">
+               <name>Μα</name>
+               <amount>79</amount>
+            </item>
+            <item id="Με">
+               <name>Με</name>
+               <amount>67</amount>
+            </item>
+            <item id="Μη">
+               <name>Μη</name>
+               <amount>8</amount>
+            </item>
+            <item id="Μι">
+               <name>Μι</name>
+               <amount>19</amount>
+            </item>
+            <item id="Μμ">
+               <name>Μμ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Μν">
+               <name>Μν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Μο">
+               <name>Μο</name>
+               <amount>47</amount>
+            </item>
+            <item id="Μυ">
+               <name>Μυ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Μω">
+               <name>Μω</name>
+               <amount>11</amount>
+            </item>
+         </item>
+         <item id="Ν">
+            <name>Ν</name>
+            <amount>130</amount>
+            <item id="Να">
+               <name>Να</name>
+               <amount>16</amount>
+            </item>
+            <item id="Νε">
+               <name>Νε</name>
+               <amount>59</amount>
+            </item>
+            <item id="Νη">
+               <name>Νη</name>
+               <amount>13</amount>
+            </item>
+            <item id="Νι">
+               <name>Νι</name>
+               <amount>18</amount>
+            </item>
+            <item id="Νο">
+               <name>Νο</name>
+               <amount>18</amount>
+            </item>
+            <item id="Νυ">
+               <name>Νυ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Νω">
+               <name>Νω</name>
+               <amount>4</amount>
+            </item>
+         </item>
+         <item id="Ξ">
+            <name>Ξ</name>
+            <amount>8</amount>
+            <item id="Ξα">
+               <name>Ξα</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ξε">
+               <name>Ξε</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ξη">
+               <name>Ξη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ξο">
+               <name>Ξο</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ο">
+            <name>Ο</name>
+            <amount>85</amount>
+            <item id="Οα">
+               <name>Οα</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ογ">
+               <name>Ογ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Οι">
+               <name>Οι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Οκ">
+               <name>Οκ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ολ">
+               <name>Ολ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ομ">
+               <name>Ομ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ον">
+               <name>Ον</name>
+               <amount>13</amount>
+            </item>
+            <item id="Οξ">
+               <name>Οξ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Οπ">
+               <name>Οπ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ορ">
+               <name>Ορ</name>
+               <amount>9</amount>
+            </item>
+            <item id="Οσ">
+               <name>Οσ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Οτ">
+               <name>Οτ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ου">
+               <name>Ου</name>
+               <amount>8</amount>
+            </item>
+            <item id="Οφ">
+               <name>Οφ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Π">
+            <name>Π</name>
+            <amount>607</amount>
+            <item id="Π ">
+               <name>Π </name>
+               <amount>2</amount>
+            </item>
+            <item id="Πα">
+               <name>Πα</name>
+               <amount>166</amount>
+            </item>
+            <item id="Πβ">
+               <name>Πβ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Πδ">
+               <name>Πδ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πε">
+               <name>Πε</name>
+               <amount>128</amount>
+            </item>
+            <item id="Πζ">
+               <name>Πζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πη">
+               <name>Πη</name>
+               <amount>8</amount>
+            </item>
+            <item id="Πι">
+               <name>Πι</name>
+               <amount>49</amount>
+            </item>
+            <item id="Πκ">
+               <name>Πκ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Πλ">
+               <name>Πλ</name>
+               <amount>16</amount>
+            </item>
+            <item id="Πμ">
+               <name>Πμ</name>
+               <amount>82</amount>
+            </item>
+            <item id="Πν">
+               <name>Πν</name>
+               <amount>6</amount>
+            </item>
+            <item id="Πο">
+               <name>Πο</name>
+               <amount>58</amount>
+            </item>
+            <item id="Πρ">
+               <name>Πρ</name>
+               <amount>23</amount>
+            </item>
+            <item id="Πσ">
+               <name>Πσ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Πτ">
+               <name>Πτ</name>
+               <amount>35</amount>
+            </item>
+            <item id="Πυ">
+               <name>Πυ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Πχ">
+               <name>Πχ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πω">
+               <name>Πω</name>
+               <amount>5</amount>
+            </item>
+            <item id="Πϣ">
+               <name>Πϣ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πϭ">
+               <name>Πϭ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Ρ">
+            <name>Ρ</name>
+            <amount>24</amount>
+            <item id="Ρα">
+               <name>Ρα</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ρε">
+               <name>Ρε</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ρι">
+               <name>Ρι</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ρο">
+               <name>Ρο</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ρω">
+               <name>Ρω</name>
+               <amount>7</amount>
+            </item>
+         </item>
+         <item id="Σ">
+            <name>Σ</name>
+            <amount>313</amount>
+            <item id="Σ ">
+               <name>Σ </name>
+               <amount>2</amount>
+            </item>
+            <item id="Σα">
+               <name>Σα</name>
+               <amount>58</amount>
+            </item>
+            <item id="Σε">
+               <name>Σε</name>
+               <amount>93</amount>
+            </item>
+            <item id="Ση">
+               <name>Ση</name>
+               <amount>5</amount>
+            </item>
+            <item id="Σι">
+               <name>Σι</name>
+               <amount>38</amount>
+            </item>
+            <item id="Σκ">
+               <name>Σκ</name>
+               <amount>21</amount>
+            </item>
+            <item id="Σλ">
+               <name>Σλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σμ">
+               <name>Σμ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Σο">
+               <name>Σο</name>
+               <amount>20</amount>
+            </item>
+            <item id="Σπ">
+               <name>Σπ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Στ">
+               <name>Στ</name>
+               <amount>19</amount>
+            </item>
+            <item id="Συ">
+               <name>Συ</name>
+               <amount>24</amount>
+            </item>
+            <item id="Σφ">
+               <name>Σφ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Σχ">
+               <name>Σχ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Σω">
+               <name>Σω</name>
+               <amount>16</amount>
+            </item>
+         </item>
+         <item id="Τ">
+            <name>Τ</name>
+            <amount>355</amount>
+            <item id="Τα">
+               <name>Τα</name>
+               <amount>116</amount>
+            </item>
+            <item id="Τβ">
+               <name>Τβ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Τε">
+               <name>Τε</name>
+               <amount>91</amount>
+            </item>
+            <item id="Τζ">
+               <name>Τζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τη">
+               <name>Τη</name>
+               <amount>8</amount>
+            </item>
+            <item id="Τι">
+               <name>Τι</name>
+               <amount>23</amount>
+            </item>
+            <item id="Τκ">
+               <name>Τκ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Τλ">
+               <name>Τλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τμ">
+               <name>Τμ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Τν">
+               <name>Τν</name>
+               <amount>3</amount>
+            </item>
+            <item id="Το">
+               <name>Το</name>
+               <amount>36</amount>
+            </item>
+            <item id="Τπ">
+               <name>Τπ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τρ">
+               <name>Τρ</name>
+               <amount>29</amount>
+            </item>
+            <item id="Τσ">
+               <name>Τσ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Τυ">
+               <name>Τυ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Τχ">
+               <name>Τχ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Τω">
+               <name>Τω</name>
+               <amount>7</amount>
+            </item>
+            <item id="Τϣ">
+               <name>Τϣ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Υ">
+            <name>Υ</name>
+            <amount>9</amount>
+            <item id="Υδ">
+               <name>Υδ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Υι">
+               <name>Υι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Υλ">
+               <name>Υλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Υν">
+               <name>Υν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Υπ">
+               <name>Υπ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Υψ">
+               <name>Υψ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Φ">
+            <name>Φ</name>
+            <amount>143</amount>
+            <item id="Φ.">
+               <name>Φ.</name>
+               <amount>2</amount>
+            </item>
+            <item id="Φα">
+               <name>Φα</name>
+               <amount>38</amount>
+            </item>
+            <item id="Φβ">
+               <name>Φβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φε">
+               <name>Φε</name>
+               <amount>18</amount>
+            </item>
+            <item id="Φη">
+               <name>Φη</name>
+               <amount>2</amount>
+            </item>
+            <item id="Φθ">
+               <name>Φθ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Φι">
+               <name>Φι</name>
+               <amount>36</amount>
+            </item>
+            <item id="Φλ">
+               <name>Φλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φν">
+               <name>Φν</name>
+               <amount>6</amount>
+            </item>
+            <item id="Φο">
+               <name>Φο</name>
+               <amount>14</amount>
+            </item>
+            <item id="Φρ">
+               <name>Φρ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Φυ">
+               <name>Φυ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Φω">
+               <name>Φω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Χ">
+            <name>Χ</name>
+            <amount>77</amount>
+            <item id="Χα">
+               <name>Χα</name>
+               <amount>37</amount>
+            </item>
+            <item id="Χβ">
+               <name>Χβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Χε">
+               <name>Χε</name>
+               <amount>4</amount>
+            </item>
+            <item id="Χη">
+               <name>Χη</name>
+               <amount>10</amount>
+            </item>
+            <item id="Χθ">
+               <name>Χθ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Χι">
+               <name>Χι</name>
+               <amount>5</amount>
+            </item>
+            <item id="Χο">
+               <name>Χο</name>
+               <amount>5</amount>
+            </item>
+            <item id="Χρ">
+               <name>Χρ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Χυ">
+               <name>Χυ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Χω">
+               <name>Χω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ψ">
+            <name>Ψ</name>
+            <amount>95</amount>
+            <item id="Ψα">
+               <name>Ψα</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ψε">
+               <name>Ψε</name>
+               <amount>32</amount>
+            </item>
+            <item id="Ψι">
+               <name>Ψι</name>
+               <amount>21</amount>
+            </item>
+            <item id="Ψο">
+               <name>Ψο</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ψσ">
+               <name>Ψσ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ψυ">
+               <name>Ψυ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ψω">
+               <name>Ψω</name>
+               <amount>17</amount>
+            </item>
+         </item>
+         <item id="Ω">
+            <name>Ω</name>
+            <amount>11</amount>
+            <item id="Ωρ">
+               <name>Ωρ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ωσ">
+               <name>Ωσ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωφ">
+               <name>Ωφ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+      </item>
+      <item id="monthsDays">
+         <amount>97</amount>
+         <item id="Α">
+            <name>Α</name>
+            <amount>12</amount>
+            <item id="Αγ">
+               <name>Αγ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Αδ">
+               <name>Αδ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Αθ">
+               <name>Αθ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Απ">
+               <name>Απ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Αρ">
+               <name>Αρ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Αυ">
+               <name>Αυ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Αφ">
+               <name>Αφ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Β">
+            <name>Β</name>
+            <amount>2</amount>
+            <item id="Βα">
+               <name>Βα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Βε">
+               <name>Βε</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Γ">
+            <name>Γ</name>
+            <amount>3</amount>
+            <item id="Γε">
+               <name>Γε</name>
+               <amount>2</amount>
+            </item>
+            <item id="Γο">
+               <name>Γο</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Δ">
+            <name>Δ</name>
+            <amount>10</amount>
+            <item id="Δα">
+               <name>Δα</name>
+               <amount>2</amount>
+            </item>
+            <item id="Δε">
+               <name>Δε</name>
+               <amount>1</amount>
+            </item>
+            <item id="Δι">
+               <name>Δι</name>
+               <amount>4</amount>
+            </item>
+            <item id="Δο">
+               <name>Δο</name>
+               <amount>1</amount>
+            </item>
+            <item id="Δρ">
+               <name>Δρ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Δυ">
+               <name>Δυ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ε">
+            <name>Ε</name>
+            <amount>4</amount>
+            <item id="Ει">
+               <name>Ει</name>
+               <amount>1</amount>
+            </item>
+            <item id="Επ">
+               <name>Επ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Εφ">
+               <name>Εφ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ζ">
+            <name>Ζ</name>
+            <amount>1</amount>
+            <item id="Ζμ">
+               <name>Ζμ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Η">
+            <name>Η</name>
+            <amount>1</amount>
+            <item id="Ηρ">
+               <name>Ηρ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Θ">
+            <name>Θ</name>
+            <amount>5</amount>
+            <item id="Θα">
+               <name>Θα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Θε">
+               <name>Θε</name>
+               <amount>3</amount>
+            </item>
+            <item id="Θω">
+               <name>Θω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ι">
+            <name>Ι</name>
+            <amount>3</amount>
+            <item id="Ια">
+               <name>Ια</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιο">
+               <name>Ιο</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Κ">
+            <name>Κ</name>
+            <amount>4</amount>
+            <item id="Κα">
+               <name>Κα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Κυ">
+               <name>Κυ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Λ">
+            <name>Λ</name>
+            <amount>1</amount>
+            <item id="Λω">
+               <name>Λω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Μ">
+            <name>Μ</name>
+            <amount>4</amount>
+            <item id="Μα">
+               <name>Μα</name>
+               <amount>2</amount>
+            </item>
+            <item id="Με">
+               <name>Με</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Ν">
+            <name>Ν</name>
+            <amount>8</amount>
+            <item id="Νε">
+               <name>Νε</name>
+               <amount>3</amount>
+            </item>
+            <item id="Νι">
+               <name>Νι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Νο">
+               <name>Νο</name>
+               <amount>3</amount>
+            </item>
+            <item id="Νω">
+               <name>Νω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ξ">
+            <name>Ξ</name>
+            <amount>3</amount>
+            <item id="Ξα">
+               <name>Ξα</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Ο">
+            <name>Ο</name>
+            <amount>3</amount>
+            <item id="Οκ">
+               <name>Οκ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ολ">
+               <name>Ολ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Π">
+            <name>Π</name>
+            <amount>10</amount>
+            <item id="Πα">
+               <name>Πα</name>
+               <amount>5</amount>
+            </item>
+            <item id="Πε">
+               <name>Πε</name>
+               <amount>3</amount>
+            </item>
+            <item id="Πρ">
+               <name>Πρ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Ρ">
+            <name>Ρ</name>
+            <amount>1</amount>
+            <item id="Ρα">
+               <name>Ρα</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Σ">
+            <name>Σ</name>
+            <amount>13</amount>
+            <item id="Σα">
+               <name>Σα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Σε">
+               <name>Σε</name>
+               <amount>5</amount>
+            </item>
+            <item id="Σμ">
+               <name>Σμ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Στ">
+               <name>Στ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σω">
+               <name>Σω</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Τ">
+            <name>Τ</name>
+            <amount>2</amount>
+            <item id="Τε">
+               <name>Τε</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τυ">
+               <name>Τυ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Υ">
+            <name>Υ</name>
+            <amount>2</amount>
+            <item id="Υα">
+               <name>Υα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Υπ">
+               <name>Υπ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Φ">
+            <name>Φ</name>
+            <amount>4</amount>
+            <item id="Φα">
+               <name>Φα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Φε">
+               <name>Φε</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Χ">
+            <name>Χ</name>
+            <amount>1</amount>
+            <item id="Χο">
+               <name>Χο</name>
+               <amount>1</amount>
+            </item>
+         </item>
+      </item>
+      <item id="persons">
+         <amount>12972</amount>
+         <item id=" ">
+            <name> </name>
+            <amount>1</amount>
+            <item id=" ρ">
+               <name> ρ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="-">
+            <name>-</name>
+            <amount>1</amount>
+            <item id="-ε">
+               <name>-ε</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="]">
+            <name>]</name>
+            <amount>25</amount>
+            <item id="] ">
+               <name>] </name>
+               <amount>2</amount>
+            </item>
+            <item id="].">
+               <name>].</name>
+               <amount>1</amount>
+            </item>
+            <item id="]α">
+               <name>]α</name>
+               <amount>4</amount>
+            </item>
+            <item id="]δ">
+               <name>]δ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]ε">
+               <name>]ε</name>
+               <amount>3</amount>
+            </item>
+            <item id="]ζ">
+               <name>]ζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]η">
+               <name>]η</name>
+               <amount>1</amount>
+            </item>
+            <item id="]θ">
+               <name>]θ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]λ">
+               <name>]λ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]μ">
+               <name>]μ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]ν">
+               <name>]ν</name>
+               <amount>2</amount>
+            </item>
+            <item id="]ο">
+               <name>]ο</name>
+               <amount>1</amount>
+            </item>
+            <item id="]π">
+               <name>]π</name>
+               <amount>2</amount>
+            </item>
+            <item id="]ρ">
+               <name>]ρ</name>
+               <amount>2</amount>
+            </item>
+            <item id="]τ">
+               <name>]τ</name>
+               <amount>1</amount>
+            </item>
+            <item id="]ω">
+               <name>]ω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="¥">
+            <name>¥</name>
+            <amount>1</amount>
+            <item id="¥π">
+               <name>¥π</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Α">
+            <name>Α</name>
+            <amount>1914</amount>
+            <item id="Α ">
+               <name>Α </name>
+               <amount>3</amount>
+            </item>
+            <item id="Α.">
+               <name>Α.</name>
+               <amount>3</amount>
+            </item>
+            <item id="Α[">
+               <name>Α[</name>
+               <amount>2</amount>
+            </item>
+            <item id="Αα">
+               <name>Αα</name>
+               <amount>7</amount>
+            </item>
+            <item id="Αβ">
+               <name>Αβ</name>
+               <amount>128</amount>
+            </item>
+            <item id="Αγ">
+               <name>Αγ</name>
+               <amount>82</amount>
+            </item>
+            <item id="Αδ">
+               <name>Αδ</name>
+               <amount>15</amount>
+            </item>
+            <item id="Αε">
+               <name>Αε</name>
+               <amount>14</amount>
+            </item>
+            <item id="Αζ">
+               <name>Αζ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Αη">
+               <name>Αη</name>
+               <amount>3</amount>
+            </item>
+            <item id="Αθ">
+               <name>Αθ</name>
+               <amount>40</amount>
+            </item>
+            <item id="Αι">
+               <name>Αι</name>
+               <amount>77</amount>
+            </item>
+            <item id="Ακ">
+               <name>Ακ</name>
+               <amount>82</amount>
+            </item>
+            <item id="Αλ">
+               <name>Αλ</name>
+               <amount>123</amount>
+            </item>
+            <item id="Αμ">
+               <name>Αμ</name>
+               <amount>175</amount>
+            </item>
+            <item id="Αν">
+               <name>Αν</name>
+               <amount>229</amount>
+            </item>
+            <item id="Αο">
+               <name>Αο</name>
+               <amount>8</amount>
+            </item>
+            <item id="Απ">
+               <name>Απ</name>
+               <amount>216</amount>
+            </item>
+            <item id="Αρ">
+               <name>Αρ</name>
+               <amount>436</amount>
+            </item>
+            <item id="Ασ">
+               <name>Ασ</name>
+               <amount>90</amount>
+            </item>
+            <item id="Ατ">
+               <name>Ατ</name>
+               <amount>56</amount>
+            </item>
+            <item id="Αυ">
+               <name>Αυ</name>
+               <amount>55</amount>
+            </item>
+            <item id="Αφ">
+               <name>Αφ</name>
+               <amount>41</amount>
+            </item>
+            <item id="Αχ">
+               <name>Αχ</name>
+               <amount>19</amount>
+            </item>
+            <item id="Αψ">
+               <name>Αψ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Αω">
+               <name>Αω</name>
+               <amount>2</amount>
+            </item>
+            <item id="Αϭ">
+               <name>Αϭ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Β">
+            <name>Β</name>
+            <amount>281</amount>
+            <item id="Β.">
+               <name>Β.</name>
+               <amount>1</amount>
+            </item>
+            <item id="Βα">
+               <name>Βα</name>
+               <amount>119</amount>
+            </item>
+            <item id="Βε">
+               <name>Βε</name>
+               <amount>38</amount>
+            </item>
+            <item id="Βη">
+               <name>Βη</name>
+               <amount>26</amount>
+            </item>
+            <item id="Βι">
+               <name>Βι</name>
+               <amount>29</amount>
+            </item>
+            <item id="Βλ">
+               <name>Βλ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Βο">
+               <name>Βο</name>
+               <amount>50</amount>
+            </item>
+            <item id="Βρ">
+               <name>Βρ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Βυ">
+               <name>Βυ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Βω">
+               <name>Βω</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="Γ">
+            <name>Γ</name>
+            <amount>130</amount>
+            <item id="Γα">
+               <name>Γα</name>
+               <amount>34</amount>
+            </item>
+            <item id="Γε">
+               <name>Γε</name>
+               <amount>54</amount>
+            </item>
+            <item id="Γη">
+               <name>Γη</name>
+               <amount>3</amount>
+            </item>
+            <item id="Γι">
+               <name>Γι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Γλ">
+               <name>Γλ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Γν">
+               <name>Γν</name>
+               <amount>2</amount>
+            </item>
+            <item id="Γο">
+               <name>Γο</name>
+               <amount>17</amount>
+            </item>
+            <item id="Γρ">
+               <name>Γρ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Γυ">
+               <name>Γυ</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Δ">
+            <name>Δ</name>
+            <amount>354</amount>
+            <item id="Δα">
+               <name>Δα</name>
+               <amount>65</amount>
+            </item>
+            <item id="Δε">
+               <name>Δε</name>
+               <amount>33</amount>
+            </item>
+            <item id="Δη">
+               <name>Δη</name>
+               <amount>38</amount>
+            </item>
+            <item id="Δι">
+               <name>Δι</name>
+               <amount>145</amount>
+            </item>
+            <item id="Δο">
+               <name>Δο</name>
+               <amount>27</amount>
+            </item>
+            <item id="Δρ">
+               <name>Δρ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Δυ">
+               <name>Δυ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Δω">
+               <name>Δω</name>
+               <amount>28</amount>
+            </item>
+         </item>
+         <item id="Ε">
+            <name>Ε</name>
+            <amount>574</amount>
+            <item id="Ε ">
+               <name>Ε </name>
+               <amount>2</amount>
+            </item>
+            <item id="Ε.">
+               <name>Ε.</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ε[">
+               <name>Ε[</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εα">
+               <name>Εα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εβ">
+               <name>Εβ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Εγ">
+               <name>Εγ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Εζ">
+               <name>Εζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εθ">
+               <name>Εθ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ει">
+               <name>Ει</name>
+               <amount>35</amount>
+            </item>
+            <item id="Εκ">
+               <name>Εκ</name>
+               <amount>16</amount>
+            </item>
+            <item id="Ελ">
+               <name>Ελ</name>
+               <amount>52</amount>
+            </item>
+            <item id="Εμ">
+               <name>Εμ</name>
+               <amount>12</amount>
+            </item>
+            <item id="Εν">
+               <name>Εν</name>
+               <amount>14</amount>
+            </item>
+            <item id="Εξ">
+               <name>Εξ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Εο">
+               <name>Εο</name>
+               <amount>1</amount>
+            </item>
+            <item id="Επ">
+               <name>Επ</name>
+               <amount>48</amount>
+            </item>
+            <item id="Ερ">
+               <name>Ερ</name>
+               <amount>139</amount>
+            </item>
+            <item id="Εσ">
+               <name>Εσ</name>
+               <amount>37</amount>
+            </item>
+            <item id="Ετ">
+               <name>Ετ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ευ">
+               <name>Ευ</name>
+               <amount>178</amount>
+            </item>
+            <item id="Εφ">
+               <name>Εφ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Εψ">
+               <name>Εψ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Εω">
+               <name>Εω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Ζ">
+            <name>Ζ</name>
+            <amount>86</amount>
+            <item id="Ζα">
+               <name>Ζα</name>
+               <amount>23</amount>
+            </item>
+            <item id="Ζε">
+               <name>Ζε</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ζη">
+               <name>Ζη</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ζι">
+               <name>Ζι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ζμ">
+               <name>Ζμ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ζν">
+               <name>Ζν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ζο">
+               <name>Ζο</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ζω">
+               <name>Ζω</name>
+               <amount>18</amount>
+            </item>
+         </item>
+         <item id="Η">
+            <name>Η</name>
+            <amount>159</amount>
+            <item id="Ηβ">
+               <name>Ηβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηγ">
+               <name>Ηγ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ηδ">
+               <name>Ηδ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ηε">
+               <name>Ηε</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ηι">
+               <name>Ηι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηκ">
+               <name>Ηκ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηλ">
+               <name>Ηλ</name>
+               <amount>19</amount>
+            </item>
+            <item id="Ημ">
+               <name>Ημ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ην">
+               <name>Ην</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ηο">
+               <name>Ηο</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ηπ">
+               <name>Ηπ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ηρ">
+               <name>Ηρ</name>
+               <amount>97</amount>
+            </item>
+            <item id="Ησ">
+               <name>Ησ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ητ">
+               <name>Ητ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηυ">
+               <name>Ηυ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ηφ">
+               <name>Ηφ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ηω">
+               <name>Ηω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Θ">
+            <name>Θ</name>
+            <amount>447</amount>
+            <item id="Θ[">
+               <name>Θ[</name>
+               <amount>2</amount>
+            </item>
+            <item id="Θα">
+               <name>Θα</name>
+               <amount>116</amount>
+            </item>
+            <item id="Θε">
+               <name>Θε</name>
+               <amount>185</amount>
+            </item>
+            <item id="Θζ">
+               <name>Θζ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Θη">
+               <name>Θη</name>
+               <amount>15</amount>
+            </item>
+            <item id="Θι">
+               <name>Θι</name>
+               <amount>41</amount>
+            </item>
+            <item id="Θλ">
+               <name>Θλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Θμ">
+               <name>Θμ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Θν">
+               <name>Θν</name>
+               <amount>4</amount>
+            </item>
+            <item id="Θο">
+               <name>Θο</name>
+               <amount>48</amount>
+            </item>
+            <item id="Θρ">
+               <name>Θρ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Θυ">
+               <name>Θυ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Θω">
+               <name>Θω</name>
+               <amount>10</amount>
+            </item>
+         </item>
+         <item id="Ι">
+            <name>Ι</name>
+            <amount>319</amount>
+            <item id="Ι.">
+               <name>Ι.</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ια">
+               <name>Ια</name>
+               <amount>53</amount>
+            </item>
+            <item id="Ιβ">
+               <name>Ιβ</name>
+               <amount>9</amount>
+            </item>
+            <item id="Ιγ">
+               <name>Ιγ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ιε">
+               <name>Ιε</name>
+               <amount>40</amount>
+            </item>
+            <item id="Ιη">
+               <name>Ιη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιθ">
+               <name>Ιθ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ικ">
+               <name>Ικ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ιλ">
+               <name>Ιλ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Ιμ">
+               <name>Ιμ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ιν">
+               <name>Ιν</name>
+               <amount>12</amount>
+            </item>
+            <item id="Ιο">
+               <name>Ιο</name>
+               <amount>48</amount>
+            </item>
+            <item id="Ιπ">
+               <name>Ιπ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Ιρ">
+               <name>Ιρ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Ισ">
+               <name>Ισ</name>
+               <amount>63</amount>
+            </item>
+            <item id="Ιτ">
+               <name>Ιτ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιχ">
+               <name>Ιχ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ιω">
+               <name>Ιω</name>
+               <amount>34</amount>
+            </item>
+         </item>
+         <item id="Κ">
+            <name>Κ</name>
+            <amount>970</amount>
+            <item id="Κ[">
+               <name>Κ[</name>
+               <amount>2</amount>
+            </item>
+            <item id="Κα">
+               <name>Κα</name>
+               <amount>344</amount>
+            </item>
+            <item id="Κβ">
+               <name>Κβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Κε">
+               <name>Κε</name>
+               <amount>96</amount>
+            </item>
+            <item id="Κη">
+               <name>Κη</name>
+               <amount>13</amount>
+            </item>
+            <item id="Κι">
+               <name>Κι</name>
+               <amount>37</amount>
+            </item>
+            <item id="Κλ">
+               <name>Κλ</name>
+               <amount>63</amount>
+            </item>
+            <item id="Κμ">
+               <name>Κμ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Κο">
+               <name>Κο</name>
+               <amount>232</amount>
+            </item>
+            <item id="Κρ">
+               <name>Κρ</name>
+               <amount>59</amount>
+            </item>
+            <item id="Κτ">
+               <name>Κτ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Κυ">
+               <name>Κυ</name>
+               <amount>65</amount>
+            </item>
+            <item id="Κω">
+               <name>Κω</name>
+               <amount>46</amount>
+            </item>
+         </item>
+         <item id="Λ">
+            <name>Λ</name>
+            <amount>363</amount>
+            <item id="Λα">
+               <name>Λα</name>
+               <amount>106</amount>
+            </item>
+            <item id="Λε">
+               <name>Λε</name>
+               <amount>66</amount>
+            </item>
+            <item id="Λη">
+               <name>Λη</name>
+               <amount>13</amount>
+            </item>
+            <item id="Λι">
+               <name>Λι</name>
+               <amount>35</amount>
+            </item>
+            <item id="Λο">
+               <name>Λο</name>
+               <amount>100</amount>
+            </item>
+            <item id="Λυ">
+               <name>Λυ</name>
+               <amount>30</amount>
+            </item>
+            <item id="Λω">
+               <name>Λω</name>
+               <amount>13</amount>
+            </item>
+         </item>
+         <item id="Μ">
+            <name>Μ</name>
+            <amount>596</amount>
+            <item id="Μ.">
+               <name>Μ.</name>
+               <amount>2</amount>
+            </item>
+            <item id="Μα">
+               <name>Μα</name>
+               <amount>244</amount>
+            </item>
+            <item id="Με">
+               <name>Με</name>
+               <amount>143</amount>
+            </item>
+            <item id="Μη">
+               <name>Μη</name>
+               <amount>28</amount>
+            </item>
+            <item id="Μι">
+               <name>Μι</name>
+               <amount>46</amount>
+            </item>
+            <item id="Μν">
+               <name>Μν</name>
+               <amount>13</amount>
+            </item>
+            <item id="Μο">
+               <name>Μο</name>
+               <amount>70</amount>
+            </item>
+            <item id="Μυ">
+               <name>Μυ</name>
+               <amount>29</amount>
+            </item>
+            <item id="Μω">
+               <name>Μω</name>
+               <amount>21</amount>
+            </item>
+         </item>
+         <item id="Ν">
+            <name>Ν</name>
+            <amount>383</amount>
+            <item id="Να">
+               <name>Να</name>
+               <amount>60</amount>
+            </item>
+            <item id="Νε">
+               <name>Νε</name>
+               <amount>159</amount>
+            </item>
+            <item id="Νη">
+               <name>Νη</name>
+               <amount>10</amount>
+            </item>
+            <item id="Νι">
+               <name>Νι</name>
+               <amount>85</amount>
+            </item>
+            <item id="Νο">
+               <name>Νο</name>
+               <amount>49</amount>
+            </item>
+            <item id="Νσ">
+               <name>Νσ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Νυ">
+               <name>Νυ</name>
+               <amount>12</amount>
+            </item>
+            <item id="Νω">
+               <name>Νω</name>
+               <amount>7</amount>
+            </item>
+         </item>
+         <item id="Ξ">
+            <name>Ξ</name>
+            <amount>23</amount>
+            <item id="Ξα">
+               <name>Ξα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ξε">
+               <name>Ξε</name>
+               <amount>17</amount>
+            </item>
+            <item id="Ξη">
+               <name>Ξη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ξι">
+               <name>Ξι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ξυ">
+               <name>Ξυ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ο">
+            <name>Ο</name>
+            <amount>339</amount>
+            <item id="Ο.">
+               <name>Ο.</name>
+               <amount>1</amount>
+            </item>
+            <item id="Οα">
+               <name>Οα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Οβ">
+               <name>Οβ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Ογ">
+               <name>Ογ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Οδ">
+               <name>Οδ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Οε">
+               <name>Οε</name>
+               <amount>1</amount>
+            </item>
+            <item id="Οθ">
+               <name>Οθ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Οι">
+               <name>Οι</name>
+               <amount>6</amount>
+            </item>
+            <item id="Οκ">
+               <name>Οκ</name>
+               <amount>9</amount>
+            </item>
+            <item id="Ολ">
+               <name>Ολ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Ομ">
+               <name>Ομ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ον">
+               <name>Ον</name>
+               <amount>35</amount>
+            </item>
+            <item id="Οξ">
+               <name>Οξ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Οπ">
+               <name>Οπ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ορ">
+               <name>Ορ</name>
+               <amount>55</amount>
+            </item>
+            <item id="Οσ">
+               <name>Οσ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Οτ">
+               <name>Οτ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ου">
+               <name>Ου</name>
+               <amount>151</amount>
+            </item>
+            <item id="Οφ">
+               <name>Οφ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Οψ">
+               <name>Οψ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Π">
+            <name>Π</name>
+            <amount>2429</amount>
+            <item id="Π(">
+               <name>Π(</name>
+               <amount>4</amount>
+            </item>
+            <item id="Π.">
+               <name>Π.</name>
+               <amount>1</amount>
+            </item>
+            <item id="Π[">
+               <name>Π[</name>
+               <amount>2</amount>
+            </item>
+            <item id="Πα">
+               <name>Πα</name>
+               <amount>1133</amount>
+            </item>
+            <item id="Πβ">
+               <name>Πβ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Πγ">
+               <name>Πγ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πδ">
+               <name>Πδ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Πε">
+               <name>Πε</name>
+               <amount>557</amount>
+            </item>
+            <item id="Πη">
+               <name>Πη</name>
+               <amount>8</amount>
+            </item>
+            <item id="Πι">
+               <name>Πι</name>
+               <amount>132</amount>
+            </item>
+            <item id="Πκ">
+               <name>Πκ</name>
+               <amount>33</amount>
+            </item>
+            <item id="Πλ">
+               <name>Πλ</name>
+               <amount>68</amount>
+            </item>
+            <item id="Πμ">
+               <name>Πμ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Πν">
+               <name>Πν</name>
+               <amount>24</amount>
+            </item>
+            <item id="Πο">
+               <name>Πο</name>
+               <amount>208</amount>
+            </item>
+            <item id="Ππ">
+               <name>Ππ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πρ">
+               <name>Πρ</name>
+               <amount>132</amount>
+            </item>
+            <item id="Πσ">
+               <name>Πσ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Πτ">
+               <name>Πτ</name>
+               <amount>50</amount>
+            </item>
+            <item id="Πυ">
+               <name>Πυ</name>
+               <amount>26</amount>
+            </item>
+            <item id="Πχ">
+               <name>Πχ</name>
+               <amount>11</amount>
+            </item>
+            <item id="Πω">
+               <name>Πω</name>
+               <amount>12</amount>
+            </item>
+            <item id="Πϫ">
+               <name>Πϫ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ρ">
+            <name>Ρ</name>
+            <amount>78</amount>
+            <item id="Ρα">
+               <name>Ρα</name>
+               <amount>14</amount>
+            </item>
+            <item id="Ρε">
+               <name>Ρε</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ρη">
+               <name>Ρη</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ρι">
+               <name>Ρι</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ρο">
+               <name>Ρο</name>
+               <amount>38</amount>
+            </item>
+            <item id="Ρω">
+               <name>Ρω</name>
+               <amount>11</amount>
+            </item>
+         </item>
+         <item id="Σ">
+            <name>Σ</name>
+            <amount>1228</amount>
+            <item id="Σ(">
+               <name>Σ(</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σ.">
+               <name>Σ.</name>
+               <amount>3</amount>
+            </item>
+            <item id="Σo">
+               <name>Σo</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σα">
+               <name>Σα</name>
+               <amount>260</amount>
+            </item>
+            <item id="Σβ">
+               <name>Σβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σγ">
+               <name>Σγ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Σε">
+               <name>Σε</name>
+               <amount>418</amount>
+            </item>
+            <item id="Σζ">
+               <name>Σζ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ση">
+               <name>Ση</name>
+               <amount>14</amount>
+            </item>
+            <item id="Σθ">
+               <name>Σθ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Σι">
+               <name>Σι</name>
+               <amount>123</amount>
+            </item>
+            <item id="Σκ">
+               <name>Σκ</name>
+               <amount>26</amount>
+            </item>
+            <item id="Σλ">
+               <name>Σλ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Σμ">
+               <name>Σμ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Σν">
+               <name>Σν</name>
+               <amount>4</amount>
+            </item>
+            <item id="Σο">
+               <name>Σο</name>
+               <amount>116</amount>
+            </item>
+            <item id="Σπ">
+               <name>Σπ</name>
+               <amount>27</amount>
+            </item>
+            <item id="Σρ">
+               <name>Σρ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Στ">
+               <name>Στ</name>
+               <amount>81</amount>
+            </item>
+            <item id="Συ">
+               <name>Συ</name>
+               <amount>31</amount>
+            </item>
+            <item id="Σφ">
+               <name>Σφ</name>
+               <amount>15</amount>
+            </item>
+            <item id="Σχ">
+               <name>Σχ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Σω">
+               <name>Σω</name>
+               <amount>81</amount>
+            </item>
+         </item>
+         <item id="Τ">
+            <name>Τ</name>
+            <amount>1116</amount>
+            <item id="Τα">
+               <name>Τα</name>
+               <amount>508</amount>
+            </item>
+            <item id="Τβ">
+               <name>Τβ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Τγ">
+               <name>Τγ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Τδ">
+               <name>Τδ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τε">
+               <name>Τε</name>
+               <amount>193</amount>
+            </item>
+            <item id="Τζ">
+               <name>Τζ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Τη">
+               <name>Τη</name>
+               <amount>20</amount>
+            </item>
+            <item id="Τι">
+               <name>Τι</name>
+               <amount>115</amount>
+            </item>
+            <item id="Τκ">
+               <name>Τκ</name>
+               <amount>32</amount>
+            </item>
+            <item id="Τλ">
+               <name>Τλ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Τμ">
+               <name>Τμ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Τν">
+               <name>Τν</name>
+               <amount>10</amount>
+            </item>
+            <item id="Το">
+               <name>Το</name>
+               <amount>67</amount>
+            </item>
+            <item id="Τπ">
+               <name>Τπ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τρ">
+               <name>Τρ</name>
+               <amount>56</amount>
+            </item>
+            <item id="Τσ">
+               <name>Τσ</name>
+               <amount>51</amount>
+            </item>
+            <item id="Τυ">
+               <name>Τυ</name>
+               <amount>13</amount>
+            </item>
+            <item id="Τφ">
+               <name>Τφ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Τχ">
+               <name>Τχ</name>
+               <amount>8</amount>
+            </item>
+            <item id="Τω">
+               <name>Τω</name>
+               <amount>13</amount>
+            </item>
+            <item id="Τϫ">
+               <name>Τϫ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τϭ">
+               <name>Τϭ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Υ">
+            <name>Υ</name>
+            <amount>37</amount>
+            <item id="Υα">
+               <name>Υα</name>
+               <amount>2</amount>
+            </item>
+            <item id="Υβ">
+               <name>Υβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Υγ">
+               <name>Υγ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Υι">
+               <name>Υι</name>
+               <amount>3</amount>
+            </item>
+            <item id="Υλ">
+               <name>Υλ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Υμ">
+               <name>Υμ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Υπ">
+               <name>Υπ</name>
+               <amount>14</amount>
+            </item>
+            <item id="Υρ">
+               <name>Υρ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Υψ">
+               <name>Υψ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Φ">
+            <name>Φ</name>
+            <amount>391</amount>
+            <item id="Φ.">
+               <name>Φ.</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φα">
+               <name>Φα</name>
+               <amount>143</amount>
+            </item>
+            <item id="Φβ">
+               <name>Φβ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φε">
+               <name>Φε</name>
+               <amount>22</amount>
+            </item>
+            <item id="Φη">
+               <name>Φη</name>
+               <amount>11</amount>
+            </item>
+            <item id="Φθ">
+               <name>Φθ</name>
+               <amount>17</amount>
+            </item>
+            <item id="Φι">
+               <name>Φι</name>
+               <amount>107</amount>
+            </item>
+            <item id="Φλ">
+               <name>Φλ</name>
+               <amount>19</amount>
+            </item>
+            <item id="Φμ">
+               <name>Φμ</name>
+               <amount>7</amount>
+            </item>
+            <item id="Φν">
+               <name>Φν</name>
+               <amount>4</amount>
+            </item>
+            <item id="Φο">
+               <name>Φο</name>
+               <amount>27</amount>
+            </item>
+            <item id="Φρ">
+               <name>Φρ</name>
+               <amount>16</amount>
+            </item>
+            <item id="Φυ">
+               <name>Φυ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Φχ">
+               <name>Φχ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φω">
+               <name>Φω</name>
+               <amount>10</amount>
+            </item>
+         </item>
+         <item id="Χ">
+            <name>Χ</name>
+            <amount>265</amount>
+            <item id="Χ ">
+               <name>Χ </name>
+               <amount>2</amount>
+            </item>
+            <item id="Χ[">
+               <name>Χ[</name>
+               <amount>1</amount>
+            </item>
+            <item id="Χα">
+               <name>Χα</name>
+               <amount>88</amount>
+            </item>
+            <item id="Χε">
+               <name>Χε</name>
+               <amount>54</amount>
+            </item>
+            <item id="Χη">
+               <name>Χη</name>
+               <amount>3</amount>
+            </item>
+            <item id="Χι">
+               <name>Χι</name>
+               <amount>10</amount>
+            </item>
+            <item id="Χλ">
+               <name>Χλ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Χν">
+               <name>Χν</name>
+               <amount>2</amount>
+            </item>
+            <item id="Χο">
+               <name>Χο</name>
+               <amount>27</amount>
+            </item>
+            <item id="Χρ">
+               <name>Χρ</name>
+               <amount>56</amount>
+            </item>
+            <item id="Χυ">
+               <name>Χυ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Χω">
+               <name>Χω</name>
+               <amount>14</amount>
+            </item>
+         </item>
+         <item id="Ψ">
+            <name>Ψ</name>
+            <amount>403</amount>
+            <item id="Ψα">
+               <name>Ψα</name>
+               <amount>57</amount>
+            </item>
+            <item id="Ψε">
+               <name>Ψε</name>
+               <amount>276</amount>
+            </item>
+            <item id="Ψη">
+               <name>Ψη</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ψι">
+               <name>Ψι</name>
+               <amount>29</amount>
+            </item>
+            <item id="Ψλ">
+               <name>Ψλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ψο">
+               <name>Ψο</name>
+               <amount>24</amount>
+            </item>
+            <item id="Ψυ">
+               <name>Ψυ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ψω">
+               <name>Ψω</name>
+               <amount>8</amount>
+            </item>
+         </item>
+         <item id="Ω">
+            <name>Ω</name>
+            <amount>58</amount>
+            <item id="Ωγ">
+               <name>Ωγ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωθ">
+               <name>Ωθ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωκ">
+               <name>Ωκ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ωλ">
+               <name>Ωλ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ων">
+               <name>Ων</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ωπ">
+               <name>Ωπ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωρ">
+               <name>Ωρ</name>
+               <amount>33</amount>
+            </item>
+            <item id="Ωσ">
+               <name>Ωσ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ωτ">
+               <name>Ωτ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ωφ">
+               <name>Ωφ</name>
+               <amount>7</amount>
+            </item>
+         </item>
+         <item id="὘">
+            <name>὘</name>
+            <amount>1</amount>
+            <item id="὘π">
+               <name>὘π</name>
+               <amount>1</amount>
+            </item>
+         </item>
+      </item>
+      <item id="religion">
+         <amount>376</amount>
+         <item id="Α">
+            <name>Α</name>
+            <amount>72</amount>
+            <item id="Αβ">
+               <name>Αβ</name>
+               <amount>6</amount>
+            </item>
+            <item id="Αγ">
+               <name>Αγ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Αδ">
+               <name>Αδ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Αθ">
+               <name>Αθ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Αι">
+               <name>Αι</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ακ">
+               <name>Ακ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Αλ">
+               <name>Αλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Αμ">
+               <name>Αμ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Αν">
+               <name>Αν</name>
+               <amount>6</amount>
+            </item>
+            <item id="Απ">
+               <name>Απ</name>
+               <amount>10</amount>
+            </item>
+            <item id="Αρ">
+               <name>Αρ</name>
+               <amount>16</amount>
+            </item>
+            <item id="Ασ">
+               <name>Ασ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ατ">
+               <name>Ατ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Αφ">
+               <name>Αφ</name>
+               <amount>4</amount>
+            </item>
+            <item id="Αχ">
+               <name>Αχ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Β">
+            <name>Β</name>
+            <amount>16</amount>
+            <item id="Βα">
+               <name>Βα</name>
+               <amount>7</amount>
+            </item>
+            <item id="Βε">
+               <name>Βε</name>
+               <amount>1</amount>
+            </item>
+            <item id="Βη">
+               <name>Βη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Βι">
+               <name>Βι</name>
+               <amount>2</amount>
+            </item>
+            <item id="Βλ">
+               <name>Βλ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Βο">
+               <name>Βο</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Γ">
+            <name>Γ</name>
+            <amount>6</amount>
+            <item id="Γα">
+               <name>Γα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Γε">
+               <name>Γε</name>
+               <amount>3</amount>
+            </item>
+            <item id="Γη">
+               <name>Γη</name>
+               <amount>1</amount>
+            </item>
+            <item id="Γρ">
+               <name>Γρ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Δ">
+            <name>Δ</name>
+            <amount>16</amount>
+            <item id="Δα">
+               <name>Δα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Δη">
+               <name>Δη</name>
+               <amount>4</amount>
+            </item>
+            <item id="Δι">
+               <name>Δι</name>
+               <amount>7</amount>
+            </item>
+            <item id="Δρ">
+               <name>Δρ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Ε">
+            <name>Ε</name>
+            <amount>23</amount>
+            <item id="Ει">
+               <name>Ει</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ελ">
+               <name>Ελ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Εν">
+               <name>Εν</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ερ">
+               <name>Ερ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Εσ">
+               <name>Εσ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ευ">
+               <name>Ευ</name>
+               <amount>7</amount>
+            </item>
+         </item>
+         <item id="Ζ">
+            <name>Ζ</name>
+            <amount>6</amount>
+            <item id="Ζα">
+               <name>Ζα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ζε">
+               <name>Ζε</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ζυ">
+               <name>Ζυ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ζω">
+               <name>Ζω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Η">
+            <name>Η</name>
+            <amount>8</amount>
+            <item id="Ηλ">
+               <name>Ηλ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ηρ">
+               <name>Ηρ</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ηφ">
+               <name>Ηφ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Θ">
+            <name>Θ</name>
+            <amount>12</amount>
+            <item id="Θε">
+               <name>Θε</name>
+               <amount>7</amount>
+            </item>
+            <item id="Θο">
+               <name>Θο</name>
+               <amount>4</amount>
+            </item>
+            <item id="Θω">
+               <name>Θω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ι">
+            <name>Ι</name>
+            <amount>44</amount>
+            <item id="Ια">
+               <name>Ια</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ιε">
+               <name>Ιε</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ιη">
+               <name>Ιη</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ιο">
+               <name>Ιο</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ισ">
+               <name>Ισ</name>
+               <amount>12</amount>
+            </item>
+            <item id="Ιχ">
+               <name>Ιχ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ιω">
+               <name>Ιω</name>
+               <amount>14</amount>
+            </item>
+         </item>
+         <item id="Κ">
+            <name>Κ</name>
+            <amount>20</amount>
+            <item id="Κα">
+               <name>Κα</name>
+               <amount>6</amount>
+            </item>
+            <item id="Κε">
+               <name>Κε</name>
+               <amount>1</amount>
+            </item>
+            <item id="Κλ">
+               <name>Κλ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Κο">
+               <name>Κο</name>
+               <amount>7</amount>
+            </item>
+            <item id="Κρ">
+               <name>Κρ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Κυ">
+               <name>Κυ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Λ">
+            <name>Λ</name>
+            <amount>8</amount>
+            <item id="Λα">
+               <name>Λα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Λε">
+               <name>Λε</name>
+               <amount>2</amount>
+            </item>
+            <item id="Λι">
+               <name>Λι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Λο">
+               <name>Λο</name>
+               <amount>1</amount>
+            </item>
+            <item id="Λυ">
+               <name>Λυ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Μ">
+            <name>Μ</name>
+            <amount>20</amount>
+            <item id="Μα">
+               <name>Μα</name>
+               <amount>7</amount>
+            </item>
+            <item id="Με">
+               <name>Με</name>
+               <amount>2</amount>
+            </item>
+            <item id="Μη">
+               <name>Μη</name>
+               <amount>2</amount>
+            </item>
+            <item id="Μι">
+               <name>Μι</name>
+               <amount>4</amount>
+            </item>
+            <item id="Μν">
+               <name>Μν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Μο">
+               <name>Μο</name>
+               <amount>4</amount>
+            </item>
+         </item>
+         <item id="Ν">
+            <name>Ν</name>
+            <amount>13</amount>
+            <item id="Νε">
+               <name>Νε</name>
+               <amount>9</amount>
+            </item>
+            <item id="Νι">
+               <name>Νι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Νο">
+               <name>Νο</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Ο">
+            <name>Ο</name>
+            <amount>9</amount>
+            <item id="Ολ">
+               <name>Ολ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Οσ">
+               <name>Οσ</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ου">
+               <name>Ου</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="Π">
+            <name>Π</name>
+            <amount>21</amount>
+            <item id="Πα">
+               <name>Πα</name>
+               <amount>7</amount>
+            </item>
+            <item id="Πε">
+               <name>Πε</name>
+               <amount>5</amount>
+            </item>
+            <item id="Πι">
+               <name>Πι</name>
+               <amount>4</amount>
+            </item>
+            <item id="Πο">
+               <name>Πο</name>
+               <amount>2</amount>
+            </item>
+            <item id="Πτ">
+               <name>Πτ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πυ">
+               <name>Πυ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Πχ">
+               <name>Πχ</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ρ">
+            <name>Ρ</name>
+            <amount>4</amount>
+            <item id="Ρα">
+               <name>Ρα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ρο">
+               <name>Ρο</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Σ">
+            <name>Σ</name>
+            <amount>43</amount>
+            <item id="Σα">
+               <name>Σα</name>
+               <amount>9</amount>
+            </item>
+            <item id="Σε">
+               <name>Σε</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ση">
+               <name>Ση</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σκ">
+               <name>Σκ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σο">
+               <name>Σο</name>
+               <amount>16</amount>
+            </item>
+            <item id="Στ">
+               <name>Στ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Συ">
+               <name>Συ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Σω">
+               <name>Σω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Τ">
+            <name>Τ</name>
+            <amount>8</amount>
+            <item id="Τα">
+               <name>Τα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τι">
+               <name>Τι</name>
+               <amount>1</amount>
+            </item>
+            <item id="Το">
+               <name>Το</name>
+               <amount>2</amount>
+            </item>
+            <item id="Τρ">
+               <name>Τρ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Τυ">
+               <name>Τυ</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Υ">
+            <name>Υ</name>
+            <amount>4</amount>
+            <item id="Υγ">
+               <name>Υγ</name>
+               <amount>2</amount>
+            </item>
+            <item id="Υδ">
+               <name>Υδ</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Φ">
+            <name>Φ</name>
+            <amount>14</amount>
+            <item id="Φα">
+               <name>Φα</name>
+               <amount>3</amount>
+            </item>
+            <item id="Φι">
+               <name>Φι</name>
+               <amount>3</amount>
+            </item>
+            <item id="Φν">
+               <name>Φν</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φο">
+               <name>Φο</name>
+               <amount>4</amount>
+            </item>
+            <item id="Φρ">
+               <name>Φρ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Φω">
+               <name>Φω</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="Χ">
+            <name>Χ</name>
+            <amount>5</amount>
+            <item id="Χα">
+               <name>Χα</name>
+               <amount>1</amount>
+            </item>
+            <item id="Χν">
+               <name>Χν</name>
+               <amount>2</amount>
+            </item>
+            <item id="Χρ">
+               <name>Χρ</name>
+               <amount>1</amount>
+            </item>
+            <item id="Χω">
+               <name>Χω</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ω">
+            <name>Ω</name>
+            <amount>4</amount>
+            <item id="Ωρ">
+               <name>Ωρ</name>
+               <amount>4</amount>
+            </item>
+         </item>
+      </item>
+   </item>
+   <item id="la"><!--Lateinisch-->
+      <item id="monthsDays">
+         <amount>22</amount>
+         <item id="A">
+            <name>A</name>
+            <amount>4</amount>
+            <item id="Ap">
+               <name>Ap</name>
+               <amount>2</amount>
+            </item>
+            <item id="At">
+               <name>At</name>
+               <amount>1</amount>
+            </item>
+            <item id="Au">
+               <name>Au</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="D">
+            <name>D</name>
+            <amount>1</amount>
+            <item id="De">
+               <name>De</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="F">
+            <name>F</name>
+            <amount>2</amount>
+            <item id="Fe">
+               <name>Fe</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="I">
+            <name>I</name>
+            <amount>4</amount>
+            <item id="Ia">
+               <name>Ia</name>
+               <amount>1</amount>
+            </item>
+            <item id="Id">
+               <name>Id</name>
+               <amount>1</amount>
+            </item>
+            <item id="Iu">
+               <name>Iu</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="K">
+            <name>K</name>
+            <amount>2</amount>
+            <item id="Ka">
+               <name>Ka</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="M">
+            <name>M</name>
+            <amount>2</amount>
+            <item id="Ma">
+               <name>Ma</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="N">
+            <name>N</name>
+            <amount>2</amount>
+            <item id="No">
+               <name>No</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="O">
+            <name>O</name>
+            <amount>1</amount>
+            <item id="Oc">
+               <name>Oc</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="P">
+            <name>P</name>
+            <amount>3</amount>
+            <item id="Pa">
+               <name>Pa</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="S">
+            <name>S</name>
+            <amount>1</amount>
+            <item id="Se">
+               <name>Se</name>
+               <amount>1</amount>
+            </item>
+         </item>
+      </item>
+      <item id="persons">
+         <amount>647</amount>
+         <item id="A">
+            <name>A</name>
+            <amount>80</amount>
+            <item id="Ab">
+               <name>Ab</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ac">
+               <name>Ac</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ad">
+               <name>Ad</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ae">
+               <name>Ae</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ag">
+               <name>Ag</name>
+               <amount>3</amount>
+            </item>
+            <item id="Al">
+               <name>Al</name>
+               <amount>8</amount>
+            </item>
+            <item id="Am">
+               <name>Am</name>
+               <amount>9</amount>
+            </item>
+            <item id="An">
+               <name>An</name>
+               <amount>16</amount>
+            </item>
+            <item id="Ap">
+               <name>Ap</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ar">
+               <name>Ar</name>
+               <amount>7</amount>
+            </item>
+            <item id="As">
+               <name>As</name>
+               <amount>4</amount>
+            </item>
+            <item id="At">
+               <name>At</name>
+               <amount>3</amount>
+            </item>
+            <item id="Au">
+               <name>Au</name>
+               <amount>7</amount>
+            </item>
+            <item id="Av">
+               <name>Av</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ax">
+               <name>Ax</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="B">
+            <name>B</name>
+            <amount>18</amount>
+            <item id="Ba">
+               <name>Ba</name>
+               <amount>2</amount>
+            </item>
+            <item id="Be">
+               <name>Be</name>
+               <amount>6</amount>
+            </item>
+            <item id="Bi">
+               <name>Bi</name>
+               <amount>4</amount>
+            </item>
+            <item id="Bo">
+               <name>Bo</name>
+               <amount>1</amount>
+            </item>
+            <item id="Br">
+               <name>Br</name>
+               <amount>3</amount>
+            </item>
+            <item id="Bu">
+               <name>Bu</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="C">
+            <name>C</name>
+            <amount>74</amount>
+            <item id="Ca">
+               <name>Ca</name>
+               <amount>27</amount>
+            </item>
+            <item id="Ce">
+               <name>Ce</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ch">
+               <name>Ch</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ci">
+               <name>Ci</name>
+               <amount>1</amount>
+            </item>
+            <item id="Cl">
+               <name>Cl</name>
+               <amount>9</amount>
+            </item>
+            <item id="Co">
+               <name>Co</name>
+               <amount>17</amount>
+            </item>
+            <item id="Cr">
+               <name>Cr</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ct">
+               <name>Ct</name>
+               <amount>1</amount>
+            </item>
+            <item id="Cu">
+               <name>Cu</name>
+               <amount>4</amount>
+            </item>
+         </item>
+         <item id="D">
+            <name>D</name>
+            <amount>31</amount>
+            <item id="Da">
+               <name>Da</name>
+               <amount>2</amount>
+            </item>
+            <item id="De">
+               <name>De</name>
+               <amount>8</amount>
+            </item>
+            <item id="Di">
+               <name>Di</name>
+               <amount>16</amount>
+            </item>
+            <item id="Do">
+               <name>Do</name>
+               <amount>3</amount>
+            </item>
+            <item id="Dr">
+               <name>Dr</name>
+               <amount>1</amount>
+            </item>
+            <item id="Du">
+               <name>Du</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="E">
+            <name>E</name>
+            <amount>19</amount>
+            <item id="Ec">
+               <name>Ec</name>
+               <amount>1</amount>
+            </item>
+            <item id="Eg">
+               <name>Eg</name>
+               <amount>1</amount>
+            </item>
+            <item id="El">
+               <name>El</name>
+               <amount>5</amount>
+            </item>
+            <item id="En">
+               <name>En</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ep">
+               <name>Ep</name>
+               <amount>3</amount>
+            </item>
+            <item id="Eq">
+               <name>Eq</name>
+               <amount>2</amount>
+            </item>
+            <item id="Er">
+               <name>Er</name>
+               <amount>1</amount>
+            </item>
+            <item id="Eu">
+               <name>Eu</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ex">
+               <name>Ex</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="F">
+            <name>F</name>
+            <amount>44</amount>
+            <item id="Fa">
+               <name>Fa</name>
+               <amount>9</amount>
+            </item>
+            <item id="Fe">
+               <name>Fe</name>
+               <amount>11</amount>
+            </item>
+            <item id="Fi">
+               <name>Fi</name>
+               <amount>5</amount>
+            </item>
+            <item id="Fl">
+               <name>Fl</name>
+               <amount>10</amount>
+            </item>
+            <item id="Fo">
+               <name>Fo</name>
+               <amount>1</amount>
+            </item>
+            <item id="Fr">
+               <name>Fr</name>
+               <amount>7</amount>
+            </item>
+            <item id="Fu">
+               <name>Fu</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="G">
+            <name>G</name>
+            <amount>20</amount>
+            <item id="Ga">
+               <name>Ga</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ge">
+               <name>Ge</name>
+               <amount>7</amount>
+            </item>
+            <item id="Gn">
+               <name>Gn</name>
+               <amount>2</amount>
+            </item>
+            <item id="Go">
+               <name>Go</name>
+               <amount>2</amount>
+            </item>
+            <item id="Gr">
+               <name>Gr</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="H">
+            <name>H</name>
+            <amount>23</amount>
+            <item id="Ha">
+               <name>Ha</name>
+               <amount>5</amount>
+            </item>
+            <item id="He">
+               <name>He</name>
+               <amount>9</amount>
+            </item>
+            <item id="Hi">
+               <name>Hi</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ho">
+               <name>Ho</name>
+               <amount>1</amount>
+            </item>
+            <item id="Hu">
+               <name>Hu</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="I">
+            <name>I</name>
+            <amount>17</amount>
+            <item id="Ia">
+               <name>Ia</name>
+               <amount>2</amount>
+            </item>
+            <item id="In">
+               <name>In</name>
+               <amount>2</amount>
+            </item>
+            <item id="Io">
+               <name>Io</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ip">
+               <name>Ip</name>
+               <amount>1</amount>
+            </item>
+            <item id="Is">
+               <name>Is</name>
+               <amount>4</amount>
+            </item>
+            <item id="It">
+               <name>It</name>
+               <amount>1</amount>
+            </item>
+            <item id="Iu">
+               <name>Iu</name>
+               <amount>6</amount>
+            </item>
+         </item>
+         <item id="L">
+            <name>L</name>
+            <amount>22</amount>
+            <item id="La">
+               <name>La</name>
+               <amount>3</amount>
+            </item>
+            <item id="Le">
+               <name>Le</name>
+               <amount>2</amount>
+            </item>
+            <item id="Li">
+               <name>Li</name>
+               <amount>3</amount>
+            </item>
+            <item id="Lo">
+               <name>Lo</name>
+               <amount>6</amount>
+            </item>
+            <item id="Lu">
+               <name>Lu</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ly">
+               <name>Ly</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="M">
+            <name>M</name>
+            <amount>44</amount>
+            <item id="Ma">
+               <name>Ma</name>
+               <amount>25</amount>
+            </item>
+            <item id="Me">
+               <name>Me</name>
+               <amount>4</amount>
+            </item>
+            <item id="Mi">
+               <name>Mi</name>
+               <amount>4</amount>
+            </item>
+            <item id="Mo">
+               <name>Mo</name>
+               <amount>6</amount>
+            </item>
+            <item id="Mu">
+               <name>Mu</name>
+               <amount>4</amount>
+            </item>
+            <item id="My">
+               <name>My</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="N">
+            <name>N</name>
+            <amount>20</amount>
+            <item id="Na">
+               <name>Na</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ne">
+               <name>Ne</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ni">
+               <name>Ni</name>
+               <amount>6</amount>
+            </item>
+            <item id="No">
+               <name>No</name>
+               <amount>6</amount>
+            </item>
+            <item id="Nu">
+               <name>Nu</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="O">
+            <name>O</name>
+            <amount>5</amount>
+            <item id="On">
+               <name>On</name>
+               <amount>1</amount>
+            </item>
+            <item id="Op">
+               <name>Op</name>
+               <amount>1</amount>
+            </item>
+            <item id="Or">
+               <name>Or</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ot">
+               <name>Ot</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="P">
+            <name>P</name>
+            <amount>52</amount>
+            <item id="Pa">
+               <name>Pa</name>
+               <amount>17</amount>
+            </item>
+            <item id="Pe">
+               <name>Pe</name>
+               <amount>11</amount>
+            </item>
+            <item id="Pl">
+               <name>Pl</name>
+               <amount>2</amount>
+            </item>
+            <item id="Po">
+               <name>Po</name>
+               <amount>5</amount>
+            </item>
+            <item id="Pr">
+               <name>Pr</name>
+               <amount>12</amount>
+            </item>
+            <item id="Ps">
+               <name>Ps</name>
+               <amount>1</amount>
+            </item>
+            <item id="Pt">
+               <name>Pt</name>
+               <amount>1</amount>
+            </item>
+            <item id="Pu">
+               <name>Pu</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="Q">
+            <name>Q</name>
+            <amount>3</amount>
+            <item id="Qu">
+               <name>Qu</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="R">
+            <name>R</name>
+            <amount>10</amount>
+            <item id="Re">
+               <name>Re</name>
+               <amount>2</amount>
+            </item>
+            <item id="Rh">
+               <name>Rh</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ro">
+               <name>Ro</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ru">
+               <name>Ru</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="S">
+            <name>S</name>
+            <amount>65</amount>
+            <item id="Sa">
+               <name>Sa</name>
+               <amount>16</amount>
+            </item>
+            <item id="Sc">
+               <name>Sc</name>
+               <amount>2</amount>
+            </item>
+            <item id="Se">
+               <name>Se</name>
+               <amount>18</amount>
+            </item>
+            <item id="Si">
+               <name>Si</name>
+               <amount>12</amount>
+            </item>
+            <item id="So">
+               <name>So</name>
+               <amount>3</amount>
+            </item>
+            <item id="St">
+               <name>St</name>
+               <amount>2</amount>
+            </item>
+            <item id="Su">
+               <name>Su</name>
+               <amount>11</amount>
+            </item>
+            <item id="Sy">
+               <name>Sy</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="T">
+            <name>T</name>
+            <amount>37</amount>
+            <item id="Ta">
+               <name>Ta</name>
+               <amount>8</amount>
+            </item>
+            <item id="Te">
+               <name>Te</name>
+               <amount>6</amount>
+            </item>
+            <item id="Th">
+               <name>Th</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ti">
+               <name>Ti</name>
+               <amount>6</amount>
+            </item>
+            <item id="Tr">
+               <name>Tr</name>
+               <amount>7</amount>
+            </item>
+            <item id="Tu">
+               <name>Tu</name>
+               <amount>2</amount>
+            </item>
+            <item id="Tz">
+               <name>Tz</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="U">
+            <name>U</name>
+            <amount>5</amount>
+            <item id="Ul">
+               <name>Ul</name>
+               <amount>1</amount>
+            </item>
+            <item id="Up">
+               <name>Up</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ur">
+               <name>Ur</name>
+               <amount>2</amount>
+            </item>
+            <item id="Us">
+               <name>Us</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="V">
+            <name>V</name>
+            <amount>39</amount>
+            <item id="Va">
+               <name>Va</name>
+               <amount>11</amount>
+            </item>
+            <item id="Ve">
+               <name>Ve</name>
+               <amount>16</amount>
+            </item>
+            <item id="Vi">
+               <name>Vi</name>
+               <amount>11</amount>
+            </item>
+            <item id="Vo">
+               <name>Vo</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Z">
+            <name>Z</name>
+            <amount>3</amount>
+            <item id="Ze">
+               <name>Ze</name>
+               <amount>2</amount>
+            </item>
+            <item id="Zi">
+               <name>Zi</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="]">
+            <name>]</name>
+            <amount>15</amount>
+            <item id="]b">
+               <name>]b</name>
+               <amount>2</amount>
+            </item>
+            <item id="]c">
+               <name>]c</name>
+               <amount>1</amount>
+            </item>
+            <item id="]d">
+               <name>]d</name>
+               <amount>1</amount>
+            </item>
+            <item id="]e">
+               <name>]e</name>
+               <amount>1</amount>
+            </item>
+            <item id="]g">
+               <name>]g</name>
+               <amount>1</amount>
+            </item>
+            <item id="]l">
+               <name>]l</name>
+               <amount>2</amount>
+            </item>
+            <item id="]m">
+               <name>]m</name>
+               <amount>1</amount>
+            </item>
+            <item id="]n">
+               <name>]n</name>
+               <amount>1</amount>
+            </item>
+            <item id="]o">
+               <name>]o</name>
+               <amount>2</amount>
+            </item>
+            <item id="]r">
+               <name>]r</name>
+               <amount>2</amount>
+            </item>
+            <item id="]t">
+               <name>]t</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="Ζ">
+            <name>Ζ</name>
+            <amount>1</amount>
+            <item id="Ζa">
+               <name>Ζa</name>
+               <amount>1</amount>
+            </item>
+         </item>
+      </item>
+      <item id="geography">
+         <amount>66</amount>
+         <item id="A">
+            <name>A</name>
+            <amount>11</amount>
+            <item id="Ae">
+               <name>Ae</name>
+               <amount>3</amount>
+            </item>
+            <item id="Al">
+               <name>Al</name>
+               <amount>1</amount>
+            </item>
+            <item id="An">
+               <name>An</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ap">
+               <name>Ap</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ar">
+               <name>Ar</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="B">
+            <name>B</name>
+            <amount>8</amount>
+            <item id="Ba">
+               <name>Ba</name>
+               <amount>1</amount>
+            </item>
+            <item id="Be">
+               <name>Be</name>
+               <amount>2</amount>
+            </item>
+            <item id="Br">
+               <name>Br</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="C">
+            <name>C</name>
+            <amount>8</amount>
+            <item id="Ca">
+               <name>Ca</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ci">
+               <name>Ci</name>
+               <amount>1</amount>
+            </item>
+            <item id="Co">
+               <name>Co</name>
+               <amount>3</amount>
+            </item>
+         </item>
+         <item id="D">
+            <name>D</name>
+            <amount>1</amount>
+            <item id="Di">
+               <name>Di</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="E">
+            <name>E</name>
+            <amount>1</amount>
+            <item id="Eb">
+               <name>Eb</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="G">
+            <name>G</name>
+            <amount>1</amount>
+            <item id="Ga">
+               <name>Ga</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="H">
+            <name>H</name>
+            <amount>2</amount>
+            <item id="He">
+               <name>He</name>
+               <amount>1</amount>
+            </item>
+            <item id="Hi">
+               <name>Hi</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="I">
+            <name>I</name>
+            <amount>3</amount>
+            <item id="Ia">
+               <name>Ia</name>
+               <amount>1</amount>
+            </item>
+            <item id="In">
+               <name>In</name>
+               <amount>1</amount>
+            </item>
+            <item id="Is">
+               <name>Is</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="L">
+            <name>L</name>
+            <amount>3</amount>
+            <item id="Le">
+               <name>Le</name>
+               <amount>1</amount>
+            </item>
+            <item id="Lo">
+               <name>Lo</name>
+               <amount>1</amount>
+            </item>
+            <item id="Lu">
+               <name>Lu</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="M">
+            <name>M</name>
+            <amount>10</amount>
+            <item id="Ma">
+               <name>Ma</name>
+               <amount>2</amount>
+            </item>
+            <item id="Me">
+               <name>Me</name>
+               <amount>1</amount>
+            </item>
+            <item id="Mi">
+               <name>Mi</name>
+               <amount>1</amount>
+            </item>
+            <item id="Mo">
+               <name>Mo</name>
+               <amount>1</amount>
+            </item>
+            <item id="Mu">
+               <name>Mu</name>
+               <amount>4</amount>
+            </item>
+            <item id="My">
+               <name>My</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="O">
+            <name>O</name>
+            <amount>4</amount>
+            <item id="Ox">
+               <name>Ox</name>
+               <amount>4</amount>
+            </item>
+         </item>
+         <item id="P">
+            <name>P</name>
+            <amount>4</amount>
+            <item id="Pe">
+               <name>Pe</name>
+               <amount>2</amount>
+            </item>
+            <item id="Po">
+               <name>Po</name>
+               <amount>1</amount>
+            </item>
+            <item id="Pu">
+               <name>Pu</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="R">
+            <name>R</name>
+            <amount>1</amount>
+            <item id="Ro">
+               <name>Ro</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="S">
+            <name>S</name>
+            <amount>2</amount>
+            <item id="Se">
+               <name>Se</name>
+               <amount>1</amount>
+            </item>
+            <item id="So">
+               <name>So</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="T">
+            <name>T</name>
+            <amount>3</amount>
+            <item id="Ta">
+               <name>Ta</name>
+               <amount>2</amount>
+            </item>
+            <item id="Tu">
+               <name>Tu</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="U">
+            <name>U</name>
+            <amount>1</amount>
+            <item id="Ul">
+               <name>Ul</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="V">
+            <name>V</name>
+            <amount>3</amount>
+            <item id="Vi">
+               <name>Vi</name>
+               <amount>3</amount>
+            </item>
+         </item>
+      </item>
+      <item id="religion">
+         <amount>10</amount>
+         <item id="C">
+            <name>C</name>
+            <amount>1</amount>
+            <item id="Co">
+               <name>Co</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="F">
+            <name>F</name>
+            <amount>1</amount>
+            <item id="Fo">
+               <name>Fo</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="I">
+            <name>I</name>
+            <amount>3</amount>
+            <item id="Is">
+               <name>Is</name>
+               <amount>1</amount>
+            </item>
+            <item id="Iu">
+               <name>Iu</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="M">
+            <name>M</name>
+            <amount>1</amount>
+            <item id="Ma">
+               <name>Ma</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="P">
+            <name>P</name>
+            <amount>2</amount>
+            <item id="Pa">
+               <name>Pa</name>
+               <amount>1</amount>
+            </item>
+            <item id="Pi">
+               <name>Pi</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="S">
+            <name>S</name>
+            <amount>1</amount>
+            <item id="Se">
+               <name>Se</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="V">
+            <name>V</name>
+            <amount>1</amount>
+            <item id="Ve">
+               <name>Ve</name>
+               <amount>1</amount>
+            </item>
+         </item>
+      </item>
+      <item id="general">
+         <amount>1440</amount>
+         <item id="A">
+            <name>A</name>
+            <amount>129</amount>
+            <item id="A">
+               <name>A</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ab">
+               <name>Ab</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ac">
+               <name>Ac</name>
+               <amount>9</amount>
+            </item>
+            <item id="Ad">
+               <name>Ad</name>
+               <amount>16</amount>
+            </item>
+            <item id="Ae">
+               <name>Ae</name>
+               <amount>8</amount>
+            </item>
+            <item id="Af">
+               <name>Af</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ag">
+               <name>Ag</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ai">
+               <name>Ai</name>
+               <amount>1</amount>
+            </item>
+            <item id="Al">
+               <name>Al</name>
+               <amount>20</amount>
+            </item>
+            <item id="Am">
+               <name>Am</name>
+               <amount>12</amount>
+            </item>
+            <item id="An">
+               <name>An</name>
+               <amount>16</amount>
+            </item>
+            <item id="Ap">
+               <name>Ap</name>
+               <amount>3</amount>
+            </item>
+            <item id="Aq">
+               <name>Aq</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ar">
+               <name>Ar</name>
+               <amount>10</amount>
+            </item>
+            <item id="As">
+               <name>As</name>
+               <amount>5</amount>
+            </item>
+            <item id="At">
+               <name>At</name>
+               <amount>1</amount>
+            </item>
+            <item id="Au">
+               <name>Au</name>
+               <amount>11</amount>
+            </item>
+            <item id="Av">
+               <name>Av</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ax">
+               <name>Ax</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="B">
+            <name>B</name>
+            <amount>27</amount>
+            <item id="Ba">
+               <name>Ba</name>
+               <amount>5</amount>
+            </item>
+            <item id="Be">
+               <name>Be</name>
+               <amount>7</amount>
+            </item>
+            <item id="Bi">
+               <name>Bi</name>
+               <amount>3</amount>
+            </item>
+            <item id="Bo">
+               <name>Bo</name>
+               <amount>3</amount>
+            </item>
+            <item id="Br">
+               <name>Br</name>
+               <amount>4</amount>
+            </item>
+            <item id="Bu">
+               <name>Bu</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="C">
+            <name>C</name>
+            <amount>219</amount>
+            <item id="Ca">
+               <name>Ca</name>
+               <amount>55</amount>
+            </item>
+            <item id="Ce">
+               <name>Ce</name>
+               <amount>22</amount>
+            </item>
+            <item id="Ch">
+               <name>Ch</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ci">
+               <name>Ci</name>
+               <amount>12</amount>
+            </item>
+            <item id="Cl">
+               <name>Cl</name>
+               <amount>9</amount>
+            </item>
+            <item id="Co">
+               <name>Co</name>
+               <amount>89</amount>
+            </item>
+            <item id="Cr">
+               <name>Cr</name>
+               <amount>4</amount>
+            </item>
+            <item id="Cu">
+               <name>Cu</name>
+               <amount>24</amount>
+            </item>
+            <item id="Cy">
+               <name>Cy</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="D">
+            <name>D</name>
+            <amount>77</amount>
+            <item id="Da">
+               <name>Da</name>
+               <amount>2</amount>
+            </item>
+            <item id="De">
+               <name>De</name>
+               <amount>31</amount>
+            </item>
+            <item id="Di">
+               <name>Di</name>
+               <amount>17</amount>
+            </item>
+            <item id="Do">
+               <name>Do</name>
+               <amount>13</amount>
+            </item>
+            <item id="Dr">
+               <name>Dr</name>
+               <amount>3</amount>
+            </item>
+            <item id="Du">
+               <name>Du</name>
+               <amount>10</amount>
+            </item>
+            <item id="Dy">
+               <name>Dy</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="E">
+            <name>E</name>
+            <amount>65</amount>
+            <item id="E">
+               <name>E</name>
+               <amount>1</amount>
+            </item>
+            <item id="Eb">
+               <name>Eb</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ed">
+               <name>Ed</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ef">
+               <name>Ef</name>
+               <amount>2</amount>
+            </item>
+            <item id="Eg">
+               <name>Eg</name>
+               <amount>2</amount>
+            </item>
+            <item id="Em">
+               <name>Em</name>
+               <amount>5</amount>
+            </item>
+            <item id="En">
+               <name>En</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ep">
+               <name>Ep</name>
+               <amount>2</amount>
+            </item>
+            <item id="Eq">
+               <name>Eq</name>
+               <amount>3</amount>
+            </item>
+            <item id="Er">
+               <name>Er</name>
+               <amount>5</amount>
+            </item>
+            <item id="Es">
+               <name>Es</name>
+               <amount>1</amount>
+            </item>
+            <item id="Et">
+               <name>Et</name>
+               <amount>8</amount>
+            </item>
+            <item id="Ev">
+               <name>Ev</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ex">
+               <name>Ex</name>
+               <amount>30</amount>
+            </item>
+         </item>
+         <item id="F">
+            <name>F</name>
+            <amount>56</amount>
+            <item id="Fa">
+               <name>Fa</name>
+               <amount>14</amount>
+            </item>
+            <item id="Fe">
+               <name>Fe</name>
+               <amount>11</amount>
+            </item>
+            <item id="Fi">
+               <name>Fi</name>
+               <amount>10</amount>
+            </item>
+            <item id="Fl">
+               <name>Fl</name>
+               <amount>2</amount>
+            </item>
+            <item id="Fo">
+               <name>Fo</name>
+               <amount>6</amount>
+            </item>
+            <item id="Fr">
+               <name>Fr</name>
+               <amount>7</amount>
+            </item>
+            <item id="Fu">
+               <name>Fu</name>
+               <amount>6</amount>
+            </item>
+         </item>
+         <item id="G">
+            <name>G</name>
+            <amount>12</amount>
+            <item id="Ga">
+               <name>Ga</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ge">
+               <name>Ge</name>
+               <amount>2</amount>
+            </item>
+            <item id="Gl">
+               <name>Gl</name>
+               <amount>1</amount>
+            </item>
+            <item id="Gr">
+               <name>Gr</name>
+               <amount>3</amount>
+            </item>
+            <item id="Gu">
+               <name>Gu</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="H">
+            <name>H</name>
+            <amount>28</amount>
+            <item id="Ha">
+               <name>Ha</name>
+               <amount>6</amount>
+            </item>
+            <item id="He">
+               <name>He</name>
+               <amount>4</amount>
+            </item>
+            <item id="Hi">
+               <name>Hi</name>
+               <amount>6</amount>
+            </item>
+            <item id="Ho">
+               <name>Ho</name>
+               <amount>8</amount>
+            </item>
+            <item id="Hu">
+               <name>Hu</name>
+               <amount>3</amount>
+            </item>
+            <item id="Hy">
+               <name>Hy</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="I">
+            <name>I</name>
+            <amount>76</amount>
+            <item id="Ia">
+               <name>Ia</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ib">
+               <name>Ib</name>
+               <amount>1</amount>
+            </item>
+            <item id="Id">
+               <name>Id</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ie">
+               <name>Ie</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ig">
+               <name>Ig</name>
+               <amount>1</amount>
+            </item>
+            <item id="Il">
+               <name>Il</name>
+               <amount>2</amount>
+            </item>
+            <item id="Im">
+               <name>Im</name>
+               <amount>8</amount>
+            </item>
+            <item id="In">
+               <name>In</name>
+               <amount>38</amount>
+            </item>
+            <item id="Io">
+               <name>Io</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ip">
+               <name>Ip</name>
+               <amount>2</amount>
+            </item>
+            <item id="Is">
+               <name>Is</name>
+               <amount>2</amount>
+            </item>
+            <item id="It">
+               <name>It</name>
+               <amount>3</amount>
+            </item>
+            <item id="Iu">
+               <name>Iu</name>
+               <amount>9</amount>
+            </item>
+         </item>
+         <item id="K">
+            <name>K</name>
+            <amount>4</amount>
+            <item id="Ka">
+               <name>Ka</name>
+               <amount>4</amount>
+            </item>
+         </item>
+         <item id="L">
+            <name>L</name>
+            <amount>60</amount>
+            <item id="La">
+               <name>La</name>
+               <amount>20</amount>
+            </item>
+            <item id="Le">
+               <name>Le</name>
+               <amount>11</amount>
+            </item>
+            <item id="Li">
+               <name>Li</name>
+               <amount>19</amount>
+            </item>
+            <item id="Lo">
+               <name>Lo</name>
+               <amount>5</amount>
+            </item>
+            <item id="Lu">
+               <name>Lu</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="M">
+            <name>M</name>
+            <amount>88</amount>
+            <item id="Ma">
+               <name>Ma</name>
+               <amount>25</amount>
+            </item>
+            <item id="Me">
+               <name>Me</name>
+               <amount>23</amount>
+            </item>
+            <item id="Mi">
+               <name>Mi</name>
+               <amount>16</amount>
+            </item>
+            <item id="Mo">
+               <name>Mo</name>
+               <amount>10</amount>
+            </item>
+            <item id="Mu">
+               <name>Mu</name>
+               <amount>13</amount>
+            </item>
+            <item id="My">
+               <name>My</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="N">
+            <name>N</name>
+            <amount>39</amount>
+            <item id="Na">
+               <name>Na</name>
+               <amount>4</amount>
+            </item>
+            <item id="Ne">
+               <name>Ne</name>
+               <amount>5</amount>
+            </item>
+            <item id="Ni">
+               <name>Ni</name>
+               <amount>4</amount>
+            </item>
+            <item id="No">
+               <name>No</name>
+               <amount>17</amount>
+            </item>
+            <item id="Nu">
+               <name>Nu</name>
+               <amount>9</amount>
+            </item>
+         </item>
+         <item id="O">
+            <name>O</name>
+            <amount>40</amount>
+            <item id="Ob">
+               <name>Ob</name>
+               <amount>6</amount>
+            </item>
+            <item id="Oc">
+               <name>Oc</name>
+               <amount>7</amount>
+            </item>
+            <item id="Od">
+               <name>Od</name>
+               <amount>1</amount>
+            </item>
+            <item id="Of">
+               <name>Of</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ol">
+               <name>Ol</name>
+               <amount>5</amount>
+            </item>
+            <item id="Om">
+               <name>Om</name>
+               <amount>1</amount>
+            </item>
+            <item id="On">
+               <name>On</name>
+               <amount>3</amount>
+            </item>
+            <item id="Op">
+               <name>Op</name>
+               <amount>10</amount>
+            </item>
+            <item id="Or">
+               <name>Or</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ov">
+               <name>Ov</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="P">
+            <name>P</name>
+            <amount>142</amount>
+            <item id="Pa">
+               <name>Pa</name>
+               <amount>17</amount>
+            </item>
+            <item id="Pe">
+               <name>Pe</name>
+               <amount>23</amount>
+            </item>
+            <item id="Ph">
+               <name>Ph</name>
+               <amount>1</amount>
+            </item>
+            <item id="Pi">
+               <name>Pi</name>
+               <amount>6</amount>
+            </item>
+            <item id="Pl">
+               <name>Pl</name>
+               <amount>5</amount>
+            </item>
+            <item id="Po">
+               <name>Po</name>
+               <amount>23</amount>
+            </item>
+            <item id="Pr">
+               <name>Pr</name>
+               <amount>54</amount>
+            </item>
+            <item id="Pu">
+               <name>Pu</name>
+               <amount>13</amount>
+            </item>
+         </item>
+         <item id="Q">
+            <name>Q</name>
+            <amount>30</amount>
+            <item id="Qu">
+               <name>Qu</name>
+               <amount>30</amount>
+            </item>
+         </item>
+         <item id="R">
+            <name>R</name>
+            <amount>45</amount>
+            <item id="Ra">
+               <name>Ra</name>
+               <amount>7</amount>
+            </item>
+            <item id="Re">
+               <name>Re</name>
+               <amount>31</amount>
+            </item>
+            <item id="Ri">
+               <name>Ri</name>
+               <amount>2</amount>
+            </item>
+            <item id="Ro">
+               <name>Ro</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ru">
+               <name>Ru</name>
+               <amount>2</amount>
+            </item>
+         </item>
+         <item id="S">
+            <name>S</name>
+            <amount>139</amount>
+            <item id="Sa">
+               <name>Sa</name>
+               <amount>18</amount>
+            </item>
+            <item id="Sc">
+               <name>Sc</name>
+               <amount>15</amount>
+            </item>
+            <item id="Se">
+               <name>Se</name>
+               <amount>33</amount>
+            </item>
+            <item id="Si">
+               <name>Si</name>
+               <amount>18</amount>
+            </item>
+            <item id="So">
+               <name>So</name>
+               <amount>9</amount>
+            </item>
+            <item id="Sp">
+               <name>Sp</name>
+               <amount>9</amount>
+            </item>
+            <item id="Sq">
+               <name>Sq</name>
+               <amount>1</amount>
+            </item>
+            <item id="St">
+               <name>St</name>
+               <amount>11</amount>
+            </item>
+            <item id="Su">
+               <name>Su</name>
+               <amount>24</amount>
+            </item>
+            <item id="Sy">
+               <name>Sy</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="T">
+            <name>T</name>
+            <amount>67</amount>
+            <item id="Ta">
+               <name>Ta</name>
+               <amount>12</amount>
+            </item>
+            <item id="Te">
+               <name>Te</name>
+               <amount>11</amount>
+            </item>
+            <item id="Th">
+               <name>Th</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ti">
+               <name>Ti</name>
+               <amount>4</amount>
+            </item>
+            <item id="To">
+               <name>To</name>
+               <amount>5</amount>
+            </item>
+            <item id="Tr">
+               <name>Tr</name>
+               <amount>18</amount>
+            </item>
+            <item id="Tu">
+               <name>Tu</name>
+               <amount>16</amount>
+            </item>
+         </item>
+         <item id="U">
+            <name>U</name>
+            <amount>20</amount>
+            <item id="Ub">
+               <name>Ub</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ul">
+               <name>Ul</name>
+               <amount>2</amount>
+            </item>
+            <item id="Um">
+               <name>Um</name>
+               <amount>1</amount>
+            </item>
+            <item id="Un">
+               <name>Un</name>
+               <amount>5</amount>
+            </item>
+            <item id="Uo">
+               <name>Uo</name>
+               <amount>1</amount>
+            </item>
+            <item id="Up">
+               <name>Up</name>
+               <amount>1</amount>
+            </item>
+            <item id="Us">
+               <name>Us</name>
+               <amount>3</amount>
+            </item>
+            <item id="Ut">
+               <name>Ut</name>
+               <amount>4</amount>
+            </item>
+            <item id="Uv">
+               <name>Uv</name>
+               <amount>1</amount>
+            </item>
+            <item id="Ux">
+               <name>Ux</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="V">
+            <name>V</name>
+            <amount>65</amount>
+            <item id="Va">
+               <name>Va</name>
+               <amount>7</amount>
+            </item>
+            <item id="Ve">
+               <name>Ve</name>
+               <amount>30</amount>
+            </item>
+            <item id="Vi">
+               <name>Vi</name>
+               <amount>23</amount>
+            </item>
+            <item id="Vo">
+               <name>Vo</name>
+               <amount>5</amount>
+            </item>
+         </item>
+         <item id="Z">
+            <name>Z</name>
+            <amount>1</amount>
+            <item id="Zo">
+               <name>Zo</name>
+               <amount>1</amount>
+            </item>
+         </item>
+         <item id="]">
+            <name>]</name>
+            <amount>11</amount>
+            <item id="]a">
+               <name>]a</name>
+               <amount>1</amount>
+            </item>
+            <item id="]e">
+               <name>]e</name>
+               <amount>3</amount>
+            </item>
+            <item id="]l">
+               <name>]l</name>
+               <amount>1</amount>
+            </item>
+            <item id="]m">
+               <name>]m</name>
+               <amount>2</amount>
+            </item>
+            <item id="]o">
+               <name>]o</name>
+               <amount>1</amount>
+            </item>
+            <item id="]p">
+               <name>]p</name>
+               <amount>1</amount>
+            </item>
+            <item id="]t">
+               <name>]t</name>
+               <amount>2</amount>
+            </item>
+         </item>
+      </item>
+   </item>
+</nav>

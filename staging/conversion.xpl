@@ -16,7 +16,7 @@
     <p:option name="task-newEntries" select="'XProc-Workflow; Neuanlage des Eintrags und Vergabe der xml:id'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
     <p:option name="task-existingEntries" select="'XProc-Workflow; Anpassung des bestehenden Eintrags'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
     <p:option name="schemaPath" select="'../validation'"/>
-    <p:option name="comparisonBase" select="'current-test'"/><!-- current -->
+    <p:option name="comparisonBase" select="'current'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
     <p:option name="result-path" select="'../output'"/>
     
