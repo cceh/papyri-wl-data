@@ -15,7 +15,7 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen  33116 Einträge, wovon 30931 in griechischer und 2185 in lateinischer Sprache (Stand 21. Januar 2017). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen  33116 Einträge, wovon 30931 in griechischer und 2185 in lateinischer Sprache (Stand 23. Januar 2017). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
@@ -58,9 +58,9 @@ Datentransformation
 #### Kurzanleitung
 
 1. FileMaker-XML-Dateien in das Verzeichnis `staging/input` speichern.
-2. `conversion.xpl` ausführen
-3. Reporting auswerten bzw. Dateien in `staging/output` mit den bisherigen Dateien vergleichen (`current`)
-4. Dateien in `current` durch Dateien in `staging/output` ersetzen
+2. [`conversion.xpl`](/staging/conversion.xpl) ausführen
+3. Reporting auswerten bzw. Dateien in `staging/output` mit den bisherigen Dateien vergleichen ([`current`](/current))
+4. Dateien in [`current`](/current) durch Dateien in `staging/output` ersetzen
 5. `git commit` bzw. Pull-Request erstellen
 
 #### Ausführliche Anleitung
@@ -74,12 +74,14 @@ Der eigentliche Abgleich ist als [XProc](http://www.w3.org/TR/xproc/)-Pipeline a
 - Erstellung der TEI-Struktur mit Übernahme bestehender Identifikatoren
 - Vergabe neuer Identifikatoren für neue Einträge (sprachweise)
 - Aufbau des Metadaten-Abschnitts (`teiHeader`) inkl. Übernahme der Metadaten zu früheren Bearbeitungsschritten
+- Ausgabe von Behelfsdateien für die Webanwendung
+- Ausgabe einer aktuellen README-Datei
 
 Die XProc-Pipeline (`staging/conversion.xpl`) muss einmal angestossen werden, der Prozess läuft dann selbständig durch. Dieser Prozess kann sowohl in oXygen XML Editor (unter Nutzung des integrierten Calabash-Prozessors; vlg. [Anleitung](http://oxygenxml.com/doc/ug-editor/topics/xproc-transformation-scenario.html)) oder auf der Kommandozeile erfolgen (ebenfalls unter Nutzung des [Calabash](http://xmlcalabash.com/)-Prozessors oder eines anderen XProc-Prozessors.
 
 Der Vorgang ist relativ speicherintensiv und dauert für einen Voll-Abgleich je nach System/Konfiguration eine halbe Stunde oder länger.
 
-In der Datei `staging/conversion.xpl` lassen sich mehrere Parameter konfigurieren (direkt in der Datei oder im oXygen-XProc-Transformationsszenario im Tab `Optionen`):
+In der Datei [`staging/conversion.xpl`](/staging/conversion.xpl) lassen sich mehrere Parameter konfigurieren (direkt in der Datei oder im oXygen-XProc-Transformationsszenario im Tab `Optionen`):
 
 Parameter | Beschreibung
 ------------ | -------------
