@@ -17,7 +17,7 @@
     
     <xsl:template match="text()"/>
     
-    <xsl:template match="pwl:json/pwl:json[@lang='grc']">
+    <xsl:template match="pwl:json/pwl:json[@lang='la']">
         <xsl:copy-of select="."/>
     </xsl:template>
     
