@@ -130,6 +130,16 @@
         </xsl:variable>
         <entry>
             <xsl:variable name="compare" select="*:COL[3]/*:DATA/text()"/>
+            <xsl:variable name="newEntry">
+                <xsl:choose>
+                    <xsl:when test="$files//*:div[@type = $listType]/*:entry[*:form/*:orth[@type='original'][normalize-unicode(.,'NFC') = normalize-unicode($compare,'NFC')]]">
+                        <xsl:value-of select="'false'"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="'true'"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
             <xsl:attribute name="type" select="'main'"/>
             <xsl:attribute name="xml:id">
                 <!-- testing whether the entry exists (in the same category)
@@ -138,7 +148,7 @@
                     
                     NB: unicode normalization is used to control for composed/decomposed unicode representations -->
                 <xsl:choose>
-                    <xsl:when test="$files//*:div[@type = $listType]/*:entry[*:form/*:orth[@type='original'][normalize-unicode(.,'NFC') = normalize-unicode($compare,'NFC')]]">
+                    <xsl:when test="$newEntry = 'false'">
                         <xsl:value-of select="$files//*:div[@type = $listType]/*:entry[*:form/*:orth[@type='original'][normalize-unicode(.,'NFC') = normalize-unicode($compare,'NFC')]]/@xml:id"/>
                     </xsl:when>
                     <xsl:otherwise>
@@ -213,7 +223,15 @@
                         </xsl:call-template>
                     </orth>
                 </form>
-                <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name> <date type="creation">vor 2016</date>.</note>
+                <xsl:choose>
+                    <xsl:when test="$newEntry = 'false'">
+                        <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name> <date type="creation" when="pre2016">vor 2016</date>.</note>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <note type="resp">Anlage des Lemmas am <date type="creation" when="{format-date(current-date(), '[Y0001]-[M01]-[D01]')}">
+                            <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/></date>.</note>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:if test="string-length(*:COL[1])&gt;0">
                     <note type="ref"><xsl:value-of select="substring(*:COL[1],2,string-length(*:COL[1])-2)"/></note>
                 </xsl:if>
