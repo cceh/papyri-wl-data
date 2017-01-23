@@ -1,18 +1,18 @@
 {
     "name" : "kategorien",
     "children" : [{
-        "name" : "general",
-        "children" : [{"name": "(","size":1},{"name": "-","size":8},{"name": "]","size":69},{"name": "Α","size":2036},{"name": "Β","size":295},{"name": "Γ","size":249},{"name": "Δ","size":733},{"name": "Ε","size":1874},{"name": "Ζ","size":86},{"name": "Η","size":133},{"name": "Θ","size":205},{"name": "Ι","size":226},{"name": "Κ","size":1348},{"name": "Λ","size":373},{"name": "Μ","size":619},{"name": "Ν","size":154},{"name": "Ξ","size":68},{"name": "Ο","size":569},{"name": "Π","size":1601},{"name": "Ρ","size":104},{"name": "Σ","size":1204},{"name": "Τ","size":540},{"name": "Υ","size":329},{"name": "Φ","size":273},{"name": "Χ","size":370},{"name": "Ψ","size":59},{"name": "Ω","size":53},{"name": "ϙ","size":1}]
+        "name" : "Monate und Tage",
+        "children" : [{"name": "A","count":4},{"name": "D","count":1},{"name": "F","count":2},{"name": "I","count":4},{"name": "K","count":2},{"name": "M","count":2},{"name": "N","count":2},{"name": "O","count":1},{"name": "P","count":3},{"name": "S","count":1}]
         },{
-        "name" : "geography",
-        "children" : [{"name": " ","size":1},{"name": "¥","size":2},{"name": "Α","size":536},{"name": "Β","size":124},{"name": "Γ","size":44},{"name": "Δ","size":116},{"name": "Ε","size":174},{"name": "Ζ","size":16},{"name": "Η","size":62},{"name": "Θ","size":157},{"name": "Ι","size":149},{"name": "Κ","size":316},{"name": "Λ","size":108},{"name": "Μ","size":244},{"name": "Ν","size":130},{"name": "Ξ","size":8},{"name": "Ο","size":85},{"name": "Π","size":607},{"name": "Ρ","size":24},{"name": "Σ","size":313},{"name": "Τ","size":355},{"name": "Υ","size":9},{"name": "Φ","size":143},{"name": "Χ","size":77},{"name": "Ψ","size":95},{"name": "Ω","size":11}]
+        "name" : "Personennamen",
+        "children" : [{"name": "A","count":80},{"name": "B","count":18},{"name": "C","count":74},{"name": "D","count":31},{"name": "E","count":19},{"name": "F","count":44},{"name": "G","count":20},{"name": "H","count":23},{"name": "I","count":17},{"name": "L","count":22},{"name": "M","count":44},{"name": "N","count":20},{"name": "O","count":5},{"name": "P","count":52},{"name": "Q","count":3},{"name": "R","count":10},{"name": "S","count":65},{"name": "T","count":37},{"name": "U","count":5},{"name": "V","count":39},{"name": "Z","count":3},{"name": "]","count":15},{"name": "Ζ","count":1}]
         },{
-        "name" : "monthsDays",
-        "children" : [{"name": "Α","size":12},{"name": "Β","size":2},{"name": "Γ","size":3},{"name": "Δ","size":10},{"name": "Ε","size":4},{"name": "Ζ","size":1},{"name": "Η","size":1},{"name": "Θ","size":5},{"name": "Ι","size":3},{"name": "Κ","size":4},{"name": "Λ","size":1},{"name": "Μ","size":4},{"name": "Ν","size":8},{"name": "Ξ","size":3},{"name": "Ο","size":3},{"name": "Π","size":10},{"name": "Ρ","size":1},{"name": "Σ","size":13},{"name": "Τ","size":2},{"name": "Υ","size":2},{"name": "Φ","size":4},{"name": "Χ","size":1}]
+        "name" : "Geographie",
+        "children" : [{"name": "A","count":11},{"name": "B","count":8},{"name": "C","count":8},{"name": "D","count":1},{"name": "E","count":1},{"name": "G","count":1},{"name": "H","count":2},{"name": "I","count":3},{"name": "L","count":3},{"name": "M","count":10},{"name": "O","count":4},{"name": "P","count":4},{"name": "R","count":1},{"name": "S","count":2},{"name": "T","count":3},{"name": "U","count":1},{"name": "V","count":3}]
         },{
-        "name" : "persons",
-        "children" : [{"name": " ","size":1},{"name": "-","size":1},{"name": "]","size":25},{"name": "¥","size":1},{"name": "Α","size":1914},{"name": "Β","size":281},{"name": "Γ","size":130},{"name": "Δ","size":354},{"name": "Ε","size":574},{"name": "Ζ","size":86},{"name": "Η","size":159},{"name": "Θ","size":447},{"name": "Ι","size":319},{"name": "Κ","size":970},{"name": "Λ","size":363},{"name": "Μ","size":596},{"name": "Ν","size":383},{"name": "Ξ","size":23},{"name": "Ο","size":339},{"name": "Π","size":2429},{"name": "Ρ","size":78},{"name": "Σ","size":1228},{"name": "Τ","size":1116},{"name": "Υ","size":37},{"name": "Φ","size":391},{"name": "Χ","size":265},{"name": "Ψ","size":403},{"name": "Ω","size":58},{"name": "὘","size":1}]
+        "name" : "Götter, Heiligtümer, Feste",
+        "children" : [{"name": "C","count":1},{"name": "F","count":1},{"name": "I","count":3},{"name": "M","count":1},{"name": "P","count":2},{"name": "S","count":1},{"name": "V","count":1}]
         },{
-        "name" : "religion",
-        "children" : [{"name": "Α","size":72},{"name": "Β","size":16},{"name": "Γ","size":6},{"name": "Δ","size":16},{"name": "Ε","size":23},{"name": "Ζ","size":6},{"name": "Η","size":8},{"name": "Θ","size":12},{"name": "Ι","size":44},{"name": "Κ","size":20},{"name": "Λ","size":8},{"name": "Μ","size":20},{"name": "Ν","size":13},{"name": "Ο","size":9},{"name": "Π","size":21},{"name": "Ρ","size":4},{"name": "Σ","size":43},{"name": "Τ","size":8},{"name": "Υ","size":4},{"name": "Φ","size":14},{"name": "Χ","size":5},{"name": "Ω","size":4}]
+        "name" : "Allgemeines Wörterverzeichnis",
+        "children" : [{"name": "A","count":129},{"name": "B","count":27},{"name": "C","count":219},{"name": "D","count":77},{"name": "E","count":65},{"name": "F","count":56},{"name": "G","count":12},{"name": "H","count":28},{"name": "I","count":76},{"name": "K","count":4},{"name": "L","count":60},{"name": "M","count":88},{"name": "N","count":39},{"name": "O","count":40},{"name": "P","count":142},{"name": "Q","count":30},{"name": "R","count":45},{"name": "S","count":139},{"name": "T","count":67},{"name": "U","count":20},{"name": "V","count":65},{"name": "Z","count":1},{"name": "]","count":11}]
         }]}
