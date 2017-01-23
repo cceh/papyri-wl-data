@@ -17,11 +17,22 @@
     
     <xsl:template match="text()"/>
     
-    <!-- <xenoData>
-         <pwl:json>
-            <pwl:json lang="la"> -->
     <xsl:template match="pwl:json/pwl:json[@lang='grc']">
-        <xsl:copy-of select="."/>
+        <xsl:copy>
+            <xsl:copy-of select="replace(
+                replace(
+                replace(
+                replace(
+                replace(
+                replace(
+                replace(.,'monthsDays','Monate und Tage'),
+                'persons','Personennamen'),
+                'geography','Geographie'),
+                'religion','Götter, Heiligtümer, Feste'),
+                'general','Allgemeines Wörterverzeichnis'),
+                'items','children'),
+                'categories','kategorien')"/>
+        </xsl:copy>
     </xsl:template>
     
 </xsl:stylesheet>

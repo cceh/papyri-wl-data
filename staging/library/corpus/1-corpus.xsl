@@ -173,14 +173,14 @@
                 <!-- statistics as json in xenodata -->
                     <pwl:json>
                         <pwl:json lang="la">
-                            <xsl:text>{&#10;    "name" : "kategorien",&#10;    "children" : [</xsl:text>
+                            <xsl:text>{&#10;    "name" : "categories",&#10;    "items" : [</xsl:text>
                             <xsl:for-each-group select="/*/*:la/*:div" group-by="@type">
-                                <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "children" : [</xsl:text>
+                                <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "items" : [</xsl:text>
                                 <xsl:for-each-group select="current-group()/*:entry" group-by="*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)">
                                     <xsl:sort select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)"/>
                                     <xsl:text>{"name": "</xsl:text>
                                     <xsl:value-of select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),1,1)"/>
-                                    <xsl:text>","size":</xsl:text>
+                                    <xsl:text>","count":</xsl:text>
                                     <xsl:value-of select="count(current-group())"/>
                                     <xsl:text>}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
                                 </xsl:for-each-group>
@@ -189,14 +189,14 @@
                             <xsl:text>]}</xsl:text>
                         </pwl:json>
                         <pwl:json lang="grc">
-                            <xsl:text>{&#10;    "name" : "kategorien",&#10;    "children" : [</xsl:text>
+                            <xsl:text>{&#10;    "name" : "categories",&#10;    "items" : [</xsl:text>
                             <xsl:for-each-group select="/*/*:grc/*:div" group-by="@type">
-                                <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "children" : [</xsl:text>
+                                <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "items" : [</xsl:text>
                                 <xsl:for-each-group select="current-group()/*:entry" group-by="*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)">
                                     <xsl:sort select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)"/>
                                     <xsl:text>{"name": "</xsl:text>
                                     <xsl:value-of select="current-group()[1]/*:form/*:orth[@type='regularised']/substring(translate(., 'αβγδεζηθικλμνξοπρσςτυφχψω', 'ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΣΤΥΦΧΨΩ'),1,1)"/>
-                                    <xsl:text>","size":</xsl:text>
+                                    <xsl:text>","count":</xsl:text>
                                     <xsl:value-of select="count(current-group())"/>
                                     <xsl:text>}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
                                 </xsl:for-each-group>
