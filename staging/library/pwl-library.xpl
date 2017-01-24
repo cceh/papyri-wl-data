@@ -454,7 +454,8 @@
                 </p:documentation>
                 <p:for-each>
                     <p:iteration-source select="/*//*:TEI"/>
-                    <p:variable name="filename" select="concat($result-path,'/',//*:entry/@xml:id, '.xml')"/>
+                    <!-- concat $result-path + language + category + xml:id -->
+                    <p:variable name="filename" select="concat($result-path,'/',tokenize(//*:entry/@xml:id,'-')[2],'/',//*:text/*:body/*:div/@type,'/',//*:entry/@xml:id, '.xml')"/>
                     <!--
                        <p:validate-with-relax-ng assert-valid="true" name="relaxng">
                            <p:input port="schema">

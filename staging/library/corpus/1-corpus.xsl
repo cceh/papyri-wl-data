@@ -226,7 +226,8 @@
             </teiHeader>
             <xsl:for-each select="/*/*/*:div">
                 <xsl:element name="xi:include">
-                    <xsl:attribute name="href" select="concat(*:entry/@xml:id,'.xml')"></xsl:attribute>
+                    <!-- concat language + category + xml:id -->
+                    <xsl:attribute name="href" select="concat(tokenize(*:entry/@xml:id,'-')[2],'/',@type,'/',*:entry/@xml:id,'.xml')"/>
                 </xsl:element>
             </xsl:for-each>
         </teiCorpus>
