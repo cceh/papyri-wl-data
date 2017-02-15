@@ -1,0 +1,51 @@
+<teiHeader type="text">
+    <fileDesc>
+        <titleStmt>
+            <title>Verzeichnis der Abkürzungen</title>
+        </titleStmt>
+        <editionStmt>
+            <edition>...</edition>
+            <respStmt>
+                <resp>Kompilation</resp>
+                <persName ref="corpus.xml#hagedorn_d">Dieter Hagedorn</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Anfängliche Mithilfe</resp>
+                <persName ref="corpus.xml#breit_p">Pia Breit</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Anfängliche Mithilfe</resp>
+                <persName ref="corpus.xml#habermann_w">Wolfgang Habermann</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Anfängliche Mithilfe</resp>
+                <persName ref="corpus.xml#hagedorn_u">Ursula Hagedorn</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Anfängliche Mithilfe</resp>
+                <persName ref="corpus.xml#kraemer_b">Bärbel Kramer</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Anfängliche Mithilfe</resp>
+                <persName ref="corpus.xml#marohn_g">Gertrud Marohn</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Anfängliche Mithilfe</resp>
+                <persName ref="corpus.xml#salewski_j">Jörn Salewski</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Überlassung elektronischer Daten (für <ref target="#b18982">P.Heid. IX</ref>, <ref target="#b16452">P.Köln XI</ref>, <ref target="#ohne_Verweis_P_Tarich_">P.Tarich.</ref>)</resp>
+                <persName ref="corpus.xml#armoni_c">Charikleia Armoni</persName>
+            </respStmt>
+            <respStmt>
+                [etc]
+            </respStmt>
+        </editionStmt>
+        <publicationStmt>
+            <p part="N">Publication Information</p>
+        </publicationStmt>
+        <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
