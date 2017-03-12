@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Verzeichnis der Abkürzungen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>...</edition>
+                <respStmt>
+                    <resp>Kompilation</resp>
+                    <persName xml:id="hagedorn_d">Dieter Hagedorn</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Anfängliche Mithilfe</resp>
+                    <persName xml:id="breit_p">Pia Breit</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Anfängliche Mithilfe</resp>
+                    <persName xml:id="habermann_w">Wolfgang Habermann</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Anfängliche Mithilfe</resp>
+                    <persName xml:id="hagedorn_u">Ursula Hagedorn</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Anfängliche Mithilfe</resp>
+                    <persName xml:id="kraemer_b">Bärbel Kramer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Anfängliche Mithilfe</resp>
+                    <persName xml:id="marohn_g">Gertrud Marohn</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Anfängliche Mithilfe</resp>
+                    <persName xml:id="salewski_j">Jörn Salewski</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b18982">P.Heid. IX</ref>, <ref target="#b16452">P.Köln XI</ref>, <ref target="#ohne_Verweis_P_Tarich_">P.Tarich.</ref>)</resp>
+                    <persName xml:id="armoni_c">Charikleia Armoni</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_P_Bagnall">P.Bagnall</ref>, <ref target="#b20963">P.Jena II</ref>, <ref target="#b19826">SB XXVII</ref>)</resp>
+                    <persName xml:id="ast_r">Rodney Ast</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b20490">P.Worp</ref>)</resp>
+                    <persName xml:id="bakker_mj">Marja J. Bakker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b76273">P.Minnesota</ref>)</resp>
+                    <persName xml:id="bakkers_av">Alette V.Bakkers</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_PSI_Com__11">PSI Com. XI</ref>)</resp>
+                    <persName xml:id="bastianini_g">Guido Bastianini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b21439">P.Oxy. LXXV</ref>)</resp>
+                    <persName xml:id="benaissa_a">Amin Benaissa</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b20700">O.Claud. IV</ref>)</resp>
+                    <persName xml:id="buelowjacobsen_a">Adam Bülow-Jacobsen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b19060">P.Count</ref>)</resp>
+                    <persName xml:id="clarysse_w">Willy Clarysse</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b19568">P.Berl. Cohen</ref>)</resp>
+                    <persName xml:id="cohen_n">Nahum Cohen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b18001">P.Paramone</ref>)</resp>
+                    <persName xml:id="cowey_j">James Cowey</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b18535">O.Krok.</ref>, <ref target="#b81797">O.Did</ref>)</resp>
+                    <persName xml:id="cuvigny_h">Hélène Cuvigny</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16943">P.Lips. II</ref>)</resp>
+                    <persName xml:id="duttenhoefer_r">Ruth Duttenhöfer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_P_Strasb__Copt_">P.Strasb. Copt.</ref>)</resp>
+                    <persName xml:id="fournet_jl">Jean-Luc Fournet</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b82190">O.Petr. Mus.</ref>)</resp>
+                    <persName xml:id="funghi_ms">Maria Serena Funghi</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16439">P.Thomas</ref>)</resp>
+                    <persName xml:id="gagos_t">Traianos Gagos</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b17700">P.Oxy. LXVIII</ref>, <ref target="#b18607">P.Oxy. LXIX</ref>, <ref target="#b19164">P.Oxy. LXX</ref>, <ref target="#b19644">P.Oxy. LXXI</ref>, <ref target="#b20459">P.Oxy. LXXII</ref>, <ref target="#b20869">P.Oxy. LXXIII</ref>, <ref target="#b20830">P.Oxy. LXXIV</ref>, <ref target="#b79323">P.Oxy. LXXVII</ref>, <ref target="#ohne_Verweis_P_Oxy__78">P.Oxy. LXXVIII</ref>)</resp>
+                    <persName xml:id="gonis_n">Nikolaos Gonis</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b19840">P.Sijp.</ref>)</resp>
+                    <persName xml:id="hanson_a">Ann Hanson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b17907">P.Horak</ref>, <ref target="#b18239">P.Eirene II</ref>, <ref target="#b18092">CPR XIX</ref>, <ref target="#b21301">P.Eirene III</ref>)</resp>
+                    <persName xml:id="harrauer_h">Hermann Harrauer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_P_Oxy__80">P.Oxy. LXXX</ref>)</resp>
+                    <persName xml:id="henry_b">Ben Henry</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b20909">BL XII</ref>)</resp>
+                    <persName xml:id="hoogendijk_faj">Francisca A. J. Hoogendijk</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b15271">P.Louvre I</ref>, <ref target="#b18650">P.Louvre II</ref>, <ref target="#b67807">SB XXI</ref>, <ref target="#b17117">SB XXIII</ref>)</resp>
+                    <persName xml:id="joerdens_a">Andrea Jördens</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16511">P.Heid. VIII</ref>)</resp>
+                    <persName xml:id="kaltsas_d">Demokritos Kaltsas</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_P_Aktenbuch">P.Aktenbuch</ref>, <ref target="#ohne_Verweis_P_Cairo_Mich__02">P.Cairo Mich. II</ref>, <ref target="#b20674">P.Poethke</ref>)</resp>
+                    <persName xml:id="kramer_b">Bärbel Kramer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16521">C. Gloss. Biling. II</ref>)</resp>
+                    <persName xml:id="kramer_j">Johannes Kramer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b20109">SPP III 2.5</ref>)</resp>
+                    <persName xml:id="kreuzsaler_c">Claudia Kreuzsaler</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b17118">BL XI</ref>)</resp>
+                    <persName xml:id="kruit_n">Nico Kruit und die Herausgeber der BL</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b20504">CPR XXVIII</ref>)</resp>
+                    <persName xml:id="lada_c">Csaba Láda</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b18710">BGU XIX</ref>)</resp>
+                    <persName xml:id="maehler_h">Herwig Maehler</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b19265">P.Ammon II</ref>, <ref target="#b15250">P.Bub. II</ref>, <ref target="#b80627">P.Herakl. Bank</ref>, <ref target="#b16452">P.Köln IX</ref>, <ref target="#b17706">P.Köln X</ref>, <ref target="#b19894">P.Köln XI</ref>, <ref target="#b21216">P.Köln XII</ref>, <ref target="#ohne_Verweis_P_Köln_13">P.Köln XIII</ref>, <ref target="#b17397">P.Phrur. Diosk.</ref>, <ref target="#b16381">P.Polit. Iud.</ref>)</resp>
+                    <persName xml:id="maresch_k">Klaus Maresch</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b21045">P.Narm. 2006</ref>, <ref target="#ohne_Verweis_P_Cairo_Preis_2">P.Cairo Preis.2</ref>)</resp>
+                    <persName xml:id="martin_a">Alain Martin</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16093">P.Bingen</ref>)</resp>
+                    <persName xml:id="melaerts_h">Henri Melaerts</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_An_Pap__21_22">An.Pap. 21/22</ref>, <ref target="#ohne_Verweis_An_Pap__23_24">An.Pap. 23/24</ref>, <ref target="#ohne_Verweis_An_Pap__25">An.Pap. 25</ref>, <ref target="#ohne_Verweis_An_Pap__26">An. Pap. 26</ref>, <ref target="#b81813">P.Pintaudi</ref>, <ref target="#b21621">P.Prag. III</ref>, <ref target="#b21291">P.Schøyen II</ref>)</resp>
+                    <persName xml:id="minutoli_d">Diletta Minutoli</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b17261">CPR XXIII</ref>, <ref target="#b17065">P.Erl. Diosp.</ref>, <ref target="#b20138">SPP III 2.2</ref>)</resp>
+                    <persName xml:id="mitthof_f">Fritz Mitthof</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16831">CPR XXII</ref>)</resp>
+                    <persName xml:id="morelli_f">Federico Morelli</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16599">P.Harrauer</ref>, <ref target="#b17079">CPR XXIV</ref>)</resp>
+                    <persName xml:id="palme_b">Bernhard Palme</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b19306">CPR XXV</ref>)</resp>
+                    <persName xml:id="papathomas_a">Amphilochios Papathomas</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_BGU_20">BGU XX</ref>)</resp>
+                    <persName xml:id="reiter_f">Fabian Reiter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b79358">P.Vet. Aelii</ref>, <ref target="#b77425">SB XXV</ref>)</resp>
+                    <persName xml:id="saenger_p">Patrick Sänger</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b20221">P.Iand. Zen.</ref>)</resp>
+                    <persName xml:id="schmitz_p">Philip Schmitz</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b16656">P.Yale III</ref>, <ref target="#b20984">P.Gen. IV</ref>)</resp>
+                    <persName xml:id="schubert_p">Paul Schubert</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b19858">SPP III 2.1</ref>)</resp>
+                    <persName xml:id="tost_s">Sven Tost</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#ohne_Verweis_BASP_43-50">BASP 43-50</ref>)</resp>
+                    <persName xml:id="vanminnen_p">Peter van Minnen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für <ref target="#b18379">O.Kellis</ref>, <ref target="#b80638">P.Mich. 20</ref>, <ref target="#b21002">P.NYU II</ref>)</resp>
+                    <persName xml:id="worp_ka">Klaas A. Worp</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <p part="N">Publication Information</p>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <p part="N">Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
