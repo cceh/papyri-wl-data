@@ -225,7 +225,7 @@
                 </form>
                 <xsl:choose>
                     <xsl:when test="$newEntry = 'false'">
-                        <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name> <date type="creation" when="pre2016">vor 2016</date>.</note>
+                        <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name> <date type="creation" notAfter="2016">vor 2016</date>.</note>
                     </xsl:when>
                     <xsl:otherwise>
                         <note type="resp">Anlage des Lemmas am <date type="creation" when="{format-date(current-date(), '[Y0001]-[M01]-[D01]')}">
