@@ -20,6 +20,7 @@
     
     <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc/*:change"/>
     <xsl:variable name="literature" select="document('../../../literature/literature.xml')//*:bibl"/>
+    <xsl:variable name="editors" select="document('../../../literature/editors.xml')//*:editionStmt"/>
     
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -38,6 +39,7 @@
                             <name>Dieter Hagedorn</name>
                         </respStmt>
                     </titleStmt>
+                    <xsl:copy-of select="$editors"/>
                     <publicationStmt>
                         <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
                         <pubPlace>Köln</pubPlace>
