@@ -246,6 +246,18 @@
                         <xsl:variable name="literature-xml" select="doc('../../../literature/literature.xml')"/>
                         <xsl:variable name="ref">
                             <xsl:choose>
+                                <xsl:when test="contains(.,', Index')">
+                                    <xsl:value-of select="normalize-space(translate(substring-before(.,', Index'),'⁲','²'))"/>
+                                </xsl:when>
+                                <xsl:when test="contains(.,' Index')">
+                                    <xsl:value-of select="normalize-space(translate(substring-before(.,' Index'),'⁲','²'))"/>
+                                </xsl:when>
+                                <xsl:when test="contains(.,', Abteilung')">
+                                    <xsl:value-of select="normalize-space(translate(substring-before(.,', Abteilung'),'⁲','²'))"/>
+                                </xsl:when>
+                                <xsl:when test="contains(.,',+ ')">
+                                    <xsl:value-of select="normalize-space(translate(substring-before(.,',+ '),'⁲','²'))"/>
+                                </xsl:when>
                                 <xsl:when test="contains(.,'(')">
                                     <xsl:value-of select="normalize-space(translate(substring-before(.,'('),'⁲','²'))"/><!-- U+2073: ³ -->
                                 </xsl:when>
