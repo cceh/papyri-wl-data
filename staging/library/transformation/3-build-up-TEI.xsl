@@ -244,18 +244,27 @@
                     <xsl:for-each select="tokenize(*:COL[8],';\s')">
                         <!-- Extract reference from literature.xml -->
                         <xsl:variable name="literature-xml" select="doc('../../../literature/literature.xml')"/>
-                        <xsl:variable name="litID">
-                            <xsl:value-of select="$literature-xml//*:title[@type='short'][text()=current()]/parent::*:bibl/@xml:id"/>
+                        <xsl:variable name="ref">
+                            <xsl:choose>
+                                <xsl:when test="contains(.,'(')">
+                                    <xsl:value-of select="normalize-space(translate(substring-before(.,'('),'⁲','²'))"/><!-- U+2073: ³ -->
+                                </xsl:when>
+                                <xsl:otherwise><xsl:value-of select="normalize-space(translate(.,'⁲','²'))"/></xsl:otherwise>
+                            </xsl:choose>
                         </xsl:variable>
-
+                        <xsl:variable name="litID">
+                            <xsl:choose>
+                                <xsl:when test="$literature-xml//*:title[@type='short'][text()=$ref]/parent::*:bibl/@xml:id">
+                                    <xsl:value-of select="$literature-xml//*:title[@type='short'][text()=$ref]/parent::*:bibl/@xml:id"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="$literature-xml//*:title[@type='short'][text()=$ref]/parent::*:bibl/@sameAs"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
                         <item>
                             <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#{$litID}">
-                                <xsl:choose>
-                                    <xsl:when test="contains(.,'(')">
-                                        <xsl:value-of select="normalize-space(translate(substring-before(.,'('),'⁲','²'))"/><!-- U+2073: ³ -->
-                                    </xsl:when>
-                                    <xsl:otherwise><xsl:value-of select="normalize-space(translate(.,'⁲','²'))"/></xsl:otherwise>
-                                </xsl:choose>
+                                <xsl:value-of select="$ref"/>
                             </ref>
                             <xsl:if test="contains(.,'(')">
                                 <note type="addInfo"><xsl:value-of select="normalize-space(translate(substring-after(substring-before(.,')'),'('),'⁲','²'))"/></note>
