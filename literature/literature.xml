@@ -266,7 +266,7 @@
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="b18535" type="monograph">
-               <title type="short">O.Krok.</title>
+               <title type="short">O.Krok. 01</title>
                <title type="long">Hélène Cuvigny, Ostraca de Krokodilô I. La correspondance militaire et sa circulation (O.Krok. 1-151). Praesidia du désert de Bérénice II (Fouilles de l’IFAO 51), Le Caire 2005</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
@@ -470,12 +470,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-             <!--<bibl type="monograph">
-                 <title type="short" xml:id="b15462">O.Eleph. DAIK</title>
+             <bibl type="monograph">
+                 <title type="short" sameAs="b15462">O.Eleph. DAIK</title>
                  <title type="long">Guy Wagner, Les Papyrus et les Ostraca grecs d'Éléphantine (P. et O. Eleph. DAIK). (Deutsches Archäologisches Institut, Abteilung Kairo. Archäologische Veröffentlichungen 70), Mainz am Rhein, Ph. von Zabern, 1998</title>
                  <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                  <date type="creation">vor 2016</date>
-             </bibl>-->
+             </bibl>
             <bibl xml:id="b17065" type="monograph">
                <title type="short">P.Erl. Diosp.</title>
                <title type="long">Frizt Mitthof, Ein spätantikes Wirtschaftsbuch aus Diospolis Parva. Der Erlanger Papyruskodex und die Texte aus seinem Umfeld (P.Erl. Diosp.). (APF, Beiheft 12) München - Leipzig, K.G. Saur 2002</title>
@@ -1101,19 +1101,19 @@
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="b19858" type="monograph">
-               <title type="short">SPP 032.1</title>
+               <title type="short">SPP 03².1</title>
                <title type="long">Sven Tost, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III2 1-118: Quittungen, Lieferungskäufe und Darlehen (Papyrologica Vindobonensia 2), Wien 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="b20138" type="monograph">
-               <title type="short">SPP 032.2</title>
+               <title type="short">SPP 03².2</title>
                <title type="long">Fritz Mitthof, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III2 119-238: Schuldscheine und Quittungen (Papyrologica Vindobonensia 3), Wien 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="b20109" type="monograph">
-               <title type="short">SPP 032.5</title>
+               <title type="short">SPP 03².5</title>
                <title type="long">Claudia Kreuzsaler, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III2 449-582: Quittungen für die Getreidesteuer (Papyrologica Vindobonensia 6), Wien 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
