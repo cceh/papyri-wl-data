@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Über die Papyri-WörterListen</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">Publication Information</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Über die Papyri-WörterListen</head>
+         <p>Die WörterListen (WL) sind ein technisches Hilfsmittel für die griechische Papyrologie,
+            d.h. für die Spezialdisziplin der klassischen Altertumswissenschaften, die sich mit der
+            Edition und Auswertung der in der Zeit zwischen ca. 300 v.Chr. und 700 n.Chr. in Ägypten
+            auf Griechisch (und z.T auch auf Latein) geschriebenen Papyri (und anderen
+            Schriftträgern) befaßt; vgl. dazu z.B. <ref
+               target="https://de.wikipedia.org/wiki/Papyrologie" rend="new"
+               >https://de.wikipedia.org/wiki/Papyrologie</ref>. In den WL werden die Wörter, Namen,
+            geographischen Begriffe usw. gesammelt, die in den Registern zu den seit etwa dem Jahre
+            1995 veröffentlichten Editionen griechisch (und z.T. auch lateinisch) verfaßter
+            dokumentarischer Papyri aufgelistet sind. Bis zum gegenwärtigen Zeitpunkt (April 2017)
+            sind rund 230 derartige Publikationen verarbeitet worden (vgl. <ref
+               target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen" rend="new"
+               >https://papyri.uni-koeln.de/papyri-woerterlisten/quellen</ref>), woraus sich ein
+            Bestand von ca. 13.600 allgemeinen Wörtern, 13.000 Eigennamen und 3.900 geographischen
+            Bezeichnungen ergeben hat.</p>
+         <p>Die WL sind im Jahre 2000 von Dieter Hagedorn initiiert worden, weil zu diesem Zeitpunkt
+            die Arbeiten an der papyrologischen Volltextdatenbank „<ref
+               target="http://papyri.info/docs/ddbdp" rend="new">Duke Databank of Documentary
+               Papyri</ref>“ (DDbDP) zum Erliegen gekommen waren, was zur Folge hatte, daß neu
+            erscheinende Papyruseditionen nicht mehr in die Datenbank aufgenommen wurden, und zu
+            befürchten war, daß auf absehbare Zeit keine Ressourcen mehr zu deren Fortführung
+            erschlossen werden könnten. Die WL sollten ein schlichtes, provisorisches Hilfsmittel
+            sein, um diesen „Notstand“ zu überbrücken, indem sie dem Benutzer ermöglichen, sich
+            schnell einen Überblick darüber zu verschaffen, welche Wörter in den Neuerscheinungen
+            vorkommen. Als dann einige Jahre später im Rahmen des neu geschaffenen „<ref
+               target="http://papyri.info/docs/about" rend="new">Papyrological Navigator</ref>” (PN)
+            wieder eine kontinuierliche Weiterentwicklung der DDbDP garantiert war, wurde in der
+            Kollegenschaft der Wunsch geäußert, die WL dennoch fortzuführen, weil sie gewisse
+            Vorteile gegenüber der DDbDP bietet. So verzeichnen die WL generell die
+            lexikographischen Grundformen der Wörter, während in der DDbDP die flektierten Formen
+            erscheinen, wie sie in den Texten stehen, so daß sich in vielen Fällen nur mit
+            aufwendigen Vielfachsuchen alle Belege eines Wortes finden lassen; dies betrifft in
+            erster Linie Verben, deren Formen sich nicht nur am Wortende, sondern auch am Anfang
+            verändern können. und zumal die „unregelmäßigen“ Verben, bei denen zusätzlich auch der
+            Wortstamm variiert (man denke etwa an φέρειν und seine Komposita). Ferner ist die DDbDP
+            streng auf dokumentarische Papyri beschränkt, während die WL auch die Register von
+            Editionen epigraphischer und semiliterarischer Texte berücksichtigen, sofern sie
+            aufgrund ihrer Zeitstellung und ihrer Herkunft einen Bezug zum Arbeitsfeld der
+            Papyrologen aufweisen, d.h. zum griechisch-römisch-frühbyzantinischen Ägypten.</p>
+         <p>Die Arbeit an den WL haben dankenswerterweise von Anfang an zahlreiche Kollegen durch
+            die Bereitstellung elektronischer Versionen der betroffenen Register wesentlich
+            unterstützt; denn die Benutzung vorhandener Dateien erspart eine zeitaufwendige
+            Neueingabe der Wörter in den Computer, und die Gefahr der Entstehung von Fehlern im Zuge
+            der Kompilation wird verringert.</p>
+         <p>Bei der Einarbeitung der Register in die WL wird auf eine Übernahme der detaillierten
+            Stellenangaben verzichtet, vielmehr wird nur mithilfe der standardmäßigen Abkürzungen
+            (Siglen) auf die Register der Editionsbände verwiesen und von den Benutzern erwartet,
+            daß sie für den Fall, daß sie Genaueres wissen wollen, die Bände selbst zur Hand nehmen.
+            Dies mag mancher vielleicht bedauern, aber die Beibehaltung aller Stellenangaben wäre
+            technisch kaum praktikabel und würde im Falle von massenhaft auftretenden Wörtern auch
+            zu unendlich langen, unübersichtlichen Beleglisten führen, die niemandem nutzen.</p>
+         <p>Verbreitet wurden die WL in der Vergangenheit durch die Bereitstellung von in
+            unregelmäßigen Zeitabständen aktualisierten PDF-Dateien auf einem Server des Instituts
+            für Papyrologie der Universität Heidelberg. Die erste Fassung datierte vom 14. November
+            2000, die 20. (und letzte) Fassung vom 1. Juni 2016. Seit der 4. Fassung vom 15. Februar
+            2002 ist (auf Anregung des Kollegen Klaas Worp) zusätzlich zu den eigentlichen WL auch
+            ein „Konträrindex“ beigegeben worden, d.h. ein rückläufig geordnetes Verzeichnis der in
+            den WL enthaltenen Namen, geographischen Begriffe und allgemeinen Wörter (mit Ausnahme
+            der nur unvollständig erhaltenen Einträge).</p>
+         <p>Die Kompilation der aus den Registern gewonnenen Rohdaten erledigte anfänglich ein von
+            Dieter Hagedorn in Apples Entwicklungsumgebung HyperCard erstelltes Programm; zur
+            Erzeugung der PDF-Dateien wurden daraus die Daten im rtf-Format exportiert und über
+            Microsoft Word in PDF gedruckt. In jüngerer Zeit erfolgte die Kompilation durch Scripts
+            einer FileMaker Pro-Datenbank, die Weitergabe an Word geschah über einen Export im
+            html-Format. Die gegenwärtige Online-Lösung basiert auf einem xml-Export aus der
+            FileMaker-Datenbank. Die jeweils aktuellsten Quelldaten sind in TEI P5 parallel auch
+            unter <ref target="https://github.com/cceh/papyri-wl-data" rend="new"
+               >https://github.com/cceh/papyri-wl-data</ref> abrufbar.</p>
+         <p>Im Jahre 2016 haben Dieter Hagedorn und Klaus Maresch vereinbart, die WL künftig
+            gemeinsam zu betreuen. Da sich bereits früher die Frage gestellt hatte, ob die
+            Verbreitung in der Form von PDF-Dateien beibehalten werden solle oder ob nicht eine
+            zeitgemäßere Bereitstellung über das Internet anzustreben sei, wandte sich Klaus Maresch
+            an das <ref target="http://www.cceh.uni-koeln.de" rend="new">Cologne Center for
+               eHumanities</ref> der Universität Köln (CCeH). Dessen Leiter Patrick Sahle und seine
+            Mitarbeiter, namentlich Peter Dängeli (Projektkoordination, Datenkuratierung) und Ben
+            Bigalke (Anwendungsentwicklung), haben freundlicherweise die hier vorliegende
+            Online-Fassung entwickelt.</p>
+         <div>
+            <head>Kontaktangaben</head>
+            <list>
+               <label>Dieter Hagedorn</label>
+               <item>dieter.hagedorn@urz.uni-heidelberg.de</item>
+               <label>Klaus Maresch</label>
+               <item>ala37@uni-koeln.de</item>
+               <label>Patrick Sahle</label>
+               <item>sahle@uni-koeln.de</item>
+               <label>Allgemeine Kontaktadresse</label>
+               <item>papyri-woerterlisten@uni-koeln.de</item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -19,8 +19,8 @@
     <xsl:param name="comparisonBase"/>
     
     <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc[not(ancestor::TEI)]/*:change"/>
-    <xsl:variable name="literature" select="document('../../../literature/literature.xml')//*:bibl"/>
-    <xsl:variable name="editors" select="document('../../../literature/editors.xml')//*:editionStmt"/>
+    <xsl:variable name="literature" select="document('../../../meta/literature.xml')//*:bibl"/>
+    <xsl:variable name="editors" select="document('../../../meta/editors.xml')//*:editionStmt"/>
     
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -226,6 +226,7 @@
                     <xsl:apply-templates select="$changes"/>
                 </revisionDesc>
             </teiHeader>
+            <xsl:copy-of select="document('../../../meta/about.xml')//*:text"/>
             <xsl:for-each select="/*/*/*:div">
                 <xsl:element name="xi:include">
                     <!-- concat language + category + xml:id -->

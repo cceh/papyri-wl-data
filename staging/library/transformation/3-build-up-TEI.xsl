@@ -243,7 +243,7 @@
                 <list>
                     <xsl:for-each select="tokenize(*:COL[8],';\s')">
                         <!-- Extract reference from literature.xml -->
-                        <xsl:variable name="literature-xml" select="doc('../../../literature/literature.xml')"/>
+                        <xsl:variable name="literature-xml" select="doc('../../../meta/literature.xml')"/>
                         <xsl:variable name="ref">
                             <!-- segmentation of different forms that occur in the field; cf. https://github.com/cceh/papyri-wl/issues/138 -->
                             <xsl:choose>
