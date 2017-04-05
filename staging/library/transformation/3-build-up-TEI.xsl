@@ -258,8 +258,20 @@
                                 <xsl:when test="contains(.,', Abteilung')">
                                     <xsl:value-of select="normalize-space(translate(substring-before(.,', Abteilung'),'⁲','²'))"/>
                                 </xsl:when>
-                                <xsl:when test="contains(.,',+ ')">
-                                    <xsl:value-of select="normalize-space(translate(substring-before(.,',+ '),'⁲','²'))"/>
+                                <xsl:when test="contains(.,', S. ')">
+                                    <xsl:value-of select="normalize-space(translate(substring-before(.,', S. '),'⁲','²'))"/>
+                                </xsl:when>
+                                <xsl:when test="ends-with(.,' +')">
+                                    <xsl:value-of select="normalize-space(translate(replace(.,'\s\+$',''),'⁲','²'))"/>
+                                </xsl:when>
+                                <xsl:when test="ends-with(.,' A u. B')">
+                                    <xsl:value-of select="normalize-space(translate(replace(.,'\sA u\. B$',''),'⁲','²'))"/>
+                                </xsl:when>
+                                <xsl:when test="ends-with(.,' B')">
+                                    <xsl:value-of select="normalize-space(translate(replace(.,'\sB$',''),'⁲','²'))"/>
+                                </xsl:when>
+                                <xsl:when test="ends-with(.,' A')">
+                                    <xsl:value-of select="normalize-space(translate(replace(.,'\sA$',''),'⁲','²'))"/>
                                 </xsl:when>
                                 <xsl:otherwise><xsl:value-of select="normalize-space(translate(.,'⁲','²'))"/></xsl:otherwise>
                             </xsl:choose>
@@ -276,7 +288,12 @@
                         </xsl:variable>
                         <item>
                             <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#{$litID}">
-                                <xsl:value-of select="$ref"/>
+                                <xsl:choose>
+                                    <xsl:when test="contains(.,'(')">		
+                                        <xsl:value-of select="normalize-space(translate(substring-before(.,'('),'⁲','²'))"/><!-- U+2073: ³ -->		
+                                    </xsl:when>		
+                                    <xsl:otherwise><xsl:value-of select="normalize-space(translate(.,'⁲','²'))"/></xsl:otherwise>		
+                                </xsl:choose>
                             </ref>
                             <xsl:if test="contains(.,'(')">
                                 <note type="addInfo"><xsl:value-of select="normalize-space(translate(substring-after(substring-before(.,')'),'('),'⁲','²'))"/></note>
