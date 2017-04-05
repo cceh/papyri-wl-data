@@ -18,7 +18,7 @@
     <xsl:param name="editor"/>
     <xsl:param name="comparisonBase"/>
     
-    <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc[not(ancestor::TEI)]/*:change"/>
+    <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc[not(ancestor::*:TEI)]/*:change"/>
     <xsl:variable name="literature" select="document('../../../meta/literature.xml')//*:bibl"/>
     <xsl:variable name="editors" select="document('../../../meta/editors.xml')//*:editionStmt"/>
     
