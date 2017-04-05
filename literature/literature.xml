@@ -392,7 +392,7 @@
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_P_Cairo_Preis_2" type="monograph"><!-- kein Treffer -->
-               <title type="short">P.Cairo Preis.2</title>
+               <title type="short">P.Cairo Preis.²</title>
                <title type="long">R. P. Salomons, P.Cairo Preis.2 (Papyrologica Bruxellensia 35), Bruxelles 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
@@ -470,8 +470,8 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-             <bibl type="monograph">
-                 <title type="short" sameAs="b15462">O.Eleph. DAIK</title>
+            <bibl sameAs="b15462" type="monograph">
+                 <title type="short">O.Eleph. DAIK</title>
                  <title type="long">Guy Wagner, Les Papyrus et les Ostraca grecs d'Éléphantine (P. et O. Eleph. DAIK). (Deutsches Archäologisches Institut, Abteilung Kairo. Archäologische Veröffentlichungen 70), Mainz am Rhein, Ph. von Zabern, 1998</title>
                  <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                  <date type="creation">vor 2016</date>
