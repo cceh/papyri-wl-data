@@ -245,8 +245,9 @@
                         <!-- Extract reference from literature.xml -->
                         <xsl:variable name="literature-xml" select="doc('../../../literature/literature.xml')"/>
                         <xsl:variable name="ref">
+                            <!-- segmentation of different forms that occur in the field; cf. https://github.com/cceh/papyri-wl/issues/138 -->
                             <xsl:choose>
-                                <xsl:when test="contains(.,'(')">
+                                <xsl:when test="contains(.,'(') and not(contains(.,' + ('))">
                                     <xsl:value-of select="normalize-space(translate(substring-before(.,'('),'⁲','²'))"/><!-- U+2073: ³ -->
                                 </xsl:when>
                                 <xsl:when test="contains(.,', Index')">
@@ -261,8 +262,8 @@
                                 <xsl:when test="contains(.,', S. ')">
                                     <xsl:value-of select="normalize-space(translate(substring-before(.,', S. '),'⁲','²'))"/>
                                 </xsl:when>
-                                <xsl:when test="ends-with(.,' +')">
-                                    <xsl:value-of select="normalize-space(translate(replace(.,'\s\+$',''),'⁲','²'))"/>
+                                <xsl:when test="contains(.,' + ')">
+                                    <xsl:value-of select="normalize-space(translate(substring-before(.,' + '),'⁲','²'))"/>
                                 </xsl:when>
                                 <xsl:when test="ends-with(.,' A u. B')">
                                     <xsl:value-of select="normalize-space(translate(replace(.,'\sA u\. B$',''),'⁲','²'))"/>
