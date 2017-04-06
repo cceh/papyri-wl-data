@@ -12,7 +12,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2017-01-24">24. Januar 2017</date>
+            <date when="2017-04-06">6. April 2017</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -35,6 +35,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-04-06" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
          <change when="2017-01-24" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
          <change when="2017-01-08" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
@@ -56,7 +57,7 @@
                      <orth xml:lang="grc" type="regularised" extent="full">ςητονιοκ</orth>
                   </form>
                   <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
-                     <date type="creation">vor 2016</date>.</note>
+                     <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <idno type="fp7">6217</idno>
                </form>
                <!--Belegstellen-->

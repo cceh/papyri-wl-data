@@ -12,7 +12,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2017-01-24">24. Januar 2017</date>
+            <date when="2017-04-06">6. April 2017</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -35,6 +35,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-04-06" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
          <change when="2017-01-24" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
          <change when="2017-01-08" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
          <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
@@ -56,7 +57,7 @@
                      <orth xml:lang="grc" type="regularised" extent="full">ιπε</orth>
                   </form>
                   <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
-                     <date type="creation">vor 2016</date>.</note>
+                     <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <idno type="fp7">4126</idno>
                </form>
                <!--Belegstellen-->
@@ -183,7 +184,7 @@
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b18379">O.Kellis</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#">O.Krok. 01</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b18535">O.Krok. 01</ref>
                      </item>
                      <item>
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b70719">O.Narm. Corr.</ref>
@@ -234,7 +235,7 @@
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#ohne_Verweis_P_Cairo_Mich__02">P.Cairo Mich. 02</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#">P.Cairo Preis.²</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#ohne_Verweis_P_Cairo_Preis_2">P.Cairo Preis.²</ref>
                      </item>
                      <item>
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b14327">P.Col. 10</ref>
@@ -306,7 +307,7 @@
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b14664">P.Kell. 04</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#">P.Kell. Copt. 01 B</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b15712">P.Kell. Copt. 01 B</ref>
                      </item>
                      <item>
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b14792">P.Köln 08</ref>
@@ -420,7 +421,7 @@
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#ohne_Verweis_P_Oxy__78">P.Oxy. 78</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#">P.Oxy. 79 +</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#ohne_Verweis_P_Oxy__79">P.Oxy. 79 +</ref>
                         <note type="addInfo">Index III</note>
                      </item>
                      <item>
@@ -463,7 +464,7 @@
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b21621">P.Prag. 03</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#">P.Scholl</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b80636">P.Scholl</ref>
                         <note type="addInfo">+ Index A II</note>
                      </item>
                      <item>
@@ -536,10 +537,10 @@
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b81764">Short Texts 02</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#">SPP 03².1</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b19858">SPP 03².1</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#">SPP 03².2</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b20138">SPP 03².2</ref>
                      </item>
                      <item>
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#ohne_Verweis_Tyche_08">Tyche 08</ref>
