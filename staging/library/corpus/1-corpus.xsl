@@ -21,6 +21,7 @@
     <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc[not(ancestor::*:TEI)]/*:change"/>
     <xsl:variable name="literature" select="document('../../../meta/literature.xml')//*:bibl"/>
     <xsl:variable name="editors" select="document('../../../meta/editors.xml')//*:editionStmt"/>
+    <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:revisionDesc/*:listChange[@type='versions']"/>
     
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -217,13 +218,18 @@
                     </langUsage>
                 </profileDesc>
                 <revisionDesc>
-                    <change>
-                        <xsl:attribute name="when" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
-                        <xsl:attribute name="who" select="$editor"/>
-                        <xsl:text>Datenkorpus neu generiert</xsl:text>
-                    </change>
-                    <!-- inherit existing changes -->
-                    <xsl:apply-templates select="$changes"/>
+                    <listChange>
+                        <listChange type="pipelineRuns">
+                            <change>
+                                <xsl:attribute name="when" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
+                                <xsl:attribute name="who" select="$editor"/>
+                                <xsl:text>Datenkorpus neu generiert</xsl:text>
+                            </change>
+                            <!-- inherit existing changes -->
+                            <xsl:apply-templates select="$changes"/>
+                        </listChange>
+                        <xsl:copy-of select="$versions"/>
+                    </listChange>
                 </revisionDesc>
             </teiHeader>
             <xsl:copy-of select="document('../../../meta/about.xml')//*:text"/>
