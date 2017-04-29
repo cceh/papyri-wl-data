@@ -415,7 +415,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P.Col.10" type="monograph">
+            <bibl xml:id="ohne_Verweis_P.Coles" type="monograph">
                <title type="short">P.Coles</title>
                <title type="long">Guido Bastianini - Nikolaos Gonis - Simona Russo, Charisterion per Revel Coles. Trenta testi letterari e documentari dall’Egitto (P.Coles) (Edizioni dell’Istituto Papirologico «G. Vitelli» 4), Firenze 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -433,7 +433,6 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
-            <!-- hier weiter -->
             <bibl xml:id="b79288" type="monograph">
                <title type="short">P.Dime 03</title>
                <title type="long">Sandra L. Lippert, Maren Schentuleit, mit Beiträgen von Fabian Reiter, Urkunden (Demotische Dokumente aus Dime III), Wiesbaden, Harrassowitz, 2010</title>
@@ -1102,19 +1101,19 @@
             </bibl>
             <bibl xml:id="b19858" type="monograph">
                <title type="short">SPP 03².1</title>
-               <title type="long">Sven Tost, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III2 1-118: Quittungen, Lieferungskäufe und Darlehen (Papyrologica Vindobonensia 2), Wien 2007</title>
+               <title type="long">Sven Tost, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III² 1-118: Quittungen, Lieferungskäufe und Darlehen (Papyrologica Vindobonensia 2), Wien 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="b20138" type="monograph">
                <title type="short">SPP 03².2</title>
-               <title type="long">Fritz Mitthof, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III2 119-238: Schuldscheine und Quittungen (Papyrologica Vindobonensia 3), Wien 2007</title>
+               <title type="long">Fritz Mitthof, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III² 119-238: Schuldscheine und Quittungen (Papyrologica Vindobonensia 3), Wien 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="b20109" type="monograph">
                <title type="short">SPP 03².5</title>
-               <title type="long">Claudia Kreuzsaler, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III2 449-582: Quittungen für die Getreidesteuer (Papyrologica Vindobonensia 6), Wien 2007</title>
+               <title type="long">Claudia Kreuzsaler, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III² 449-582: Quittungen für die Getreidesteuer (Papyrologica Vindobonensia 6), Wien 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
