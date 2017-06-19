@@ -3076,15 +3076,23 @@
          <div>
             <head>Kontaktangaben</head>
             <list>
-               <label>Dieter Hagedorn</label>
-               <item>dieter.hagedorn@urz.uni-heidelberg.de</item>
-               <label>Klaus Maresch</label>
-               <item>ala37@uni-koeln.de</item>
-               <label>Patrick Sahle</label>
-               <item>sahle@uni-koeln.de</item>
-               <label>Allgemeine Kontaktadresse</label>
-               <item>papyri-woerterlisten@uni-koeln.de</item>
-            </list>
+               <item>
+                  <persName>Dieter Hagedorn</persName>
+                  <term>dieter.hagedorn@urz.uni-heidelberg.de</term>
+               </item>
+               <item>
+                  <persName>Klaus Maresch</persName>
+                  <term>ala37@uni-koeln.de</term>
+               </item>
+               <item>
+                  <persName>Patrick Sahle</persName>
+                  <term>sahle@uni-koeln.de</term>
+               </item>
+               <item>
+                  <persName>Allgemeine Kontaktadresse</persName>
+                  <term>papyri-woerterlisten@uni-koeln.de</term>
+               </item>
+              </list>
          </div>
       </body>
    </text>
