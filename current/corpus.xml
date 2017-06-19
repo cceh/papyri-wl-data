@@ -3071,20 +3071,30 @@
             an das <ref target="http://www.cceh.uni-koeln.de" rend="new">Cologne Center for
                eHumanities</ref> der Universität Köln (CCeH). Dessen Leiter Patrick Sahle und seine
             Mitarbeiter, namentlich Peter Dängeli (Projektkoordination, Datenkuratierung) und Ben
-            Bigalke (Anwendungsentwicklung), haben freundlicherweise die hier vorliegende
-            Online-Fassung entwickelt.</p>
+            Bigalke (Anwendungsentwicklung), haben die hier vorliegende Online-Fassung entwickelt und 2017 veröffentlicht.</p>
          <div>
             <head>Kontaktangaben</head>
             <list>
-               <label>Dieter Hagedorn</label>
-               <item>dieter.hagedorn@urz.uni-heidelberg.de</item>
-               <label>Klaus Maresch</label>
-               <item>ala37@uni-koeln.de</item>
-               <label>Patrick Sahle</label>
-               <item>sahle@uni-koeln.de</item>
-               <label>Allgemeine Kontaktadresse</label>
-               <item>papyri-woerterlisten@uni-koeln.de</item>
-            </list>
+               <item>
+                  <term>Für die Inhalte: </term>
+                  <persName>Dieter Hagedorn</persName>
+                  <email>dieter.hagedorn@urz.uni-heidelberg.de</email>
+               </item>
+               <item>
+                  <term>Für die Inhalte: </term>
+                  <persName>Klaus Maresch</persName>
+                  <email>ala37@uni-koeln.de</email>
+               </item>
+               <item>
+                  <term>Für das technische System: </term>
+                  <persName>Patrick Sahle</persName>
+                  <email>sahle@uni-koeln.de</email>
+               </item>
+               <item>
+                  <persName>Allgemeine Kontaktadresse:</persName>
+                  <email>papyri-woerterlisten@uni-koeln.de</email>
+               </item>
+              </list>
          </div>
       </body>
    </text>
