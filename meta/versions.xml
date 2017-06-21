@@ -19,6 +19,22 @@
         </fileDesc>
         <revisionDesc>
             <listChange type="versions">
+                <!--<change when="2017-XX-YY" n="21">
+                    <label>21. Fassung vom XX. YY 2017</label>
+                    <note>hinzugekommen: 
+                        <ref target="">An.Pap. 28</ref>;
+                        <ref target="">O.Ber. III</ref>; 
+                        <ref target="">P.Bastianini</ref>; 
+                        <ref target="">P.Bub. III</ref>; 
+                        <ref target="">P.Eirene IV</ref>; 
+                        <ref target="">P.Gascou</ref>; 
+                        <ref target="">P.Oxy. LXXXII</ref>; 
+                        <ref target="">P.Trier I</ref>; 
+                        <ref target="">PSI Com. 12</ref>; 
+                        <ref target="">PUG IV</ref>; 
+                        <ref target="">Tyche 31</ref>
+                    </note>
+                </change>-->
                 <change when="2016-06-01" n="20">
                     <label>20. Fassung vom 1. Juni 2016</label>
                     <note>hinzugekommen: 
@@ -76,6 +92,9 @@
                 <change when="2012-12-01" n="16">
                     <label>16. Fassung vom 1. Dezember 2012</label>
                     <note>hinzugekommen: 
+                        <ref target="ohne_Verweis_An_Pap__21_22">An.Pap. 21/22</ref>; 
+                        <ref target="ohne_Verweis_EVO_32">EVO 32</ref>; 
+                        <ref target="ohne_Verweis_Tyche_26">Tyche 26</ref>;
                         <ref target="b81797">O.Did.</ref>; 
                         <ref target="b82190">O.Petr. Mus.</ref>; 
 <!-- unsicher -->                        <ref target="b80208">O.Trim.</ref>; 
@@ -109,6 +128,7 @@
                     <label>14. Fassung vom 13. Oktober 2010</label>
                     <note>hinzugekommen: 
                         <ref target="b21293">CPR XXX</ref>; 
+                        <ref target="b21024">O.Edfou Copte</ref>; 
                         <ref target="b20775">O.Strasb. II</ref>; 
                         <ref target="b21301">P.Eirene III</ref>; 
                         <ref target="b20984">P.Gen. IV</ref>; 
@@ -116,12 +136,15 @@
                         <ref target="b21216">P.Köln XII</ref>; 
                         <ref target="b21045">P.Narm. 2006</ref>; 
                         <ref target="b21439">P.Oxy. LXXV</ref>;
-                        <ref target="b21291">P.Schøyen II</ref>
+                        <ref target="b21291">P.Schøyen II</ref>;
+                        <ref target="ohne_Verweis_Tyche_24">Tyche 24</ref>
                     </note>
                 </change>
                 <change when="2010-02-07" n="13">
                     <label>13. Fassung vom 7. Februar 2010</label>
                     <note>hinzugekommen: 
+                        <ref target="ohne_Verweis_An_Pap__18_20">An.Pap. 18/20</ref>; 
+                        <ref target="ohne_Verweis_Chron_Eg__84">Chron.Eg. 84</ref>;
                         <ref target="b20909">BL XII</ref>; 
                         <ref target="b21315">CPR XXIX</ref>; 
                         <ref target="b20700">O.Claud. IV</ref>; 
@@ -132,24 +155,32 @@
                         <ref target="b76273">P.Minnesota</ref>; 
                         <ref target="b20869">P.Oxy. LXXIII</ref>; 
                         <ref target="b20830">P.Oxy. LXXIV</ref>; 
-                        <ref target="b20674">P.Poethke</ref>
+                        <ref target="b20674">P.Poethke</ref>;
+                        <ref target="ohne_Verweis_PSI_Com__11">PSI Com. 11</ref>; 
+                        <ref target="ohne_Verweis_Tyche_22">Tyche 22</ref>; 
+                        <ref target="ohne_Verweis_Tyche_23">Tyche 23</ref>; 
+                        <ref target="b77545">ZPE 171</ref>
                     </note>
                 </change>
                 <change when="2009-02-17" n="12">
                     <label>12. Fassung vom 17. Februar 2009</label>
                     <note>hinzugekommen: 
                         <ref target="b20504">CPR XXVIII</ref>; 
+                        <ref target="b20519">Litinas, Vessels' Notations</ref>; 
                         <ref target="b20517">O.AbuMina</ref>; 
                         <ref target="b20374">P.Naqlun II</ref>; 
                         <ref target="b20459">P.Oxy. LXXII</ref>; 
                         <ref target="b20490">P.Worp</ref>; 
                         <ref target="b20297">PSI XV</ref>; 
-                        <ref target="b77425">SB XXV</ref>
+                        <ref target="b77425">SB XXV</ref>;
+                        <ref target="ohne_Verweis_Tyche_21">Tyche 21</ref>
                     </note>
                 </change>
                 <change when="2008-03-10" n="11">
                     <label>11. Fassung vom 10. März 2008</label>
                     <note>hinzugekommen: 
+                        <ref target="ohne_Verweis_Chron_Eg__82">Chron.Eg. 82</ref>; 
+                        <ref target="b19181">KSB III</ref>;
                         <ref target="b19587">P.Brux. Bawit</ref>; 
                         <ref target="b20221">P.Iand. Zen.</ref>; 
                         <ref target="b19894">P.Köln XI</ref>; 
@@ -160,6 +191,8 @@
                 <change when="2007-04-26" n="10">
                     <label>10. Fassung vom 26. April 2007</label>
                     <note>hinzugekommen: 
+                        <ref target="b19232">Łajtar, Deir el-Bahari</ref>; 
+                        <ref target="b18732">O.Narm. dem. 03</ref>;
                         <ref target="b19265">P.Ammon II</ref>; 
                         <ref target="b19568">P.Berl. Cohen</ref>; 
                         <ref target="b19840">P.Sijp.</ref>; 
@@ -195,7 +228,7 @@
                         <ref target="b21002">P.NYU II</ref>; 
                         <ref target="b18607">P.Oxy. LXIX</ref>; 
                         <ref target="b18867">P.Tebt. V</ref>; 
-                        <ref target="b18448">PSI Com.</ref>; 
+                        <ref target="b18448">PSI Com. 6</ref>; 
                         <ref target="ohne_Verweis_Tyche_18">Tyche 18</ref>; 
                         <ref target="b18384">Zuckerman, Registre fiscal</ref>
                     </note>
@@ -216,6 +249,8 @@
                     <note>hinzugekommen: 
                         <ref target="b17261">CPR XXIII</ref>; 
                         <ref target="b17079">CPR XXIV</ref>; 
+                        <ref target="b71893">Cuvigny, Myos Hormos</ref>; 
+                        <ref target="b15587">I.Herm.</ref>;
                         <ref target="b17154">P.Dryton</ref>; 
                         <ref target="b17509">P.Hombert II</ref>; 
                         <ref target="b17706">P.Köln X</ref>; 
@@ -229,13 +264,18 @@
                 <change when="2002-12-06" n="5">
                     <label>5. Fassung vom 6. Dezember 2002</label>
                     <note>hinzugekommen: 
+                        <ref target="ohne_Verweis_BACPSI_18">BACPSI 18</ref>;
                         <ref target="b17118">BL XI</ref>; 
                         <ref target="b16831">CPR XXII</ref>; 
+                        <ref target="b15928">DJD 38</ref>; 
+                        <ref target="b16326">I.Alex.ptol.</ref>;
                         <ref target="b16707">O.Douch V</ref>; 
                         <ref target="b17122">P.Berl. Salm.</ref>; 
                         <ref target="b17065">P.Erl. Diosp.</ref>; 
                         <ref target="b16943">P.Lips. II</ref>; 
-                        <ref target="b16963">P.Petra I</ref>; 
+                        <ref target="b70710">P.Lond. Copt. 1077</ref>;
+                        <ref target="b16963">P.Petra I</ref>;
+                        <ref target="b14556">P.Pommersf.</ref>;
                         <ref target="b17117">SB XXIII</ref>
                     </note>
                 </change>
@@ -273,6 +313,7 @@
                         <ref target="b16031">I.Piyris</ref>; 
                         <ref target="b15951">O. Claud. III</ref>; 
 <!-- unklar -->                        <ref target="b15934">P.Apa Apollo</ref>; 
+                        <ref target="b65168">P.Flor. 384V</ref>;
                         <ref target="b16511">P.Heid. VIII</ref>; 
                         <ref target="b14725">P.Ḥever</ref>; 
                         <ref target="b15712">P.Kell. Copt. I</ref>; 
