@@ -12,7 +12,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2017-04-06">6. April 2017</date>
+            <date when="2017-06-23">23. Juni 2017</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -35,6 +35,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-06-23" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Datum der Aufnahme)</change>
          <change when="2017-04-06" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
          <change when="2017-01-24" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
          <change when="2017-01-08" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
@@ -43,6 +44,23 @@
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
          <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
          <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+         <change when="2016-06-01">Aufzeichnung des Vorkommens in: P.Coles</change>
+         <change when="2015-10-16">Aufzeichnung des Vorkommens in: PUG 05</change>
+         <change when="2012-12-01">Aufzeichnung des Vorkommens in: O.Did.; P.Lond. Herm.; P.Oxy. 77; SB 27</change>
+         <change when="2011-12-15">Aufzeichnung des Vorkommens in: P.Sorb. 03</change>
+         <change when="2010-10-13">Aufzeichnung des Vorkommens in: CPR 30; P.Jena 02</change>
+         <change when="2010-02-07">Aufzeichnung des Vorkommens in: An.Pap. 18/20</change>
+         <change when="2009-02-17">Aufzeichnung des Vorkommens in: Litinas, Vessels' Notations; SB 25</change>
+         <change when="2008-03-10">Aufzeichnung des Vorkommens in: P.Köln 11</change>
+         <change when="2007-04-26">Aufzeichnung des Vorkommens in: SPP 03².5</change>
+         <change when="2006-08-29">Aufzeichnung des Vorkommens in: CPR 25; P.Count; P.Heid. 09</change>
+         <change when="2005-09-16">Aufzeichnung des Vorkommens in: Aegyptus 81; CPR 19; P.Louvre 02</change>
+         <change when="2004-09-25">Aufzeichnung des Vorkommens in: P.Paramone</change>
+         <change when="2004-03-06">Aufzeichnung des Vorkommens in: CPR 24; I.Herm.</change>
+         <change when="2002-12-06">Aufzeichnung des Vorkommens in: P.Erl. Diosp.; P.Lond. Copt. 1077</change>
+         <change when="2002-02-15">Aufzeichnung des Vorkommens in: SB 21</change>
+         <change when="2001-09-30">Aufzeichnung des Vorkommens in: P.Harrauer</change>
+         <change when="2000-11-14">Aufzeichnung des Vorkommens in: BGU 16; O.Douch 04; P.Bingen; P.Bodl. 01; P.Oxy. 63</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="en">
@@ -103,7 +121,7 @@
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b14543">P.Bodl. 01</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#ohne_Verweis_P.Col.10">P.Coles</ref>
+                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#ohne_Verweis_P.Coles">P.Coles</ref>
                      </item>
                      <item>
                         <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/page/quellen#b19060">P.Count</ref>

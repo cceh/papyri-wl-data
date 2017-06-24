@@ -12,7 +12,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2017-04-06">6. April 2017</date>
+            <date when="2017-06-23">23. Juni 2017</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -35,6 +35,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-06-23" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Datum der Aufnahme)</change>
          <change when="2017-04-06" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
          <change when="2017-01-24" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
          <change when="2017-01-08" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
@@ -43,6 +44,26 @@
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
          <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
          <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+         <change when="2016-06-01">Aufzeichnung des Vorkommens in: P.Daris; P.Köln 14; P.Tebt. Pad. 01; SB 29</change>
+         <change when="2015-10-16">Aufzeichnung des Vorkommens in: BASP 43-50</change>
+         <change when="2014-12-10">Aufzeichnung des Vorkommens in: Chang, Dossier; P.Cairo Mich. 02; P.Cairo Preis.²; P.Louvre Bawit; P.Turku; Tyche 28</change>
+         <change when="2014-01-26">Aufzeichnung des Vorkommens in: BGU 20; P.Köln 13; P.Oxy. 78; PSI 16; Short Texts 02</change>
+         <change when="2012-12-01">Aufzeichnung des Vorkommens in: O.Did.; O.Petr. Mus.; O.Trim. 01; P.Bagnall; P.Lond. Herm.; P.Oxy. 77; P.Pintaudi; SB 27</change>
+         <change when="2011-12-15">Aufzeichnung des Vorkommens in: O.Taxes 02; P.Dime 03; P.Mich. 20; P.Prag. 03; P.Sorb. 03; P.Vet. Aelii; PSI Com. 09</change>
+         <change when="2010-10-13">Aufzeichnung des Vorkommens in: O.Edfou Copte; O.Strasb. 02; P.Eirene 03; P.Gen. 04; P.Jena 02; P.Köln 12; P.Narm. 2006; P.Oxy. 75</change>
+         <change when="2010-02-07">Aufzeichnung des Vorkommens in: BL 12; O.Claud. 04; P.Bawit Clackson; P.Oxy. 74; P.Poethke</change>
+         <change when="2009-02-17">Aufzeichnung des Vorkommens in: P.Naqlun 02; P.Oxy. 72; P.Worp; PSI 15; SB 25</change>
+         <change when="2008-03-10">Aufzeichnung des Vorkommens in: Chron.Eg. 82; P.Brux. Bawit; P.Iand. Zen.; P.Köln 11; P.Oxy. 71</change>
+         <change when="2007-04-26">Aufzeichnung des Vorkommens in: Łajtar, Deir el-Bahari; P.Sijp.; SPP 03².1; SPP 03².2; SPP 03².5</change>
+         <change when="2006-08-29">Aufzeichnung des Vorkommens in: BGU 19; P.Oxy. 70</change>
+         <change when="2005-09-16">Aufzeichnung des Vorkommens in: CPR 19; O.Heid.; O.Krok. 01; P.Louvre 02; P.NYU 02; P.Oxy. 69; Zuckerman, Registre fiscal</change>
+         <change when="2004-09-25">Aufzeichnung des Vorkommens in: O.Bawit IFAO; P.Eirene 02; P.Horak</change>
+         <change when="2004-03-06">Aufzeichnung des Vorkommens in: CPR 23; P.Dryton; P.Hombert 02; P.Oxy. 68; P.Phrur. Diosk.</change>
+         <change when="2002-12-06">Aufzeichnung des Vorkommens in: BACPSI 18; BL 11; CPR 22; I.Alex.ptol.; P.Berl. Salm.; P.Lips. 02; SB 23</change>
+         <change when="2002-02-15">Aufzeichnung des Vorkommens in: BGU 17; P.Köln 09; P.Oxy. 67; SB 21</change>
+         <change when="2001-09-30">Aufzeichnung des Vorkommens in: P.Harrauer; P.Thomas</change>
+         <change when="2001-03-11">Aufzeichnung des Vorkommens in: An.Pap. 05; An.Pap. 10/11; BGU 18,1; I.Piyris; O.Claud. 03; P.Heid. 08; P.Mon. Apollo</change>
+         <change when="2000-11-14">Aufzeichnung des Vorkommens in: BGU 16; O.Claud. 02; O.Eleph. DAIK; P.Bingen; P.Bodl. 01; P.Col. 10; P.Eirene 01; P.Gen. 03; P.Hamb. 04; P.Kell. 04; P.Köln 08; P.Lond. 1177; P.Louvre 01; P.Lugd. Bat. 30; P.Mich. 18; P.Oxy. 62; P.Oxy. 63; P.Oxy. 66; Tyche 09; Tyche 11; Tyche 12</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="en">

@@ -12,7 +12,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2017-04-06">6. April 2017</date>
+            <date when="2017-06-23">23. Juni 2017</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -35,6 +35,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-06-23" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Datum der Aufnahme)</change>
          <change when="2017-04-06" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
          <change when="2017-01-24" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
          <change when="2017-01-08" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
@@ -43,6 +44,23 @@
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
          <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
          <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+         <change when="2016-06-01">Aufzeichnung des Vorkommens in: P.Köln 14; SB 29; Tyche 30</change>
+         <change when="2014-12-10">Aufzeichnung des Vorkommens in: P.Cairo Preis.²; P.Oxy. 79; P.Tarich.; P.Turku</change>
+         <change when="2014-01-26">Aufzeichnung des Vorkommens in: An.Pap. 23/24; BGU 20; P.Köln 13; PSI 16</change>
+         <change when="2012-12-01">Aufzeichnung des Vorkommens in: P.Oxy. 76; SB 27</change>
+         <change when="2011-12-15">Aufzeichnung des Vorkommens in: P.Sorb. 03</change>
+         <change when="2010-10-13">Aufzeichnung des Vorkommens in: P.Köln 12</change>
+         <change when="2010-02-07">Aufzeichnung des Vorkommens in: An.Pap. 18/20; BL 12</change>
+         <change when="2009-02-17">Aufzeichnung des Vorkommens in: CPR 28; PSI 15; SB 25</change>
+         <change when="2008-03-10">Aufzeichnung des Vorkommens in: P.Iand. Zen.; P.Köln 11</change>
+         <change when="2007-04-26">Aufzeichnung des Vorkommens in: Łajtar, Deir el-Bahari; P.Sijp.</change>
+         <change when="2006-08-29">Aufzeichnung des Vorkommens in: P.Count; P.Heid. 09</change>
+         <change when="2004-09-25">Aufzeichnung des Vorkommens in: P.Horak; P.Paramone</change>
+         <change when="2004-03-06">Aufzeichnung des Vorkommens in: CPR 23; I.Herm.; P.Dryton; P.Phrur. Diosk.</change>
+         <change when="2002-12-06">Aufzeichnung des Vorkommens in: P.Lips. 02; P.Pommersf.; SB 23</change>
+         <change when="2002-02-15">Aufzeichnung des Vorkommens in: Gloss. Bil. 02; SB 21</change>
+         <change when="2001-03-11">Aufzeichnung des Vorkommens in: BGU 18,1</change>
+         <change when="2000-11-14">Aufzeichnung des Vorkommens in: P.Ammon 01; P.Bodl. 01; P.Eleph. DAIK; P.Gen. 03; P.Köln 08; P.Mich. 18; P.Oxy. 63; Tyche 09</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="en">

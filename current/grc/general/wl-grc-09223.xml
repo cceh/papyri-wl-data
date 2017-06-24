@@ -12,7 +12,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2017-04-06">6. April 2017</date>
+            <date when="2017-06-23">23. Juni 2017</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -35,6 +35,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-06-23" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Datum der Aufnahme)</change>
          <change when="2017-04-06" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
          <change when="2017-01-24" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
          <change when="2017-01-08" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
@@ -43,6 +44,14 @@
          <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
          <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
          <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+         <change when="2016-06-01">Aufzeichnung des Vorkommens in: SB 29</change>
+         <change when="2012-12-01">Aufzeichnung des Vorkommens in: P.Bagnall; SB 27</change>
+         <change when="2011-12-15">Aufzeichnung des Vorkommens in: P.Sorb. 03</change>
+         <change when="2010-10-13">Aufzeichnung des Vorkommens in: O.Edfou Copte</change>
+         <change when="2010-02-07">Aufzeichnung des Vorkommens in: O.Claud. 04</change>
+         <change when="2009-02-17">Aufzeichnung des Vorkommens in: SB 25</change>
+         <change when="2007-04-26">Aufzeichnung des Vorkommens in: P.Sijp.</change>
+         <change when="2001-03-11">Aufzeichnung des Vorkommens in: P.Mon. Apollo</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="en">
