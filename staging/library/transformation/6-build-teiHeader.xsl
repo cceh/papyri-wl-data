@@ -79,6 +79,21 @@
                                 <xsl:attribute name="who" select="$editor"/>
                                 <xsl:value-of select="$task-newEntries"/>
                             </change>
+                            <!-- record originating publication (only for new entries; existing entries should have this information already) -->
+                            <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:revisionDesc/*:listChange[@type='versions']"/>
+                            <xsl:variable name="occurrences">
+                                <occurs>
+                                    <xsl:for-each select="*:entry/*:xr/*:list/*:item/*:ref">
+                                        <in ref="{text()}"><xsl:value-of select="substring-after(@target,'#')"/></in>
+                                    </xsl:for-each>
+                                </occurs>
+                            </xsl:variable>
+                            <xsl:for-each select="$versions/*:change[*:note/*:ref/@target=$occurrences/*:occurs/*:in]">
+                                <change when="{@when}">
+                                    <xsl:text>Aufzeichnung des Vorkommens in: </xsl:text>
+                                    <xsl:value-of select="$occurrences/*:occurs/*:in[.=current()/*:note/*:ref/@target]/@ref" separator="; "/>
+                                </change>
+                            </xsl:for-each>
                         </xsl:when>
                         <xsl:otherwise>
                             <change>
@@ -101,7 +116,7 @@
                             
                             <!-- recreating the history for existing entries based on versions.xml; to be removed after first run 
                                 (or better: adjust it so only the most recent version is taken into consideration and place it higher/above $task-existingEntries) -->
-                            <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:revisionDesc/*:listChange[@type='versions']"/>
+                            <!--<xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:revisionDesc/*:listChange[@type='versions']"/>
                             <xsl:variable name="occurrences">
                                 <occurs>
                                     <xsl:for-each select="*:entry/*:xr/*:list/*:item/*:ref">
@@ -114,7 +129,7 @@
                                     <xsl:text>Aufzeichnung des Vorkommens in: </xsl:text>
                                     <xsl:value-of select="$occurrences/*:occurs/*:in[.=current()/*:note/*:ref/@target]/@ref" separator="; "/>
                                 </change>
-                            </xsl:for-each>
+                            </xsl:for-each>-->
                             
                         </xsl:otherwise>
                     </xsl:choose>
