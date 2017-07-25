@@ -20,21 +20,27 @@
         <revisionDesc>
             <listChange type="versions">
                 <!--<change when="2017-XX-YY" n="21">
-                    <label>21. Fassung vom XX. YY 2017</label>
-                    <note>hinzugekommen: 
-                        <ref target="">An.Pap. 28</ref>;
-                        <ref target="">O.Ber. III</ref>; 
-                        <ref target="">P.Bastianini</ref>; 
-                        <ref target="">P.Bub. III</ref>; 
-                        <ref target="">P.Eirene IV</ref>; 
-                        <ref target="">P.Gascou</ref>; 
-                        <ref target="">P.Oxy. LXXXII</ref>; 
-                        <ref target="">P.Trier I</ref>; 
-                        <ref target="">PSI Com. 12</ref>; 
-                        <ref target="">PUG IV</ref>; 
-                        <ref target="">Tyche 31</ref>
+                    <label>22. Fassung vom XX. YY 2017</label>
+                    <note>hinzugekommen:
                     </note>
                 </change>-->
+                <change when="2017-07-26" n="21">
+                    <label>21. Fassung vom 26. Juli 2017</label>
+                    <note>hinzugekommen: 
+                        <ref target="ohne_Verweis_An_Pap__28">An.Pap. 28</ref>;
+                        <ref target="ohne_Verweis_O.Ber.03">O.Ber. III</ref>; 
+                        <ref target="ohne_Verweis_P.Bastianini">P.Bastianini</ref>; 
+                        <ref target="ohne_Verweis_P_Bub_03">P.Bub. III</ref>; 
+                        <ref target="ohne_Verweis_P_Eirene_52">P.Eirene IV</ref>; 
+                        <ref target="ohne_Verweis_P.Gascou">P.Gascou</ref>; 
+                        <ref target="ohne_Verweis_P_Oxy__81">P.Oxy. LXXXI</ref>; 
+                        <ref target="ohne_Verweis_P_Oxy__82">P.Oxy. LXXXII</ref>; 
+                        <ref target="ohne_Verweis_P_Trier_01">P.Trier I</ref>; 
+                        <ref target="ohne_Verweis_PSI_Com__12">PSI Com. 12</ref>; 
+                        <ref target="ohne_Verweis_PUG_04">PUG IV</ref>; 
+                        <ref target="ohne_Verweis_Tyche_31">Tyche 31</ref>
+                    </note>
+                </change>
                 <change when="2016-06-01" n="20">
                     <label>20. Fassung vom 1. Juni 2016</label>
                     <note>hinzugekommen: 

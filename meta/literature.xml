@@ -189,19 +189,19 @@
             </bibl>
             <bibl xml:id="b68842" type="monograph">
                <title type="short">O.Ber. 01</title>
-               <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, Documents from Berenike I. Greek Ostraka from the 1996-1998 seasons. (Papyrologica Bruxellensia 31). Bruxelles, Fondation Egyptologique Reine Elisabeth, 2000</title>
+               <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, Documents from Berenike I. Greek Ostraka from the 1996-1998 Seasons. (Papyrologica Bruxellensia 31). Bruxelles, Fondation Égyptologique Reine Élisabeth, 2000</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="b18436" type="monograph">
                <title type="short">O.Ber. 02</title>
-               <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, with contributions by Adam Bülow-Jacobsen, Hélène Cuvigny, Meindert Dijkstra, and Ursula Kaplony-Heckel, Documents from Berenike II. Greek Ostraka from the 1999-2001 seasons. (Papyrologica Bruxellensia 33). Bruxelles, Fondation Egyptologique Reine Elisabeth, 2005</title>
+               <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, with contributions by Adam Bülow-Jacobsen, Hélène Cuvigny, Meindert Dijkstra, and Ursula Kaplony-Heckel, Documents from Berenike II. Greek Ostraka from the 1999-2001 Seasons. (Papyrologica Bruxellensia 33). Bruxelles, Fondation Égyptologique Reine Élisabeth, 2005</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_O.Ber.03" type="monograph">
                <title type="short">O.Ber. 03</title>
-               <title type="long"><!-- unklar aufgrund Codierung --></title>
+               <title type="long">Rodney Ast, Roger S. Bagnall, Documents from Berenike III: Greek and Latin Texts from the 2009-2013 Seasons. (Papyrologica Bruxellensia 36). Bruxelles, Association Égyptologique Reine Élisabeth, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
@@ -373,6 +373,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Bub_03" type="monograph">
+               <title type="short">P.Bub. 03</title>
+               <title type="long">Klaus Maresch, Die verkohlten Papyri aus Bubastos, Band 3,A (P.Bub. III 6). (Papyrologica Coloniensia XV/3A), Paderborn, Ferdinand Schöningh, 2016</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <date type="creation">2017</date>
+            </bibl>
             <bibl xml:id="b14543" type="monograph">
                <title type="short">P.Bodl. 01</title>
                <title type="long">R.P. Salomons, Papyri Bodleianae I. (Studia Amstelodamensia ad Epigraphicam, Ius antiquum et Papyrologicam pertinentia. XXXIV), Amsterdam, J.C. Gieben, 1996</title>
@@ -462,6 +468,12 @@
                <title type="long">Eirene 46. Studia Graeca et Latina (Papyrologica III), Prague, Institute for Classical Studies, 2010</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Eirene_52" type="monograph">
+               <title type="short">P.Eirene 04</title>
+               <title type="long">Eirene 52. Studia Graeca et Latina (Papyrologica IV), Prague, Centre for Classical Studies, Institute of Philosophy of the Czech Academy of Sciences, 2016</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <date type="creation">2017</date>
             </bibl>
             <bibl xml:id="b15462" type="monograph">
                <title type="short">P.Eleph. DAIK</title>
@@ -555,7 +567,7 @@
             </bibl>
             <bibl xml:id="b14725" type="monograph">
                <title type="short">P.Ḥever</title>
-               <title type="long">Hannah M. Cotton and Ada Yardeni, Aramaic, Hebrew and Greek Documentary Texts from Nahal Ḥever and Other Sites, with an Appendix Containing Alleged Qumran Texts (The Seiyâl Collection II). (Discoveries in the Judaean Desert XXVII.), Oxford, Clarendon Press, 1997</title>
+               <title type="long">Hannah M. Cotton and Ada Yardeni, Aramaic, Hebrew and Greek Documentary Texts from Naḥal Ḥever and Other Sites, with an Appendix Containing Alleged Qumran Texts (The Seiyâl Collection II). (Discoveries in the Judaean Desert XXVII.), Oxford, Clarendon Press, 1997</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
@@ -865,6 +877,18 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxy__81" type="monograph"><!-- kein Treffer -->
+               <title type="short">P.Oxy. 81</title>
+               <title type="long">J. H. Brusuelas u.a., The Oxyrhynchus Papyri. Volume LXXXI (Nos. 5258-5289). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 102), London, Egypt Exploration Society, 2016</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <date type="creation">2017</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxy__82" type="monograph"><!-- kein Treffer -->
+               <title type="short">P.Oxy. 82</title>
+               <title type="long">N. Gonis u.a., The Oxyrhynchus Papyri. Volume LXXXII (Nos. 5290-5343). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 103), London, Egypt Exploration Society, 2016</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <date type="creation">2017</date>
+            </bibl>
             <bibl xml:id="b14666" type="monograph">
                <title type="short">P.Oxy. 984</title>
                <title type="long">Roger S. Bagnall, Bruce W. Frier and Ian C. Rutherford, The Census Register P. Oxy. 984: The Reverse of Pindar’s Paeans. (Papyrologica Bruxellensia 29), Bruxelles, Fondation Égyptologique Reine Élisabeth, 1997</title>
@@ -990,6 +1014,12 @@
                <title type="long">Agostino Soldati, Papiri Greci da Tebtynis della Università di Padova, Volume 1 (P.Tebt. Pad. 1-25), (Philippika 85,1), Wiesbaden 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Trier_01" type="monograph">
+               <title type="short">P.Trier 01</title>
+               <title type="long">Bärbel Kramer, Carlos Ma Sánchez-Moreno Ellart, Neue Quellen zum Prozessrecht der Ptolemäerzeit. Gerichtsakten aus der Trierer Papyrussammlung (P.Trier I). (APF, Beiheft 36), Berlin - Boston, Walter de Gruyter 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <date type="creation">2017</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_P_Turku" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Turku</title>
@@ -1231,6 +1261,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_An_Pap__28" type="journal">
+               <title type="short">An.Pap. 28</title>
+               <title type="long">Analecta Papyrologica 28 (2016)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <date type="creation">2016</date>
+            </bibl>
             <bibl xml:id="ohne_Verweis_BACPSI_18" type="journal">
                <title type="short">BACPSI 18</title>
                <title type="long">Bulletin of Ain-Shams University Center of Papyrological Studies and Inscriptions 18 (2001) = Magdy Ahmed Ismail Aly, An edition of unpublished Greek papyrus documents from Dionysias and some papyri of Cairo museum</title>
@@ -1392,6 +1428,12 @@
                <title type="long">Tyche 30 (2015)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_Tyche_31" type="journal">
+               <title type="short">Tyche 31</title>
+               <title type="long">Tyche 31 (2016)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <date type="creation">2017</date>
             </bibl>
             <bibl xml:id="b77545" type="journal">
                <title type="short">ZPE 171</title>
