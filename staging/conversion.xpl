@@ -13,8 +13,8 @@
         <p>For testing purposes, it is possible to output a single file using the outputScenario 'oneFile'.</p>
     </p:documentation>
     <p:option name="editor" select="'http://github.com/pdaengeli'"/><!-- Bearbeiter -->
-    <p:option name="task-newEntries" select="'XProc-Workflow; Neuanlage des Eintrags und Vergabe der xml:id'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
-    <p:option name="task-existingEntries" select="'XProc-Workflow; Anpassung des bestehenden Eintrags'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
+    <p:option name="task-newEntries" select="'21. Fassung vom 26.07.2017: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
+    <p:option name="task-existingEntries" select="'21. Fassung vom 26.07.2017: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
     <p:option name="schemaPath" select="'../validation'"/>
     <p:option name="comparisonBase" select="'current'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
@@ -118,7 +118,9 @@
     <p:identity name="wrapped-transformation-result">
         <p:input port="source"/>
     </p:identity>
-    <pwl:log/>
+    <pwl:log>
+        <p:with-param name="comparisonBase" select="$comparisonBase"/>
+    </pwl:log>
     
     <!-- generation of TEI corpus (including statistical data) -->
     <p:documentation>

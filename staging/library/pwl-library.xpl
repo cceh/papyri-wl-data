@@ -40,6 +40,8 @@
         
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter"/>
+
+        <p:option name="comparisonBase" select="$comparisonBase"/>
         
         <p:documentation>
             <h2>Import reporting</h2>
