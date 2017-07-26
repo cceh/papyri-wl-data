@@ -90,13 +90,17 @@ Datentransformation
 
 #### Kurzanleitung
 
-1. FileMaker-XML-Dateien in das Verzeichnis `staging/input` speichern.
-2. [`conversion.xpl`](/staging/conversion.xpl) ausführen
-3. Reporting auswerten bzw. Dateien in `staging/output` mit den bisherigen Dateien vergleichen ([`current`](/current))
-4. Dateien in [`current`](/current) durch Dateien in `staging/output` ersetzen
-5. `git commit` bzw. Pull-Request erstellen
+1. Versions- und Literaturangaben aktualisieren (`meta/literature.xml`, `meta/versions.xml`, `meta/editors.xml`)
+2. FileMaker-XML-Dateien in das Verzeichnis `staging/input` speichern.
+3. [`conversion.xpl`](/staging/conversion.xpl) ausführen
+4. Reporting auswerten bzw. Dateien in `staging/output` mit den bisherigen Dateien vergleichen ([`current`](/current))
+5. Dateien in [`current`](/current) durch Dateien in `staging/output` ersetzen
+6. `git commit` bzw. Pull-Request erstellen
+7. Version taggen bzw. Release erstellen
 
 #### Ausführliche Anleitung
+        
+Vor jeder Datenübernahme sind die Meta-Dateien `literature.xml`, `versions.xml` und ggf. `editors.xml` zu aktualisieren bzw. ergänzen.
 
 Der eigentliche Abgleich ist als [XProc](http://www.w3.org/TR/xproc/)-Pipeline angelegt. Innerhalb der Pipeline werden verschiedene XSL-Transformationen ausgeführt und die einzelnen Einträge schließlich als Einzeldateien ins Output-Verzeichnis geschrieben. Die Transformationsschritte umfassen:
 
@@ -112,7 +116,7 @@ Der eigentliche Abgleich ist als [XProc](http://www.w3.org/TR/xproc/)-Pipeline a
 
 Die XProc-Pipeline (`staging/conversion.xpl`) muss einmal angestossen werden, der Prozess läuft dann selbständig durch. Dieser Prozess kann sowohl in oXygen XML Editor (unter Nutzung des integrierten Calabash-Prozessors; vlg. [Anleitung](http://oxygenxml.com/doc/ug-editor/topics/xproc-transformation-scenario.html)) oder auf der Kommandozeile erfolgen (ebenfalls unter Nutzung des [Calabash](http://xmlcalabash.com/)-Prozessors oder eines anderen XProc-Prozessors.
 
-Der Vorgang ist relativ speicherintensiv und dauert für einen Voll-Abgleich je nach System/Konfiguration eine halbe Stunde oder länger.
+Der Vorgang ist relativ speicherintensiv und dauert für einen Voll-Abgleich je nach System/Konfiguration eine gute Stunde oder länger.
 
 In der Datei [`staging/conversion.xpl`](/staging/conversion.xpl) lassen sich mehrere Parameter konfigurieren (direkt in der Datei oder im oXygen-XProc-Transformationsszenario im Tab `Optionen`):
 
