@@ -37,6 +37,7 @@
         <category>religion</category>
     </xsl:variable>
     <xsl:variable name="rootNode" select="/"/>
+    <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:listChange[@type='versions']//*:change[preceding-sibling::*:change/*:note]"/>
     
     <xsl:template match="/">
         <md-wrapper>
@@ -112,6 +113,7 @@
 </xsl:text>
             </xsl:if>
             <xsl:apply-templates/>
+            
         </md-wrapper>
     </xsl:template>
     
@@ -121,6 +123,7 @@
 
 </xsl:text>
         <xsl:call-template name="entry-table-by-category"/>
+        <xsl:call-template name="version-check"/>
     </xsl:template>
     
     <xsl:template match="*:la">
@@ -129,6 +132,7 @@
 
 </xsl:text>
         <xsl:call-template name="entry-table-by-category"/>
+        <xsl:call-template name="version-check"/>
     </xsl:template>
     
     <xsl:template name="entry-table-by-category">
@@ -152,6 +156,36 @@
 <xsl:text>`</xsl:text><xsl:value-of select="*:ref"/><xsl:text>` </xsl:text>                    
                 </xsl:for-each>
 <xsl:text>|
+</xsl:text>
+            </xsl:for-each>            
+        </xsl:for-each-group>
+    </xsl:template>
+    
+    <xsl:template name="version-check">
+<xsl:text>## Entries that already existed before the import but were not recognized
+
+This section is empty unless the lemma was changed in FileMaker since the last export. In that case, the changes (most often these are regularisations on character level) should be ported to the `current` data and the transformation re-run until this section is empty.
+</xsl:text>
+        <xsl:for-each-group select="*:div" group-by="@type">
+<xsl:text>#### Type: </xsl:text><xsl:value-of select="@type"/><xsl:text>
+</xsl:text>            
+<xsl:text>
+| Lemma        | WL ID | FileMaker RecordId | references |
+| -----------|-------------|-------------|-------------|
+</xsl:text>
+            <xsl:for-each select="current-group()/*:entry[@NEW='new'][*:xr/*:list/*:item/*:ref/substring-after(@target,'/quellen#') = $versions//*:ref/tokenize(@target,'/')[last()]]">
+                <xsl:sort select="*:form/*:orth[@type='original']"/>
+                <xsl:text>| </xsl:text>
+                <xsl:value-of select="*:form/*:orth[@type='original']"/>
+                <xsl:text>| </xsl:text>
+                <xsl:value-of select="@xml:id"/>
+                <xsl:text>| </xsl:text>
+                <xsl:value-of select="*:form/*:idno[@type='fp7']"/>
+                <xsl:text>| </xsl:text>
+                <xsl:for-each select="*:xr/*:list/*:item">
+                    <xsl:text>`</xsl:text><xsl:value-of select="*:ref"/><xsl:text>` </xsl:text>                    
+                </xsl:for-each>
+                <xsl:text>|
 </xsl:text>
             </xsl:for-each>            
         </xsl:for-each-group>
