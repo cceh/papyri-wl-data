@@ -52,7 +52,7 @@
          <div type="general">
             <entry type="main" xml:id="wl-grc-00105">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">ἀγοραστειϲ</orth>
+                  <orth xml:lang="grc" type="original" extent="full">ἀγοραστεις</orth>
                   <orth xml:lang="grc" type="regularised" extent="full">αγοραστεις</orth>
                   <form type="derivative" value="reverse">
                      <orth xml:lang="grc" type="original" extent="full">ϲιετσαρογἀ</orth>

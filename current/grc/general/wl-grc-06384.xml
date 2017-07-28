@@ -52,7 +52,7 @@
          <div type="general">
             <entry type="main" xml:id="wl-grc-06384">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">κλούιον</orth>
+                  <orth xml:lang="grc" type="original" extent="full">κλουΐον</orth>
                   <orth xml:lang="grc" type="regularised" extent="full">κλουιον</orth>
                   <form type="derivative" value="reverse">
                      <orth xml:lang="grc" type="original" extent="full">νοιύολκ</orth>

@@ -52,7 +52,7 @@
          <div type="general">
             <entry type="main" xml:id="wl-grc-07732">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">μονιϲτο</orth>
+                  <orth xml:lang="grc" type="original" extent="full">μονιστο</orth>
                   <orth xml:lang="grc" type="regularised" extent="full">μονιςτο</orth>
                   <form type="derivative" value="reverse">
                      <orth xml:lang="grc" type="original" extent="full">οτϲινομ</orth>

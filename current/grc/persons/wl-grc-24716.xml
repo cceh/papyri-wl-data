@@ -54,7 +54,7 @@
          <div type="persons">
             <entry type="main" xml:id="wl-grc-24716">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">Πεμσάις</orth>
+                  <orth xml:lang="grc" type="original" extent="full">Πεμσάϊς</orth>
                   <orth xml:lang="grc" type="regularised" extent="full">Πεμσαις</orth>
                   <form type="derivative" value="reverse">
                      <orth xml:lang="grc" type="original" extent="full">ςιάσμεΠ</orth>
