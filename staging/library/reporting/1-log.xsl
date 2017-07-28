@@ -114,6 +114,14 @@
             </xsl:if>
             <xsl:apply-templates/>
             
+<xsl:text>## Control section
+    
+#### Entries that already existed before the import, but were not recognized
+
+This section is empty unless there are lemmata, that were changed in FileMaker since the last export. In that case, the changes (most often these are regularisations on character level) should be ported to the `current` data and the transformation re-run until this section is empty.
+</xsl:text>
+            <xsl:apply-templates mode="control"/>
+            
         </md-wrapper>
     </xsl:template>
     
@@ -123,7 +131,6 @@
 
 </xsl:text>
         <xsl:call-template name="entry-table-by-category"/>
-        <xsl:call-template name="version-check"/>
     </xsl:template>
     
     <xsl:template match="*:la">
@@ -132,6 +139,21 @@
 
 </xsl:text>
         <xsl:call-template name="entry-table-by-category"/>
+    </xsl:template>
+    
+    <xsl:template match="*:grc" mode="control">
+        <xsl:text>
+### Greek 
+
+</xsl:text>
+        <xsl:call-template name="version-check"/>
+    </xsl:template>
+    
+    <xsl:template match="*:la" mode="control">
+        <xsl:text>
+### Latin 
+
+</xsl:text>
         <xsl:call-template name="version-check"/>
     </xsl:template>
     
@@ -162,12 +184,8 @@
     </xsl:template>
     
     <xsl:template name="version-check">
-<xsl:text>## Entries that already existed before the import but were not recognized
-
-This section is empty unless the lemma was changed in FileMaker since the last export. In that case, the changes (most often these are regularisations on character level) should be ported to the `current` data and the transformation re-run until this section is empty.
-</xsl:text>
         <xsl:for-each-group select="*:div" group-by="@type">
-<xsl:text>#### Type: </xsl:text><xsl:value-of select="@type"/><xsl:text>
+<xsl:text>##### Type: </xsl:text><xsl:value-of select="@type"/><xsl:text>
 </xsl:text>            
 <xsl:text>
 | Lemma        | WL ID | FileMaker RecordId | references |
