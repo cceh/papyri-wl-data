@@ -15,12 +15,13 @@
         </p:documentation>
     -->
     
+    <xsl:param name="version"/>
     <xsl:param name="editor"/>
     <xsl:param name="comparisonBase"/>
     
     <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc[not(ancestor::*:TEI)]/*:listChange[@type='pipelineRuns']/*:change"/>
     <xsl:variable name="literature" select="document('../../../meta/literature.xml')//*:bibl"/>
-    <xsl:variable name="editors" select="document('../../../meta/editors.xml')//*:editionStmt"/>
+    <xsl:variable name="editors" select="document('../../../meta/editors.xml')//*:editionStmt/*:respStmt"/>
     <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:revisionDesc/*:listChange[@type='versions']"/>
     
     <xsl:template match="@* | node()">
@@ -40,7 +41,17 @@
                             <name>Dieter Hagedorn</name>
                         </respStmt>
                     </titleStmt>
-                    <xsl:copy-of select="$editors"/>
+                    <editionStmt>
+                        <edition n="v{tokenize($version,'¦')[1]}">
+                            <name>
+                                <xsl:value-of select="tokenize($version,'¦')[2]"/>
+                            </name>
+                            <date>
+                                <xsl:value-of select="tokenize($version,'¦')[3]"/>
+                            </date>
+                        </edition>
+                        <xsl:copy-of select="$editors"/>
+                    </editionStmt>
                     <publicationStmt>
                         <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
                         <pubPlace>Köln</pubPlace>

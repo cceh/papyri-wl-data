@@ -8,7 +8,9 @@
                 <title>Verzeichnis der Abkürzungen</title>
             </titleStmt>
             <editionStmt>
-                <edition>...</edition>
+                <edition>
+                    <!-- this information is supplied during the transformation -->
+                </edition>
                 <respStmt>
                     <resp>Kompilation</resp>
                     <persName xml:id="hagedorn_d">Dieter Hagedorn</persName>

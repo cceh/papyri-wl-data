@@ -13,6 +13,7 @@
     
     <xsl:strip-space elements="*"/>
     
+    <xsl:param name="version"/>
     <xsl:param name="editor"/>
     <xsl:param name="task-newEntries"/>
     <xsl:param name="task-existingEntries"/>
@@ -44,6 +45,16 @@
                             <name>Dieter Hagedorn</name>
                         </respStmt>
                     </titleStmt>
+                    <editionStmt>
+                        <edition n="v{tokenize($version,'¦')[1]}">
+                            <name>
+                                <xsl:value-of select="tokenize($version,'¦')[2]"/>
+                            </name>
+                            <date>
+                                <xsl:value-of select="tokenize($version,'¦')[3]"/>
+                            </date>
+                        </edition>
+                    </editionStmt>
                     <publicationStmt>
                         <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
                         <pubPlace>Köln</pubPlace>

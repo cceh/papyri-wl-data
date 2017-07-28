@@ -13,6 +13,7 @@
     
     <!-- set the scale of the chart; 1 chart unit represents {$divisor} entries; some 80 units should fit the viewport comfortably -->
     <xsl:variable name="divisor" select="200"/>
+    <xsl:param name="version"/>
 
 <xsl:template match="/">
     <wrapper>
@@ -41,8 +42,11 @@ Die Wörterlisten umfassen  </xsl:text>
         <xsl:value-of select="//*:projectDesc//*:list[@subtype='total_grc_la']/*:item[2]/*:num"/>
         <xsl:text> in griechischer und </xsl:text>
         <xsl:value-of select="//*:projectDesc//*:list[@subtype='total_grc_la']/*:item[3]/*:num"/>
-        <xsl:text> in lateinischer Sprache (Stand </xsl:text><xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
-        <xsl:text>). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+        <xsl:text> in lateinischer Sprache (Stand </xsl:text>
+        <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
+        <xsl:text>, </xsl:text>
+        <xsl:value-of select="tokenize($version,'¦')[1]"/>
+        <xsl:text>. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
@@ -122,6 +126,7 @@ In der Datei [`staging/conversion.xpl`](/staging/conversion.xpl) lassen sich meh
 
 Parameter | Beschreibung
 ------------ | -------------
+`version` | Fassung; `Versionsnummer`, `Versionsname`, `Datum`, jeweils getrennt durch `¦` (`'21¦21. Version¦27.07.2017'`) 
 `editor` | Bearbeiter; z.B. als Github-Konto, Verweis auf eine `xml:id` oder als Klarnamen
 `task-newEntries` | aktueller Bearbeitungsschritt für Neuaufnahmen (z.B. Auflistung der neuen Kurztitel); dieser wird als `&lt;change>`-Element in die `&lt;revisionDesc>` aufgenommen
 `task-existingEntries`| aktueller Bearbeitungsschritt für bestehende Einträge; dieser wird als `&lt;change>`-Element in die `&lt;revisionDesc>` aufgenommen

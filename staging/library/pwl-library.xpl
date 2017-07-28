@@ -9,6 +9,7 @@
         
         <p:option name="result-path" select="$result-path"/>
         <p:option name="result-url" select="$result-url"/>
+        <p:option name="version" select="$version"/>
         <p:option name="editor" select="$editor"/>
         <p:variable name="filename" select="concat($result-path,'/','corpus.xml')"/>
         
@@ -42,6 +43,7 @@
         <p:input port="parameters" kind="parameter"/>
 
         <p:option name="comparisonBase" select="$comparisonBase"/>
+        <p:option name="version" select="$version"/>
         
         <p:documentation>
             <h2>Import reporting</h2>
@@ -328,12 +330,15 @@
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter"/>
         
+        <p:option name="version" select="$version"/>
+
         <p:documentation>
             <h2>Generate README</h2>
             <p>This step generates the README file for the repository. Conseqently, the README file should never be edited in the root directory, but in the xsl file that is referenced here.</p>
         </p:documentation>
         
         <p:xslt>
+            <p:with-param name="version" select="$version"/>
             <p:input port="stylesheet">
                 <p:document href="readme/1-writeReadme.xsl"/>
             </p:input>
@@ -351,6 +356,7 @@
         <p:input port="parameters" kind="parameter"/>
         <p:output port="result" sequence="true"/>
         
+        <p:option name="version" select="$version"/>
         <p:option name="editor" select="$editor"/>
         <p:option name="task-newEntries" select="$task-newEntries"/>
         <p:option name="task-existingEntries" select="$task-existingEntries"/>
@@ -406,7 +412,7 @@
                 <p:document href="transformation/4-gather-by-language.xsl"/>
             </p:input>
         </p:xslt>
-        
+
         <p:documentation>
             <h2>New IDs</h2>
             <p>Based on the highest xml:ids in use and on the position (number of preceding siblings), this step assigns xml:ids to new entries in the dataset.</p>
@@ -422,6 +428,7 @@
             <p>This step builds up a teiHeader from the parameter values defined above and the change elements present in the current data.</p>
         </p:documentation>
         <p:xslt name="build-teiHeader">
+            <p:with-param name="version" select="$version"/>
             <p:with-param name="editor" select="$editor"/>
             <p:with-param name="task-newEntries" select="$task-newEntries"/>
             <p:with-param name="task-existingEntries" select="$task-existingEntries"/>
