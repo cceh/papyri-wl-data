@@ -18,7 +18,7 @@
     <xsl:param name="editor"/>
     <xsl:param name="comparisonBase"/>
     
-    <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc[not(ancestor::*:TEI)]/*:change"/>
+    <xsl:variable name="changes" select="document(concat('../../../',$comparisonBase,'/corpus.xml'))//*:revisionDesc[not(ancestor::*:TEI)]/*:listChange[@type='pipelineRuns']/*:change"/>
     <xsl:variable name="literature" select="document('../../../meta/literature.xml')//*:bibl"/>
     <xsl:variable name="editors" select="document('../../../meta/editors.xml')//*:editionStmt"/>
     <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:revisionDesc/*:listChange[@type='versions']"/>
@@ -226,7 +226,7 @@
                                 <xsl:text>Datenkorpus neu generiert</xsl:text>
                             </change>
                             <!-- inherit existing changes -->
-                            <xsl:apply-templates select="$changes"/>
+                            <xsl:copy-of select="$changes"/>
                         </listChange>
                         <xsl:copy-of select="$versions"/>
                     </listChange>
