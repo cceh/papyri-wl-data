@@ -11,7 +11,10 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>...</edition>
+            <edition n="v21">
+               <name>21. Version</name>
+               <date>27.07.2017</date>
+            </edition>
             <respStmt>
                <resp>Kompilation</resp>
                <persName xml:id="hagedorn_d">Dieter Hagedorn</persName>
@@ -216,7 +219,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2017-06-24">24. Juni 2017</date>
+            <date when="2017-07-29">29. Juli 2017</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -317,6 +320,12 @@
                   <bibl xml:id="ohne_Verweis_An_Pap__27" type="journal">
                      <title type="short">An.Pap. 27</title>
                      <title type="long">Analecta Papyrologica 27 (2015)</title>
+                     <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+                     <date type="creation">2016</date>
+                  </bibl>
+                  <bibl xml:id="ohne_Verweis_An_Pap__28" type="journal">
+                     <title type="short">An.Pap. 28</title>
+                     <title type="long">Analecta Papyrologica 28 (2016)</title>
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">2016</date>
                   </bibl>
@@ -514,19 +523,19 @@
                   </bibl>
                   <bibl xml:id="b68842" type="monograph">
                      <title type="short">O.Ber. 01</title>
-                     <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, Documents from Berenike I. Greek Ostraka from the 1996-1998 seasons. (Papyrologica Bruxellensia 31). Bruxelles, Fondation Egyptologique Reine Elisabeth, 2000</title>
+                     <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, Documents from Berenike I. Greek Ostraka from the 1996-1998 Seasons. (Papyrologica Bruxellensia 31). Bruxelles, Fondation Égyptologique Reine Élisabeth, 2000</title>
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">vor 2016</date>
                   </bibl>
                   <bibl xml:id="b18436" type="monograph">
                      <title type="short">O.Ber. 02</title>
-                     <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, with contributions by Adam Bülow-Jacobsen, Hélène Cuvigny, Meindert Dijkstra, and Ursula Kaplony-Heckel, Documents from Berenike II. Greek Ostraka from the 1999-2001 seasons. (Papyrologica Bruxellensia 33). Bruxelles, Fondation Egyptologique Reine Elisabeth, 2005</title>
+                     <title type="long">Roger S. Bagnall, Christina Helms, Arthur M. F. W. Verhoogt, with contributions by Adam Bülow-Jacobsen, Hélène Cuvigny, Meindert Dijkstra, and Ursula Kaplony-Heckel, Documents from Berenike II. Greek Ostraka from the 1999-2001 Seasons. (Papyrologica Bruxellensia 33). Bruxelles, Fondation Égyptologique Reine Élisabeth, 2005</title>
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">vor 2016</date>
                   </bibl>
                   <bibl xml:id="ohne_Verweis_O.Ber.03" type="monograph">
                      <title type="short">O.Ber. 03</title>
-                     <title type="long"><!-- unklar aufgrund Codierung --></title>
+                     <title type="long">Rodney Ast, Roger S. Bagnall, Documents from Berenike III: Greek and Latin Texts from the 2009-2013 Seasons. (Papyrologica Bruxellensia 36). Bruxelles, Association Égyptologique Reine Élisabeth, 2016</title>
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">2016</date>
                   </bibl>
@@ -716,6 +725,12 @@
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">vor 2016</date>
                   </bibl>
+                  <bibl xml:id="ohne_Verweis_P_Bub_03" type="monograph">
+                     <title type="short">P.Bub. 03</title>
+                     <title type="long">Klaus Maresch, Die verkohlten Papyri aus Bubastos, Band 3,A (P.Bub. III 6). (Papyrologica Coloniensia XV/3A), Paderborn, Ferdinand Schöningh, 2016</title>
+                     <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+                     <date type="creation">2017</date>
+                  </bibl>
                   <bibl xml:id="ohne_Verweis_P_Cairo_Mich__02" type="monograph"><!-- kein Treffer -->
                      <title type="short">P.Cairo Mich. 02</title>
                      <title type="long">Mohamed Gaber El-Maghrabi - Cornelia Römer, Texts from the "Archive" of Socrates, the Tax Collector, and Other Contexts at Karanis (P. Cair. Mich. II) (APF, Beihefte 35), Berlin - Boston, Walter de Gruyter 2015</title>
@@ -793,6 +808,12 @@
                      <title type="long">Eirene 46. Studia Graeca et Latina (Papyrologica III), Prague, Institute for Classical Studies, 2010</title>
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">vor 2016</date>
+                  </bibl>
+                  <bibl xml:id="ohne_Verweis_P_Eirene_04" type="monograph">
+                     <title type="short">P.Eirene 04</title>
+                     <title type="long">Eirene 52. Studia Graeca et Latina (Papyrologica IV), Prague, Centre for Classical Studies, Institute of Philosophy of the Czech Academy of Sciences, 2016</title>
+                     <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+                     <date type="creation">2017</date>
                   </bibl>
                   <bibl xml:id="b15462" type="monograph">
                      <title type="short">P.Eleph. DAIK</title>
@@ -1185,6 +1206,18 @@
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">vor 2016</date>
                   </bibl>
+                  <bibl xml:id="ohne_Verweis_P_Oxy__81" type="monograph"><!-- kein Treffer -->
+                     <title type="short">P.Oxy. 81</title>
+                     <title type="long">J. H. Brusuelas u.a., The Oxyrhynchus Papyri. Volume LXXXI (Nos. 5258-5289). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 102), London, Egypt Exploration Society, 2016</title>
+                     <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+                     <date type="creation">2017</date>
+                  </bibl>
+                  <bibl xml:id="ohne_Verweis_P_Oxy__82" type="monograph"><!-- kein Treffer -->
+                     <title type="short">P.Oxy. 82</title>
+                     <title type="long">N. Gonis u.a., The Oxyrhynchus Papyri. Volume LXXXII (Nos. 5290-5343). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 103), London, Egypt Exploration Society, 2016</title>
+                     <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+                     <date type="creation">2017</date>
+                  </bibl>
                   <bibl xml:id="b14666" type="monograph">
                      <title type="short">P.Oxy. 984</title>
                      <title type="long">Roger S. Bagnall, Bruce W. Frier and Ian C. Rutherford, The Census Register P. Oxy. 984: The Reverse of Pindar’s Paeans. (Papyrologica Bruxellensia 29), Bruxelles, Fondation Égyptologique Reine Élisabeth, 1997</title>
@@ -1311,6 +1344,12 @@
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">vor 2016</date>
                   </bibl>
+                  <bibl xml:id="ohne_Verweis_P_Trier_01" type="monograph">
+                     <title type="short">P.Trier 01</title>
+                     <title type="long">Bärbel Kramer, Carlos Ma Sánchez-Moreno Ellart, Neue Quellen zum Prozessrecht der Ptolemäerzeit. Gerichtsakten aus der Trierer Papyrussammlung (P.Trier I). (APF, Beiheft 36), Berlin - Boston, Walter de Gruyter 2017</title>
+                     <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+                     <date type="creation">2017</date>
+                  </bibl>
                   <bibl xml:id="ohne_Verweis_P_Turku" type="monograph"><!-- kein Treffer -->
                      <title type="short">P.Turku</title>
                      <title type="long">Papyri Turkuenses (P.Turku). Die Papyri im Besitz der Universitätsbibliothek Turku, herausgegeben von Heikki Koskenniemi, unter Mitwirkung von Erkki Koskenniemi und Johannes Koskenniemi (Commentationes Humanarum Litterarum 131), Societas Scientiarum Fennica 2014</title>
@@ -1337,7 +1376,7 @@
                   </bibl>
                   <bibl xml:id="b14725" type="monograph">
                      <title type="short">P.Ḥever</title>
-                     <title type="long">Hannah M. Cotton and Ada Yardeni, Aramaic, Hebrew and Greek Documentary Texts from Nahal Ḥever and Other Sites, with an Appendix Containing Alleged Qumran Texts (The Seiyâl Collection II). (Discoveries in the Judaean Desert XXVII.), Oxford, Clarendon Press, 1997</title>
+                     <title type="long">Hannah M. Cotton and Ada Yardeni, Aramaic, Hebrew and Greek Documentary Texts from Naḥal Ḥever and Other Sites, with an Appendix Containing Alleged Qumran Texts (The Seiyâl Collection II). (Discoveries in the Judaean Desert XXVII.), Oxford, Clarendon Press, 1997</title>
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">vor 2016</date>
                   </bibl>
@@ -1593,6 +1632,12 @@
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">2016</date>
                   </bibl>
+                  <bibl xml:id="ohne_Verweis_Tyche_31" type="journal">
+                     <title type="short">Tyche 31</title>
+                     <title type="long">Tyche 31 (2016)</title>
+                     <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+                     <date type="creation">2017</date>
+                  </bibl>
                   <bibl xml:id="b77545" type="journal">
                      <title type="short">ZPE 171</title>
                      <title type="long">R. Bagnall, Greek, Aramaic, and Coptic Gravestones from the Pyramid Complex of Senwosret III at Dahshur, ZPE (2009) 131–170, Register S. 138-141</title>
@@ -1617,7 +1662,7 @@
       </fileDesc>
       <encodingDesc>
          <appInfo>
-            <application version="20170624" ident="pwl-XProc">
+            <application version="20170729" ident="pwl-XProc">
                <label>XProc-Pipeline</label>
             </application>
          </appInfo>
@@ -1628,11 +1673,11 @@
                   <head>Einträge insgesamt</head>
                   <item>
                      <label>Sprachübergreifend</label>
-                     <num>33116</num>
+                     <num>33378</num>
                   </item>
                   <item>
                      <label>Griechisch</label>
-                     <num>30931</num>
+                     <num>31193</num>
                   </item>
                   <item>
                      <label>Lateinisch</label>
@@ -1645,11 +1690,11 @@
                   <head>Einträge pro Kategorie (sprachübergreifend)</head>
                   <item>
                      <label type="general"/>
-                     <num>15020</num>
+                     <num>15091</num>
                   </item>
                   <item>
                      <label type="geography"/>
-                     <num>3972</num>
+                     <num>4007</num>
                   </item>
                   <item>
                      <label type="monthsDays"/>
@@ -1657,11 +1702,11 @@
                   </item>
                   <item>
                      <label type="persons"/>
-                     <num>13619</num>
+                     <num>13770</num>
                   </item>
                   <item>
                      <label type="religion"/>
-                     <num>386</num>
+                     <num>391</num>
                   </item>
                </list>
             </p>
@@ -1670,11 +1715,11 @@
                   <head>Einträge pro Kategorie (griechisch)</head>
                   <item>
                      <label type="general"/>
-                     <num>13580</num>
+                     <num>13651</num>
                   </item>
                   <item>
                      <label type="geography"/>
-                     <num>3906</num>
+                     <num>3941</num>
                   </item>
                   <item>
                      <label type="monthsDays"/>
@@ -1682,11 +1727,11 @@
                   </item>
                   <item>
                      <label type="persons"/>
-                     <num>12972</num>
+                     <num>13123</num>
                   </item>
                   <item>
                      <label type="religion"/>
-                     <num>376</num>
+                     <num>381</num>
                   </item>
                </list>
             </p>
@@ -1720,17 +1765,17 @@
                   <head>Einträge pro Kategorie und Initial (griechisch)</head>
                   <item>
                      <label type="general"/>
-                     <num>13580</num>
+                     <num>13651</num>
                   </item>
                   <item>
                      <list type="index" subtype="general">
                         <item>
                            <label>Α</label>
-                           <num>2036</num>
+                           <num>2044</num>
                         </item>
                         <item>
                            <label>-</label>
-                           <num>8</num>
+                           <num>12</num>
                         </item>
                         <item>
                            <label>Β</label>
@@ -1738,15 +1783,15 @@
                         </item>
                         <item>
                            <label>Γ</label>
-                           <num>249</num>
+                           <num>251</num>
                         </item>
                         <item>
                            <label>Δ</label>
-                           <num>733</num>
+                           <num>736</num>
                         </item>
                         <item>
                            <label>Ε</label>
-                           <num>1874</num>
+                           <num>1884</num>
                         </item>
                         <item>
                            <label>Ζ</label>
@@ -1762,23 +1807,23 @@
                         </item>
                         <item>
                            <label>Ι</label>
-                           <num>226</num>
+                           <num>228</num>
                         </item>
                         <item>
                            <label>Κ</label>
-                           <num>1348</num>
+                           <num>1357</num>
                         </item>
                         <item>
                            <label>Λ</label>
-                           <num>373</num>
+                           <num>376</num>
                         </item>
                         <item>
                            <label>Μ</label>
-                           <num>619</num>
+                           <num>620</num>
                         </item>
                         <item>
                            <label>Ν</label>
-                           <num>154</num>
+                           <num>153</num>
                         </item>
                         <item>
                            <label>Ξ</label>
@@ -1786,11 +1831,11 @@
                         </item>
                         <item>
                            <label>Ο</label>
-                           <num>569</num>
+                           <num>572</num>
                         </item>
                         <item>
                            <label>Π</label>
-                           <num>1601</num>
+                           <num>1609</num>
                         </item>
                         <item>
                            <label>Ρ</label>
@@ -1798,7 +1843,7 @@
                         </item>
                         <item>
                            <label>Σ</label>
-                           <num>1204</num>
+                           <num>1212</num>
                         </item>
                         <item>
                            <label>(</label>
@@ -1806,11 +1851,11 @@
                         </item>
                         <item>
                            <label>Τ</label>
-                           <num>540</num>
+                           <num>546</num>
                         </item>
                         <item>
                            <label>Υ</label>
-                           <num>329</num>
+                           <num>331</num>
                         </item>
                         <item>
                            <label>Φ</label>
@@ -1818,7 +1863,7 @@
                         </item>
                         <item>
                            <label>Χ</label>
-                           <num>370</num>
+                           <num>373</num>
                         </item>
                         <item>
                            <label>Ψ</label>
@@ -1840,13 +1885,13 @@
                   </item>
                   <item>
                      <label type="geography"/>
-                     <num>3906</num>
+                     <num>3941</num>
                   </item>
                   <item>
                      <list type="index" subtype="geography">
                         <item>
                            <label>Α</label>
-                           <num>536</num>
+                           <num>541</num>
                         </item>
                         <item>
                            <label>Β</label>
@@ -1862,11 +1907,11 @@
                         </item>
                         <item>
                            <label>Δ</label>
-                           <num>116</num>
+                           <num>118</num>
                         </item>
                         <item>
                            <label>Ε</label>
-                           <num>174</num>
+                           <num>176</num>
                         </item>
                         <item>
                            <label>Ζ</label>
@@ -1874,7 +1919,7 @@
                         </item>
                         <item>
                            <label>Η</label>
-                           <num>62</num>
+                           <num>65</num>
                         </item>
                         <item>
                            <label>Θ</label>
@@ -1882,7 +1927,7 @@
                         </item>
                         <item>
                            <label>Ι</label>
-                           <num>149</num>
+                           <num>148</num>
                         </item>
                         <item>
                            <label>Κ</label>
@@ -1894,15 +1939,15 @@
                         </item>
                         <item>
                            <label>Μ</label>
-                           <num>244</num>
+                           <num>248</num>
                         </item>
                         <item>
                            <label>Ν</label>
-                           <num>130</num>
+                           <num>134</num>
                         </item>
                         <item>
                            <label>Ξ</label>
-                           <num>8</num>
+                           <num>9</num>
                         </item>
                         <item>
                            <label>Ο</label>
@@ -1910,7 +1955,7 @@
                         </item>
                         <item>
                            <label>Π</label>
-                           <num>607</num>
+                           <num>609</num>
                         </item>
                         <item>
                            <label>Ρ</label>
@@ -1918,11 +1963,11 @@
                         </item>
                         <item>
                            <label>Σ</label>
-                           <num>313</num>
+                           <num>314</num>
                         </item>
                         <item>
                            <label>Τ</label>
-                           <num>355</num>
+                           <num>361</num>
                         </item>
                         <item>
                            <label>Υ</label>
@@ -1930,15 +1975,15 @@
                         </item>
                         <item>
                            <label>Φ</label>
-                           <num>143</num>
+                           <num>145</num>
                         </item>
                         <item>
                            <label>Χ</label>
-                           <num>77</num>
+                           <num>79</num>
                         </item>
                         <item>
                            <label>Ψ</label>
-                           <num>95</num>
+                           <num>97</num>
                         </item>
                         <item>
                            <label>Ω</label>
@@ -2048,17 +2093,17 @@
                   </item>
                   <item>
                      <label type="persons"/>
-                     <num>12972</num>
+                     <num>13123</num>
                   </item>
                   <item>
                      <list type="index" subtype="persons">
                         <item>
                            <label>Α</label>
-                           <num>1914</num>
+                           <num>1942</num>
                         </item>
                         <item>
                            <label>Β</label>
-                           <num>281</num>
+                           <num>285</num>
                         </item>
                         <item>
                            <label>Γ</label>
@@ -2066,59 +2111,59 @@
                         </item>
                         <item>
                            <label>Δ</label>
-                           <num>354</num>
+                           <num>356</num>
                         </item>
                         <item>
                            <label>Ε</label>
-                           <num>574</num>
+                           <num>577</num>
                         </item>
                         <item>
                            <label>-</label>
-                           <num>1</num>
+                           <num>4</num>
                         </item>
                         <item>
                            <label>Ζ</label>
-                           <num>86</num>
+                           <num>87</num>
                         </item>
                         <item>
                            <label>Η</label>
-                           <num>159</num>
+                           <num>162</num>
                         </item>
                         <item>
                            <label>Θ</label>
-                           <num>447</num>
+                           <num>456</num>
                         </item>
                         <item>
                            <label>Ι</label>
-                           <num>319</num>
+                           <num>325</num>
                         </item>
                         <item>
                            <label>Κ</label>
-                           <num>970</num>
+                           <num>975</num>
                         </item>
                         <item>
                            <label>Λ</label>
-                           <num>363</num>
+                           <num>369</num>
                         </item>
                         <item>
                            <label>Μ</label>
-                           <num>596</num>
+                           <num>603</num>
                         </item>
                         <item>
                            <label>Ν</label>
-                           <num>383</num>
+                           <num>388</num>
                         </item>
                         <item>
                            <label>Ξ</label>
-                           <num>23</num>
+                           <num>24</num>
                         </item>
                         <item>
                            <label>Ο</label>
-                           <num>339</num>
+                           <num>342</num>
                         </item>
                         <item>
                            <label>Π</label>
-                           <num>2429</num>
+                           <num>2447</num>
                         </item>
                         <item>
                            <label>]</label>
@@ -2130,15 +2175,15 @@
                         </item>
                         <item>
                            <label>Ρ</label>
-                           <num>78</num>
+                           <num>80</num>
                         </item>
                         <item>
                            <label>Σ</label>
-                           <num>1228</num>
+                           <num>1237</num>
                         </item>
                         <item>
                            <label>Τ</label>
-                           <num>1116</num>
+                           <num>1135</num>
                         </item>
                         <item>
                            <label>Υ</label>
@@ -2146,19 +2191,19 @@
                         </item>
                         <item>
                            <label>Φ</label>
-                           <num>391</num>
+                           <num>401</num>
                         </item>
                         <item>
                            <label>Χ</label>
-                           <num>265</num>
+                           <num>266</num>
                         </item>
                         <item>
                            <label>Ψ</label>
-                           <num>403</num>
+                           <num>408</num>
                         </item>
                         <item>
                            <label>Ω</label>
-                           <num>58</num>
+                           <num>59</num>
                         </item>
                         <item>
                            <label> </label>
@@ -2172,7 +2217,7 @@
                   </item>
                   <item>
                      <label type="religion"/>
-                     <num>376</num>
+                     <num>381</num>
                   </item>
                   <item>
                      <list type="index" subtype="religion">
@@ -2182,7 +2227,7 @@
                         </item>
                         <item>
                            <label>Β</label>
-                           <num>16</num>
+                           <num>17</num>
                         </item>
                         <item>
                            <label>Γ</label>
@@ -2194,7 +2239,7 @@
                         </item>
                         <item>
                            <label>Ε</label>
-                           <num>23</num>
+                           <num>24</num>
                         </item>
                         <item>
                            <label>Ζ</label>
@@ -2214,7 +2259,7 @@
                         </item>
                         <item>
                            <label>Κ</label>
-                           <num>20</num>
+                           <num>21</num>
                         </item>
                         <item>
                            <label>Λ</label>
@@ -2222,7 +2267,7 @@
                         </item>
                         <item>
                            <label>Μ</label>
-                           <num>20</num>
+                           <num>21</num>
                         </item>
                         <item>
                            <label>Ν</label>
@@ -2234,7 +2279,7 @@
                         </item>
                         <item>
                            <label>Π</label>
-                           <num>21</num>
+                           <num>22</num>
                         </item>
                         <item>
                            <label>Ρ</label>
@@ -2659,19 +2704,19 @@
     "name" : "categories",
     "items" : [{
         "name" : "general",
-        "items" : [{"name": "(","count":1},{"name": "-","count":8},{"name": "]","count":69},{"name": "Α","count":2036},{"name": "Β","count":295},{"name": "Γ","count":249},{"name": "Δ","count":733},{"name": "Ε","count":1874},{"name": "Ζ","count":86},{"name": "Η","count":133},{"name": "Θ","count":205},{"name": "Ι","count":226},{"name": "Κ","count":1348},{"name": "Λ","count":373},{"name": "Μ","count":619},{"name": "Ν","count":154},{"name": "Ξ","count":68},{"name": "Ο","count":569},{"name": "Π","count":1601},{"name": "Ρ","count":104},{"name": "Σ","count":1204},{"name": "Τ","count":540},{"name": "Υ","count":329},{"name": "Φ","count":273},{"name": "Χ","count":370},{"name": "Ψ","count":59},{"name": "Ω","count":53},{"name": "ϙ","count":1}]
+        "items" : [{"name": "(","count":1},{"name": "-","count":12},{"name": "]","count":69},{"name": "Α","count":2044},{"name": "Β","count":295},{"name": "Γ","count":251},{"name": "Δ","count":736},{"name": "Ε","count":1884},{"name": "Ζ","count":86},{"name": "Η","count":133},{"name": "Θ","count":205},{"name": "Ι","count":228},{"name": "Κ","count":1357},{"name": "Λ","count":376},{"name": "Μ","count":620},{"name": "Ν","count":153},{"name": "Ξ","count":68},{"name": "Ο","count":572},{"name": "Π","count":1609},{"name": "Ρ","count":104},{"name": "Σ","count":1212},{"name": "Τ","count":546},{"name": "Υ","count":331},{"name": "Φ","count":273},{"name": "Χ","count":373},{"name": "Ψ","count":59},{"name": "Ω","count":53},{"name": "ϙ","count":1}]
         },{
         "name" : "geography",
-        "items" : [{"name": " ","count":1},{"name": "¥","count":2},{"name": "Α","count":536},{"name": "Β","count":124},{"name": "Γ","count":44},{"name": "Δ","count":116},{"name": "Ε","count":174},{"name": "Ζ","count":16},{"name": "Η","count":62},{"name": "Θ","count":157},{"name": "Ι","count":149},{"name": "Κ","count":316},{"name": "Λ","count":108},{"name": "Μ","count":244},{"name": "Ν","count":130},{"name": "Ξ","count":8},{"name": "Ο","count":85},{"name": "Π","count":607},{"name": "Ρ","count":24},{"name": "Σ","count":313},{"name": "Τ","count":355},{"name": "Υ","count":9},{"name": "Φ","count":143},{"name": "Χ","count":77},{"name": "Ψ","count":95},{"name": "Ω","count":11}]
+        "items" : [{"name": " ","count":1},{"name": "¥","count":2},{"name": "Α","count":541},{"name": "Β","count":124},{"name": "Γ","count":44},{"name": "Δ","count":118},{"name": "Ε","count":176},{"name": "Ζ","count":16},{"name": "Η","count":65},{"name": "Θ","count":157},{"name": "Ι","count":148},{"name": "Κ","count":316},{"name": "Λ","count":108},{"name": "Μ","count":248},{"name": "Ν","count":134},{"name": "Ξ","count":9},{"name": "Ο","count":85},{"name": "Π","count":609},{"name": "Ρ","count":24},{"name": "Σ","count":314},{"name": "Τ","count":361},{"name": "Υ","count":9},{"name": "Φ","count":145},{"name": "Χ","count":79},{"name": "Ψ","count":97},{"name": "Ω","count":11}]
         },{
         "name" : "monthsDays",
         "items" : [{"name": "Α","count":12},{"name": "Β","count":2},{"name": "Γ","count":3},{"name": "Δ","count":10},{"name": "Ε","count":4},{"name": "Ζ","count":1},{"name": "Η","count":1},{"name": "Θ","count":5},{"name": "Ι","count":3},{"name": "Κ","count":4},{"name": "Λ","count":1},{"name": "Μ","count":4},{"name": "Ν","count":8},{"name": "Ξ","count":3},{"name": "Ο","count":3},{"name": "Π","count":10},{"name": "Ρ","count":1},{"name": "Σ","count":13},{"name": "Τ","count":2},{"name": "Υ","count":2},{"name": "Φ","count":4},{"name": "Χ","count":1}]
         },{
         "name" : "persons",
-        "items" : [{"name": " ","count":1},{"name": "-","count":1},{"name": "]","count":25},{"name": "¥","count":1},{"name": "Α","count":1914},{"name": "Β","count":281},{"name": "Γ","count":130},{"name": "Δ","count":354},{"name": "Ε","count":574},{"name": "Ζ","count":86},{"name": "Η","count":159},{"name": "Θ","count":447},{"name": "Ι","count":319},{"name": "Κ","count":970},{"name": "Λ","count":363},{"name": "Μ","count":596},{"name": "Ν","count":383},{"name": "Ξ","count":23},{"name": "Ο","count":339},{"name": "Π","count":2429},{"name": "Ρ","count":78},{"name": "Σ","count":1228},{"name": "Τ","count":1116},{"name": "Υ","count":37},{"name": "Φ","count":391},{"name": "Χ","count":265},{"name": "Ψ","count":403},{"name": "Ω","count":58},{"name": "὘","count":1}]
+        "items" : [{"name": " ","count":1},{"name": "-","count":4},{"name": "]","count":25},{"name": "¥","count":1},{"name": "Α","count":1942},{"name": "Β","count":285},{"name": "Γ","count":130},{"name": "Δ","count":356},{"name": "Ε","count":577},{"name": "Ζ","count":87},{"name": "Η","count":162},{"name": "Θ","count":456},{"name": "Ι","count":325},{"name": "Κ","count":975},{"name": "Λ","count":369},{"name": "Μ","count":603},{"name": "Ν","count":388},{"name": "Ξ","count":24},{"name": "Ο","count":342},{"name": "Π","count":2447},{"name": "Ρ","count":80},{"name": "Σ","count":1237},{"name": "Τ","count":1135},{"name": "Υ","count":37},{"name": "Φ","count":401},{"name": "Χ","count":266},{"name": "Ψ","count":408},{"name": "Ω","count":59},{"name": "὘","count":1}]
         },{
         "name" : "religion",
-        "items" : [{"name": "Α","count":72},{"name": "Β","count":16},{"name": "Γ","count":6},{"name": "Δ","count":16},{"name": "Ε","count":23},{"name": "Ζ","count":6},{"name": "Η","count":8},{"name": "Θ","count":12},{"name": "Ι","count":44},{"name": "Κ","count":20},{"name": "Λ","count":8},{"name": "Μ","count":20},{"name": "Ν","count":13},{"name": "Ο","count":9},{"name": "Π","count":21},{"name": "Ρ","count":4},{"name": "Σ","count":43},{"name": "Τ","count":8},{"name": "Υ","count":4},{"name": "Φ","count":14},{"name": "Χ","count":5},{"name": "Ω","count":4}]
+        "items" : [{"name": "Α","count":72},{"name": "Β","count":17},{"name": "Γ","count":6},{"name": "Δ","count":16},{"name": "Ε","count":24},{"name": "Ζ","count":6},{"name": "Η","count":8},{"name": "Θ","count":12},{"name": "Ι","count":44},{"name": "Κ","count":21},{"name": "Λ","count":8},{"name": "Μ","count":21},{"name": "Ν","count":13},{"name": "Ο","count":9},{"name": "Π","count":22},{"name": "Ρ","count":4},{"name": "Σ","count":43},{"name": "Τ","count":8},{"name": "Υ","count":4},{"name": "Φ","count":14},{"name": "Χ","count":5},{"name": "Ω","count":4}]
         }]}</pwl:json>
          </pwl:json>
       </xenoData>
@@ -2686,24 +2731,30 @@
       <revisionDesc>
          <listChange>
             <listChange type="pipelineRuns">
-               <change when="2017-06-24" who="http://github.com/pdaengeli">Datenkorpus neu generiert</change>
+               <change when="2017-07-29" who="http://github.com/pdaengeli">Datenkorpus neu generiert</change>
             </listChange>
             <listChange type="versions"><!--<change when="2017-XX-YY" n="21">
-                    <label>21. Fassung vom XX. YY 2017</label>
-                    <note>hinzugekommen: 
-                        <ref target="">An.Pap. 28</ref>;
-                        <ref target="">O.Ber. III</ref>; 
-                        <ref target="">P.Bastianini</ref>; 
-                        <ref target="">P.Bub. III</ref>; 
-                        <ref target="">P.Eirene IV</ref>; 
-                        <ref target="">P.Gascou</ref>; 
-                        <ref target="">P.Oxy. LXXXII</ref>; 
-                        <ref target="">P.Trier I</ref>; 
-                        <ref target="">PSI Com. 12</ref>; 
-                        <ref target="">PUG IV</ref>; 
-                        <ref target="">Tyche 31</ref>
+                    <label>22. Fassung vom XX. YY 2017</label>
+                    <note>hinzugekommen:
                     </note>
                 </change>-->
+               <change when="2017-07-26" n="21">
+                  <label>21. Fassung vom 26. Juli 2017</label>
+                  <note>hinzugekommen: 
+                        <ref target="ohne_Verweis_An_Pap__28">An.Pap. 28</ref>;
+                        <ref target="ohne_Verweis_O.Ber.03">O.Ber. III</ref>; 
+                        <ref target="ohne_Verweis_P.Bastianini">P.Bastianini</ref>; 
+                        <ref target="ohne_Verweis_P_Bub_03">P.Bub. III</ref>; 
+                        <ref target="ohne_Verweis_P_Eirene_04">P.Eirene IV</ref>; 
+                        <ref target="ohne_Verweis_P.Gascou">P.Gascou</ref>; 
+                        <ref target="ohne_Verweis_P_Oxy__81">P.Oxy. LXXXI</ref>; 
+                        <ref target="ohne_Verweis_P_Oxy__82">P.Oxy. LXXXII</ref>; 
+                        <ref target="ohne_Verweis_P_Trier_01">P.Trier I</ref>; 
+                        <ref target="ohne_Verweis_PSI_Com__12">PSI Com. 12</ref>; 
+                        <ref target="ohne_Verweis_PUG_04">PUG IV</ref>; 
+                        <ref target="ohne_Verweis_Tyche_31">Tyche 31</ref>
+                  </note>
+               </change>
                <change when="2016-06-01" n="20">
                   <label>20. Fassung vom 1. Juni 2016</label>
                   <note>hinzugekommen: 
@@ -9597,7 +9648,6 @@
    <xi:include href="grc/general/wl-grc-06487.xml"/>
    <xi:include href="grc/general/wl-grc-06488.xml"/>
    <xi:include href="grc/general/wl-grc-06489.xml"/>
-   <xi:include href="grc/general/wl-grc-06490.xml"/>
    <xi:include href="grc/general/wl-grc-06491.xml"/>
    <xi:include href="grc/general/wl-grc-06492.xml"/>
    <xi:include href="grc/general/wl-grc-06493.xml"/>
@@ -10945,7 +10995,6 @@
    <xi:include href="grc/general/wl-grc-07840.xml"/>
    <xi:include href="grc/general/wl-grc-07841.xml"/>
    <xi:include href="grc/general/wl-grc-07842.xml"/>
-   <xi:include href="grc/general/wl-grc-07843.xml"/>
    <xi:include href="grc/general/wl-grc-07844.xml"/>
    <xi:include href="grc/general/wl-grc-07845.xml"/>
    <xi:include href="grc/general/wl-grc-07846.xml"/>
@@ -17102,7 +17151,6 @@
    <xi:include href="grc/geography/wl-grc-14086.xml"/>
    <xi:include href="grc/geography/wl-grc-14087.xml"/>
    <xi:include href="grc/geography/wl-grc-14088.xml"/>
-   <xi:include href="grc/geography/wl-grc-14089.xml"/>
    <xi:include href="grc/geography/wl-grc-14090.xml"/>
    <xi:include href="grc/geography/wl-grc-14091.xml"/>
    <xi:include href="grc/geography/wl-grc-14092.xml"/>
@@ -17277,7 +17325,6 @@
    <xi:include href="grc/geography/wl-grc-14261.xml"/>
    <xi:include href="grc/geography/wl-grc-14262.xml"/>
    <xi:include href="grc/geography/wl-grc-14263.xml"/>
-   <xi:include href="grc/geography/wl-grc-14264.xml"/>
    <xi:include href="grc/geography/wl-grc-14265.xml"/>
    <xi:include href="grc/geography/wl-grc-14266.xml"/>
    <xi:include href="grc/geography/wl-grc-14267.xml"/>
@@ -22769,6 +22816,7 @@
    <xi:include href="grc/persons/wl-grc-19806.xml"/>
    <xi:include href="grc/persons/wl-grc-19807.xml"/>
    <xi:include href="grc/persons/wl-grc-19808.xml"/>
+   <xi:include href="grc/persons/wl-grc-19809.xml"/>
    <xi:include href="grc/persons/wl-grc-19809.xml"/>
    <xi:include href="grc/persons/wl-grc-19810.xml"/>
    <xi:include href="grc/persons/wl-grc-19811.xml"/>
@@ -33295,7 +33343,6 @@
    <xi:include href="grc/geography/wl-grc-30388.xml"/>
    <xi:include href="grc/geography/wl-grc-30389.xml"/>
    <xi:include href="grc/geography/wl-grc-30390.xml"/>
-   <xi:include href="grc/geography/wl-grc-30391.xml"/>
    <xi:include href="grc/geography/wl-grc-30392.xml"/>
    <xi:include href="grc/geography/wl-grc-30393.xml"/>
    <xi:include href="grc/geography/wl-grc-30394.xml"/>
@@ -34065,6 +34112,272 @@
    <xi:include href="grc/religion/wl-grc-31158.xml"/>
    <xi:include href="grc/religion/wl-grc-31159.xml"/>
    <xi:include href="grc/religion/wl-grc-31160.xml"/>
+   <xi:include href="grc/general/wl-grc-31161.xml"/>
+   <xi:include href="grc/general/wl-grc-31162.xml"/>
+   <xi:include href="grc/general/wl-grc-31163.xml"/>
+   <xi:include href="grc/general/wl-grc-31164.xml"/>
+   <xi:include href="grc/general/wl-grc-31165.xml"/>
+   <xi:include href="grc/general/wl-grc-31166.xml"/>
+   <xi:include href="grc/general/wl-grc-31167.xml"/>
+   <xi:include href="grc/general/wl-grc-31168.xml"/>
+   <xi:include href="grc/general/wl-grc-31169.xml"/>
+   <xi:include href="grc/general/wl-grc-31170.xml"/>
+   <xi:include href="grc/general/wl-grc-31171.xml"/>
+   <xi:include href="grc/general/wl-grc-31172.xml"/>
+   <xi:include href="grc/general/wl-grc-31173.xml"/>
+   <xi:include href="grc/general/wl-grc-31174.xml"/>
+   <xi:include href="grc/general/wl-grc-31175.xml"/>
+   <xi:include href="grc/general/wl-grc-31176.xml"/>
+   <xi:include href="grc/general/wl-grc-31177.xml"/>
+   <xi:include href="grc/general/wl-grc-31178.xml"/>
+   <xi:include href="grc/general/wl-grc-31179.xml"/>
+   <xi:include href="grc/general/wl-grc-31180.xml"/>
+   <xi:include href="grc/general/wl-grc-31181.xml"/>
+   <xi:include href="grc/general/wl-grc-31182.xml"/>
+   <xi:include href="grc/general/wl-grc-31183.xml"/>
+   <xi:include href="grc/general/wl-grc-31184.xml"/>
+   <xi:include href="grc/general/wl-grc-31185.xml"/>
+   <xi:include href="grc/general/wl-grc-31186.xml"/>
+   <xi:include href="grc/general/wl-grc-31187.xml"/>
+   <xi:include href="grc/general/wl-grc-31188.xml"/>
+   <xi:include href="grc/general/wl-grc-31189.xml"/>
+   <xi:include href="grc/general/wl-grc-31190.xml"/>
+   <xi:include href="grc/general/wl-grc-31191.xml"/>
+   <xi:include href="grc/general/wl-grc-31192.xml"/>
+   <xi:include href="grc/general/wl-grc-31193.xml"/>
+   <xi:include href="grc/general/wl-grc-31194.xml"/>
+   <xi:include href="grc/general/wl-grc-31195.xml"/>
+   <xi:include href="grc/general/wl-grc-31196.xml"/>
+   <xi:include href="grc/general/wl-grc-31197.xml"/>
+   <xi:include href="grc/general/wl-grc-31198.xml"/>
+   <xi:include href="grc/general/wl-grc-31199.xml"/>
+   <xi:include href="grc/general/wl-grc-31200.xml"/>
+   <xi:include href="grc/general/wl-grc-31201.xml"/>
+   <xi:include href="grc/general/wl-grc-31202.xml"/>
+   <xi:include href="grc/general/wl-grc-31203.xml"/>
+   <xi:include href="grc/general/wl-grc-31204.xml"/>
+   <xi:include href="grc/general/wl-grc-31205.xml"/>
+   <xi:include href="grc/general/wl-grc-31206.xml"/>
+   <xi:include href="grc/general/wl-grc-31207.xml"/>
+   <xi:include href="grc/general/wl-grc-31208.xml"/>
+   <xi:include href="grc/general/wl-grc-31209.xml"/>
+   <xi:include href="grc/general/wl-grc-31210.xml"/>
+   <xi:include href="grc/general/wl-grc-31211.xml"/>
+   <xi:include href="grc/general/wl-grc-31212.xml"/>
+   <xi:include href="grc/general/wl-grc-31213.xml"/>
+   <xi:include href="grc/general/wl-grc-31214.xml"/>
+   <xi:include href="grc/general/wl-grc-31215.xml"/>
+   <xi:include href="grc/general/wl-grc-31216.xml"/>
+   <xi:include href="grc/general/wl-grc-31217.xml"/>
+   <xi:include href="grc/general/wl-grc-31218.xml"/>
+   <xi:include href="grc/general/wl-grc-31219.xml"/>
+   <xi:include href="grc/general/wl-grc-31220.xml"/>
+   <xi:include href="grc/general/wl-grc-31221.xml"/>
+   <xi:include href="grc/general/wl-grc-31222.xml"/>
+   <xi:include href="grc/general/wl-grc-31223.xml"/>
+   <xi:include href="grc/general/wl-grc-31224.xml"/>
+   <xi:include href="grc/general/wl-grc-31225.xml"/>
+   <xi:include href="grc/general/wl-grc-31226.xml"/>
+   <xi:include href="grc/general/wl-grc-31227.xml"/>
+   <xi:include href="grc/general/wl-grc-31228.xml"/>
+   <xi:include href="grc/general/wl-grc-31229.xml"/>
+   <xi:include href="grc/general/wl-grc-31230.xml"/>
+   <xi:include href="grc/general/wl-grc-31231.xml"/>
+   <xi:include href="grc/general/wl-grc-31232.xml"/>
+   <xi:include href="grc/general/wl-grc-31233.xml"/>
+   <xi:include href="grc/geography/wl-grc-31234.xml"/>
+   <xi:include href="grc/geography/wl-grc-31235.xml"/>
+   <xi:include href="grc/geography/wl-grc-31236.xml"/>
+   <xi:include href="grc/geography/wl-grc-31237.xml"/>
+   <xi:include href="grc/geography/wl-grc-31238.xml"/>
+   <xi:include href="grc/geography/wl-grc-31239.xml"/>
+   <xi:include href="grc/geography/wl-grc-31240.xml"/>
+   <xi:include href="grc/geography/wl-grc-31241.xml"/>
+   <xi:include href="grc/geography/wl-grc-31242.xml"/>
+   <xi:include href="grc/geography/wl-grc-31243.xml"/>
+   <xi:include href="grc/geography/wl-grc-31244.xml"/>
+   <xi:include href="grc/geography/wl-grc-31245.xml"/>
+   <xi:include href="grc/geography/wl-grc-31246.xml"/>
+   <xi:include href="grc/geography/wl-grc-31247.xml"/>
+   <xi:include href="grc/geography/wl-grc-31248.xml"/>
+   <xi:include href="grc/geography/wl-grc-31249.xml"/>
+   <xi:include href="grc/geography/wl-grc-31250.xml"/>
+   <xi:include href="grc/geography/wl-grc-31251.xml"/>
+   <xi:include href="grc/geography/wl-grc-31252.xml"/>
+   <xi:include href="grc/geography/wl-grc-31253.xml"/>
+   <xi:include href="grc/geography/wl-grc-31254.xml"/>
+   <xi:include href="grc/geography/wl-grc-31255.xml"/>
+   <xi:include href="grc/geography/wl-grc-31256.xml"/>
+   <xi:include href="grc/geography/wl-grc-31257.xml"/>
+   <xi:include href="grc/geography/wl-grc-31258.xml"/>
+   <xi:include href="grc/geography/wl-grc-31259.xml"/>
+   <xi:include href="grc/geography/wl-grc-31260.xml"/>
+   <xi:include href="grc/geography/wl-grc-31261.xml"/>
+   <xi:include href="grc/geography/wl-grc-31262.xml"/>
+   <xi:include href="grc/geography/wl-grc-31263.xml"/>
+   <xi:include href="grc/geography/wl-grc-31264.xml"/>
+   <xi:include href="grc/geography/wl-grc-31265.xml"/>
+   <xi:include href="grc/geography/wl-grc-31266.xml"/>
+   <xi:include href="grc/geography/wl-grc-31267.xml"/>
+   <xi:include href="grc/geography/wl-grc-31268.xml"/>
+   <xi:include href="grc/geography/wl-grc-31269.xml"/>
+   <xi:include href="grc/geography/wl-grc-31270.xml"/>
+   <xi:include href="grc/geography/wl-grc-31271.xml"/>
+   <xi:include href="grc/persons/wl-grc-31272.xml"/>
+   <xi:include href="grc/persons/wl-grc-31273.xml"/>
+   <xi:include href="grc/persons/wl-grc-31274.xml"/>
+   <xi:include href="grc/persons/wl-grc-31275.xml"/>
+   <xi:include href="grc/persons/wl-grc-31276.xml"/>
+   <xi:include href="grc/persons/wl-grc-31277.xml"/>
+   <xi:include href="grc/persons/wl-grc-31278.xml"/>
+   <xi:include href="grc/persons/wl-grc-31279.xml"/>
+   <xi:include href="grc/persons/wl-grc-31280.xml"/>
+   <xi:include href="grc/persons/wl-grc-31281.xml"/>
+   <xi:include href="grc/persons/wl-grc-31282.xml"/>
+   <xi:include href="grc/persons/wl-grc-31283.xml"/>
+   <xi:include href="grc/persons/wl-grc-31284.xml"/>
+   <xi:include href="grc/persons/wl-grc-31285.xml"/>
+   <xi:include href="grc/persons/wl-grc-31286.xml"/>
+   <xi:include href="grc/persons/wl-grc-31287.xml"/>
+   <xi:include href="grc/persons/wl-grc-31288.xml"/>
+   <xi:include href="grc/persons/wl-grc-31289.xml"/>
+   <xi:include href="grc/persons/wl-grc-31290.xml"/>
+   <xi:include href="grc/persons/wl-grc-31291.xml"/>
+   <xi:include href="grc/persons/wl-grc-31292.xml"/>
+   <xi:include href="grc/persons/wl-grc-31293.xml"/>
+   <xi:include href="grc/persons/wl-grc-31294.xml"/>
+   <xi:include href="grc/persons/wl-grc-31295.xml"/>
+   <xi:include href="grc/persons/wl-grc-31296.xml"/>
+   <xi:include href="grc/persons/wl-grc-31297.xml"/>
+   <xi:include href="grc/persons/wl-grc-31298.xml"/>
+   <xi:include href="grc/persons/wl-grc-31299.xml"/>
+   <xi:include href="grc/persons/wl-grc-31300.xml"/>
+   <xi:include href="grc/persons/wl-grc-31301.xml"/>
+   <xi:include href="grc/persons/wl-grc-31302.xml"/>
+   <xi:include href="grc/persons/wl-grc-31303.xml"/>
+   <xi:include href="grc/persons/wl-grc-31304.xml"/>
+   <xi:include href="grc/persons/wl-grc-31305.xml"/>
+   <xi:include href="grc/persons/wl-grc-31306.xml"/>
+   <xi:include href="grc/persons/wl-grc-31307.xml"/>
+   <xi:include href="grc/persons/wl-grc-31308.xml"/>
+   <xi:include href="grc/persons/wl-grc-31309.xml"/>
+   <xi:include href="grc/persons/wl-grc-31310.xml"/>
+   <xi:include href="grc/persons/wl-grc-31311.xml"/>
+   <xi:include href="grc/persons/wl-grc-31312.xml"/>
+   <xi:include href="grc/persons/wl-grc-31313.xml"/>
+   <xi:include href="grc/persons/wl-grc-31314.xml"/>
+   <xi:include href="grc/persons/wl-grc-31315.xml"/>
+   <xi:include href="grc/persons/wl-grc-31316.xml"/>
+   <xi:include href="grc/persons/wl-grc-31317.xml"/>
+   <xi:include href="grc/persons/wl-grc-31318.xml"/>
+   <xi:include href="grc/persons/wl-grc-31319.xml"/>
+   <xi:include href="grc/persons/wl-grc-31320.xml"/>
+   <xi:include href="grc/persons/wl-grc-31321.xml"/>
+   <xi:include href="grc/persons/wl-grc-31322.xml"/>
+   <xi:include href="grc/persons/wl-grc-31323.xml"/>
+   <xi:include href="grc/persons/wl-grc-31324.xml"/>
+   <xi:include href="grc/persons/wl-grc-31325.xml"/>
+   <xi:include href="grc/persons/wl-grc-31326.xml"/>
+   <xi:include href="grc/persons/wl-grc-31327.xml"/>
+   <xi:include href="grc/persons/wl-grc-31328.xml"/>
+   <xi:include href="grc/persons/wl-grc-31329.xml"/>
+   <xi:include href="grc/persons/wl-grc-31330.xml"/>
+   <xi:include href="grc/persons/wl-grc-31331.xml"/>
+   <xi:include href="grc/persons/wl-grc-31332.xml"/>
+   <xi:include href="grc/persons/wl-grc-31333.xml"/>
+   <xi:include href="grc/persons/wl-grc-31334.xml"/>
+   <xi:include href="grc/persons/wl-grc-31335.xml"/>
+   <xi:include href="grc/persons/wl-grc-31336.xml"/>
+   <xi:include href="grc/persons/wl-grc-31337.xml"/>
+   <xi:include href="grc/persons/wl-grc-31338.xml"/>
+   <xi:include href="grc/persons/wl-grc-31339.xml"/>
+   <xi:include href="grc/persons/wl-grc-31340.xml"/>
+   <xi:include href="grc/persons/wl-grc-31341.xml"/>
+   <xi:include href="grc/persons/wl-grc-31342.xml"/>
+   <xi:include href="grc/persons/wl-grc-31343.xml"/>
+   <xi:include href="grc/persons/wl-grc-31344.xml"/>
+   <xi:include href="grc/persons/wl-grc-31345.xml"/>
+   <xi:include href="grc/persons/wl-grc-31346.xml"/>
+   <xi:include href="grc/persons/wl-grc-31347.xml"/>
+   <xi:include href="grc/persons/wl-grc-31348.xml"/>
+   <xi:include href="grc/persons/wl-grc-31349.xml"/>
+   <xi:include href="grc/persons/wl-grc-31350.xml"/>
+   <xi:include href="grc/persons/wl-grc-31351.xml"/>
+   <xi:include href="grc/persons/wl-grc-31352.xml"/>
+   <xi:include href="grc/persons/wl-grc-31353.xml"/>
+   <xi:include href="grc/persons/wl-grc-31354.xml"/>
+   <xi:include href="grc/persons/wl-grc-31355.xml"/>
+   <xi:include href="grc/persons/wl-grc-31356.xml"/>
+   <xi:include href="grc/persons/wl-grc-31357.xml"/>
+   <xi:include href="grc/persons/wl-grc-31358.xml"/>
+   <xi:include href="grc/persons/wl-grc-31359.xml"/>
+   <xi:include href="grc/persons/wl-grc-31360.xml"/>
+   <xi:include href="grc/persons/wl-grc-31361.xml"/>
+   <xi:include href="grc/persons/wl-grc-31362.xml"/>
+   <xi:include href="grc/persons/wl-grc-31363.xml"/>
+   <xi:include href="grc/persons/wl-grc-31364.xml"/>
+   <xi:include href="grc/persons/wl-grc-31365.xml"/>
+   <xi:include href="grc/persons/wl-grc-31366.xml"/>
+   <xi:include href="grc/persons/wl-grc-31367.xml"/>
+   <xi:include href="grc/persons/wl-grc-31368.xml"/>
+   <xi:include href="grc/persons/wl-grc-31369.xml"/>
+   <xi:include href="grc/persons/wl-grc-31370.xml"/>
+   <xi:include href="grc/persons/wl-grc-31371.xml"/>
+   <xi:include href="grc/persons/wl-grc-31372.xml"/>
+   <xi:include href="grc/persons/wl-grc-31373.xml"/>
+   <xi:include href="grc/persons/wl-grc-31374.xml"/>
+   <xi:include href="grc/persons/wl-grc-31375.xml"/>
+   <xi:include href="grc/persons/wl-grc-31376.xml"/>
+   <xi:include href="grc/persons/wl-grc-31377.xml"/>
+   <xi:include href="grc/persons/wl-grc-31378.xml"/>
+   <xi:include href="grc/persons/wl-grc-31379.xml"/>
+   <xi:include href="grc/persons/wl-grc-31380.xml"/>
+   <xi:include href="grc/persons/wl-grc-31381.xml"/>
+   <xi:include href="grc/persons/wl-grc-31382.xml"/>
+   <xi:include href="grc/persons/wl-grc-31383.xml"/>
+   <xi:include href="grc/persons/wl-grc-31384.xml"/>
+   <xi:include href="grc/persons/wl-grc-31385.xml"/>
+   <xi:include href="grc/persons/wl-grc-31386.xml"/>
+   <xi:include href="grc/persons/wl-grc-31387.xml"/>
+   <xi:include href="grc/persons/wl-grc-31388.xml"/>
+   <xi:include href="grc/persons/wl-grc-31389.xml"/>
+   <xi:include href="grc/persons/wl-grc-31390.xml"/>
+   <xi:include href="grc/persons/wl-grc-31391.xml"/>
+   <xi:include href="grc/persons/wl-grc-31392.xml"/>
+   <xi:include href="grc/persons/wl-grc-31393.xml"/>
+   <xi:include href="grc/persons/wl-grc-31394.xml"/>
+   <xi:include href="grc/persons/wl-grc-31395.xml"/>
+   <xi:include href="grc/persons/wl-grc-31396.xml"/>
+   <xi:include href="grc/persons/wl-grc-31397.xml"/>
+   <xi:include href="grc/persons/wl-grc-31398.xml"/>
+   <xi:include href="grc/persons/wl-grc-31399.xml"/>
+   <xi:include href="grc/persons/wl-grc-31400.xml"/>
+   <xi:include href="grc/persons/wl-grc-31401.xml"/>
+   <xi:include href="grc/persons/wl-grc-31402.xml"/>
+   <xi:include href="grc/persons/wl-grc-31403.xml"/>
+   <xi:include href="grc/persons/wl-grc-31404.xml"/>
+   <xi:include href="grc/persons/wl-grc-31405.xml"/>
+   <xi:include href="grc/persons/wl-grc-31406.xml"/>
+   <xi:include href="grc/persons/wl-grc-31407.xml"/>
+   <xi:include href="grc/persons/wl-grc-31408.xml"/>
+   <xi:include href="grc/persons/wl-grc-31409.xml"/>
+   <xi:include href="grc/persons/wl-grc-31410.xml"/>
+   <xi:include href="grc/persons/wl-grc-31411.xml"/>
+   <xi:include href="grc/persons/wl-grc-31412.xml"/>
+   <xi:include href="grc/persons/wl-grc-31413.xml"/>
+   <xi:include href="grc/persons/wl-grc-31414.xml"/>
+   <xi:include href="grc/persons/wl-grc-31415.xml"/>
+   <xi:include href="grc/persons/wl-grc-31416.xml"/>
+   <xi:include href="grc/persons/wl-grc-31417.xml"/>
+   <xi:include href="grc/persons/wl-grc-31418.xml"/>
+   <xi:include href="grc/persons/wl-grc-31419.xml"/>
+   <xi:include href="grc/persons/wl-grc-31420.xml"/>
+   <xi:include href="grc/persons/wl-grc-31421.xml"/>
+   <xi:include href="grc/religion/wl-grc-31422.xml"/>
+   <xi:include href="grc/religion/wl-grc-31423.xml"/>
+   <xi:include href="grc/religion/wl-grc-31424.xml"/>
+   <xi:include href="grc/religion/wl-grc-31425.xml"/>
+   <xi:include href="grc/religion/wl-grc-31426.xml"/>
    <xi:include href="la/monthsDays/wl-la-00002.xml"/>
    <xi:include href="la/monthsDays/wl-la-00003.xml"/>
    <xi:include href="la/monthsDays/wl-la-00004.xml"/>

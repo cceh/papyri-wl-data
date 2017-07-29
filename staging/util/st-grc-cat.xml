@@ -5,11 +5,11 @@
    <head>Einträge pro Kategorie (griechisch)</head>
    <item>
       <label type="general"/>
-      <num>13580</num>
+      <num>13651</num>
    </item>
    <item>
       <label type="geography"/>
-      <num>3906</num>
+      <num>3941</num>
    </item>
    <item>
       <label type="monthsDays"/>
@@ -17,10 +17,10 @@
    </item>
    <item>
       <label type="persons"/>
-      <num>12972</num>
+      <num>13123</num>
    </item>
    <item>
       <label type="religion"/>
-      <num>376</num>
+      <num>381</num>
    </item>
 </list>

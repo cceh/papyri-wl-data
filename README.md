@@ -15,26 +15,26 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen  33116 Einträge, wovon 30931 in griechischer und 2185 in lateinischer Sprache (Stand 24. Juni 2017). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen  33378 Einträge, wovon 31193 in griechischer und 2185 in lateinischer Sprache (Stand 29. Juli 2017, 21. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15020
-geography:    |||||||||||||||||||3972
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15091
+geography:    ||||||||||||||||||||4007
 monthsDays:   119
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13619
-religion:     |386
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13770
+religion:     |391
 ```
 
 **Griechisch**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13580
-geography:    |||||||||||||||||||3906
+general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13651
+geography:    |||||||||||||||||||3941
 monthsDays:   97
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||12972
-religion:     |376
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13123
+religion:     |381
 ```
 
 **Lateinisch**
@@ -57,13 +57,17 @@ Datentransformation
 
 #### Kurzanleitung
 
-1. FileMaker-XML-Dateien in das Verzeichnis `staging/input` speichern.
-2. [`conversion.xpl`](/staging/conversion.xpl) ausführen
-3. Reporting auswerten bzw. Dateien in `staging/output` mit den bisherigen Dateien vergleichen ([`current`](/current))
-4. Dateien in [`current`](/current) durch Dateien in `staging/output` ersetzen
-5. `git commit` bzw. Pull-Request erstellen
+1. Versions- und Literaturangaben aktualisieren (`meta/literature.xml`, `meta/versions.xml`, `meta/editors.xml`)
+2. FileMaker-XML-Dateien in das Verzeichnis `staging/input` speichern.
+3. [`conversion.xpl`](/staging/conversion.xpl) ausführen
+4. Reporting auswerten bzw. Dateien in `staging/output` mit den bisherigen Dateien vergleichen ([`current`](/current))
+5. Dateien in [`current`](/current) durch Dateien in `staging/output` ersetzen
+6. `git commit` bzw. Pull-Request erstellen
+7. Version taggen bzw. Release erstellen
 
 #### Ausführliche Anleitung
+        
+Vor jeder Datenübernahme sind die Meta-Dateien `literature.xml`, `versions.xml` und ggf. `editors.xml` zu aktualisieren bzw. ergänzen.
 
 Der eigentliche Abgleich ist als [XProc](http://www.w3.org/TR/xproc/)-Pipeline angelegt. Innerhalb der Pipeline werden verschiedene XSL-Transformationen ausgeführt und die einzelnen Einträge schließlich als Einzeldateien ins Output-Verzeichnis geschrieben. Die Transformationsschritte umfassen:
 
@@ -79,12 +83,13 @@ Der eigentliche Abgleich ist als [XProc](http://www.w3.org/TR/xproc/)-Pipeline a
 
 Die XProc-Pipeline (`staging/conversion.xpl`) muss einmal angestossen werden, der Prozess läuft dann selbständig durch. Dieser Prozess kann sowohl in oXygen XML Editor (unter Nutzung des integrierten Calabash-Prozessors; vlg. [Anleitung](http://oxygenxml.com/doc/ug-editor/topics/xproc-transformation-scenario.html)) oder auf der Kommandozeile erfolgen (ebenfalls unter Nutzung des [Calabash](http://xmlcalabash.com/)-Prozessors oder eines anderen XProc-Prozessors.
 
-Der Vorgang ist relativ speicherintensiv und dauert für einen Voll-Abgleich je nach System/Konfiguration eine halbe Stunde oder länger.
+Der Vorgang ist relativ speicherintensiv und dauert für einen Voll-Abgleich je nach System/Konfiguration eine gute Stunde oder länger.
 
 In der Datei [`staging/conversion.xpl`](/staging/conversion.xpl) lassen sich mehrere Parameter konfigurieren (direkt in der Datei oder im oXygen-XProc-Transformationsszenario im Tab `Optionen`):
 
 Parameter | Beschreibung
 ------------ | -------------
+`version` | Fassung; `Versionsnummer`, `Versionsname`, `Datum`, jeweils getrennt durch `¦` (`'21¦21. Version¦27.07.2017'`) 
 `editor` | Bearbeiter; z.B. als Github-Konto, Verweis auf eine `xml:id` oder als Klarnamen
 `task-newEntries` | aktueller Bearbeitungsschritt für Neuaufnahmen (z.B. Auflistung der neuen Kurztitel); dieser wird als `<change>`-Element in die `<revisionDesc>` aufgenommen
 `task-existingEntries`| aktueller Bearbeitungsschritt für bestehende Einträge; dieser wird als `<change>`-Element in die `<revisionDesc>` aufgenommen
