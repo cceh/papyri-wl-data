@@ -19,10 +19,13 @@
     <wrapper>
         <!-- The README file is generated in the conversion process. Thus it should not be edited in the root directory but here in this file. -->
         <xsl:text>
-Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/readme/</xsl:text><xsl:value-of select="tokenize(base-uri(document('')),'/')[last()]"/><xsl:text>)            
+Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/readme/</xsl:text><xsl:value-of select="tokenize(base-uri(document('')),'/')[last()]"/><xsl:text>)
+    
+---
             
 Papyri Wörterlisten – Data
 ===========================================================
+[![DOI](https://zenodo.org/badge/77647626.svg)](https://zenodo.org/badge/latestdoi/77647626)
 
 Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung in Entwicklung).
 
