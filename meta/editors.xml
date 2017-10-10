@@ -16,6 +16,10 @@
                     <persName xml:id="hagedorn_d">Dieter Hagedorn</persName>
                 </respStmt>
                 <respStmt>
+                    <resp>Kompilation</resp>
+                    <persName xml:id="maresch_k">Klaus Maresch</persName>
+                </respStmt>
+                <respStmt>
                     <resp>Anfängliche Mithilfe</resp>
                     <persName xml:id="breit_p">Pia Breit</persName>
                 </respStmt>

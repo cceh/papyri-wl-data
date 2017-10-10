@@ -38,7 +38,7 @@
                         <title>Papyri-Wörterlisten</title>
                         <respStmt>
                             <resp>kompiliert von</resp>
-                            <name>Dieter Hagedorn</name>
+                            <name><persName>Dieter Hagedorn</persName> und <persName>Klaus Maresch</persName></name>
                         </respStmt>
                     </titleStmt>
                     <editionStmt>
