@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-la-02173">Ζannae</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-la-02173">Zannae</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -53,11 +53,11 @@
          <div type="persons">
             <entry type="main" xml:id="wl-la-02173">
                <form type="lemma">
-                  <orth xml:lang="la" type="original" extent="full">Ζannae</orth>
-                  <orth xml:lang="la" type="regularised" extent="full">Ζannae</orth>
+                  <orth xml:lang="la" type="original" extent="full">Zannae</orth>
+                  <orth xml:lang="la" type="regularised" extent="full">Zannae</orth>
                   <form type="derivative" value="reverse">
-                     <orth xml:lang="la" type="original" extent="full">eannaΖ</orth>
-                     <orth xml:lang="la" type="regularised" extent="full">eannaΖ</orth>
+                     <orth xml:lang="la" type="original" extent="full">eannaZ</orth>
+                     <orth xml:lang="la" type="regularised" extent="full">eannaZ</orth>
                   </form>
                   <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
                      <date type="creation" notAfter="2016">vor 2016</date>.</note>

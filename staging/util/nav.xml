@@ -2635,7 +2635,11 @@
       </item>
       <item id="Z">
          <name>Z</name>
-         <amount>4</amount>
+         <amount>5</amount>
+         <item id="Za">
+            <name>Za</name>
+            <amount>1</amount>
+         </item>
          <item id="Ze">
             <name>Ze</name>
             <amount>2</amount>
@@ -2703,14 +2707,6 @@
          <item id="]t">
             <name>]t</name>
             <amount>3</amount>
-         </item>
-      </item>
-      <item id="Ζ">
-         <name>Ζ</name>
-         <amount>1</amount>
-         <item id="Ζa">
-            <name>Ζa</name>
-            <amount>1</amount>
          </item>
       </item>
    </item>
