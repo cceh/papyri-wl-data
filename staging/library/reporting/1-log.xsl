@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
     exclude-result-prefixes="xs"
-    version="2.0">
+    version="3.0">
     
     <!-- 
         <p:documentation>
@@ -121,9 +122,38 @@
 This section is empty unless there are lemmata, that were changed in FileMaker since the last export. In that case, the changes (most often these are regularisations on character level) should be ported to the `current` data and the transformation re-run until this section is empty.
 </xsl:text>
             <xsl:apply-templates mode="control"/>
-            
+
+            <xsl:text>## Character test
+    
+#### Entries that contain suspicious Unicode characters
+
+This section is empty unless there are Greek lemmata that contain Latin characters (except punctuation and numbers) or Latin lemmata that contain Greek characters. The entries should be fixed in the input and the transformation re-run until this section is empty or the characters are judged correct.
+
+</xsl:text>
+            <xsl:text>|Lemma|PWL-ID|FM number|offending character(s)|&#10;</xsl:text>
+            <xsl:text>|---|---|---|---|&#10;</xsl:text>
+            <!-- greek lemmata may contain some latin characters; these are ignored ('') -->
+            <xsl:apply-templates select="//grc//*:entry[*:form/*:orth[@type='regularised']
+                [pwl:skip(.) => matches('\p{IsBasicLatin}')]]" mode="characterTesting"/>
+            <xsl:apply-templates select="//la//*:entry[*:form/*:orth[@type='regularised'][matches(.,'\p{IsGreek}')]]" mode="characterTesting"/>
+
         </md-wrapper>
     </xsl:template>
+    
+    <xsl:template match="*:entry" expand-text="1" mode="characterTesting">
+        <xsl:text>|{*:form/*:orth[@type='regularised']}|{@xml:id}|{*:form/*:idno[@type='fp7']}{if (matches(@xml:id,'-la-')) then ' (la, '||parent::*:div/@type||')' else ' (grc, '||parent::*:div/@type||')'}|</xsl:text>
+        <xsl:variable name="regex" select="if (matches(@xml:id,'-la-')) then '\p{IsGreek}' else '\p{IsBasicLatin}'"/>
+        <xsl:analyze-string select="*:form/*:orth[@type='regularised']" regex="{$regex}">
+            <xsl:matching-substring><xsl:value-of select="pwl:skip(.)"/></xsl:matching-substring>
+        </xsl:analyze-string>
+        <xsl:text>&#10;</xsl:text>
+    </xsl:template>
+    
+    <xsl:function name="pwl:skip">
+        <!-- this function removes some latin characters that occur frequently in greek lemmata -->
+        <xsl:param name="input"/>
+        <xsl:value-of select="replace($input,' ','') => replace('[1-9]+','') => replace(',','') => replace('\.','') => replace('\[','') => replace('\]','') => replace('\(','') => replace('\)','') => replace('-','') => replace('\?','')"/>
+    </xsl:function>
     
     <xsl:template match="*:grc">
 <xsl:text>
