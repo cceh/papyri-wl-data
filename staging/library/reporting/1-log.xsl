@@ -134,7 +134,7 @@ This section is empty unless there are Greek lemmata that contain Latin characte
             <xsl:text>|---|---|---|---|&#10;</xsl:text>
             <!-- greek lemmata may contain some latin characters; these are ignored ('') -->
             <xsl:apply-templates select="//grc//*:entry[*:form/*:orth[@type='regularised']
-                [pwl:skip(.) => matches('\p{IsBasicLatin}')]]" mode="characterTesting"/>
+                [pwl:skip(.) => matches('\p{IsBasicLatin}')][not(matches(.,'\((Gen|Dat|Akk)\.\)'))]]" mode="characterTesting"/>
             <xsl:apply-templates select="//la//*:entry[*:form/*:orth[@type='regularised'][matches(.,'\p{IsGreek}')]]" mode="characterTesting"/>
 
         </md-wrapper>
@@ -152,7 +152,7 @@ This section is empty unless there are Greek lemmata that contain Latin characte
     <xsl:function name="pwl:skip">
         <!-- this function removes some latin characters that occur frequently in greek lemmata -->
         <xsl:param name="input"/>
-        <xsl:value-of select="replace($input,' ','') => replace('[1-9]+','') => replace(',','') => replace('\.','') => replace('\[','') => replace('\]','') => replace('\(','') => replace('\)','') => replace('-','') => replace('\?','')"/>
+        <xsl:value-of select="replace($input,' ','') => replace('[1-9]+','') => replace(',','') => replace('\.','') => replace('\[','') => replace('\]','') => replace('\(','') => replace('\)','') => replace('-','') => replace('\?','') => replace('/','') => replace('`','') => replace('´','')"/>
     </xsl:function>
     
     <xsl:template match="*:grc">
