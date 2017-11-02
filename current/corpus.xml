@@ -767,7 +767,7 @@
                   </bibl>
                   <bibl xml:id="ohne_Verweis_P.Coles" type="monograph">
                      <title type="short">P.Coles</title>
-                     <title type="long">Guido Bastianini - Nikolaos Gonis - Simona Russo, Charisterion per Revel Coles. Trenta testi letterari e documentari dall’Egitto (P.Coles) (Edizioni dell’Istituto Papirologico «G. Vitelli» 4), Firenze 2015</title>
+                     <title type="long">Guido Bastianini - Nikolaos Gonis - Simona Russo, Charisterion per Revel Coles. Trenta testi letterari e documentari dall’Egitto (P.Coles) (Edizioni dell’Istituto Papirologico «G. Vitelli» 4), Firenze 2015</title>
                      <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                      <date type="creation">2016</date>
                   </bibl>
@@ -3170,9 +3170,6 @@
                   <term>Für die Inhalte: </term>
                   <persName>Dieter Hagedorn</persName>
                   <email>dieter.hagedorn@urz.uni-heidelberg.de</email>
-               </item>
-               <item>
-                  <term>Für die Inhalte: </term>
                   <persName>Klaus Maresch</persName>
                   <email>ala37@uni-koeln.de</email>
                </item>
