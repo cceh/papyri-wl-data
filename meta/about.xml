@@ -115,6 +115,35 @@
                </item>
             </list>
          </div>
+         <div>
+            <head>Kontaktangaben</head>
+            <list>
+               <item>
+                  <term>Für die Inhalte: </term>
+                  <persName>Dieter Hagedorn</persName>
+                  <email>dieter.hagedorn@urz.uni-heidelberg.de</email>
+                  <persName>Klaus Maresch</persName>
+                  <email>ala37@uni-koeln.de</email>
+               </item>
+               <item>
+                  <term>Für das technische System: </term>
+                  <persName>Patrick Sahle</persName>
+                  <email>sahle@uni-koeln.de</email>
+               </item>
+               <item>
+                  <persName>Allgemeine Kontaktadresse:</persName>
+                  <email>papyri-woerterlisten@uni-koeln.de</email>
+               </item>
+            </list>
+         </div>
+         <div>
+            <head>Rückspiegel</head>
+            <list>
+               <item>
+                   <p><label>September 2017:</label>Besprechung in der Openaccess-Publikation <bibl>Nicola Reggiani: <ref target="https://www.degruyter.com/view/product/486978" rend="new">Digital Papyrology I - Methods, Tools and Trends.</ref> Berlin/Boston: De Gruyter 2017 (ISBN 978-3-11-053851-9 bzw. 978-3-11-054747-4). <ref target="https://www.degruyter.com/downloadpdf/books/9783110547474/9783110547474-004/9783110547474-004.pdf" rend="new">S. 119-121</ref></bibl></p>
+               </item>
+            </list>
+         </div>
       </body>
    </text>
 </TEI>
