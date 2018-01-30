@@ -27,7 +27,7 @@ Papyri Wörterlisten – Data
 ===========================================================
 [![DOI](https://zenodo.org/badge/77647626.svg)](https://zenodo.org/badge/latestdoi/77647626)
 
-Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung in Entwicklung).
+Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten(https://papyri.uni-koeln.de/papyri-woerterlisten)]).
 
 Über die Daten
 -------------------------------------
