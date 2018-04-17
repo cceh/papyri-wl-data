@@ -77,6 +77,10 @@
         
         <p:split-sequence test="/*:wl-wrapper" name="Split"/>
         
+        <!--    matched: wrapped-transformation-result
+                not-matched: corpus  
+        -->
+        
         <p:identity name="corpus">
             <p:input port="source">
                 <p:pipe port="not-matched" step="Split"/>
@@ -319,6 +323,62 @@
                 <p:with-option name="href" select="concat($filepath,'nav-cat.xml')"/>
                 <p:with-option name="omit-xml-declaration" select="'false'"/>
                 <p:with-option name="indent" select="'true'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="not-matched" step="Split"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="words-by-frequency">
+            
+            <p:documentation>
+                <h2>Words by frequency</h2>
+                <p>This step saves statistical information contained in the corpus file in an XML file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/9-st-words-frequency.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store>
+                <p:with-option name="href" select="concat($filepath,'st-words-by-frequency.xml')"/>
+                <p:with-option name="omit-xml-declaration" select="'false'"/>
+                <p:with-option name="indent" select="'true'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="not-matched" step="Split"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="words-by-frequency-json">
+            
+            <p:documentation>
+                <h2>Statistical listing: words by frequency (JSON)</h2>
+                <p>This step saves statistical information contained in the corpus file in a JSON file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/10-st-words-frequency-json.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'st-words-frequency.json')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
             </p:store>
             
         </p:group>

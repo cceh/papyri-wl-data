@@ -181,12 +181,30 @@
                                 </xsl:for-each-group>
                             </list>
                         </p>
+                        <p>
+                            <list type="index" subtype="words-by-frequency">
+                                <!-- counting and listing the number of editions, in which a word occurs -->
+                                <head>Anzahl der Belegstellen pro Wort</head>
+                                <xsl:for-each-group select="/*//*:entry" group-by="count(*:xr/*:list/*:item)">
+                                    <xsl:sort select="current-grouping-key()" order="descending"/>
+                                    <item>
+                                        <label><xsl:copy-of select="current-grouping-key()"/></label>
+                                        <num><xsl:value-of select="count(current-group())"/></num>
+                                        <linkGrp>
+                                            <xsl:for-each select="current-group()/@xml:id">
+                                                <ptr target="{.}"/>
+                                            </xsl:for-each>
+                                        </linkGrp>
+                                    </item>
+                                </xsl:for-each-group>
+                            </list>
+                        </p>
                     </projectDesc>
                 </encodingDesc>
                 <xenoData>
                 <!-- statistics as json in xenodata -->
                     <pwl:json>
-                        <pwl:json lang="la">
+                        <pwl:json type="categories" lang="la">
                             <xsl:text>{&#10;    "name" : "categories",&#10;    "items" : [</xsl:text>
                             <xsl:for-each-group select="/*/*:la/*:div" group-by="@type">
                                 <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "items" : [</xsl:text>
@@ -202,7 +220,7 @@
                             </xsl:for-each-group>
                             <xsl:text>]}</xsl:text>
                         </pwl:json>
-                        <pwl:json lang="grc">
+                        <pwl:json type="categories" lang="grc">
                             <xsl:text>{&#10;    "name" : "categories",&#10;    "items" : [</xsl:text>
                             <xsl:for-each-group select="/*/*:grc/*:div" group-by="@type">
                                 <xsl:text>{&#10;        "name" : "</xsl:text><xsl:value-of select="@type"/><xsl:text>",&#10;        "items" : [</xsl:text>
@@ -215,6 +233,25 @@
                                     <xsl:text>}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
                                 </xsl:for-each-group>
                                 <xsl:text>]&#10;        }</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                            </xsl:for-each-group>
+                            <xsl:text>]}</xsl:text>
+                        </pwl:json>
+                        <pwl:json type="word-frequencies">
+                            <xsl:text>{&#10;    "name" : "frequencies",&#10;    "items" : [</xsl:text>
+                            <xsl:for-each-group select="/*//*:entry" group-by="count(*:xr/*:list/*:item)">
+                                <xsl:sort select="current-grouping-key()" order="descending"/>
+                                <xsl:text>{"name": "</xsl:text>
+                                <xsl:copy-of select="current-grouping-key()"/>
+                                <xsl:text>","count":"</xsl:text>
+                                <xsl:value-of select="count(current-group())"/>
+                                <xsl:text>","words": [</xsl:text>
+                                <xsl:for-each select="current-group()/@xml:id">
+                                    <xsl:text>"</xsl:text>
+                                    <xsl:value-of select="."/>
+                                    <xsl:text>"</xsl:text>
+                                    <xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                                </xsl:for-each>
+                                <xsl:text>]}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
                             </xsl:for-each-group>
                             <xsl:text>]}</xsl:text>
                         </pwl:json>

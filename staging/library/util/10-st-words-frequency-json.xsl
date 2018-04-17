@@ -17,21 +17,9 @@
     
     <xsl:template match="text()"/>
     
-    <xsl:template match="pwl:json/pwl:json[@type='categories'][@lang='la']">
+    <xsl:template match="pwl:json/pwl:json[@type='word-frequencies']">
         <xsl:copy>
-            <xsl:copy-of select="replace(
-                replace(
-                replace(
-                replace(
-                replace(
-                replace(
-                replace(.,'monthsDays','Monate und Tage'),
-                'persons','Personennamen'),
-                'geography','Geographie'),
-                'religion','Götter, Heiligtümer, Feste'),
-                'general','Allgemeines Wörterverzeichnis'),
-                'items','children'),
-                'categories','kategorien')"/>
+            <xsl:copy-of select="."/>
         </xsl:copy>
     </xsl:template>
     
