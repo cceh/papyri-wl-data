@@ -383,6 +383,64 @@
             
         </p:group>
         
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="not-matched" step="Split"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="words-by-edition-json">
+            
+            <p:documentation>
+                <h2>Statistical listing: words by edition (JSON)</h2>
+                <p>This step saves statistical information contained in the corpus file in a JSON file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/11-st-words-edition-json.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'st-words-edition.json')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+            
+        </p:group>
+        
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="not-matched" step="Split"/>
+            </p:input>
+        </p:identity>
+        
+        <p:group name="uniqueness-by-edition">
+            
+            <p:documentation>
+                <h2>Statistical listing: words by edition (JSON)</h2>
+                <p>This step saves statistical information contained in the corpus file in a JSON file (as understood by the webapp).</p>
+            </p:documentation>
+            
+            <p:variable name="filepath" select="$filepath"/>
+            
+            <p:xslt>
+                <p:input port="stylesheet">
+                    <p:document href="util/12-st-uniqueness-edition-json.xsl"/>
+                </p:input>
+            </p:xslt>
+            
+            <p:store method="text">
+                <p:with-option name="href" select="concat($filepath,'st-uniqueness-edition.json')"/>
+                <p:with-option name="omit-xml-declaration" select="'true'"/>
+                <p:with-option name="indent" select="'false'"/>
+            </p:store>
+        
+        </p:group>
+    
     </p:declare-step>
     
     <p:declare-step type="pwl:readme" name="wl-input-readme">

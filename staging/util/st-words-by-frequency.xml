@@ -2,6 +2,7 @@
 <list xmlns="http://www.tei-c.org/ns/1.0"
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
+      xmlns:ckbk="http://www.oreilly.com/xsltckbk"
       type="index"
       subtype="words-by-frequency">
    <head>Anzahl der Belegstellen pro Wort</head>

@@ -4,6 +4,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
+    xmlns:ckbk="http://www.oreilly.com/xsltckbk"
     exclude-result-prefixes="xs" version="2.0">
     <xsl:strip-space elements="*"/>
     <xsl:output indent="yes"/>
@@ -23,6 +24,7 @@
     <xsl:variable name="literature" select="document('../../../meta/literature.xml')//*:bibl"/>
     <xsl:variable name="editors" select="document('../../../meta/editors.xml')//*:editionStmt/*:respStmt"/>
     <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:revisionDesc/*:listChange[@type='versions']"/>
+    <xsl:variable name="wrapped-transformation-result" select="/"/>
     
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -199,6 +201,80 @@
                                 </xsl:for-each-group>
                             </list>
                         </p>
+                        <p>
+                            <list type="index" subtype="words-by-edition">
+                                <head>Anzahl Wörter pro Edition</head>
+                                <xsl:for-each select="$literature/*:title[@type='short']">
+                                    <xsl:sort select="."/>
+                                    <item>
+                                        <label corresp="{parent::*:bibl/@xml:id}">
+                                            <xsl:copy-of select="text()"/>
+                                        </label>
+                                        <num>
+                                            <xsl:value-of select="count($wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]])"/>
+                                        </num>
+                                        <linkGrp>
+                                            <xsl:for-each select="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/@xml:id">
+                                                <ptr target="{.}"/>
+                                            </xsl:for-each>
+                                        </linkGrp>
+                                    </item>
+                                    <!--<xsl:value-of select="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item)"/>-->
+                                </xsl:for-each> 
+                            </list>
+                        </p>
+                        <p>
+                            <list type="index" subtype="uniqueness-by-edition">
+                                <head>Relative Einmaligkeit der Wörter pro Edition</head>
+                                <xsl:for-each select="$literature/*:title[@type='short']">
+                                    <xsl:sort select="."/>
+                                    <!-- storing the ratio 1 : total number of references in a variable as a basis for statistical calculation -->
+                                    <xsl:variable name="quots">
+                                        <xsl:for-each select="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]">
+                                            <quot id="{@xml:id}">
+                                                <!--                                                            <xsl:value-of select="count(.//*:xr/*:list/*:item)"/>-->
+                                                <xsl:value-of select="1 div count(.//*:xr/*:list/*:item)"/>
+                                            </quot>
+                                        </xsl:for-each>
+                                    </xsl:variable>
+                                    <item>
+                                        <label corresp="{parent::*:bibl/@xml:id}">
+                                            <xsl:copy-of select="text()"/>
+                                        </label>
+                                        <num type="count">
+                                            <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                                <xsl:value-of select="count($quots/*:quot)"/>
+                                            </xsl:if>
+                                        </num>
+                                        <num type="mean">
+                                            <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                                <xsl:value-of select="round(sum($quots/*:quot) div count($quots/*:quot) * 10000) div 10000"/>
+                                            </xsl:if>
+                                        </num>
+                                        <num type="median">
+                                            <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                                <xsl:value-of select="round(ckbk:median($quots/*:quot) * 10000) div 10000"/>
+                                            </xsl:if>
+                                        </num>
+                                        <num type="mode">
+                                            <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                                <xsl:value-of select="for $i in ckbk:mode($quots/*:quot) return round($i * 10000) div 10000"/>
+                                            </xsl:if>
+                                        </num>
+                                        <num type="variance">
+                                            <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                                <xsl:value-of select="round(pwl:variance($quots/*:quot) * 10000) div 10000"/>
+                                            </xsl:if>
+                                        </num>
+                                        <num type="standard-deviation">
+                                            <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                                <xsl:value-of select="round(ckbk:sqrt(pwl:variance($quots/*:quot)) * 10000) div 10000"/>
+                                            </xsl:if>
+                                        </num>
+                                    </item>
+                                </xsl:for-each> 
+                            </list>
+                        </p>
                     </projectDesc>
                 </encodingDesc>
                 <xenoData>
@@ -255,6 +331,69 @@
                             </xsl:for-each-group>
                             <xsl:text>]}</xsl:text>
                         </pwl:json>
+                        <pwl:json type="words-by-edition">
+                            <xsl:text>{&#10;    "name" : "words-by-edition",&#10;    "items" : [</xsl:text>
+                            <xsl:for-each select="$literature/*:title[@type='short']">
+                                <xsl:sort select="."/>
+                                <xsl:text>{"name": "</xsl:text>
+                                <xsl:copy-of select="text()"/>
+                                <xsl:text>","id":"</xsl:text>
+                                <xsl:value-of select="parent::*:bibl/@xml:id"/>
+                                <xsl:text>","count":"</xsl:text>
+                                <xsl:value-of select="count($wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]])"/>
+                                <xsl:text>","words": [</xsl:text>
+                                <xsl:for-each select="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/@xml:id">
+                                    <xsl:text>"</xsl:text>
+                                    <xsl:value-of select="."/>
+                                    <xsl:text>"</xsl:text>
+                                    <xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                                </xsl:for-each>
+                                <xsl:text>]}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                            </xsl:for-each>
+                            <xsl:text>]}</xsl:text>
+                        </pwl:json>
+                        <pwl:json type="uniqueness-by-edition">
+                            <xsl:text>{&#10;    "name" : "uniqueness-by-edition",&#10;    "items" : [</xsl:text>
+                            <xsl:for-each select="$literature/*:title[@type='short']">
+                                <xsl:sort select="."/>
+                                <xsl:variable name="quots">
+                                    <xsl:for-each select="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]">
+                                        <quot id="{@xml:id}">
+                                            <!--                                                            <xsl:value-of select="count(.//*:xr/*:list/*:item)"/>-->
+                                            <xsl:value-of select="1 div count(.//*:xr/*:list/*:item)"/>
+                                        </quot>
+                                    </xsl:for-each>
+                                </xsl:variable>
+                                <xsl:text>{"name": "</xsl:text>
+                                <xsl:copy-of select="text()"/>
+                                <xsl:text>","id":"</xsl:text>
+                                <xsl:value-of select="parent::*:bibl/@xml:id"/>
+                                <xsl:text>","count":"</xsl:text>
+                                <xsl:value-of select="count($quots/*:quot)"/>
+                                <xsl:text>","mean":"</xsl:text>
+                                <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                    <xsl:value-of select="round(sum($quots/*:quot) div count($quots/*:quot) * 10000) div 10000"/>
+                                </xsl:if>
+                                <xsl:text>","median":"</xsl:text>
+                                <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                    <xsl:value-of select="round(ckbk:median($quots/*:quot) * 10000) div 10000"/>
+                                </xsl:if>
+                                <xsl:text>","mode":"</xsl:text>
+                                <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                    <xsl:value-of select="for $i in ckbk:mode($quots/*:quot) return round($i * 10000) div 10000"/>
+                                </xsl:if>
+                                <xsl:text>","variance":"</xsl:text>
+                                <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                    <xsl:value-of select="round(pwl:variance($quots/*:quot) * 10000) div 10000"/>
+                                </xsl:if>
+                                <xsl:text>","standard-deviation":"</xsl:text>
+                                <xsl:if test="$wrapped-transformation-result//*:entry[.//*:ref[matches(.,current()/text())]]/count(.//*:xr/*:list/*:item) != 0">
+                                    <xsl:value-of select="round(ckbk:sqrt(pwl:variance($quots/*:quot)) * 10000) div 10000"/>
+                                </xsl:if>
+                                <xsl:text>"}</xsl:text><xsl:if test="not(position()=last())"><xsl:text>,</xsl:text></xsl:if>
+                            </xsl:for-each>
+                            <xsl:text>]}</xsl:text>
+                        </pwl:json>
                     </pwl:json>
                 </xenoData>
                 <profileDesc>
@@ -290,4 +429,65 @@
         </teiCorpus>
     </xsl:template>
     
+    <xsl:function name="ckbk:median">
+        <xsl:param name="nodes" as="xs:double*" />
+        <xsl:variable name="count" select="count($nodes)"/>
+        <xsl:variable name="middle" select="ceiling($count div 2)"/>
+        <xsl:variable name="sorted" as="xs:double*">
+            <xsl:perform-sort select="$nodes">
+                <xsl:sort data-type="number"/>
+            </xsl:perform-sort>
+        </xsl:variable>
+        <xsl:sequence select="if (ceiling($count mod 2)=0) then ($sorted[$middle] + $sorted[$middle - 1]) div 2 else $sorted[$middle]"/>
+    </xsl:function>
+
+    <xsl:function name="ckbk:mode" as="item()*">
+        <xsl:param name="nodes" as="item()*"/>
+        <!-- First locate the distinct values -->
+        <xsl:variable name="distinct" select="distinct-values($nodes)" as="item()*"/> 
+        <!--Get a sequence of occurrence counts of the distinct values --> 
+        <xsl:variable name="counts"
+            select="for $i in $distinct return count($nodes[. = $i])"
+            as="xs:integer*"/>
+        <!--Find the max of the counts -->
+        <xsl:variable name="max" select="max($counts)" as="xs:integer?"/>
+        <!-- Now return those values that have the max count -->
+        <xsl:sequence select="$distinct[position() = index-of($counts,$max)]"/>
+    </xsl:function>
+    
+    <xsl:function name="pwl:variance" as="xs:double">
+        <xsl:param name="nodes" as="xs:double*"/>
+        <xsl:variable name="sum" select="sum($nodes)"/>
+        <xsl:variable name="count" select="count($nodes)"/>
+        <xsl:variable name="mean" select="$sum div $count"/>
+        <xsl:sequence select="if ($count lt 2)
+            then 0
+            else sum(for $i in $nodes return ($i - $mean) * ($i - $mean)) div $count"/>
+    </xsl:function>
+    
+    <!-- square root -->
+    <xsl:function name="ckbk:sqrt">
+        <xsl:param name="number" as="xs:double"/>
+        <xsl:variable name="try" select="if ($number lt 100.0) then 1.0
+            else if ($number gt 100.0 and $number lt
+            1000.0) then 10.0
+            else if ($number gt 1000.0 and $number lt
+            10000.0) then 31.0
+            else 100.00" as="xs:decimal"/>
+        <xsl:sequence select="if ($number ge 0) then ckbk:sqrt($number,$try,1,20)
+            else 'NaN'"/>
+    </xsl:function>
+    
+    <xsl:function name="ckbk:sqrt" as="xs:double">
+        <xsl:param name="number" as="xs:double"/>
+        <xsl:param name="try" as="xs:double"/>
+        <xsl:param name="iter" as="xs:integer"/>
+        <xsl:param name="maxiter" as="xs:integer"/>
+        <xsl:variable name="result" select="$try * $try" as="xs:double"/>
+        <xsl:sequence select="if ($result eq $number or $iter gt $maxiter)
+            then $try
+            else ckbk:sqrt($number, ($try - (($result - $number)
+            div (2 * $try))), $iter + 1, $maxiter)"/>
+    </xsl:function>
+        
 </xsl:stylesheet>
