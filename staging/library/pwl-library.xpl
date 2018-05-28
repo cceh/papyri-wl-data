@@ -508,7 +508,7 @@
                 <p:document href="transformation/2-create-generic-structure.xsl"/>
             </p:input>
         </p:xslt>
-        
+
         <p:documentation>
             <h2>Initial TEI structure</h2>
             <p>In this step, the entries are transformed to fit the TEI model of the project. IDs are taken from existing entries.</p>

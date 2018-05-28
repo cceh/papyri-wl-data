@@ -67,6 +67,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_BL13" type="monograph">
+               <title type="short">BL 13</title>
+               <title type="long">F.A.J. Hoogendijk -  A. Jördens, Berichtigungsliste der Griechischen Papyrusurkunden aus Ägypten, Dreizehnter Band, zusammengestellt von J.M.S. Cowey - F.A.J. Hoogendijk. Leiden - Heidelberg, 2017 (IV. Indices der addenda onomasticis und lexicis)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
+            </bibl>
             <bibl xml:id="b18092" type="monograph">
                <title type="short">CPR 19</title>
                <title type="long">Margit Bornett u.a., Corpus Papyrorum Raineri, Band XIX (Griechische Texte XVIII), Wien 2004</title>
@@ -303,9 +310,16 @@
             </bibl>
             <bibl xml:id="b80208" type="monograph">
                <title type="short">O.Trim. 01</title>
-               <title type="long">Amheida I: Ostraka from Trimithis, Volume 1. Texts from the 2004–2007 Seasons, by Roger S. Bagnall and Giovanni R. Ruffini with contributions by Raffaella Cribiore and Günter Vittmann, Online-Publikation unter </title>
+               <title type="long">Amheida I: Ostraka from Trimithis, Volume 1. Texts from the 2004–2007 Seasons, by Roger S. Bagnall and Giovanni R. Ruffini with contributions by Raffaella Cribiore and Günter Vittmann, Online-Publikation unter <ref target="http://dlib.nyu.edu/awdl/isaw/amheida-i-otrim-1/" rend="new">http://dlib.nyu.edu/awdl/isaw/amheida-i-otrim-1/</ref></title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="b95297" type="monograph">
+               <title type="short">O.Trim. 02</title>
+               <title type="long">Amheida III: Ostraka from Trimithis, Volume 2. Greek texts from the 2008-2013 Seasons by Rodney Ast and Roger S. Bagnall with contributions by Clementina Caputo, Raffaella Cribiore, New York, NY, New York University Press, 2016</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_P_Aktenbuch" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Aktenbuch</title>
@@ -330,6 +344,13 @@
                <title type="long">Papyrological Texts in Honor of Roger S. Bagnall, edited by Rodney Ast, Hélène Cuvigny, Todd M. Hickey, and Julia Lougovaya (American Studies in Papyrology 53), 2012</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_BandiLit" type="monograph">
+               <title type="short">P.BandiLit.</title>
+               <title type="long">Marco Stroppa, I bandi liturgici nell’Egitto romano (Edizioni dell’Istituto Papirologico «G. Vitelli» 6), Firenze, Firenze University Press, 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_P.Bastianini" type="monograph">
                <title type="short">P.Bastianini</title>
@@ -487,6 +508,13 @@
                  <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                  <date type="creation">vor 2016</date>
              </bibl>
+            <bibl xml:id="ohne_Verweis_P.Erbstreit" type="monograph">
+               <title type="short">P.Erbstreit</title>
+               <title type="long">Katelijn Vandorpe und Sven P. Vleeming, The Erbstreit Papyri. A Bilingual Dossier from Pathyris of the Second Century BC (Studia Demotica 13), Leuven, Peeters, 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
+            </bibl> 
             <bibl xml:id="b17065" type="monograph">
                <title type="short">P.Erl. Diosp.</title>
                <title type="long">Frizt Mitthof, Ein spätantikes Wirtschaftsbuch aus Diospolis Parva. Der Erlanger Papyruskodex und die Texte aus seinem Umfeld (P.Erl. Diosp.). (APF, Beiheft 12) München - Leipzig, K.G. Saur 2002</title>
@@ -540,6 +568,13 @@
                <title type="long">Bernhard Palme, Wiener Papyri als Festgabe zum 60. Geburtstag von Hermann Harrauer, Wien 2001</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P.Haun_04" type="monograph">
+               <title type="short">P.Haun. 04</title>
+               <title type="long">Thorolf Christensen, Dorothy J. Thompson and Katelijn Vandorpe, Land and Taxes in Ptolemaic Egypt. An Edition, Translation and Commentary for the Edfu Land Survey (P. Haun. IV 70). Cambridge Classical Studies, Cambridge, Cambridge University Press, 2017</title>
+              <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+              <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+              <date type="creation">2018</date>
             </bibl>
             <bibl xml:id="b16511" type="monograph">
                <title type="short">P.Heid. 08</title>
@@ -637,17 +672,31 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Köln_13" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95269" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Köln 13</title>
                <title type="long">Michael Gronewald u. a., Kölner Papyri (P. Köln). Band 13. (Papyrologica Coloniensia VII, 13), Paderborn u.a., F. Schöningh, 2013</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Köln_14" type="monograph">
+            <bibl xml:id="b95289" type="monograph">
                <title type="short">P.Köln 14</title>
                <title type="long">Charikleia Armoni u. a., Kölner Papyri (P. Köln). Band 14. (Papyrologica Coloniensia VII, 14), Paderborn u.a., F. Schöningh, 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Köln_15" type="monograph">
+               <title type="short">P.Köln 15</title>
+               <title type="long">Charikleia Armoni u. a., Kölner Papyri (P. Köln). Band 15. (Papyrologica Coloniensia VII, 15), Paderborn u.a., F. Schöningh, 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Köln_16" type="monograph">
+               <title type="short">P.Köln 16</title>
+               <title type="long">Thomas Backhuys, Kölner Papyri (P. Köln). Band 16. (Papyrologica Coloniensia VII, 16), Paderborn u.a., F. Schöningh, 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
             </bibl>
             <bibl xml:id="b20743" type="monograph">
                <title type="short">P.Kramer</title>
@@ -723,7 +772,7 @@
             </bibl>
             <bibl xml:id="b76273" type="monograph">
                <title type="short">P.Minnesota</title>
-               <title type="long">Marja Bakker, Alette Bakkers and Klaas Worp, Back to Oegstgeest. The von Scherling Papyrus Collection. Some von Scherling Texts in Minnesota, BASP 44 (2007) 41-73 (ein Register von Alette V. Bakkers wird in Form einer PDF-Datei auf der Website des Papyrologisch Instituut Leiden unter http://media.leidenuniv.nl/legacy/minnesota-indices-pdf zugänglich gemacht).</title>
+               <title type="long">Marja Bakker, Alette Bakkers and Klaas Worp, Back to Oegstgeest. The von Scherling Papyrus Collection. Some von Scherling Texts in Minnesota, BASP 44 (2007) 41-73 (ein Register von Alette V. Bakkers wird in Form einer PDF-Datei auf der Website des Papyrologisch Instituut Leiden unter <ref target="http://media.leidenuniv.nl/legacy/minnesota-indices-pdf" rend="new">http://media.leidenuniv.nl/legacy/minnesota-indices-pdf</ref> zugänglich gemacht).</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
@@ -757,9 +806,16 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Nekr" type="monograph">
+               <title type="short">P.Nekr.</title>
+               <title type="long">Roger S. Bagnall, The Undertakers of the Great Oasis (P. Nekr.) (Graeco-Roman Memoirs, Supplemental Vol. 1), London, Egypt Exploration Society, 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
+            </bibl>
             <bibl xml:id="b21002" type="monograph">
                <title type="short">P.NYU 02</title>
-               <title type="long">Bruce Nielsen &amp; Klaas A. Worp (Hgg.), Papyri from the New York University Collection II (P. NYU II) (Philippika: Marburger Altertumskundliche Abhandlungen 31) Wiesbaden, Harrassowitz Verlag, 2010 (s. auch http://www.papy.uni-hd.de/WL/PNYU_II_Indices.pdf )</title>
+               <title type="long">Bruce Nielsen &amp; Klaas A. Worp (Hgg.), Papyri from the New York University Collection II (P. NYU II) (Philippika: Marburger Altertumskundliche Abhandlungen 31) Wiesbaden, Harrassowitz Verlag, 2010 (s. auch <ref target="http://www.papy.uni-hd.de/WL/PNYU_II_Indices.pdf" rend="new">http://www.papy.uni-hd.de/WL/PNYU_II_Indices.pdf</ref>)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
@@ -919,6 +975,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Petrie_Kleon" type="monograph">
+               <title type="short">P.Petrie Kleon</title>
+               <title type="long">Bart Van Beek, The archive of the architektones Kleon and Theodoros (P.Petrie Kleon), (Collectanea Hellenistica 7), Leuven u.a., 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
+            </bibl>
             <bibl xml:id="b17397" type="monograph">
                <title type="short">P.Phrur. Diosk.</title>
                <title type="long">J.M.S. Cowey, K. Maresch und Ch. Barnes, Das Archiv des Phrurarchen Dioskurides (154 - 145 v.Chr.?) (P.Phrur. Diosk.). (Papyrologica Coloniensia XXX), Paderborn u.a., 2003</title>
@@ -984,6 +1047,13 @@
                <title type="long">Hélène Cadell, Willy Clarysse et Kennokka Robic, Papyrus de la Sorbonne (P. Sorb. III nos 70-144). (Papyrologica Parisina 1), Paris, Presses de l’Université de Paris-Sorbonne, 2011</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Sorb_04" type="monograph">
+               <title type="short">P.Sorb. 04</title>
+               <title type="long">Marie-Pierre Chaufray &amp; Stéphanie Wackenier, Papyrus de la Sorbonne (P.Sorb. IV N° 145-160) (Papyrologica Parisina 4), Paris, Presses de l'Université de Paris-Sorbonne, 2016</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_P_Strasb__Copt_" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Strasb. Copt.</title>
@@ -1267,6 +1337,20 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_An_Pap__29" type="journal">
+               <title type="short">An.Pap. 29</title>
+               <title type="long">Analecta Papyrologica 29 (2017)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_Antinoupolis__03" type="journal">
+               <title type="short">Antinoupolis 03</title>
+               <title type="long">Antinoupolis III a cura di Rosario Pintaudi (Edizioni dell’Istituto Papirologico «G. Vitelli» 7), Firenze, Firenze University Press, 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
+            </bibl>
             <bibl xml:id="ohne_Verweis_BACPSI_18" type="journal">
                <title type="short">BACPSI 18</title>
                <title type="long">Bulletin of Ain-Shams University Center of Papyrological Studies and Inscriptions 18 (2001) = Magdy Ahmed Ismail Aly, An edition of unpublished Greek papyrus documents from Dionysias and some papyri of Cairo museum</title>
@@ -1434,6 +1518,13 @@
                <title type="long">Tyche 31 (2016)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2017</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_Vega_Acta_Alex" type="monograph">
+               <title type="short">Vega, Acta Alex.</title>
+               <title type="long">Natalia Vega Navarrete, Die Acta Alexandrinorum im Lichte neuerer und neuester Papyrusfunde (Papyrologica Coloniensia 40), Paderborn u.a., Ferdinand Schöningh, 2017</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2018</date>
             </bibl>
             <bibl xml:id="b77545" type="journal">
                <title type="short">ZPE 171</title>

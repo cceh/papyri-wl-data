@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
-    version="2.0">
+    version="3.0">
     
     <!-- 
         <p:documentation>
@@ -155,7 +155,11 @@ Kontaktadresse: `papyri-woerterlisten AT uni-koeln.de`
 Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
+
+*Daten und README zuletzt generiert am 
 </xsl:text>
+        <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
+<xsl:text expand-text="true"> mit {system-property('xsl:product-name')} {system-property('xsl:product-version')} von {system-property('xsl:vendor')} (XSL {system-property('xsl:version')}).*</xsl:text>
     </wrapper>
 </xsl:template>
     

@@ -19,11 +19,29 @@
         </fileDesc>
         <revisionDesc>
             <listChange type="versions">
-                <!--<change when="2017-XX-YY" n="21">
-                    <label>22. Fassung vom XX. YY 2017</label>
+                <!--<change when="2018-XX-YY" n="23">
+                    <label>23. Fassung vom XX. YY 2018</label>
                     <note>hinzugekommen:
                     </note>
                 </change>-->
+                <change when="2018-05-14" n="22">
+                    <label>22. Fassung vom 14. Mai 2018</label>
+                    <note>hinzugekommen:
+                        <ref target="ohne_Verweis_An_Pap__29">An.Pap. 29</ref>;
+                        <ref target="ohne_Verweis_Antinoupolis__03">Antinoupolis III</ref>;
+                        <ref target="ohne_Verweis_BL13">BL XIII</ref>;
+                        <ref target="b95297">O.Trim. II</ref>;
+                        <ref target="ohne_Verweis_P_BandiLit">P.BandiLit.</ref>;
+                        <ref target="ohne_Verweis_P.Erbstreit">P.Erbstreit</ref>;
+                        <ref target="ohne_Verweis_P.Haun_04">P.Haun. IV</ref>;
+                        <ref target="ohne_Verweis_P_Köln_15">P.Köln XV</ref>;
+                        <ref target="ohne_Verweis_P_Köln_16">P.Köln XVI</ref>;
+                        <ref target="ohne_Verweis_P_Nekr">P.Nekr.</ref>;
+                        <ref target="ohne_Verweis_P_Petrie_Kleon">P.Petrie Kleon</ref>;
+                        <ref target="ohne_Verweis_P_Sorb_04">P.Sorb. IV</ref>;
+                        <ref target="ohne_Verweis_Vega_Acta_Alex">Vega, Acta Alex.</ref>
+                    </note>
+                </change>
                 <change when="2017-07-26" n="21">
                     <label>21. Fassung vom 26. Juli 2017</label>
                     <note>hinzugekommen: 
@@ -48,7 +66,7 @@
                         <ref target="ohne_Verweis_O.Bankes">O.Bankes</ref>; 
                         <ref target="ohne_Verweis_P.Coles">P.Coles</ref>; 
                         <ref target="ohne_Verweis_P.Daris">P.Daris</ref>; 
-                        <ref target="ohne_Verweis_P_Köln_14">P.Köln XIV</ref>; 
+                        <ref target="b95289">P.Köln XIV</ref>; 
                         <ref target="ohne_Verweis_P.Tebt.Pad.01">P.Tebt. Pad. I</ref>; 
                         <ref target="ohne_Verweis_SB_29">SB XXIX</ref>; 
                         <ref target="ohne_Verweis_Tyche_30">Tyche 30</ref>
@@ -88,7 +106,7 @@
                         <ref target="ohne_Verweis_An_Pap__23_24">An.Pap. 23/24</ref>; 
                         <ref target="ohne_Verweis_An_Pap__25">An.Pap. 25</ref>; 
                         <ref target="ohne_Verweis_BGU_20">BGU XX</ref>; 
-                        <ref target="ohne_Verweis_P_Köln_13">P.Köln XIII</ref>; 
+                        <ref target="b95269">P.Köln XIII</ref>; 
                         <ref target="ohne_Verweis_P_Oxy__78">P.Oxy. LXXVIII</ref>; 
                         <ref target="ohne_Verweis_PSI_Com__11">PSI Com. XI</ref>; 
                         <ref target="ohne_Verweis_PSI_16">PSI XVI</ref>; 

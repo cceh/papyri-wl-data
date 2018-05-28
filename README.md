@@ -1,44 +1,43 @@
 
 Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com/cceh/papyri-wl-data/edit/master/staging/library/readme/1-writeReadme.xsl)
-
+    
 ---
-
+            
 Papyri Wörterlisten – Data
 ===========================================================
 [![DOI](https://zenodo.org/badge/77647626.svg)](https://zenodo.org/badge/latestdoi/77647626)
 
-
-Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten](https://papyri.uni-koeln.de/papyri-woerterlisten)).
+Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten(https://papyri.uni-koeln.de/papyri-woerterlisten)]).
 
 Über die Daten
 -------------------------------------
 
-Prof. Dr. D. Hagedorn erstellt seit 1996 (unter anfänglicher Mithilfe von Pia Breit, Wolfgang Habermann, Ursula Hagedorn, Bärbel Kramer, Gertrud Marohn und Jörn Salewski) Wörterlisten aus den Registern von Publikationen griechischer und lateinischer dokumentarischer Papyri und Ostraka. Zur Verwendung kam dafür eine selbst entwickelte [HyperCard](https://en.wikipedia.org/wiki/HyperCard)-Anwendung, die mit der Zeit auch parallel in [FileMaker](https://en.wikipedia.org/wiki/FileMaker) gepflegt wurde.
+Prof. Dr. D. Hagedorn erstellt seit 1996 (unter anfänglicher Mithilfe von Pia Breit, Wolfgang Habermann, Ursula Hagedorn, Bärbel Kramer, Gertrud Marohn und Jörn Salewski; seit 2017 in Zusammenarbeit mit Klaus Maresch) Wörterlisten aus den Registern von Publikationen griechischer und lateinischer dokumentarischer Papyri und Ostraka. Zur Verwendung kam dafür eine selbst entwickelte [HyperCard](https://en.wikipedia.org/wiki/HyperCard)-Anwendung, die mit der Zeit auch parallel in [FileMaker](https://en.wikipedia.org/wiki/FileMaker) gepflegt wurde.
 Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Exporten sowie die daraus resultierenden Wörterlisten-Dateien in `TEI-XML`.
 
 
 ### Datenumfang
 
-Die Wörterlisten umfassen  33378 Einträge, wovon 31193 in griechischer und 2185 in lateinischer Sprache (Stand 29. Juli 2017, 21. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen  34042 Einträge, wovon 31858 in griechischer und 2184 in lateinischer Sprache (Stand 30. Mai 2018, 22. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15091
-geography:    ||||||||||||||||||||4007
+general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15395
+geography:    ||||||||||||||||||||4146
 monthsDays:   119
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13770
-religion:     |391
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13979
+religion:     ||403
 ```
 
 **Griechisch**
 
 ```txt
-general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13651
-geography:    |||||||||||||||||||3941
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13956
+geography:    ||||||||||||||||||||4080
 monthsDays:   97
-persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13123
-religion:     |381
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13332
+religion:     |393
 ```
 
 **Lateinisch**
@@ -48,7 +47,7 @@ monthsDays:   22
 persons:      |||647
 geography:    66
 religion:     10
-general:      |||||||1440
+general:      |||||||1439
             
 | = 200 Einträge            
 ```
@@ -119,3 +118,6 @@ Kontaktadresse: `papyri-woerterlisten AT uni-koeln.de`
 Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
+
+*Daten und README zuletzt generiert am 
+30. Mai 2018 mit SAXON EE 9.7.0.19 von Saxonica (XSL 3.0).*

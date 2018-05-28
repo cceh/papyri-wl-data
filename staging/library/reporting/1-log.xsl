@@ -16,6 +16,11 @@
     
     <xsl:param name="comparisonBase"/>
     
+    <!-- Character exceptions: intended greek chars in latin lemmata, intended latin chars in greek lemmata -->
+    <xsl:variable name="knownExceptions">
+        <word>Agaθo</word><!-- wl-la-03572; mitgeteilt am 29.05.2018 -->
+    </xsl:variable>
+    
     <xsl:variable name="current-lemmata">
         <current>
             <xsl:for-each select="collection(concat('../../../',$comparisonBase,'/?recurse=yes;select=wl-*.xml'))//*:entry/*:form/*:orth[@type='original'][text()]">
@@ -123,15 +128,15 @@ This section is empty unless there are lemmata, that were changed in FileMaker s
 </xsl:text>
             <xsl:apply-templates mode="control"/>
 
-            <xsl:text>## Character test
+            <xsl:text expand-text="true">## Character test
     
 #### Entries that contain suspicious Unicode characters
 
-This section is empty unless there are Greek lemmata that contain Latin characters (except punctuation and numbers) or Latin lemmata that contain Greek characters. The entries should be fixed in the input and the transformation re-run until this section is empty or the characters are judged correct.
+This section is empty unless there are Greek lemmata that contain Latin characters (except punctuation and numbers) or Latin lemmata that contain Greek characters. The entries should be fixed in the input and the transformation re-run until this section is empty or the characters are judged correct (this should be recorded as known exception in [{replace(base-uri(document('')),'.+/papyri-wl-data','/papyri-wl-data')}](https://github.com/cceh/papyri-wl-data/edit/master{replace(base-uri(document('')),'.+/papyri-wl-data','')}).).
 
 </xsl:text>
-            <xsl:text>|Lemma|PWL-ID|FM number|offending character(s)|&#10;</xsl:text>
-            <xsl:text>|---|---|---|---|&#10;</xsl:text>
+            <xsl:text>|Lemma|PWL-ID|FM number|offending character(s)|note|&#10;</xsl:text>
+            <xsl:text>|---|---|---|---|---|&#10;</xsl:text>
             <!-- greek lemmata may contain some latin characters; these are ignored ('') -->
             <xsl:apply-templates select="//grc//*:entry[*:form/*:orth[@type='regularised']
                 [pwl:skip(.) => matches('\p{IsBasicLatin}')][not(matches(.,'\((Gen|Dat|Akk)\.\)'))]]" mode="characterTesting"/>
@@ -146,7 +151,7 @@ This section is empty unless there are Greek lemmata that contain Latin characte
         <xsl:analyze-string select="*:form/*:orth[@type='regularised']" regex="{$regex}">
             <xsl:matching-substring><xsl:value-of select="pwl:skip(.)"/></xsl:matching-substring>
         </xsl:analyze-string>
-        <xsl:text>&#10;</xsl:text>
+        <xsl:text>|{if (*:form/*:orth[@type='regularised'] = $knownExceptions/*) then 'known exception' else ''}|&#10;</xsl:text>
     </xsl:template>
     
     <xsl:function name="pwl:skip">

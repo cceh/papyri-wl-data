@@ -12,10 +12,10 @@
         <p>The option 'comparisonBase' allows to select a smaller data set to facilitate testing/development.</p>
         <p>For testing purposes, it is possible to output a single file using the outputScenario 'oneFile'.</p>
     </p:documentation>
-    <p:option name="version" select="'21¦21. Version¦27.07.2017'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
+    <p:option name="version" select="'22¦22. Version¦14.05.2018'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
     <p:option name="editor" select="'http://github.com/pdaengeli'"/><!-- Bearbeiter -->
-    <p:option name="task-newEntries" select="'21. Fassung vom 26.07.2017: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
-    <p:option name="task-existingEntries" select="'21. Fassung vom 26.07.2017: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
+    <p:option name="task-newEntries" select="'22. Fassung vom 14.05.2018: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
+    <p:option name="task-existingEntries" select="'22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
     <p:option name="schemaPath" select="'../validation'"/>
     <p:option name="comparisonBase" select="'current'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->

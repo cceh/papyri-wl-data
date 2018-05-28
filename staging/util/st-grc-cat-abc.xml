@@ -6,13 +6,13 @@
    <head>Einträge pro Kategorie und Initial (griechisch)</head>
    <item>
       <label type="general"/>
-      <num>13651</num>
+      <num>13956</num>
    </item>
    <item>
       <list type="index" subtype="general">
          <item>
             <label>Α</label>
-            <num>2044</num>
+            <num>2102</num>
          </item>
          <item>
             <label>-</label>
@@ -20,51 +20,51 @@
          </item>
          <item>
             <label>Β</label>
-            <num>295</num>
+            <num>296</num>
          </item>
          <item>
             <label>Γ</label>
-            <num>251</num>
+            <num>255</num>
          </item>
          <item>
             <label>Δ</label>
-            <num>736</num>
+            <num>756</num>
          </item>
          <item>
             <label>Ε</label>
-            <num>1884</num>
+            <num>1931</num>
          </item>
          <item>
             <label>Ζ</label>
-            <num>86</num>
+            <num>90</num>
          </item>
          <item>
             <label>Η</label>
-            <num>133</num>
+            <num>136</num>
          </item>
          <item>
             <label>Θ</label>
-            <num>205</num>
+            <num>207</num>
          </item>
          <item>
             <label>Ι</label>
-            <num>228</num>
+            <num>233</num>
          </item>
          <item>
             <label>Κ</label>
-            <num>1357</num>
+            <num>1383</num>
          </item>
          <item>
             <label>Λ</label>
-            <num>376</num>
+            <num>385</num>
          </item>
          <item>
             <label>Μ</label>
-            <num>620</num>
+            <num>629</num>
          </item>
          <item>
             <label>Ν</label>
-            <num>153</num>
+            <num>158</num>
          </item>
          <item>
             <label>Ξ</label>
@@ -72,19 +72,19 @@
          </item>
          <item>
             <label>Ο</label>
-            <num>572</num>
+            <num>583</num>
          </item>
          <item>
             <label>Π</label>
-            <num>1609</num>
+            <num>1645</num>
          </item>
          <item>
             <label>Ρ</label>
-            <num>104</num>
+            <num>108</num>
          </item>
          <item>
             <label>Σ</label>
-            <num>1212</num>
+            <num>1234</num>
          </item>
          <item>
             <label>(</label>
@@ -92,27 +92,27 @@
          </item>
          <item>
             <label>Τ</label>
-            <num>546</num>
+            <num>559</num>
          </item>
          <item>
             <label>Υ</label>
-            <num>331</num>
+            <num>338</num>
          </item>
          <item>
             <label>Φ</label>
-            <num>273</num>
+            <num>282</num>
          </item>
          <item>
             <label>Χ</label>
-            <num>373</num>
+            <num>379</num>
          </item>
          <item>
             <label>Ψ</label>
-            <num>59</num>
+            <num>61</num>
          </item>
          <item>
             <label>Ω</label>
-            <num>53</num>
+            <num>54</num>
          </item>
          <item>
             <label>ϙ</label>
@@ -120,27 +120,27 @@
          </item>
          <item>
             <label>]</label>
-            <num>69</num>
+            <num>70</num>
          </item>
       </list>
    </item>
    <item>
       <label type="geography"/>
-      <num>3941</num>
+      <num>4080</num>
    </item>
    <item>
       <list type="index" subtype="geography">
          <item>
             <label>Α</label>
-            <num>541</num>
+            <num>555</num>
          </item>
          <item>
             <label>Β</label>
-            <num>124</num>
+            <num>129</num>
          </item>
          <item>
             <label>Γ</label>
-            <num>44</num>
+            <num>45</num>
          </item>
          <item>
             <label>¥</label>
@@ -148,55 +148,55 @@
          </item>
          <item>
             <label>Δ</label>
-            <num>118</num>
+            <num>120</num>
          </item>
          <item>
             <label>Ε</label>
-            <num>176</num>
+            <num>180</num>
          </item>
          <item>
             <label>Ζ</label>
-            <num>16</num>
+            <num>17</num>
          </item>
          <item>
             <label>Η</label>
-            <num>65</num>
+            <num>67</num>
          </item>
          <item>
             <label>Θ</label>
-            <num>157</num>
+            <num>161</num>
          </item>
          <item>
             <label>Ι</label>
-            <num>148</num>
+            <num>154</num>
          </item>
          <item>
             <label>Κ</label>
-            <num>316</num>
+            <num>323</num>
          </item>
          <item>
             <label>Λ</label>
-            <num>108</num>
+            <num>111</num>
          </item>
          <item>
             <label>Μ</label>
-            <num>248</num>
+            <num>268</num>
          </item>
          <item>
             <label>Ν</label>
-            <num>134</num>
+            <num>136</num>
          </item>
          <item>
             <label>Ξ</label>
-            <num>9</num>
+            <num>10</num>
          </item>
          <item>
             <label>Ο</label>
-            <num>85</num>
+            <num>86</num>
          </item>
          <item>
             <label>Π</label>
-            <num>609</num>
+            <num>644</num>
          </item>
          <item>
             <label>Ρ</label>
@@ -204,11 +204,11 @@
          </item>
          <item>
             <label>Σ</label>
-            <num>314</num>
+            <num>319</num>
          </item>
          <item>
             <label>Τ</label>
-            <num>361</num>
+            <num>371</num>
          </item>
          <item>
             <label>Υ</label>
@@ -216,19 +216,19 @@
          </item>
          <item>
             <label>Φ</label>
-            <num>145</num>
+            <num>149</num>
          </item>
          <item>
             <label>Χ</label>
-            <num>79</num>
+            <num>82</num>
          </item>
          <item>
             <label>Ψ</label>
-            <num>97</num>
+            <num>105</num>
          </item>
          <item>
             <label>Ω</label>
-            <num>11</num>
+            <num>12</num>
          </item>
          <item>
             <label/>
@@ -334,29 +334,29 @@
    </item>
    <item>
       <label type="persons"/>
-      <num>13123</num>
+      <num>13332</num>
    </item>
    <item>
       <list type="index" subtype="persons">
          <item>
             <label>Α</label>
-            <num>1942</num>
+            <num>1968</num>
          </item>
          <item>
             <label>Β</label>
-            <num>285</num>
+            <num>290</num>
          </item>
          <item>
             <label>Γ</label>
-            <num>130</num>
+            <num>133</num>
          </item>
          <item>
             <label>Δ</label>
-            <num>356</num>
+            <num>362</num>
          </item>
          <item>
             <label>Ε</label>
-            <num>577</num>
+            <num>588</num>
          </item>
          <item>
             <label>-</label>
@@ -364,35 +364,35 @@
          </item>
          <item>
             <label>Ζ</label>
-            <num>87</num>
+            <num>90</num>
          </item>
          <item>
             <label>Η</label>
-            <num>162</num>
+            <num>165</num>
          </item>
          <item>
             <label>Θ</label>
-            <num>456</num>
+            <num>463</num>
          </item>
          <item>
             <label>Ι</label>
-            <num>325</num>
+            <num>327</num>
          </item>
          <item>
             <label>Κ</label>
-            <num>975</num>
+            <num>991</num>
          </item>
          <item>
             <label>Λ</label>
-            <num>369</num>
+            <num>378</num>
          </item>
          <item>
             <label>Μ</label>
-            <num>603</num>
+            <num>606</num>
          </item>
          <item>
             <label>Ν</label>
-            <num>388</num>
+            <num>396</num>
          </item>
          <item>
             <label>Ξ</label>
@@ -400,15 +400,15 @@
          </item>
          <item>
             <label>Ο</label>
-            <num>342</num>
+            <num>349</num>
          </item>
          <item>
             <label>Π</label>
-            <num>2447</num>
+            <num>2486</num>
          </item>
          <item>
             <label>]</label>
-            <num>25</num>
+            <num>37</num>
          </item>
          <item>
             <label>¥</label>
@@ -416,15 +416,15 @@
          </item>
          <item>
             <label>Ρ</label>
-            <num>80</num>
+            <num>81</num>
          </item>
          <item>
             <label>Σ</label>
-            <num>1237</num>
+            <num>1246</num>
          </item>
          <item>
             <label>Τ</label>
-            <num>1135</num>
+            <num>1152</num>
          </item>
          <item>
             <label>Υ</label>
@@ -432,7 +432,7 @@
          </item>
          <item>
             <label>Φ</label>
-            <num>401</num>
+            <num>409</num>
          </item>
          <item>
             <label>Χ</label>
@@ -440,35 +440,31 @@
          </item>
          <item>
             <label>Ψ</label>
-            <num>408</num>
+            <num>421</num>
          </item>
          <item>
             <label>Ω</label>
-            <num>59</num>
+            <num>60</num>
          </item>
          <item>
             <label/>
-            <num>1</num>
-         </item>
-         <item>
-            <label>὘</label>
-            <num>1</num>
+            <num>2</num>
          </item>
       </list>
    </item>
    <item>
       <label type="religion"/>
-      <num>381</num>
+      <num>393</num>
    </item>
    <item>
       <list type="index" subtype="religion">
          <item>
             <label>Α</label>
-            <num>72</num>
+            <num>81</num>
          </item>
          <item>
             <label>Β</label>
-            <num>17</num>
+            <num>18</num>
          </item>
          <item>
             <label>Γ</label>
@@ -520,7 +516,7 @@
          </item>
          <item>
             <label>Π</label>
-            <num>22</num>
+            <num>23</num>
          </item>
          <item>
             <label>Ρ</label>
@@ -528,7 +524,7 @@
          </item>
          <item>
             <label>Σ</label>
-            <num>43</num>
+            <num>44</num>
          </item>
          <item>
             <label>Τ</label>

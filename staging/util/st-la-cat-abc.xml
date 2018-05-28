@@ -262,7 +262,7 @@
    </item>
    <item>
       <label type="general"/>
-      <num>1440</num>
+      <num>1439</num>
    </item>
    <item>
       <list type="index" subtype="general">
@@ -292,7 +292,7 @@
          </item>
          <item>
             <label>F</label>
-            <num>56</num>
+            <num>55</num>
          </item>
          <item>
             <label>G</label>

@@ -72,18 +72,18 @@
     
     <xsl:template match="*:RESULTSET[preceding-sibling::*:DATABASE[contains(@NAME,'Lateinisch')]]">
         <!-- grouping latin lemmata by category -->
-        <xsl:for-each-group select="*:ROW" group-by="*:COL[6]/*:DATA">
+        <xsl:for-each-group select="*:ROW" group-by="*:COL[7]/*:DATA">
             
         <!-- previously in use: Muenchian grouping -->
         <!--<xsl:for-each select="*:ROW[generate-id() =
             generate-id(key('lateinisch-nach-kategorie', *:COL[6]/*:DATA)[1])]">-->
             <xsl:variable name="listType-la">
                 <xsl:choose>
-                    <xsl:when test="*:COL[6]/*:DATA='a'"><xsl:value-of select="'Monate'"/></xsl:when>
-                    <xsl:when test="*:COL[6]/*:DATA='b'"><xsl:value-of select="'Namen'"/></xsl:when>
-                    <xsl:when test="*:COL[6]/*:DATA='c'"><xsl:value-of select="'Geographie'"/></xsl:when>
-                    <xsl:when test="*:COL[6]/*:DATA='d'"><xsl:value-of select="'Religion'"/></xsl:when>
-                    <xsl:when test="*:COL[6]/*:DATA='e'"><xsl:value-of select="'allgemein'"/></xsl:when>
+                    <xsl:when test="*:COL[7]/*:DATA='a'"><xsl:value-of select="'Monate'"/></xsl:when>
+                    <xsl:when test="*:COL[7]/*:DATA='b'"><xsl:value-of select="'Namen'"/></xsl:when>
+                    <xsl:when test="*:COL[7]/*:DATA='c'"><xsl:value-of select="'Geographie'"/></xsl:when>
+                    <xsl:when test="*:COL[7]/*:DATA='d'"><xsl:value-of select="'Religion'"/></xsl:when>
+                    <xsl:when test="*:COL[7]/*:DATA='e'"><xsl:value-of select="'allgemein'"/></xsl:when>
                     <!-- uncategorized/spurious -->
                     <xsl:otherwise>ohne Kategorie</xsl:otherwise>
                 </xsl:choose>
