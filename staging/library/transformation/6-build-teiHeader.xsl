@@ -60,7 +60,7 @@
                         <pubPlace>Köln</pubPlace>
                         <date>
                             <xsl:attribute name="when" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
-                            <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
+                            <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de',null,'DE')"/><!-- '[D1o] [MNn] [Y0001]','de','AD','DE' -->
                         </date>
                         <availability>
                             <licence target="http://creativecommons.org/licenses/by/4.0/" notBefore="2017-01-01">
