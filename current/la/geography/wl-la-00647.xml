@@ -66,7 +66,7 @@
                      <orth xml:lang="la" type="original" extent="full">nemiL socueL</orth>
                      <orth xml:lang="la" type="regularised" extent="full">nemiL socueL</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                  <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
                      <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <note type="ref">s. auch Λευκὸς Λιμήν</note>
                   <idno type="fp7">708</idno>

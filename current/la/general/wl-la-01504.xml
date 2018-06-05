@@ -66,7 +66,7 @@
                      <orth xml:lang="la" type="original" extent="full">sumon</orth>
                      <orth xml:lang="la" type="regularised" extent="full">sumon</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                  <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
                      <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <note type="ref">s. auch νομός</note>
                   <idno type="fp7">1613</idno>

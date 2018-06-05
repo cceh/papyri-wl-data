@@ -81,7 +81,7 @@
                      <orth xml:lang="grc" type="original" extent="full">ήλοβμἐ</orth>
                      <orth xml:lang="grc" type="regularised" extent="full">ηλοβμε</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                  <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
                      <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <idno type="fp7">4003</idno>
                </form>

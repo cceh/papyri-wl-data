@@ -74,7 +74,7 @@
                      <orth xml:lang="la" type="original" extent="full">sunimod</orth>
                      <orth xml:lang="la" type="regularised" extent="full">sunimod</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                  <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
                      <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <idno type="fp7">1185</idno>
                </form>

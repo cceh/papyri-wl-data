@@ -70,7 +70,7 @@
                      <orth xml:lang="grc" type="original" extent="full">ςομιφόρΤ</orth>
                      <orth xml:lang="grc" type="regularised" extent="full">ςομιφορΤ</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas durch <name ref="editors.xml#hagedorn">D. Hagedorn</name>
+                  <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
                      <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <note type="ref">s. auch Lateinisch Trofimus</note>
                   <idno type="fp7">52143</idno>
