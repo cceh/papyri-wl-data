@@ -69,6 +69,12 @@
                             </licence>
                         </availability>
                     </publicationStmt>
+                    <xsl:if test=".//*:TEMPDATA[@id='see-also']/*:relatedItem">
+                        <notesStmt>
+                            <note>Verwandte Lemmata</note>
+                            <xsl:copy-of select=".//*:TEMPDATA/*:relatedItem"/>
+                        </notesStmt>
+                    </xsl:if>
                     <sourceDesc>
                         <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten">http://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
                         <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
@@ -158,5 +164,7 @@
     </xsl:template>
     
     <xsl:template match="*:entry/@NEW"/>
+    
+    <xsl:template match="*:TEMPDATA"/>
     
 </xsl:stylesheet>

@@ -143,6 +143,22 @@
                 <xsl:otherwise>0</xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+        <xsl:variable name="position-pwl_id">
+            <xsl:choose>
+                <xsl:when test="parent::*:RESULTSET/preceding-sibling::*:METADATA/*:FIELD[@NAME='pwl_id']">
+                    <xsl:number select="parent::*:RESULTSET/preceding-sibling::*:METADATA/*:FIELD[@NAME='pwl_id']"/>
+                </xsl:when>
+                <xsl:otherwise>0</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="position-pwl_verweis">
+            <xsl:choose>
+                <xsl:when test="parent::*:RESULTSET/preceding-sibling::*:METADATA/*:FIELD[@NAME='pwl_verweis']">
+                    <xsl:number select="parent::*:RESULTSET/preceding-sibling::*:METADATA/*:FIELD[@NAME='pwl_verweis']"/>
+                </xsl:when>
+                <xsl:otherwise>0</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         
         <xsl:copy>
             <xsl:copy-of select="@*"/>
@@ -215,6 +231,14 @@
                     <xsl:if test="number($position-Var3) gt 0"><xsl:value-of select="*:COL[number($position-Var3)]/*:DATA"/></xsl:if>
                 </DATA>
             </COL><xsl:comment> &#x25B2; Var3 (<xsl:value-of select="$position-Var3"/>)</xsl:comment>
+            <COL>
+                <DATA>
+                    <xsl:if test="number($position-pwl_id) gt 0"><xsl:value-of select="*:COL[number($position-pwl_id)]/*:DATA"/></xsl:if>
+                </DATA>
+            </COL><xsl:comment> &#x25B2; pwl_id (<xsl:value-of select="$position-pwl_id"/>)</xsl:comment>
+            <COL>
+                <xsl:if test="number($position-pwl_verweis) gt 0"><xsl:copy-of select="*:COL[number($position-pwl_verweis)]/*:DATA[text()]"/></xsl:if>
+            </COL><xsl:comment> &#x25B2; pwl_verweis (<xsl:value-of select="$position-pwl_verweis"/>)</xsl:comment>
             
         </xsl:copy>
     </xsl:template>

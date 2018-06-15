@@ -128,6 +128,45 @@ This section is empty unless there are lemmata, that were changed in FileMaker s
 </xsl:text>
             <xsl:apply-templates mode="control"/>
 
+            <xsl:text expand-text="true">## Unmatched IDs
+    
+#### Comparison of identifiers as assigned during the conversion and identifiers as stored in the working environment
+
+Identifiers (`pwl_id`) are assigned during the conversion, but they are also stored in the work environment (FileMaker). This list hints to mismatching identifiers in the two environments. This list should only ever contain new lemmata that were not assigned an identifier yet. Any other instance (printed below in bold face) should be resolved, generally by updating the identifier in the working environment.
+
+</xsl:text>
+            
+            <xsl:for-each select="//*:entry/*:TEMPDATA[@id='id-check']">
+                <xsl:text>* </xsl:text>
+                <xsl:if test="not(matches(*:in-dataset,'newEntry'))">**</xsl:if>
+                <xsl:text>`</xsl:text>
+                <xsl:value-of select="following-sibling::*:form/*:orth[@type='original']"/>
+                <xsl:text>`: mismatch between `</xsl:text>
+                <xsl:value-of select="*:in-dataset"/>
+                <xsl:text>` (previously recorded identifier) and `</xsl:text>
+                <xsl:value-of select="*:in-input-file"/>
+                <xsl:text>` (identifier given in import datase)</xsl:text>
+                <xsl:if test="not(matches(*:in-dataset,'newEntry'))">**</xsl:if>
+                <xsl:text>&#10;</xsl:text>
+            </xsl:for-each>
+            <xsl:text>&#10;&#10;</xsl:text>
+            
+            <xsl:text expand-text="true">## Unmatched references
+
+#### The conversion tries to find strings in the "see also" notes, that refer to other lemmata. This is only successful if the values of `pwl_verweis` and the string in the "see also" note are identical.
+
+This tables lists cases where the number of "see also" references as defined in `pwl_verweis` does not match the number of referenced strings. It also contains cases with "see also" notes, for which no values were supplied in `pwl_verweis`.
+
+Note that the spelling must be exactly identical for successful matches.
+
+</xsl:text>
+            
+            <xsl:text>|Lemma|PWL-ID|`pwl_verweis`|"see also" note|&#10;</xsl:text>
+            <xsl:text>|---|---|---|---|&#10;</xsl:text>
+            <xsl:apply-templates select="//*:entry[*:form/*:note[@type='ref']][count(*:form/*:TEMPDATA[@id='see-also']/*:relatedItem) != count(*:form/*:note[@type='ref']/*:ref) or count(*:form/*:note[@type='ref']/*:ref) = 0]" mode="see-also"/>
+            
+            <xsl:text>&#10;&#10;</xsl:text>
+            
             <xsl:text expand-text="true">## Character test
     
 #### Entries that contain suspicious Unicode characters
@@ -289,6 +328,26 @@ This section is empty unless there are Greek lemmata that contain Latin characte
             <xsl:otherwise>(infinite)</xsl:otherwise>
         </xsl:choose>
 <xsl:text>|</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="*:entry" mode="see-also">
+        <xsl:text>|</xsl:text>
+        <xsl:value-of select="*:form/*:orth[@type='original']"/>
+        <xsl:text>|</xsl:text>
+        <xsl:value-of select="@xml:id"/>
+        <xsl:text>|</xsl:text>
+        <xsl:for-each select="*:form/*:TEMPDATA[@id='see-also']/*:relatedItem">
+            <xsl:text>`</xsl:text><xsl:value-of select="@corresp"/><xsl:text>` </xsl:text> 
+        </xsl:for-each>
+        <xsl:text>|</xsl:text>
+        <xsl:apply-templates select="*:form/*:note[@type='ref']" mode="see-also"/>
+        <xsl:text>|&#10;</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="*:ref" mode="see-also">
+        <xsl:text>`</xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text>`</xsl:text>
     </xsl:template>
     
 </xsl:stylesheet>

@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    exclude-result-prefixes="xs" version="2.0">
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+    exclude-result-prefixes="xs map" version="3.0">
     <xsl:strip-space elements="*"/>
     <xsl:output indent="yes"/>
     
@@ -141,7 +142,7 @@
                 </xsl:choose>
             </xsl:variable>
             <xsl:attribute name="type" select="'main'"/>
-            <xsl:attribute name="xml:id">
+            <xsl:variable name="id">
                 <!-- testing whether the entry exists (in the same category)
                     case entry exists: ID is recycled
                     case entry does not exist: temporary ID is assigned 
@@ -155,7 +156,14 @@
                         <xsl:value-of select="concat('wl_',$listType,'-',$language-short,'_',format-number(@RECORDID,'00000'),'_newEntry')"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </xsl:attribute>
+            </xsl:variable>
+            <xsl:attribute name="xml:id" select="$id"/>
+            <xsl:if test="$id != *:COL[14]/*:DATA" expand-text="true">
+                <TEMPDATA id='id-check'>
+                    <in-dataset>{$id}</in-dataset>
+                    <in-input-file>{*:COL[14]/*:DATA}</in-input-file>
+                </TEMPDATA>
+            </xsl:if>
             <form type="lemma">
                 <orth>
                     <xsl:attribute name="xml:lang" select="$language-short"/>
@@ -229,11 +237,57 @@
                     </xsl:when>
                     <xsl:otherwise>
                         <note type="resp">Anlage des Lemmas am <date type="creation" when="{format-date(current-date(), '[Y0001]-[M01]-[D01]')}">
-                            <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/></date>.</note>
+                            <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de',null,'DE')"/></date>.</note>
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:if test="string-length(*:COL[1])&gt;0">
-                    <note type="ref"><xsl:value-of select="substring(*:COL[1],2,string-length(*:COL[1])-2)"/></note>
+                    <!--<note type="ref"><xsl:value-of select="replace(replace(*:COL[1],'^\(',''),'\)$','')"/></note>-->
+                    <xsl:variable name="vmap" as="map(xs:string, xs:string)">
+                        <xsl:map>
+                            <xsl:for-each select="*:COL[15]/*:DATA[text()]">
+                                <xsl:if test="//*:ROW[*:COL[14]/*:DATA=current()]/*:COL[3]/*:DATA/text()">
+                                    <xsl:map-entry
+                                        key="xs:string(text())"
+                                        select="xs:string(//*:ROW[*:COL[14]/*:DATA=current()]/*:COL[3]/*:DATA/text())"/>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:map>
+                    </xsl:variable>
+                    <note type="ref">
+                        <xsl:variable name="regex">
+                            <xsl:for-each select="map:keys($vmap)">
+                                <xsl:value-of select="$vmap(.)"/>
+                                <xsl:if test="not(position()=last())">|</xsl:if>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:choose>
+                            <xsl:when test="map:size($vmap) gt 0">
+                                <xsl:analyze-string select="replace(replace(*:COL[1]/*:DATA/text() => normalize-space(),'^\(',''),'\)$','')" regex="{$regex}">
+                                    <xsl:matching-substring>
+                                        <xsl:variable name="match" select="."/>
+                                        <ref target="#{map:for-each($vmap,
+                                            function ($k, $v){
+                                                if ($v = $match) then ($k)
+                                                else ()
+                                                })}">
+                                            <xsl:copy-of select="."/>
+                                        </ref>
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring expand-text="true">
+                                        <xsl:value-of select="."/>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:apply-templates select="replace(replace(*:COL[1]/*:DATA/text() => normalize-space(),'^\(',''),'\)$','')"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </note>
+                    <TEMPDATA id='see-also'>
+                        <xsl:for-each select="map:keys($vmap)">
+                            <relatedItem corresp="{map:get($vmap,.)}" target="#{.}"/>
+                        </xsl:for-each>
+                    </TEMPDATA>
                 </xsl:if>
                 <idno type="fp7"><xsl:value-of select="@RECORDID"/></idno>
             </form>
