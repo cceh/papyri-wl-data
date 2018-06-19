@@ -18,7 +18,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2018-06-16">16. Juni 2018</date>
+            <date when="2018-06-19">19. Juni 2018</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2018-06-19" who="http://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
          <change when="2018-06-16" who="http://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
          <change when="2018-05-30" who="http://github.com/pdaengeli">22. Fassung vom 14.05.2018: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
          <change when="2018-05-14">Aufzeichnung des Vorkommens in: An.Pap. 29</change>
