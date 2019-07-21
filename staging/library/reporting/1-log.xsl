@@ -132,7 +132,7 @@ This section is empty unless there are lemmata, that were changed in FileMaker s
     
 #### Comparison of identifiers as assigned during the conversion and identifiers as stored in the working environment
 
-Identifiers (`pwl_id`) are assigned during the conversion, but they are also stored in the work environment (FileMaker). This list hints to mismatching identifiers in the two environments. This list should only ever contain new lemmata that were not assigned an identifier yet. Any other instance (printed below in bold face) should be resolved, generally by updating the identifier in the working environment.
+Identifiers (`pwl_id`) are assigned during the conversion, but they are also stored in the work environment (FileMaker). This list hints to mismatching identifiers in the two environments. This list does contain new lemmata that were not assigned an identifier yet and should normally be empty. If mismatches do occur they should generally be resolved by updating the identifier in the working environment.
 
 </xsl:text>
             
@@ -145,7 +145,7 @@ Identifiers (`pwl_id`) are assigned during the conversion, but they are also sto
                 <xsl:value-of select="*:in-dataset"/>
                 <xsl:text>` (previously recorded identifier) and `</xsl:text>
                 <xsl:value-of select="*:in-input-file"/>
-                <xsl:text>` (identifier given in import datase)</xsl:text>
+                <xsl:text>` (identifier given in import dataset)</xsl:text>
                 <xsl:if test="not(matches(*:in-dataset,'newEntry'))">**</xsl:if>
                 <xsl:text>&#10;</xsl:text>
             </xsl:for-each>

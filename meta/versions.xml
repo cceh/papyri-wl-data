@@ -19,11 +19,26 @@
         </fileDesc>
         <revisionDesc>
             <listChange type="versions">
-                <!--<change when="2018-XX-YY" n="23">
-                    <label>23. Fassung vom XX. YY 2018</label>
+                <!--<change when="2020-XX-YY" n="24">
+                    <label>24. Fassung vom XX. YY 2020</label>
                     <note>hinzugekommen:
                     </note>
                 </change>-->
+                <change when="2019-07-21" n="23">
+                    <label>23. Fassung vom 21. Juli 2019</label>
+                    <note>hinzugekommen:
+                        <ref target="ohne_Verweis_An_Pap__30">An.Pap. 30</ref>
+                        <ref target="ohne_Verweis_BGU_22">BGU 22</ref>
+                        <ref target="ohne_Verweis_FSVleeming">FS Vleeming</ref>
+                        <ref target="ohne_Verweis_P.Bodmer">P.Bodmer 01 R</ref>
+                        <ref target="ohne_Verweis_P_Mich_21">P.Mich. 21</ref>
+                        <ref target="ohne_Verweis_P_Oxy__83">P.Oxy. 83</ref>
+                        <ref target="ohne_Verweis_PSI_17">PSI 17</ref>
+                        <ref target="ohne_Verweis_S_V_Tebt_01">S.V.Tebt. 01</ref>
+                        <ref target="ohne_Verweis_Tyche_32">Tyche 32</ref>
+                        <ref target="ohne_Verweis_Tyche_33">Tyche 33</ref>
+                    </note>
+                </change>
                 <change when="2018-05-14" n="22">
                     <label>22. Fassung vom 14. Mai 2018</label>
                     <note>hinzugekommen:

@@ -49,6 +49,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_BGU_22" type="monograph"><!-- kein Treffer -->
+               <title type="short">BGU 22</title>
+               <title type="long">Sophie Kambitsis (Hg.), Des pittakia de Théadelphie (Berliner Griechische Urkunden, Band 22), Berlin - Boston, W. de Gruyter, 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
+            </bibl>
             <bibl xml:id="ohne_Verweis_Chang__Dossier" type="monograph"><!-- kein Treffer -->
                <title type="short">Chang, Dossier</title>
                <title type="long">Ruey-Lin Chang, Un dossier fical hermopolitain d’époque romaine, conservé à la Bibliothèque nationale et universitaire de Strasbourg (P.Strasb. inv. gr. 897-898, 903-905, 939-968, 982-1000, 1010-1013, 1918-1929): édition, commentaire et traduction [= P.Stras. 901-903] (Institut Français d’Archéologie Orientale, Bibliothèque Générale 46), Le Caire 2014</title>
@@ -133,6 +140,13 @@
                <title type="long">James Charlesworth u.a., Miscellaneous Texts from the Judaean Desert. (Discoveries in the Judaean Desert. 38), Oxford, Clarendon Press, 2000</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_FSVleeming" type="monograph"><!-- kein Treffer -->
+               <title type="short">FS Vleeming</title>
+               <title type="long">Koenraad Donker van Heel, Francisca A. J. Hoogendijk &amp; Cary J. Martin (Hg.), Hieratic, Demotic and Greek Studies and Text Editions. Of Making Many Books There Is No End: Festschrift in Honour of Sven P. Vleeming (Papyrologica Lugduno-Batava XXXIV), Leiden - Boston, E.J. Brill, 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
             </bibl>
             <bibl xml:id="b16521" type="monograph">
                <title type="short">Gloss. Bil. 02</title>
@@ -406,6 +420,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P.Bodmer" type="monograph">
+               <title type="short">P.Bodmer 01 R</title>
+               <title type="long">Tomasz Derda (Hg.), P.Bodmer I Recto. A Land List from the Panopolite Nome in Upper Egypt (after AD 216/7), edited with translations and notes by T. D. (The Journal of Juristic Papyrology. Supplements. Volume XIV), Warsaw, 2010 [PDF-Version online unter <ref target="https://taubenschlagfoundation.pl/product/jjp-supplement-vol-14/" rend="new">https://taubenschlagfoundation.pl/product/jjp-supplement-vol-14/</ref>]</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
+            </bibl> 
             <bibl xml:id="b19587" type="monograph">
                <title type="short">P.Brux. Bawit</title>
                <title type="long">Papyrus coptes et grecs du monastère d’apa Apollô de Baouît conservés aux Musées royaux d’Art et d’Histoire de Bruxelles (Mémoires de la Classe des Lettres et des Sciences morales et politiques de l’Académie royale de Belgique. Collection in-8°. Troisième série. Tome XLIII, No. 2045), Bruxelles 2007</title>
@@ -770,6 +791,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Mich_21" type="monograph">
+               <title type="short">P.Mich. 21</title>
+               <title type="long">W. Graham Claytor - Arthur Verhoogt (Hg.), Papyri from Karanis: The Granary C123 (P. Mich. XXI), W. G. C. - A. V., editors. With the assistance of Paul Heilporn and Samantha Lash And contributions by Traianos Gagos (†), Adam P. Hyatt, Allison Kemmerle, Martina Landolfi, Louise Loehndorff,Tyler Mayo, Jonathan J. McLaughlin, Amy Pistone, Drew C. Stimson, and Jacqueline Stimson, University of Michigan Pres, Ann Arbor, 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
+            </bibl>
             <bibl xml:id="b76273" type="monograph">
                <title type="short">P.Minnesota</title>
                <title type="long">Marja Bakker, Alette Bakkers and Klaas Worp, Back to Oegstgeest. The von Scherling Papyrus Collection. Some von Scherling Texts in Minnesota, BASP 44 (2007) 41-73 (ein Register von Alette V. Bakkers wird in Form einer PDF-Datei auf der Website des Papyrologisch Instituut Leiden unter <ref target="http://media.leidenuniv.nl/legacy/minnesota-indices-pdf" rend="new">http://media.leidenuniv.nl/legacy/minnesota-indices-pdf</ref> zugänglich gemacht).</title>
@@ -944,6 +972,13 @@
                <title type="long">N. Gonis u.a., The Oxyrhynchus Papyri. Volume LXXXII (Nos. 5290-5343). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 103), London, Egypt Exploration Society, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2017</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxy__83" type="monograph"><!-- kein Treffer -->
+               <title type="short">P.Oxy. 83</title>
+               <title type="long">P. J. Parsons u.a., The Oxyrhynchus Papyri. Volume LXXXIII (Nos. 5344-5403). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 104), London, Egypt Exploration Society, 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
             </bibl>
             <bibl xml:id="b14666" type="monograph">
                <title type="short">P.Oxy. 984</title>
@@ -1127,6 +1162,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_PSI_17" type="monograph"><!-- kein Treffer -->
+               <title type="short">PSI 17</title>
+               <title type="long">Papiri della Società Italiana, volume diciassettesimo (PSI XVII) ni 1654-1715 a cura di Francesca Maltomini, Simona Russo, Marco Stroppa (Edizioni dell’Istituto Papirologico «G. Vitelli» 8), Firenze, 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
+            </bibl>
             <bibl xml:id="b18448" type="monograph">
                <title type="short">PSI Com. 06</title>
                <title type="long">Comunicazioni dell’Istituto Papirologico «G. Vitelli» 6 (2005): Papiri della Società Italiana alla Scuola Normale Superiore di Pisa, Seminario 2003/2004</title>
@@ -1216,6 +1258,13 @@
                <title type="long">Claudia Kreuzsaler, Griechische Papyrusurkunden kleineren Formats, Neuedition. SPP III² 449-582: Quittungen für die Getreidesteuer (Papyrologica Vindobonensia 6), Wien 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_S_V_Tebt_01" type="monograph">
+               <title type="short">S.V.Tebt. 01</title>
+               <title type="long">Claudio Gallazzi (Hg.), Tebtynis VI. Scripta varia. Textes hiéroglyphiques, hiératiques, démotiques, araméens, grecs et coptes sur différents supports (S.V.Tebt. 1), Edité par C. G. avec la collaboration de Florence Calament, Philippe Collombert, Ivan Guermeur, Nikos Litinas, Marco Moriggi, Luigi Prada, Kim Ryholt, Ghislaine Widmer. Institut français d'archéologie orientale (Fouilles de l'lfao 78), Le Caire, 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_T_BM_Arlt" type="monograph"><!-- kein Treffer -->
                <title type="short">T.BM Arlt</title>
@@ -1343,6 +1392,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2018</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_An_Pap__30" type="journal">
+               <title type="short">An.Pap. 30</title>
+               <title type="long">Analecta Papyrologica 30 (2018)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_Antinoupolis__03" type="journal">
                <title type="short">Antinoupolis 03</title>
@@ -1518,6 +1574,20 @@
                <title type="long">Tyche 31 (2016)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2017</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_Tyche_32" type="journal">
+               <title type="short">Tyche 32</title>
+               <title type="long">Tyche 32 (2017)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_Tyche_33" type="journal">
+               <title type="short">Tyche 33</title>
+               <title type="long">Tyche 33 (2018)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2019</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_Vega_Acta_Alex" type="monograph">
                <title type="short">Vega, Acta Alex.</title>

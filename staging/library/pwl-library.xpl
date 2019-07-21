@@ -517,7 +517,10 @@
             <p:with-param name="comparisonBase" select="$comparisonBase"/>
             <p:with-param name="schemaPath" select="$schemaPath"/>
             <p:input port="stylesheet">
-                <p:document href="transformation/3-build-up-TEI.xsl"/>
+                <!-- this was in use until v22: -->
+                <!--<p:document href="transformation/3-build-up-TEI.xsl"/>-->
+                <!-- under development: alternative processing based on IDs ported back to Filemaker -->
+                <p:document href="transformation/3-build-up-TEI-FM-IDs.xsl"/>
             </p:input>
         </p:xslt>
         

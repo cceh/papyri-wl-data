@@ -12,10 +12,10 @@
         <p>The option 'comparisonBase' allows to select a smaller data set to facilitate testing/development.</p>
         <p>For testing purposes, it is possible to output a single file using the outputScenario 'oneFile'.</p>
     </p:documentation>
-    <p:option name="version" select="'22¦22. Version¦14.05.2018'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
+    <p:option name="version" select="'23¦23. Version¦21.07.2019'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
     <p:option name="editor" select="'http://github.com/pdaengeli'"/><!-- Bearbeiter -->
-    <p:option name="task-newEntries" select="'22. Fassung vom 14.05.2018: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
-    <p:option name="task-existingEntries" select="'22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
+    <p:option name="task-newEntries" select="'23. Fassung vom 21.07.2019: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
+    <p:option name="task-existingEntries" select="'23. Fassung vom 21.07.2019: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
     <p:option name="schemaPath" select="'../validation'"/>
     <p:option name="comparisonBase" select="'current'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
@@ -33,7 +33,7 @@
     <p:input port="parameters" kind="parameter"/>
     
     <p:output port="result" sequence="true"/>
-
+    
     <p:output port="result-secondary" primary="false"/>
     
     <p:import href="library/pwl-library.xpl"/>
@@ -48,13 +48,13 @@
             <p:directory-list path="output"/>
             <p:choose>
                 <p:when test="c:directory/c:file[starts-with(@name,'wl-')][ends-with(@name,'.xml')]">
-                <p:error code="output-not-empty">
-                    <p:input port="source">
-                        <p:inline>
-                            <doc>XML files present in the output folder. Remove XML files.</doc>
-                        </p:inline>
-                    </p:input>
-                </p:error>
+                    <p:error code="output-not-empty">
+                        <p:input port="source">
+                            <p:inline>
+                                <doc>XML files present in the output folder. Remove XML files.</doc>
+                            </p:inline>
+                        </p:input>
+                    </p:error>
                 </p:when>
                 <p:otherwise>
                     <p:identity/>
