@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-09914">προσμετρούμενα</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-09914">προσμετρούμενα</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -81,25 +81,25 @@
                <xr>
                   <list>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21216">P.Köln 12</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21216">P.Köln 12</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b95289">P.Köln 14</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b95289">P.Köln 14</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21621">P.Prag. 03</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21621">P.Prag. 03</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21291">P.Schøyen 02</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21291">P.Schøyen 02</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17117">SB 23</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17117">SB 23</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b77425">SB 25</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b77425">SB 25</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19826">SB 27</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19826">SB 27</ref>
                      </item>
                   </list>
                </xr>

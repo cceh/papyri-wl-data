@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-11709">τοποτηρητής</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-11709">τοποτηρητής</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -80,25 +80,25 @@
                <xr>
                   <list>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17079">CPR 24</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17079">CPR 24</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19306">CPR 25</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19306">CPR 25</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21293">CPR 30</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21293">CPR 30</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Eirene_04">P.Eirene 04</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Eirene_04">P.Eirene 04</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20984">P.Gen. 04</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20984">P.Gen. 04</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17907">P.Horak</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17907">P.Horak</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15934">P.Mon. Apollo</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15934">P.Mon. Apollo</ref>
                      </item>
                   </list>
                </xr>

@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-23539">Παβῶς</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-23539">Παβῶς</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -80,22 +80,22 @@
                <xr>
                   <list>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19232">Łajtar, Deir el-Bahari</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19232">Łajtar, Deir el-Bahari</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b68842">O.Ber. 01</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b68842">O.Ber. 01</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b82190">O.Petr. Mus.</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b82190">O.Petr. Mus.</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b80208">O.Trim. 01</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b80208">O.Trim. 01</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b67807">SB 21</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b67807">SB 21</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17117">SB 23</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17117">SB 23</ref>
                      </item>
                   </list>
                </xr>

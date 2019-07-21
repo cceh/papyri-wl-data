@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-09809">προσάγω</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-09809">προσάγω</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -86,76 +86,76 @@
                <xr>
                   <list>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b13861">BGU 16</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b13861">BGU 16</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15468">P.Ammon 01</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15468">P.Ammon 01</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b16093">P.Bingen</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b16093">P.Bingen</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b14327">P.Col. 10</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b14327">P.Col. 10</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20221">P.Iand. Zen.</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20221">P.Iand. Zen.</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Köln_15">P.Köln 15</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Köln_15">P.Köln 15</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b16943">P.Lips. 02</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b16943">P.Lips. 02</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15271">P.Louvre 01</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15271">P.Louvre 01</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15455">P.Lugd. Bat. 29</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15455">P.Lugd. Bat. 29</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Monts__Roca_04">P.Monts. Roca 04</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Monts__Roca_04">P.Monts. Roca 04</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20374">P.Naqlun 02</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20374">P.Naqlun 02</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b14532">P.Oxy. 63</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b14532">P.Oxy. 63</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15603">P.Oxy. 66</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15603">P.Oxy. 66</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19164">P.Oxy. 70</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19164">P.Oxy. 70</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__78">P.Oxy. 78</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__78">P.Oxy. 78</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Petrie_Kleon">P.Petrie Kleon</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Petrie_Kleon">P.Petrie Kleon</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19840">P.Sijp.</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19840">P.Sijp.</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21351">P.Sorb. 03</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21351">P.Sorb. 03</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P.Tebt.Pad.01">P.Tebt. Pad. 01</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P.Tebt.Pad.01">P.Tebt. Pad. 01</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20490">P.Worp</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20490">P.Worp</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_PUG_04">PUG 04</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_PUG_04">PUG 04</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b67807">SB 21</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b67807">SB 21</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17117">SB 23</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17117">SB 23</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_SB_29">SB 29</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_SB_29">SB 29</ref>
                      </item>
                   </list>
                </xr>

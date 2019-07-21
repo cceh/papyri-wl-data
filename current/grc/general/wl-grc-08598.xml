@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-08598">παγαρχέω</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-08598">παγαρχέω</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -77,13 +77,13 @@
                <xr>
                   <list>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15603">P.Oxy. 66</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15603">P.Oxy. 66</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19164">P.Oxy. 70</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19164">P.Oxy. 70</ref>
                      </item>
                      <item>
-                        <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__82">P.Oxy. 82</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__82">P.Oxy. 82</ref>
                      </item>
                   </list>
                </xr>
