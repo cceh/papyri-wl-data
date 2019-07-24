@@ -62,6 +62,31 @@
         
     </p:declare-step>
     
+    <p:declare-step type="pwl:return-with-pwlid" name="return-with-pwlid">
+        
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter"/>
+        
+        <p:documentation>
+            <h2>Amend the input files with PWL IDs for new entries in order to feed back to FileMaker</h2>
+        </p:documentation>
+        
+        <p:xslt name="addPWLid">
+            <p:input port="stylesheet">
+                <p:document href="return/1-addPWLid.xsl"/>
+            </p:input>
+        </p:xslt>
+        <p:for-each>
+            <p:iteration-source>
+                <p:pipe step="addPWLid" port="result"/>
+                <p:pipe step="addPWLid" port="secondary"/>
+            </p:iteration-source>
+            <p:store>
+                <p:with-option name="href" select="p:base-uri()"/>
+            </p:store>
+        </p:for-each>
+    </p:declare-step>
+    
     <p:declare-step type="pwl:util" name="wl-util">
         
         <p:input port="source" sequence="true"/>
@@ -523,7 +548,7 @@
                 <p:document href="transformation/3-build-up-TEI-FM-IDs.xsl"/>
             </p:input>
         </p:xslt>
-        
+                
         <p:documentation>
             <h2>Group entries by language</h2>
             <p>This step groups greek and latin entries in a flat structure in respective elements. This structure prepares the assignment of new IDs.</p>

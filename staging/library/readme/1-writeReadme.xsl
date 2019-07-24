@@ -147,6 +147,12 @@ Die Daten umfassen fünf unterschiedliche Kategorien. Jedes Lemma kann in einer 
 
 Der Datenabgleich/Import verläuft nur erfolgreich, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Dieser Sachverhalt wird in einem der ersten Schritte der Pipeline überprüft. Dabei werden problematische Duplikate identifiziert und in einer Liste ausgegeben (Markdown-Format). Nach manueller Bereinigung der Duplikate kann die Konversion neu gestartet werden.
 
+##### PWL-IDs
+
+Jedem Lemma wird im Zuge der Datenübernahme eine sog. PWL-ID zugewiesen. Seit Juli 2019 basiert die Datenkonversion nicht mehr auf einem zeichenidentischen Lemma-Abgleich, sondern auf dieser ID.
+
+Als Konsequenz daraus müssen neu zugewiesene PWL-IDs für jede neue Fassung/Version in FileMaker importiert werden. Die Konversionsroutine legt dazu im Verzeichnis `output/retur` für jede Inputdatei eine um die IDs erweiterte Datei an, die sich in FileMaker importieren lässt. 
+
 Kontakt/Mitarbeit
 ---------------------------
 

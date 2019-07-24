@@ -34,7 +34,7 @@
     
     <p:output port="result" sequence="true"/>
     
-    <p:output port="result-secondary" primary="false"/>
+    <p:output port="secondary" primary="false"/>
     
     <p:import href="library/pwl-library.xpl"/>
     
@@ -139,6 +139,14 @@
         <p:with-param name="editor" select="$editor"/>
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
     </pwl:corpus>
+
+    <!-- augment the input files with newly assigned pwl ids -->
+    <p:identity>
+        <p:input port="source">
+            <p:pipe port="result" step="wrapped-transformation-result"/>
+        </p:input>
+    </p:identity>
+    <pwl:return-with-pwlid name="return-with-pwlid"/>
     
     <!-- generation of the README -->
     <p:documentation>
