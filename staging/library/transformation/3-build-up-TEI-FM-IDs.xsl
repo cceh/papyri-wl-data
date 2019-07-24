@@ -23,7 +23,7 @@
     
     <xsl:strip-space elements="*"/>
     
-    <xsl:variable name="files" select="collection(concat('../../../',$comparisonBase,'/?recurse=yes;select=wl-*.xml'))"/>
+    <!--<xsl:variable name="files" select="collection(concat('../../../',$comparisonBase,'/?recurse=yes;select=wl-*.xml'))"/>-->
     
     <xsl:template match="/">
         <!-- Processing instruction -->

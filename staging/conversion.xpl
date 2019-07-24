@@ -140,7 +140,10 @@
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
     </pwl:corpus>
 
-    <!-- augment the input files with newly assigned pwl ids -->
+    <p:documentation>
+        <h2>Return new PWL IDs</h2>
+        <p>This step augments the input files with newly assigned pwl ids (for re-import in FileMaker).</p>
+    </p:documentation>
     <p:identity>
         <p:input port="source">
             <p:pipe port="result" step="wrapped-transformation-result"/>
@@ -151,7 +154,7 @@
     <!-- generation of the README -->
     <p:documentation>
         <h2>Import reporting</h2>
-        <p>This step generates a report in markdown format showing the proportion between previously existing and newly added entries.</p>
+        <p>This step generates a README file for the repository.</p>
     </p:documentation>
     <p:identity>
         <p:input port="source">

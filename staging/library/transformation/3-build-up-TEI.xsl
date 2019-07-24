@@ -7,6 +7,8 @@
     <xsl:strip-space elements="*"/>
     <xsl:output indent="yes"/>
     
+    <!-- DEPRECATED SINCE https://github.com/cceh/papyri-wl-data/commit/70124ee829c77320925e8df48975d0605449c3b0 -->
+    
     <!-- 
         <p:documentation>
             <h2>Initial TEI structure</h2>

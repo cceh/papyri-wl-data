@@ -128,7 +128,31 @@ This section is empty unless there are lemmata, that were changed in FileMaker s
 </xsl:text>
             <xsl:apply-templates mode="control"/>
 
-            <xsl:text expand-text="true">## Unmatched IDs
+
+            <xsl:text expand-text="true">## Differing spelling of previously existing and currently imported lemmata
+
+This section lists entries for which the spelling of the lemma has changed since the last data conversion. With the final run of the conversion `Lemma (old)` will be replaced by `Lemma (new)`.  
+
+| Lemma (new) | Lemma (old) | PWL ID | FileMaker RecordId |
+| :-----------: |:------------:|:------------:|:------------:|
+</xsl:text>
+
+            <xsl:for-each select="$current-lemmata//*:orth">
+                <xsl:variable name="fileOfInterest" select="concat('../../output/',@xml:lang,'/',@category,'/',@xml:id,'.xml')"/>
+                <xsl:if test="doc-available($fileOfInterest)">
+                    <xsl:if test="not(doc($fileOfInterest)//*:div[@type = current()/@category]/*:entry[*:form/*:orth[@type='original'][normalize-unicode(.,'NFC') = normalize-unicode(current()/text(),'NFC')]])">
+                        <xsl:variable name="PWL-entry" select="doc($fileOfInterest)//*:div[@type = current()/@category]/*:entry/*:form/*:orth[@type='original']"/>
+<xsl:text expand-text="true">|{$PWL-entry/text()}|{text()}|{@xml:id}|{@filemakerID}|                            
+</xsl:text>
+                    </xsl:if>
+                </xsl:if>
+            </xsl:for-each>
+            <xsl:text>
+</xsl:text>
+
+            
+            <!-- this might be obsolete now -->
+            <xsl:text expand-text="true">## Unmatched IDs (deprecated)
     
 #### Comparison of identifiers as assigned during the conversion and identifiers as stored in the working environment
 
