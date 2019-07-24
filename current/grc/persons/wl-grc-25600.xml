@@ -20,15 +20,15 @@
             <pubPlace>Köln</pubPlace>
             <date when="2018-06-19">19. Juni 2018</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/4.0/"
+               <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
-                  <p>Dieses Dokument wurde unter der <ref type="license" target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
+                  <p>Dieses Dokument wurde unter der <ref type="license" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
                   <p>Die Lizenz wurde per 1. Januar 2017 hinzugefügt.</p>
                </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten">http://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
+            <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten">https://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
             <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
          </sourceDesc>
       </fileDesc>
@@ -41,19 +41,19 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2018-06-19" who="http://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
-         <change when="2018-06-16" who="http://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
-         <change when="2018-05-30" who="http://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
-         <change when="2017-07-29" who="http://github.com/pdaengeli">21. Fassung vom 26.07.2017: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
-         <change when="2017-06-23" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Datum der Aufnahme)</change>
-         <change when="2017-04-06" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
-         <change when="2017-01-24" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
-         <change when="2017-01-08" who="http://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
-         <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
-         <change when="2016-06-24" who="http://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
-         <change when="2016-05-03" who="http://github.com/pdaengeli">Einführung des TEI-Modells</change>
-         <change when="2016-04-22" who="http://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
-         <change when="2016-02-11" who="http://github.com/pdaengeli">Initialtransformation</change>
+         <change when="2018-06-19" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
+         <change when="2018-06-16" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
+         <change when="2018-05-30" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2017-07-29" who="https://github.com/pdaengeli">21. Fassung vom 26.07.2017: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2017-06-23" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Datum der Aufnahme)</change>
+         <change when="2017-04-06" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
+         <change when="2017-01-24" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
+         <change when="2017-01-08" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-09-15" who="https://github.com/pdaengeli">Erstvergabe von xml:ids</change>
+         <change when="2016-06-24" who="https://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
+         <change when="2016-05-03" who="https://github.com/pdaengeli">Einführung des TEI-Modells</change>
+         <change when="2016-04-22" who="https://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
+         <change when="2016-02-11" who="https://github.com/pdaengeli">Initialtransformation</change>
          <change when="2011-12-15">Aufzeichnung des Vorkommens in: P.Prag. 03</change>
          <change when="2010-10-13">Aufzeichnung des Vorkommens in: P.Gen. 04</change>
          <change when="2007-04-26">Aufzeichnung des Vorkommens in: P.Sijp.; SPP 03².2; SPP 03².5</change>
