@@ -122,41 +122,43 @@
             
 <xsl:text>## Control section
     
-#### Entries that already existed before the import, but were not recognized
-
-This section is empty unless there are lemmata, that were changed in FileMaker since the last export. In that case, the changes (most often these are regularisations on character level) should be ported to the `current` data and the transformation re-run until this section is empty.
 </xsl:text>
-            <xsl:apply-templates mode="control"/>
 
-
-            <xsl:text expand-text="true">## Differing spelling of previously existing and currently imported lemmata
+            <xsl:text expand-text="true">### Differing spelling of previously existing and currently imported lemmata
 
 This section lists entries for which the spelling of the lemma has changed since the last data conversion. With the final run of the conversion `Lemma (old)` will be replaced by `Lemma (new)`.  
 
 | Lemma (new) | Lemma (old) | PWL ID | FileMaker RecordId |
 | :-----------: |:------------:|:------------:|:------------:|
 </xsl:text>
-
+            
             <xsl:for-each select="$current-lemmata//*:orth">
                 <xsl:variable name="fileOfInterest" select="concat('../../output/',@xml:lang,'/',@category,'/',@xml:id,'.xml')"/>
                 <xsl:if test="doc-available($fileOfInterest)">
                     <xsl:if test="not(doc($fileOfInterest)//*:div[@type = current()/@category]/*:entry[*:form/*:orth[@type='original'][normalize-unicode(.,'NFC') = normalize-unicode(current()/text(),'NFC')]])">
                         <xsl:variable name="PWL-entry" select="doc($fileOfInterest)//*:div[@type = current()/@category]/*:entry/*:form/*:orth[@type='original']"/>
-<xsl:text expand-text="true">|{$PWL-entry/text()}|{text()}|{@xml:id}|{@filemakerID}|                            
+                        <xsl:text expand-text="true">|{$PWL-entry/text()}|{text()}|{@xml:id}|{@filemakerID}|                            
 </xsl:text>
                     </xsl:if>
                 </xsl:if>
             </xsl:for-each>
             <xsl:text>
 </xsl:text>
+            
+<xsl:text>
+    
+### Entries that already existed before the import, but were not recognized (deprecated)
 
+This section is empty unless there are lemmata, that were changed in FileMaker since the last export. In that case, the changes (most often these are regularisations on character level) should be ported to the `current` data and the transformation re-run until this section is empty.
+</xsl:text>
+            <xsl:apply-templates mode="control"/>
             
             <!-- this might be obsolete now -->
-            <xsl:text expand-text="true">## Unmatched IDs (deprecated)
+            <xsl:text expand-text="true">### Unmatched IDs (deprecated)
     
 #### Comparison of identifiers as assigned during the conversion and identifiers as stored in the working environment
 
-Identifiers (`pwl_id`) are assigned during the conversion, but they are also stored in the work environment (FileMaker). This list hints to mismatching identifiers in the two environments. This list does contain new lemmata that were not assigned an identifier yet and should normally be empty. If mismatches do occur they should generally be resolved by updating the identifier in the working environment.
+Identifiers (`pwl_id`) are assigned during the conversion, but they are also stored in the work environment (FileMaker). This list hints to mismatching identifiers in the two environments. This list contains new lemmata that were not assigned an identifier yet and should normally be empty. If mismatches do occur they should generally be resolved by updating the identifier in the working environment.
 
 </xsl:text>
             
@@ -175,7 +177,7 @@ Identifiers (`pwl_id`) are assigned during the conversion, but they are also sto
             </xsl:for-each>
             <xsl:text>&#10;&#10;</xsl:text>
             
-            <xsl:text expand-text="true">## Unmatched references
+            <xsl:text expand-text="true">### Unmatched references
 
 #### The conversion tries to find strings in the "see also" notes, that refer to other lemmata. This is only successful if the values of `pwl_verweis` and the string in the "see also" note are identical.
 
@@ -191,7 +193,7 @@ Note that the spelling must be exactly identical for successful matches.
             
             <xsl:text>&#10;&#10;</xsl:text>
             
-            <xsl:text expand-text="true">## Character test
+            <xsl:text expand-text="true">### Character test
     
 #### Entries that contain suspicious Unicode characters
 
@@ -241,7 +243,7 @@ This section is empty unless there are Greek lemmata that contain Latin characte
     
     <xsl:template match="*:grc" mode="control">
         <xsl:text>
-### Greek 
+#### Greek 
 
 </xsl:text>
         <xsl:call-template name="version-check"/>
@@ -249,7 +251,7 @@ This section is empty unless there are Greek lemmata that contain Latin characte
     
     <xsl:template match="*:la" mode="control">
         <xsl:text>
-### Latin 
+#### Latin 
 
 </xsl:text>
         <xsl:call-template name="version-check"/>
