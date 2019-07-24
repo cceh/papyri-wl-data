@@ -344,7 +344,7 @@
                             </xsl:choose>
                         </xsl:variable>
                         <item>
-                            <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten/quellen#{$litID}">
+                            <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#{$litID}">
                                 <xsl:choose>
                                     <xsl:when test="contains(.,'(')">		
                                         <xsl:value-of select="normalize-space(translate(substring-before(.,'('),'⁲','²'))"/><!-- U+2073: ³ -->		

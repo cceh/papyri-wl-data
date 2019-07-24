@@ -62,14 +62,14 @@
                             <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
                         </date>
                         <availability>
-                            <licence target="http://creativecommons.org/licenses/by/4.0/" notBefore="2017-01-01">
-                                <p>Dieses Dokument wurde unter der <ref type="license" target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
+                            <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-01-01">
+                                <p>Dieses Dokument wurde unter der <ref type="license" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
                                 <p>Die Lizenz wurde per 1. Januar 2017 hinzugefügt.</p>
                             </licence>
                         </availability>
                     </publicationStmt>
                     <sourceDesc>
-                        <p>Die in dieser Datei referenzierten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="http://papyri.uni-koeln.de/papyri-woerterlisten">http://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
+                        <p>Die in dieser Datei referenzierten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten">https://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
                         <p>
                             <listBibl>
                                 <head>Berücksichtigte Publikationen</head>
