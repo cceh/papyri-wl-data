@@ -20,6 +20,11 @@
     <p:option name="comparisonBase" select="'current'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
     <p:option name="result-path" select="'../output'"/>
+    <!-- XProc environment: -->
+    <p:option name="product-name" select="p:system-property('p:product-name')"/>
+    <p:option name="product-version" select="p:system-property('p:product-version')"/>
+    <p:option name="vendor" select="p:system-property('p:vendor')"/>
+    <p:option name="vendor-uri" select="p:system-property('p:vendor-uri')"/>
     
     <p:documentation>
         <p>Output definition for alternative output scenario (cf. below)</p>
@@ -163,6 +168,10 @@
     </p:identity>
     <pwl:readme>
         <p:with-param name="version" select="$version"/>
+        <p:with-param name="product-name" select="$product-name"/>
+        <p:with-param name="product-version" select="$product-version"/>
+        <p:with-param name="vendor" select="$vendor"/>
+        <p:with-param name="vendor-uri" select="$vendor-uri"/>
     </pwl:readme>
     
     <!-- generate util output (data used in webapp) -->

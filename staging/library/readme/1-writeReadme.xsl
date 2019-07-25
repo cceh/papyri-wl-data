@@ -14,6 +14,10 @@
     <!-- set the scale of the chart; 1 chart unit represents {$divisor} entries; some 80 units should fit the viewport comfortably -->
     <xsl:variable name="divisor" select="200"/>
     <xsl:param name="version"/>
+    <xsl:param name="product-name"/>
+    <xsl:param name="product-version"/>
+    <xsl:param name="vendor"/>
+    <xsl:param name="vendor-uri"/>
 
 <xsl:template match="/">
     <wrapper>
@@ -27,7 +31,7 @@ Papyri Wörterlisten – Data
 ===========================================================
 [![DOI](https://zenodo.org/badge/77647626.svg)](https://zenodo.org/badge/latestdoi/77647626)
 
-Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten(https://papyri.uni-koeln.de/papyri-woerterlisten)]).
+Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten](https://papyri.uni-koeln.de/papyri-woerterlisten)).
 
 Über die Daten
 -------------------------------------
@@ -165,7 +169,7 @@ Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-
 *Daten und README zuletzt generiert am 
 </xsl:text>
         <xsl:value-of select="format-date(current-date(),'[D1o] [MNn] [Y0001]','de','AD','DE')"/>
-<xsl:text expand-text="true"> mit {system-property('xsl:product-name')} {system-property('xsl:product-version')} von {system-property('xsl:vendor')} (XSL {system-property('xsl:version')}).*</xsl:text>
+<xsl:text expand-text="true"> mit {$product-name} {$product-version} von [{$vendor}]({$vendor-uri}) und {system-property('xsl:product-name')} {system-property('xsl:product-version')} von [{system-property('xsl:vendor')}]({system-property('xsl:vendor-url')}) (XSL {system-property('xsl:version')}).*</xsl:text>
     </wrapper>
 </xsl:template>
     
