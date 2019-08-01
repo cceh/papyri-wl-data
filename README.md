@@ -7,7 +7,7 @@ Papyri Wörterlisten – Data
 ===========================================================
 [![DOI](https://zenodo.org/badge/77647626.svg)](https://zenodo.org/badge/latestdoi/77647626)
 
-Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten(https://papyri.uni-koeln.de/papyri-woerterlisten)]).
+Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten](https://papyri.uni-koeln.de/papyri-woerterlisten)).
 
 Über die Daten
 -------------------------------------
@@ -18,36 +18,36 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen  34041 Einträge, wovon 31857 in griechischer und 2184 in lateinischer Sprache (Stand 19. Juni 2018, 22. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen  34484 Einträge, wovon 32272 in griechischer und 2212 in lateinischer Sprache (Stand 25. Juli 2019, 23. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15395
-geography:    ||||||||||||||||||||4146
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15545
+geography:    |||||||||||||||||||||4245
 monthsDays:   119
-persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13978
-religion:     ||403
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14141
+religion:     ||434
 ```
 
 **Griechisch**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13956
-geography:    ||||||||||||||||||||4080
+general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14084
+geography:    ||||||||||||||||||||4178
 monthsDays:   97
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13331
-religion:     |393
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13489
+religion:     ||424
 ```
 
 **Lateinisch**
 
 ```txt
 monthsDays:   22
-persons:      |||647
-geography:    66
+persons:      |||652
+geography:    67
 religion:     10
-general:      |||||||1439
+general:      |||||||1461
             
 | = 200 Einträge            
 ```
@@ -110,6 +110,12 @@ Die Daten umfassen fünf unterschiedliche Kategorien. Jedes Lemma kann in einer 
 
 Der Datenabgleich/Import verläuft nur erfolgreich, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Dieser Sachverhalt wird in einem der ersten Schritte der Pipeline überprüft. Dabei werden problematische Duplikate identifiziert und in einer Liste ausgegeben (Markdown-Format). Nach manueller Bereinigung der Duplikate kann die Konversion neu gestartet werden.
 
+##### PWL-IDs
+
+Jedem Lemma wird im Zuge der Datenübernahme eine sog. PWL-ID zugewiesen. Seit Juli 2019 basiert die Datenkonversion nicht mehr auf einem zeichenidentischen Lemma-Abgleich, sondern auf dieser ID.
+
+Als Konsequenz daraus müssen neu zugewiesene PWL-IDs für jede neue Fassung/Version in FileMaker importiert werden. Die Konversionsroutine legt dazu im Verzeichnis `output/retur` für jede Inputdatei eine um die IDs erweiterte Datei an, die sich in FileMaker importieren lässt. 
+
 Kontakt/Mitarbeit
 ---------------------------
 
@@ -120,4 +126,4 @@ Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 *Daten und README zuletzt generiert am 
-19. Juni 2018 mit SAXON EE 9.7.0.19 von Saxonica (XSL 3.0).*
+25. Juli 2019 mit XML Calabash 1.1.24 (for Saxon 9.8.0.12/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 9.8.0.12 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*

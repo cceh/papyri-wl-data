@@ -54,13 +54,13 @@
    </item>
    <item>
       <label type="persons"/>
-      <num>647</num>
+      <num>652</num>
    </item>
    <item>
       <list type="index" subtype="persons">
          <item>
             <label>A</label>
-            <num>80</num>
+            <num>81</num>
          </item>
          <item>
             <label>B</label>
@@ -88,7 +88,7 @@
          </item>
          <item>
             <label>G</label>
-            <num>20</num>
+            <num>22</num>
          </item>
          <item>
             <label>H</label>
@@ -104,7 +104,7 @@
          </item>
          <item>
             <label>M</label>
-            <num>44</num>
+            <num>45</num>
          </item>
          <item>
             <label>N</label>
@@ -116,7 +116,7 @@
          </item>
          <item>
             <label>P</label>
-            <num>52</num>
+            <num>53</num>
          </item>
          <item>
             <label>Q</label>
@@ -150,7 +150,7 @@
    </item>
    <item>
       <label type="geography"/>
-      <num>66</num>
+      <num>67</num>
    </item>
    <item>
       <list type="index" subtype="geography">
@@ -164,7 +164,7 @@
          </item>
          <item>
             <label>C</label>
-            <num>8</num>
+            <num>9</num>
          </item>
          <item>
             <label>D</label>
@@ -262,13 +262,13 @@
    </item>
    <item>
       <label type="general"/>
-      <num>1439</num>
+      <num>1461</num>
    </item>
    <item>
       <list type="index" subtype="general">
          <item>
             <label>A</label>
-            <num>129</num>
+            <num>136</num>
          </item>
          <item>
             <label>]</label>
@@ -280,15 +280,15 @@
          </item>
          <item>
             <label>C</label>
-            <num>219</num>
+            <num>220</num>
          </item>
          <item>
             <label>D</label>
-            <num>77</num>
+            <num>78</num>
          </item>
          <item>
             <label>E</label>
-            <num>65</num>
+            <num>66</num>
          </item>
          <item>
             <label>F</label>
@@ -304,7 +304,7 @@
          </item>
          <item>
             <label>I</label>
-            <num>76</num>
+            <num>77</num>
          </item>
          <item>
             <label>K</label>
@@ -312,11 +312,11 @@
          </item>
          <item>
             <label>L</label>
-            <num>60</num>
+            <num>61</num>
          </item>
          <item>
             <label>M</label>
-            <num>88</num>
+            <num>89</num>
          </item>
          <item>
             <label>N</label>
@@ -324,11 +324,11 @@
          </item>
          <item>
             <label>O</label>
-            <num>40</num>
+            <num>42</num>
          </item>
          <item>
             <label>P</label>
-            <num>142</num>
+            <num>145</num>
          </item>
          <item>
             <label>Q</label>
@@ -336,7 +336,7 @@
          </item>
          <item>
             <label>R</label>
-            <num>45</num>
+            <num>47</num>
          </item>
          <item>
             <label>S</label>
@@ -344,11 +344,11 @@
          </item>
          <item>
             <label>T</label>
-            <num>67</num>
+            <num>68</num>
          </item>
          <item>
             <label>U</label>
-            <num>20</num>
+            <num>21</num>
          </item>
          <item>
             <label>V</label>

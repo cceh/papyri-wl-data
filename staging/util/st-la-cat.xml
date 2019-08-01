@@ -10,11 +10,11 @@
    </item>
    <item>
       <label type="persons"/>
-      <num>647</num>
+      <num>652</num>
    </item>
    <item>
       <label type="geography"/>
-      <num>66</num>
+      <num>67</num>
    </item>
    <item>
       <label type="religion"/>
@@ -22,6 +22,6 @@
    </item>
    <item>
       <label type="general"/>
-      <num>1439</num>
+      <num>1461</num>
    </item>
 </list>
