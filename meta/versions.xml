@@ -19,24 +19,39 @@
         </fileDesc>
         <revisionDesc>
             <listChange type="versions">
-                <!--<change when="2020-XX-YY" n="24">
-                    <label>24. Fassung vom XX. YY 2020</label>
+                <!--<change when="2021-XX-YY" n="25">
+                    <label>25. Fassung vom XX. YY 2021</label>
                     <note>hinzugekommen:
                     </note>
                 </change>-->
+                <change when="2020-07-07" n="24">
+                    <label>24. Fassung vom 07. Juli 2020</label>
+                    <note>hinzugekommen:
+                        <ref target="ohne_Verweis_An_Pap__31">An.Pap. 31</ref>
+                        <ref target="ohne_Verweis_CPR_34">CPR 34</ref>
+                        <ref target="ohne_Verweis_O_krok__02">O.krok. 02</ref>
+                        <ref target="ohne_Verweis_P_Bas__02">P.Bas. 02</ref>
+                        <ref target="ohne_Verweis_P_Math_">P.Math.</ref>
+                        <ref target="ohne_Verweis_P_Oxyrhyncha">P.Oxyrhyncha</ref>
+                        <ref target="ohne_Verweis_P_Oxy__84">P.Oxy. 84</ref>
+                        <ref target="ohne_Verweis_P_Petra_05">P.Petra 05</ref>
+                        <ref target="ohne_Verweis_P_Trier_02">P.Trier 02</ref>
+                        <ref target="ohne_Verweis_PSI_Com__13">PSI Com. 13</ref>
+                    </note>
+                </change>
                 <change when="2019-07-21" n="23">
                     <label>23. Fassung vom 21. Juli 2019</label>
                     <note>hinzugekommen:
-                        <ref target="ohne_Verweis_An_Pap__30">An.Pap. 30</ref>
-                        <ref target="ohne_Verweis_BGU_22">BGU 22</ref>
-                        <ref target="ohne_Verweis_FSVleeming">FS Vleeming</ref>
-                        <ref target="ohne_Verweis_P.Bodmer">P.Bodmer 01 R</ref>
-                        <ref target="ohne_Verweis_P_Mich_21">P.Mich. 21</ref>
-                        <ref target="ohne_Verweis_P_Oxy__83">P.Oxy. 83</ref>
-                        <ref target="ohne_Verweis_PSI_17">PSI 17</ref>
-                        <ref target="ohne_Verweis_S_V_Tebt_01">S.V.Tebt. 01</ref>
-                        <ref target="ohne_Verweis_Tyche_32">Tyche 32</ref>
-                        <ref target="ohne_Verweis_Tyche_33">Tyche 33</ref>
+                        <ref target="ohne_Verweis_An_Pap__30">An.Pap. 30</ref>;
+                        <ref target="ohne_Verweis_BGU_22">BGU 22</ref>;
+                        <ref target="ohne_Verweis_FSVleeming">FS Vleeming</ref>;
+                        <ref target="ohne_Verweis_P.Bodmer">P.Bodmer 01 R</ref>;
+                        <ref target="ohne_Verweis_P_Mich_21">P.Mich. 21</ref>;
+                        <ref target="ohne_Verweis_P_Oxy__83">P.Oxy. 83</ref>;
+                        <ref target="ohne_Verweis_PSI_17">PSI 17</ref>;
+                        <ref target="ohne_Verweis_S_V_Tebt_01">S.V.Tebt. 01</ref>;
+                        <ref target="ohne_Verweis_Tyche_32">Tyche 32</ref>;
+                        <ref target="ohne_Verweis_Tyche_33">Tyche 33</ref>;
                     </note>
                 </change>
                 <change when="2018-05-14" n="22">
