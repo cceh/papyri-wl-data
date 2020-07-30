@@ -129,6 +129,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_CPR_34" type="monograph">
+               <title type="short">CPR 34</title>
+               <title type="long">Monika R.M. Hasitzka, Corpus Papyrorum Raineri, Band XXXIV. Koptische dokumentarische Texte aus der Papyrussammlung der Österreichischen Nationalbibliothek. Berlin, Boston 2019</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
+            </bibl>
             <bibl xml:id="b71893" type="monograph">
                <title type="short">Cuvigny, Myos Hormos</title>
                <title type="long">Hélène Cuvigny (Hrsg.), La Route de Myos Hormos. L’armée romaine dans le désert Oriental d’Egypte. Praesidia du désert de Bérénice. I. Volume 1; - Volume 2. (Fouilles de l’Institut français d’Archéologie orientale. 48.), Le Caire 2003</title>
@@ -292,6 +299,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_O_krok__02" type="monograph">
+               <title type="short">O.Krok. 02</title>
+               <title type="long">Adam Bülow-Jacobsen, Jean-Luc Fournet, Bérangère Redon, Ostraca de Krokodilô II, Institut Francais D’Archeologie orientale (Fouilles de l’Institut francais d’archeologie orientale, 81), 2019</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
+            </bibl>
             <bibl xml:id="b70719" type="monograph">
                <title type="short">O.Narm. Corr.</title>
                <title type="long">Gabriella Messeri &amp; Rosario Pintaudi, Corrigenda ad OGN I, Aegyptus 81 (2001) 253-282 (Index S. 278-281)</title>
@@ -371,6 +385,13 @@
                <title type="long">Angelo Casanova - Gabriella Messeri - Rosario Pintaudi (Hgg.), e sì d’amici pieno. Omaggio di studiosi italiani a Guido Bastianini per il suo settantesimo compleanno. 1 - Papirologia – Egittologia (Papyrologica Florentina 45), Firenze 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Bas__02" type="monograph">
+               <title type="short">P.Bas. 02</title>
+               <title type="long">Sabine R. Huebner, W. Graham Claytor, Isabelle Marthot-Santaniello and Matthias Mu?ller, Papyri of the University Library of Basel (P.Bas. II). (APF, Beihefte 41), Berlin, Boston 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
             </bibl>
             <bibl xml:id="b20349" type="monograph">
                <title type="short">P.Bawit Clackson</title>
@@ -779,6 +800,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Math_" type="monograph">
+               <title type="short">P.Math.</title>
+               <title type="long">Roger S. Bagnall and Alexander Jones, Mathematics, Metrology, and Model Contracts: A Codex From Late Antique Business Education (P.Math.), Institute for the Study of the Ancient World, New York University Press 2019</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
+            </bibl>
             <bibl xml:id="b14538" type="monograph">
                <title type="short">P.Mich. 18</title>
                <title type="long">Cornelia E. Römer and Traianos Gagos, P.Michigan Koenen. Michigan Texts Published in Honor of Ludwig Koenen. (P. Mich. XVIII) (Studia Amstelodamensia ad epigraphicam, ius antiquum et papyrologicam pertinentia. XXXVI), Amsterdam, J.C. Gieben, 1996</title>
@@ -980,11 +1008,25 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2019</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxy__84" type="monograph"><!-- kein Treffer -->
+               <title type="short">P.Oxy. 84</title>
+               <title type="long">A. Benaissa u. a., The Oxyrhynchus Papyri. Volume LXXXIV (Nos. 5404-5476). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 105), London, Egypt Exploration Society, 2019</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
+            </bibl>
             <bibl xml:id="b14666" type="monograph">
                <title type="short">P.Oxy. 984</title>
                <title type="long">Roger S. Bagnall, Bruce W. Frier and Ian C. Rutherford, The Census Register P. Oxy. 984: The Reverse of Pindar’s Paeans. (Papyrologica Bruxellensia 29), Bruxelles, Fondation Égyptologique Reine Élisabeth, 1997</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxyrhyncha" type="monograph">
+               <title type="short">P.Oxyrhyncha</title>
+               <title type="long">Eleni Skarsouli, P.Oxyrhyncha. Edition dokumentarischer Papyri aus der Kölner Sammlung (Papyrologica Coloniensia. Vol. XLII), Paderborn 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
             </bibl>
             <bibl xml:id="b16963" type="monograph">
                <title type="short">P.Petra 01</title>
@@ -1009,6 +1051,13 @@
                <title type="long">Antti Arjava u. a., The Petra Papyri IV (American Center of Oriental Research Publications 6), Amman 2011</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Petra_05" type="monograph">
+               <title type="short">P.Petra 05</title>
+               <title type="long">Antti Arjava u. a., The Petra Papyri V (American Center of Oriental Research Publications 8), Amman 2018</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_P_Petrie_Kleon" type="monograph">
                <title type="short">P.Petrie Kleon</title>
@@ -1126,6 +1175,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2017</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Trier_02" type="monograph">
+               <title type="short">P.Trier 02</title>
+               <title type="long">Cindy Werner, Stellenbesetzung und Besoldung in der Militärverwaltung der Ptolemäerzeit (P.Trier II 15). (APF, Beihefte 38), Berlin, Boston 2019</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
+            </bibl>
             <bibl xml:id="ohne_Verweis_P_Turku" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Turku</title>
                <title type="long">Papyri Turkuenses (P.Turku). Die Papyri im Besitz der Universitätsbibliothek Turku, herausgegeben von Heikki Koskenniemi, unter Mitwirkung von Erkki Koskenniemi und Johannes Koskenniemi (Commentationes Humanarum Litterarum 131), Societas Scientiarum Fennica 2014</title>
@@ -1192,6 +1248,13 @@
                <title type="long">Comunicazioni dell’Istituto Papirologico «G. Vitelli» 12 (2015)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_PSI_Com__13" type="monograph">
+               <title type="short">PSI Com. 13</title>
+               <title type="long">Comunicazioni dell’Istituto Papirologico «G. Vitelli» 13 (2019). Il volume è disponibile in Open Access sul sito dell'editore, la Firenze University Press (https://www.fupress.com/catalogo/comunicazioni/3942)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_PUG_04" type="monograph">
                <title type="short">PUG 04</title>
@@ -1399,6 +1462,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2019</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_An_Pap__31" type="journal">
+               <title type="short">An.Pap. 31</title>
+               <title type="long">Analecta Papyrologica 31 (2019)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2020</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_Antinoupolis__03" type="journal">
                <title type="short">Antinoupolis 03</title>
