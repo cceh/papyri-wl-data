@@ -25,7 +25,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="b61760" type="monograph">
+            <bibl xml:id="b16619" type="monograph">
                <title type="short">BGU 17</title>
                <title type="long">Günter Poethke, Griechische Papyrusurkunden spätrömischer und byzantinischer Zeit aus Hermupolis Magna (BGU XVII). (APF, Beiheft 7), München - Leipzig, K.G. Saur 2001</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -43,7 +43,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_BGU_20" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95275" type="monograph">
                <title type="short">BGU 20</title>
                <title type="long">Fabian Reiter (Hrsg.), Dokumentarische Texte der Berliner Papyrussammlung aus ptolemäischer und römischer Zeit. Zur Wiedereröffnung des Neuen Museums, Berlin/Boston, 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -56,7 +56,7 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2019</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_Chang__Dossier" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95282" type="monograph">
                <title type="short">Chang, Dossier</title>
                <title type="long">Ruey-Lin Chang, Un dossier fical hermopolitain d’époque romaine, conservé à la Bibliothèque nationale et universitaire de Strasbourg (P.Strasb. inv. gr. 897-898, 903-905, 939-968, 982-1000, 1010-1013, 1918-1929): édition, commentaire et traduction [= P.Stras. 901-903] (Institut Français d’Archéologie Orientale, Bibliothèque Générale 46), Le Caire 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -203,7 +203,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_O.Bankes" type="monograph">
+            <bibl xml:id="b95295" type="monograph">
                <title type="short">O.Bankes</title>
                <title type="long">Klaas A. Worp, The Bankes Ostraka from a Box at Kingston Lacy: The Greek Texts (Ricerca Papirologica 5), Messina, Sicania University Press, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -227,7 +227,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_O.Ber.03" type="monograph">
+            <bibl xml:id="b95296" type="monograph">
                <title type="short">O.Ber. 03</title>
                <title type="long">Rodney Ast, Roger S. Bagnall, Documents from Berenike III: Greek and Latin Texts from the 2009-2013 Seasons. (Papyrologica Bruxellensia 36). Bruxelles, Association Égyptologique Reine Élisabeth, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -349,7 +349,7 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2018</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Aktenbuch" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95354" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Aktenbuch</title>
                <title type="long">Günter Poethke, Sebastian Prignitz, Veit Vaelske, Aktenbuch des Aurelios Philammon. Prozessberichte, Annona militaris und Magie in BGU IV 1024-1027 (APF, Beiheft 34), Berlin - Boston, Walter de Gruyter 2012</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -367,7 +367,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Bagnall" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95252" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Bagnall</title>
                <title type="long">Papyrological Texts in Honor of Roger S. Bagnall, edited by Rodney Ast, Hélène Cuvigny, Todd M. Hickey, and Julia Lougovaya (American Studies in Papyrology 53), 2012</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -380,13 +380,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2018</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P.Bastianini" type="monograph">
+            <bibl xml:id="b95418" type="monograph">
                <title type="short">P.Bastianini</title>
                <title type="long">Angelo Casanova - Gabriella Messeri - Rosario Pintaudi (Hgg.), e sì d’amici pieno. Omaggio di studiosi italiani a Guido Bastianini per il suo settantesimo compleanno. 1 - Papirologia – Egittologia (Papyrologica Florentina 45), Firenze 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Bas__02" type="monograph">
+            <bibl xml:id="b95467" type="monograph">
                <title type="short">P.Bas. 02</title>
                <title type="long">Sabine R. Huebner, W. Graham Claytor, Isabelle Marthot-Santaniello and Matthias Mu?ller, Papyri of the University Library of Basel (P.Bas. II). (APF, Beihefte 41), Berlin, Boston 2020</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -429,7 +429,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Bub_03" type="monograph">
+            <bibl xml:id="b95405" type="monograph">
                <title type="short">P.Bub. 03</title>
                <title type="long">Klaus Maresch, Die verkohlten Papyri aus Bubastos, Band 3,A (P.Bub. III 6). (Papyrologica Coloniensia XV/3A), Paderborn, Ferdinand Schöningh, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -454,13 +454,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Cairo_Mich__02" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95284" type="monograph">
                <title type="short">P.Cairo Mich. 02</title>
                <title type="long">Mohamed Gaber El-Maghrabi - Cornelia Römer, Texts from the "Archive" of Socrates, the Tax Collector, and Other Contexts at Karanis (P. Cair. Mich. II) (APF, Beihefte 35), Berlin - Boston, Walter de Gruyter 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Cairo_Preis_2" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95276" type="monograph">
                <title type="short">P.Cairo Preis.²</title>
                <title type="long">R. P. Salomons, P.Cairo Preis.2 (Papyrologica Bruxellensia 35), Bruxelles 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -484,7 +484,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P.Coles" type="monograph">
+            <bibl xml:id="b95290" type="monograph">
                <title type="short">P.Coles</title>
                <title type="long">Guido Bastianini - Nikolaos Gonis - Simona Russo, Charisterion per Revel Coles. Trenta testi letterari e documentari dall’Egitto (P.Coles) (Edizioni dell’Istituto Papirologico «G. Vitelli» 4), Firenze 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -496,7 +496,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P.Daris" type="monograph">
+            <bibl xml:id="b95287" type="monograph">
                <title type="short">P.Daris</title>
                <title type="long">Sergio Daris, Silloge di papiri greci documentari, Trieste 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -569,7 +569,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P.Gascou" type="monograph">
+            <bibl xml:id="b95292" type="monograph">
                <title type="short">P.Gascou</title>
                <title type="long">Jean-Luc Fournet &amp; Arietta Papaconstantinou, Mélanges Jean Gascou. Textes et études papyrologiques (P.Gascou) (Travaux et Mémoires 20/1), Paris 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -630,7 +630,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Heid__10" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95278" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Heid. 10</title>
                <title type="long">Wolfgang Habermann unter Mitwirkung von Elke Fuchs, Die Badischen Grabungen in Qarâra und El-Hibeh 1913 und 1914. Wissenschaftgeschichtliche und papyrologische Beiträge (P.Heid. X). (Veröffentlichungen aus der Heidelberger Papyrus-Sammlung, N.F. 14), Heidelberg, Universitätsverlag C. Winter, 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -782,7 +782,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Louvre_Bawit" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95279" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Louvre Bawit</title>
                <title type="long">Sarah J. Clackson † &amp; Alain Delattre, Papyrus grecs et coptes de Baouît conservés au musée du Louvre (Bibliothèque d’Études Coptes 22), Le Caire 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -819,7 +819,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Mich_21" type="monograph">
+            <bibl xml:id="b95484" type="monograph">
                <title type="short">P.Mich. 21</title>
                <title type="long">W. Graham Claytor - Arthur Verhoogt (Hg.), Papyri from Karanis: The Granary C123 (P. Mich. XXI), W. G. C. - A. V., editors. With the assistance of Paul Heilporn and Samantha Lash And contributions by Traianos Gagos (†), Adam P. Hyatt, Allison Kemmerle, Martina Landolfi, Louise Loehndorff,Tyler Mayo, Jonathan J. McLaughlin, Amy Pistone, Drew C. Stimson, and Jacqueline Stimson, University of Michigan Pres, Ann Arbor, 2018</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -838,7 +838,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Monts__Roca_04" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95251" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Monts. Roca 04</title>
                <title type="long">Sofía Torallas Tovar - Klaas A. Worp, Greek Papyri from Montserrat (P.Monts. Roca IV) (Scripta Orientalia 1), Barcelona 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -971,19 +971,19 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Oxy__78" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95258" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Oxy. 78</title>
                <title type="long">R.-L. Chang u.a., The Oxyrhynchus Papyri. Volume LXXVIII (Nos. 5127-5182). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 99), London, Egypt Exploration Society, 2012</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Oxy__79" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95280" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Oxy. 79</title>
                <title type="long">W. B. Henry u.a., The Oxyrhynchus Papyri. Volume LXXIX (Nos. 5183-5218). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 100), London, Egypt Exploration Society, 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Oxy__80" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95281" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Oxy. 80</title>
                <title type="long">M. Hirt u.a., The Oxyrhynchus Papyri. Volume LXXX (Nos. 5219-5257). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 101), London, Egypt Exploration Society, 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -995,7 +995,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2017</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Oxy__82" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95294" type="monograph">
                <title type="short">P.Oxy. 82</title>
                <title type="long">N. Gonis u.a., The Oxyrhynchus Papyri. Volume LXXXII (Nos. 5290-5343). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 103), London, Egypt Exploration Society, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1034,7 +1034,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Petra_02" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95270" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Petra 02</title>
                <title type="long">Ludwig Koenen u. a., The Petra Papyri II (American Center of Oriental Research Publications 4), Amman 2013, Nr. 17</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1132,20 +1132,20 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Sorb_04" type="monograph">
+            <bibl xml:id="b84427" type="monograph">
                <title type="short">P.Sorb. 04</title>
                <title type="long">Marie-Pierre Chaufray &amp; Stéphanie Wackenier, Papyrus de la Sorbonne (P.Sorb. IV N° 145-160) (Papyrologica Parisina 4), Paris, Presses de l'Université de Paris-Sorbonne, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2018</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Strasb__Copt_" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95384" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Strasb. Copt.</title>
                <title type="long">Coptica Argentoratensia. Textes et documents de la troisième université d’été de papyrologie copte (Strasbourg, 18-25 juillet 2010) (P. Stras. Copt.). Réunis par Anne Boud’hors, Alain Delattre, Catherine Louis, Tonio Sebastian Richter, Paris 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Tarich_" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95273" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Tarich.</title>
                <title type="long">Charikeia Armoni, Das Archiv der Taricheuten Amenneus und Onnophris aus Tanis (P.Tarich), (Papyrologica Coloniensia XXXVII), Paderborn u.a., Schöningh, 2013</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1163,13 +1163,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P.Tebt.Pad.01" type="monograph">
+            <bibl xml:id="b95286" type="monograph">
                <title type="short">P.Tebt. Pad. 01</title>	
                <title type="long">Agostino Soldati, Papiri Greci da Tebtynis della Università di Padova, Volume 1 (P.Tebt. Pad. 1-25), (Philippika 85,1), Wiesbaden 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Trier_01" type="monograph">
+            <bibl xml:id="b95298" type="monograph">
                <title type="short">P.Trier 01</title>
                <title type="long">Bärbel Kramer, Carlos Ma Sánchez-Moreno Ellart, Neue Quellen zum Prozessrecht der Ptolemäerzeit. Gerichtsakten aus der Trierer Papyrussammlung (P.Trier I). (APF, Beiheft 36), Berlin - Boston, Walter de Gruyter 2017</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1182,7 +1182,7 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2020</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Turku" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95283" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Turku</title>
                <title type="long">Papyri Turkuenses (P.Turku). Die Papyri im Besitz der Universitätsbibliothek Turku, herausgegeben von Heikki Koskenniemi, unter Mitwirkung von Erkki Koskenniemi und Johannes Koskenniemi (Commentationes Humanarum Litterarum 131), Societas Scientiarum Fennica 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1212,13 +1212,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PSI_16" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95271" type="monograph"><!-- kein Treffer -->
                <title type="short">PSI 16</title>
                <title type="long">Papiri della Società Italiana, volume sedicesimo (PSI XVI) ni 1575-1653 a cura di Guido Bastianini, Francesca Maltomini, Gabriella Messeri (Edizioni dell’Istituto Papirologico «G. Vitelli» 1), Firenze 2013</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PSI_17" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95687" type="monograph"><!-- kein Treffer -->
                <title type="short">PSI 17</title>
                <title type="long">Papiri della Società Italiana, volume diciassettesimo (PSI XVII) ni 1654-1715 a cura di Francesca Maltomini, Simona Russo, Marco Stroppa (Edizioni dell’Istituto Papirologico «G. Vitelli» 8), Firenze, 2018</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1231,19 +1231,19 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PSI_Com__09" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b79322" type="monograph"><!-- kein Treffer -->
                <title type="short">PSI Com. 09</title>
                <title type="long">Comunicazioni dell’Istituto Papirologico «G. Vitelli» 6 (2011), S. 52-55</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PSI_Com__11" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95272" type="monograph"><!-- kein Treffer -->
                <title type="short">PSI Com. 11</title>
                <title type="long">Comunicazioni dell’Istituto Papirologico «G. Vitelli» 11 (2013)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PSI_Com__12" type="monograph">
+            <bibl xml:id="b95288" type="monograph">
                <title type="short">PSI Com. 12</title>
                <title type="long">Comunicazioni dell’Istituto Papirologico «G. Vitelli» 12 (2015)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1256,13 +1256,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2020</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PUG_04" type="monograph">
+            <bibl xml:id="b95293" type="monograph">
                <title type="short">PUG 04</title>
                <title type="long">Livia Migliardi Zingale - Gerardo Casanova, Papiri dell’Universitá di Genova (PUG IV) (Papyrologica Florentina 46), Firenze 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PUG_05" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95285" type="monograph">
                <title type="short">PUG 05</title>
                <title type="long">Serena Perrone, Papiri dell’Università di Genova (PUG), Volume quinto, Roma 2015</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1292,7 +1292,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_SB_29" type="monograph">
+            <bibl xml:id="b84774" type="monograph">
                <title type="short">SB 29</title>
                <title type="long">Andrea Jördens, Sammelbuch Griechischer Urkunden aus Ägypten, XXIX. Band (Index zu Band XXVIII), bearbeitet von Rodney Ast unter Mitarbeit von Andrea Bernini, Wiesbaden, Harrassowitz Verlag 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1477,13 +1477,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2018</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_BACPSI_18" type="journal">
+            <bibl xml:id="b16275" type="journal">
                <title type="short">BACPSI 18</title>
                <title type="long">Bulletin of Ain-Shams University Center of Papyrological Studies and Inscriptions 18 (2001) = Magdy Ahmed Ismail Aly, An edition of unpublished Greek papyrus documents from Dionysias and some papyri of Cairo museum</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_BASP_43-50" type="journal">
+            <bibl xml:id="b86506" type="journal">
                <title type="short">BASP 43-50</title>
                <title type="long">P. van Minnen, Word Index to BASP 43-50, BASP 51 (2014) 287-345</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1659,7 +1659,7 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2019</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_Vega_Acta_Alex" type="monograph">
+            <bibl xml:id="b95669" type="monograph">
                <title type="short">Vega, Acta Alex.</title>
                <title type="long">Natalia Vega Navarrete, Die Acta Alexandrinorum im Lichte neuerer und neuester Papyrusfunde (Papyrologica Coloniensia 40), Paderborn u.a., Ferdinand Schöningh, 2017</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
