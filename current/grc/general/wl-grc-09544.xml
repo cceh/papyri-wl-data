@@ -10,15 +10,15 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v23">
-               <name>23. Version</name>
-               <date>21.07.2019</date>
+            <edition n="v'24">
+               <name>24. Version</name>
+               <date>07.07.2020'</date>
             </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2019-07-25">25. Juli 2019</date>
+            <date when="2020-09-30">30. September 2020</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2020-09-30" who="'https://github.com/creativeDev6'">'24. Fassung vom 07.07.2020: Anpassung des bestehenden Eintrags (XProc-Workflow)'</change>
          <change when="2019-07-25" who="https://github.com/pdaengeli">23. Fassung vom 21.07.2019: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2018-06-19" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
          <change when="2018-06-16" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
@@ -91,7 +92,7 @@
                <xr>
                   <list>
                      <item>
-                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_BASP_43-50">BASP 43-50</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b86506">BASP 43-50</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b16831">CPR 22</ref>
@@ -104,6 +105,9 @@
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b21024">O.Edfou Copte</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_O_krok__02">O.Krok. 02</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15468">P.Ammon 01</ref>
@@ -121,7 +125,7 @@
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17154">P.Dryton</ref>
                      </item>
                      <item>
-                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P.Gascou">P.Gascou</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b95292">P.Gascou</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20984">P.Gen. 04</ref>
@@ -148,10 +152,13 @@
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__83">P.Oxy. 83</ref>
                      </item>
                      <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxyrhyncha">P.Oxyrhyncha</ref>
+                     </item>
+                     <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b18001">P.Paramone</ref>
                      </item>
                      <item>
-                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Petra_02">P.Petra 02</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b95270">P.Petra 02</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b19489">P.Petra 03</ref>
@@ -172,7 +179,7 @@
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b18448">PSI Com. 06</ref>
                      </item>
                      <item>
-                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_PUG_04">PUG 04</ref>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b95293">PUG 04</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b67807">SB 21</ref>

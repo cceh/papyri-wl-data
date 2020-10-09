@@ -18,26 +18,26 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen  34484 Einträge, wovon 32272 in griechischer und 2212 in lateinischer Sprache (Stand 25. Juli 2019, 23. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen  35071 Einträge, wovon 32843 in griechischer und 2228 in lateinischer Sprache (Stand 30. September 2020, '24. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15545
-geography:    |||||||||||||||||||||4245
-monthsDays:   119
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14141
-religion:     ||434
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15835
+geography:    ||||||||||||||||||||||4419
+monthsDays:   120
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14259
+religion:     ||438
 ```
 
 **Griechisch**
 
 ```txt
-general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14084
-geography:    ||||||||||||||||||||4178
-monthsDays:   97
-persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13489
-religion:     ||424
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14359
+geography:    |||||||||||||||||||||4352
+monthsDays:   98
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||13607
+religion:     ||427
 ```
 
 **Lateinisch**
@@ -46,8 +46,8 @@ religion:     ||424
 monthsDays:   22
 persons:      |||652
 geography:    67
-religion:     10
-general:      |||||||1461
+religion:     11
+general:      |||||||1476
             
 | = 200 Einträge            
 ```
@@ -108,7 +108,7 @@ Die Werte müssen mit umschließenden einfachen Anführungszeichen eingetragen w
 
 Die Daten umfassen fünf unterschiedliche Kategorien. Jedes Lemma kann in einer bestimmten Schreibweise in jeder Kategorie nur einmal vorkommen.
 
-Der Datenabgleich/Import verläuft nur erfolgreich, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Dieser Sachverhalt wird in einem der ersten Schritte der Pipeline überprüft. Dabei werden problematische Duplikate identifiziert und in einer Liste ausgegeben (Markdown-Format). Nach manueller Bereinigung der Duplikate kann die Konversion neu gestartet werden.
+Der Datenabgleich/Import verläuft nur erfolgreich bzw. die Datenkonversion wird erst angestoßen, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Dieser Sachverhalt wird in einem der ersten Schritte der Pipeline überprüft. Dabei werden problematische Duplikate identifiziert und in einer Liste ausgegeben (Markdown-Format). Nach manueller Bereinigung der Duplikate kann die Konversion neu gestartet werden.
 
 ##### PWL-IDs
 
@@ -126,4 +126,4 @@ Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 *Daten und README zuletzt generiert am 
-25. Juli 2019 mit XML Calabash 1.1.24 (for Saxon 9.8.0.12/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 9.8.0.12 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*
+30. September 2020 mit XML Calabash 1.1.30 (for Saxon 9.9.1.5/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 9.9.1.5 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*

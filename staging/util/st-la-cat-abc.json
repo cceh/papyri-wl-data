@@ -11,8 +11,8 @@
         "children" : [{"name": "A","count":11},{"name": "B","count":8},{"name": "C","count":9},{"name": "D","count":1},{"name": "E","count":1},{"name": "G","count":1},{"name": "H","count":2},{"name": "I","count":3},{"name": "L","count":3},{"name": "M","count":10},{"name": "O","count":4},{"name": "P","count":4},{"name": "R","count":1},{"name": "S","count":2},{"name": "T","count":3},{"name": "U","count":1},{"name": "V","count":3}]
         },{
         "name" : "Götter, Heiligtümer, Feste",
-        "children" : [{"name": "C","count":1},{"name": "F","count":1},{"name": "I","count":3},{"name": "M","count":1},{"name": "P","count":2},{"name": "S","count":1},{"name": "V","count":1}]
+        "children" : [{"name": "C","count":1},{"name": "F","count":1},{"name": "I","count":3},{"name": "M","count":2},{"name": "P","count":2},{"name": "S","count":1},{"name": "V","count":1}]
         },{
         "name" : "Allgemeines Wörterverzeichnis",
-        "children" : [{"name": "A","count":136},{"name": "B","count":27},{"name": "C","count":220},{"name": "D","count":78},{"name": "E","count":66},{"name": "F","count":55},{"name": "G","count":12},{"name": "H","count":28},{"name": "I","count":77},{"name": "K","count":4},{"name": "L","count":61},{"name": "M","count":89},{"name": "N","count":39},{"name": "O","count":42},{"name": "P","count":145},{"name": "Q","count":30},{"name": "R","count":47},{"name": "S","count":139},{"name": "T","count":68},{"name": "U","count":21},{"name": "V","count":65},{"name": "Z","count":1},{"name": "]","count":11}]
+        "children" : [{"name": "A","count":137},{"name": "B","count":29},{"name": "C","count":222},{"name": "D","count":79},{"name": "E","count":66},{"name": "F","count":55},{"name": "G","count":12},{"name": "H","count":28},{"name": "I","count":77},{"name": "K","count":4},{"name": "L","count":62},{"name": "M","count":90},{"name": "N","count":39},{"name": "O","count":43},{"name": "P","count":147},{"name": "Q","count":30},{"name": "R","count":48},{"name": "S","count":140},{"name": "T","count":69},{"name": "U","count":21},{"name": "V","count":66},{"name": "Z","count":1},{"name": "]","count":11}]
         }]}
