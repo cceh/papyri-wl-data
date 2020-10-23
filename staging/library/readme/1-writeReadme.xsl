@@ -29,7 +29,7 @@ Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com
             
 Papyri Wörterlisten – Data
 ===========================================================
-[![DOI](https://zenodo.org/badge/77647626.svg)](https://zenodo.org/badge/latestdoi/77647626)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.836158.svg)](https://doi.org/10.5281/zenodo.836158)
 
 Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten](https://papyri.uni-koeln.de/papyri-woerterlisten)).
 
@@ -43,7 +43,7 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
         <xsl:text>
 ### Datenumfang
 
-Die Wörterlisten umfassen  </xsl:text>
+Die Wörterlisten umfassen </xsl:text>
         <xsl:value-of select="//*:projectDesc//*:list[@subtype='total_grc_la']/*:item[1]/*:num"/>
         <xsl:text> Einträge, wovon </xsl:text>
         <xsl:value-of select="//*:projectDesc//*:list[@subtype='total_grc_la']/*:item[2]/*:num"/>
@@ -149,7 +149,7 @@ Die Werte müssen mit umschließenden einfachen Anführungszeichen eingetragen w
 
 Die Daten umfassen fünf unterschiedliche Kategorien. Jedes Lemma kann in einer bestimmten Schreibweise in jeder Kategorie nur einmal vorkommen.
 
-Der Datenabgleich/Import verläuft nur erfolgreich, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Dieser Sachverhalt wird in einem der ersten Schritte der Pipeline überprüft. Dabei werden problematische Duplikate identifiziert und in einer Liste ausgegeben (Markdown-Format). Nach manueller Bereinigung der Duplikate kann die Konversion neu gestartet werden.
+Der Datenabgleich/Import verläuft nur erfolgreich bzw. die Datenkonversion wird erst angestoßen, wenn es innerhalb der Kategorien keine zeichen-identischen Lemmata gibt. Dieser Sachverhalt wird in einem der ersten Schritte der Pipeline überprüft. Dabei werden problematische Duplikate identifiziert und in einer Liste ausgegeben (Markdown-Format). Nach manueller Bereinigung der Duplikate kann die Konversion neu gestartet werden.
 
 ##### PWL-IDs
 

@@ -226,7 +226,7 @@
    </item>
    <item>
       <label type="religion"/>
-      <num>10</num>
+      <num>11</num>
    </item>
    <item>
       <list type="index" subtype="religion">
@@ -244,7 +244,7 @@
          </item>
          <item>
             <label>M</label>
-            <num>1</num>
+            <num>2</num>
          </item>
          <item>
             <label>P</label>
@@ -262,13 +262,13 @@
    </item>
    <item>
       <label type="general"/>
-      <num>1461</num>
+      <num>1476</num>
    </item>
    <item>
       <list type="index" subtype="general">
          <item>
             <label>A</label>
-            <num>136</num>
+            <num>137</num>
          </item>
          <item>
             <label>]</label>
@@ -276,15 +276,15 @@
          </item>
          <item>
             <label>B</label>
-            <num>27</num>
+            <num>29</num>
          </item>
          <item>
             <label>C</label>
-            <num>220</num>
+            <num>222</num>
          </item>
          <item>
             <label>D</label>
-            <num>78</num>
+            <num>79</num>
          </item>
          <item>
             <label>E</label>
@@ -312,11 +312,11 @@
          </item>
          <item>
             <label>L</label>
-            <num>61</num>
+            <num>62</num>
          </item>
          <item>
             <label>M</label>
-            <num>89</num>
+            <num>90</num>
          </item>
          <item>
             <label>N</label>
@@ -324,11 +324,11 @@
          </item>
          <item>
             <label>O</label>
-            <num>42</num>
+            <num>43</num>
          </item>
          <item>
             <label>P</label>
-            <num>145</num>
+            <num>147</num>
          </item>
          <item>
             <label>Q</label>
@@ -336,15 +336,15 @@
          </item>
          <item>
             <label>R</label>
-            <num>47</num>
+            <num>48</num>
          </item>
          <item>
             <label>S</label>
-            <num>139</num>
+            <num>140</num>
          </item>
          <item>
             <label>T</label>
-            <num>68</num>
+            <num>69</num>
          </item>
          <item>
             <label>U</label>
@@ -352,7 +352,7 @@
          </item>
          <item>
             <label>V</label>
-            <num>65</num>
+            <num>66</num>
          </item>
          <item>
             <label>Z</label>
