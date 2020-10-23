@@ -5,7 +5,7 @@ Dieses Readme wird automatisch generiert; [README bearbeiten](https://github.com
             
 Papyri Wörterlisten – Data
 ===========================================================
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3359670.svg)](https://doi.org/10.5281/zenodo.836158)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.836158.svg)](https://doi.org/10.5281/zenodo.836158)
 
 Dieses Repositorium enthält die Ausgangsdaten der Papyri-Wörterlisten (vgl. [WL.pdf](http://www.zaw.uni-heidelberg.de/hps/pap/WL/WL.pdf) bzw. [WL.html](http://www.papy.uni-hd.de/WL/WL.html); Webanwendung verfügbar unter [https://papyri.uni-koeln.de/papyri-woerterlisten](https://papyri.uni-koeln.de/papyri-woerterlisten)).
 
