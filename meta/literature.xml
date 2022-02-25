@@ -136,6 +136,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2020</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_CPR_35" type="monograph">
+               <title type="short">CPR 35</title>
+               <title type="long">Les archives du conseil municipal d’Hermoupolis Magna, éditées par M. Drew-Bear avec la collaboration de R. Chausson et de H. Maehler (CPR XXXV), Berlin, Boston 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="b71893" type="monograph">
                <title type="short">Cuvigny, Myos Hormos</title>
                <title type="long">Hélène Cuvigny (Hrsg.), La Route de Myos Hormos. L’armée romaine dans le désert Oriental d’Egypte. Praesidia du désert de Bérénice. I. Volume 1; - Volume 2. (Fouilles de l’Institut français d’Archéologie orientale. 48.), Le Caire 2003</title>
@@ -233,6 +240,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_O_Bir_Shawish" type="monograph">
+               <title type="short">O.Bir Shawish</title>
+               <title type="long">Marek Dospĕl, Ostraka and Other Inscribed Material from Bīr Shawīsh, Small Oasis Excavation Seasons 2005 and 2007 (American Studies in Papyrology 54), Ann Arbor 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="b14684" type="monograph">
                <title type="short">O.Claud. 02</title>
                <title type="long">Jean Bingen, Adam Bülow-Jacobsen, Walter E.H. Cockle, Hélène Cuvigny, François Kayser et Wilfried Van Rengen, Mons Claudianus. Ostraca Graeca et Latina. II (O. Claud. 191 à 416). (Documents de fouilles. 32), Le Caire, Institut français d’Archéologie orientale, 1997</title>
@@ -299,7 +313,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_O_krok__02" type="monograph">
+            <bibl xml:id="ohne_Verweis_O_Krok__02" type="monograph">
                <title type="short">O.Krok. 02</title>
                <title type="long">Adam Bülow-Jacobsen, Jean-Luc Fournet, Bérangère Redon, Ostraca de Krokodilô II, Institut Francais D’Archeologie orientale (Fouilles de l’Institut francais d’archeologie orientale, 81), 2019</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -460,11 +474,25 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="b95884" type="monograph">
+               <title type="short">P.Cairo Mich. 03</title>
+               <title type="long">Mohamed Gaber El-Maghrabi and Cornelia Römer. More Texts from the “Archive” of Socrates: Papyri from House 17, Level B, and Other Locations in Karanis (P. Cair. Mich. III), Berlin, Boston 2021</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="b95276" type="monograph">
                <title type="short">P.Cairo Preis.²</title>
                <title type="long">R. P. Salomons, P.Cairo Preis.2 (Papyrologica Bruxellensia 35), Bruxelles 2014</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Christodote" type="journal">
+               <title type="short">P.Christodote</title>
+               <title type="long">T.M. Hickey, James G. Keenan, The Property of a Lady (P.Christodote), Papyrologica Florentina XLVIII, Firenze 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
             </bibl>
             <bibl xml:id="b20696" type="monograph">
                <title type="short">P.Clackson</title>
@@ -587,6 +615,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Griss__02" type="monograph">
+               <title type="short">P.Giss. 02</title>
+               <title type="long">Marcin Kotyl, A Notebook Roll and a Fiscal Codex from the Giessen Papyrus Collection (P.Giss. II), Berlin, Boston 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="b14830" type="monograph">
                <title type="short">P.Graux 03</title>
                <title type="long">Sophie Kambitsis, Papyrus Graux III. P. Graux 30. (École pratique des hautes Études. IVe Section, Sciences historiques et philologiques. III. Hautes Études du monde gréco-romain. 23), Genève, Droz, 1997</title>
@@ -636,6 +671,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Heid__11" type="monograph">
+               <title type="short">P.Heid. 11</title>
+               <title type="long">Lajos Berkes, Vom byzantinischen zum arabischen Ägypten. Neue dokumentarische Papyri aus dem 5. bis 8. Jahrhundert (P.Heid. XI), Heidelberg 2021</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="b80627" type="monograph">
                <title type="short">P.Herakl. Bank</title>
                <title type="long">Klaus Maresch, Ptolemäische Bankpapyri aus dem Herakleopolites (P.Herakl. Bank). Papyri der Sammlungen in Heidelberg, Köln und Wien. (Papyrologica Coloniensia XXXV), Paderborn u.a., F. Schöningh, 2012</title>
@@ -653,6 +695,13 @@
                <title type="long">Georges Nachtergael, La collection Marcel Hombert, Tome II: Nouveaux documents grecs d’Égypte et addenda au tome I. (Papyrologica Bruxellensia 32), Bruxelles, Fondation Égyptologique Reine Élisabeth, 2003</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Hoogendijk" type="monograph">
+               <title type="short">P.Hoogendijk</title>
+               <title type="long">Guus A.J.C. von Loon, Joanne Vera Stolk (edd.), Text Editions of (Abnormal) Hieratic, Demotic, Greek, Latin and Coptic Papyri and Ostraca. Some people love their friends even when they are far away: Festschrift in Honour of Francisca A.J. Hoogendijk (Pap.Lugd.Bat. 37), Leiden 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
             </bibl>
             <bibl xml:id="b17907" type="monograph">
                 <title type="short">P.Horak</title><!-- auch: http://papyri.info/biblio/18050 -->
@@ -740,6 +789,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2018</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Köln_17" type="monograph">
+               <title type="short">P.Köln 17</title>
+               <title type="long">Kölner Papyri, Band 17, bearbeitet von Charikleia Armoni, Thomas Backhuys, Sandra Lippert, Edward O.D. Love, Eleni Skarsouli, Natalia Vega Navarrete, Riccardo Vecchiato mit Beiträgen von# Valeria Fontanella und Severin Hof (Papyrologica Coloniensia VII/17), Paderborn 2021</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="b20743" type="monograph">
                <title type="short">P.Kramer</title>
                <title type="long">Raimar Eberhard u.a. (Hgg.), „… vor dem Papyrus sind alle gleich!“. Papyrologische Beiträge zu Ehren von Bärbel Kramer (P.Kramer). (APF, Beiheft 27), Berlin - New York, Walter de Gruyter 2009</title>
@@ -806,6 +862,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2020</date>
+            </bibl>
+            <bibl xml:id="b95728" type="monograph">
+               <title type="short">P.Messeri</title>
+               <title type="long">E me l’ovrare appaga, Papiri e saggi in onore di Gabriella Messeri (P.Messeri), edited by Guido Bastianini, Francesca Maltomini, Daniela Manetti, Diletta Minutoli, Rosario Pintaudi, Firenze 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
             </bibl>
             <bibl xml:id="b14538" type="monograph">
                <title type="short">P.Mich. 18</title>
@@ -1015,6 +1078,20 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2020</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxy__85" type="monograph"><!-- kein Treffer -->
+               <title type="short">P.Oxy. 85</title>
+               <title type="long">Nikolaos Gonis, Peter J. Parsons, W.B. Henry, The Oxyrhynchus Papyri. Volume LXXXV. Egypt Exploration Society. Graeco-Roman Memoirs), London, Egypt Exploration Society, 2020</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxy__86" type="monograph"><!-- kein Treffer -->
+               <title type="short">P.Oxy. 86</title>
+               <title type="long">Amin Benaissa, Michael Zellmann-Rohrer, The Oxyrhynchus Papyri. Volume LXXXVI (Egypt Exploration Society. Graeco-Roman Memoirs), London, Egypt Exploration Society, 2021</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="b14666" type="monograph">
                <title type="short">P.Oxy. 984</title>
                <title type="long">Roger S. Bagnall, Bruce W. Frier and Ian C. Rutherford, The Census Register P. Oxy. 984: The Reverse of Pindar’s Paeans. (Papyrologica Bruxellensia 29), Bruxelles, Fondation Égyptologique Reine Élisabeth, 1997</title>
@@ -1205,6 +1282,13 @@
                <title type="long">Paul Schubert, A Yale Papyrus (PYale III 137) in the Beinecke Rare Book and Manuscript Library III. (American Studies in Papyrology 41), Oakville, Connecticut, American Society of Papyrologists, 2001</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Yale_04" type="monograph">
+               <title type="short">P.Yale 04</title>
+               <title type="long">H. Cuvigny, R. Duttenhöfer, A.E. Hanson u.a.,Yale Papyri in the Beinecke Rare Book and Manuscript Library IV (American Studies in Papyrology 55), Ann Arbor 2021</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
             </bibl>
             <bibl xml:id="b20297" type="monograph">
                <title type="short">PSI 15</title>
@@ -1470,6 +1554,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2020</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_An_Pap__32" type="journal">
+               <title type="short">An.Pap. 32</title>
+               <title type="long">Analecta Papyrologica 32 (2020)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
+            </bibl>
             <bibl xml:id="ohne_Verweis_Antinoupolis__03" type="journal">
                <title type="short">Antinoupolis 03</title>
                <title type="long">Antinoupolis III a cura di Rosario Pintaudi (Edizioni dell’Istituto Papirologico «G. Vitelli» 7), Firenze, Firenze University Press, 2017</title>
@@ -1500,6 +1591,13 @@
                <title type="long">Chronique d’Égypte 84 (2009) 222-224</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_C_Pap_Gr_Clergé_04" type="monograph">
+               <title type="short">C.Pap.Gr.Clergé 04</title>
+               <title type="long">Carmen Messerer, Corpus des papyrus grecs sur les relations administratives entre le clergé égyptien et les autorités romaines, Vol. 4 (Pap. Col. XLI, 4), Paderborn 2022 (Index zu Vol. 1–4)</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2022</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_EVO_32" type="journal">
                <title type="short">EVO 32</title>
