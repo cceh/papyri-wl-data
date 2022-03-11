@@ -94,11 +94,16 @@
     <p:choose>
         <!-- case: duplicates in 'current' -->
         <p:when test="*:current/*:orth">
-            <p:xslt>
+            <p:xslt name="duplicates">
                 <p:input port="stylesheet">
                     <p:document href="library/transformation/0-check-current-data-for-duplicates-md.xsl"/>
                 </p:input>
             </p:xslt>
+            <p:error name="error-duplicates" code="duplicates">
+                <p:input port="source">
+                    <p:pipe port="result" step="duplicates"/>
+                </p:input>
+            </p:error>
         </p:when>
         <!-- case: no duplicates in 'current' -->
         <p:otherwise>
@@ -117,14 +122,24 @@
         </p:otherwise>
     </p:choose>
     
+    <p:identity name="wrapped-transformation-result">
+        <p:input port="source"/>
+    </p:identity>
+    <p:store>
+        <p:with-option name="href" select="'debug/wrapped-transformation-result.xml'"/>
+        <p:with-option name="indent" select="'true'"/>
+    </p:store>
+    <p:identity>
+        <p:input port="source">
+            <p:pipe port="result" step="wrapped-transformation-result"/>
+        </p:input>
+    </p:identity>
+    
     <!-- generation of import reporting -->
     <p:documentation>
         <h2>Import reporting</h2>
         <p>This step generates a report in markdown format showing the proportion between previously existing and newly added entries.</p>
     </p:documentation>
-    <p:identity name="wrapped-transformation-result">
-        <p:input port="source"/>
-    </p:identity>
     <pwl:log>
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
     </pwl:log>
