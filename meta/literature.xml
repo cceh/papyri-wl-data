@@ -387,7 +387,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_BandiLit" type="monograph">
+            <bibl xml:id="b95861" type="monograph">
                <title type="short">P.BandiLit.</title>
                <title type="long">Marco Stroppa, I bandi liturgici nell’Egitto romano (Edizioni dell’Istituto Papirologico «G. Vitelli» 6), Firenze, Firenze University Press, 2017</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -856,7 +856,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Math_" type="monograph">
+            <bibl xml:id="b95870" type="monograph">
                <title type="short">P.Math.</title>
                <title type="long">Roger S. Bagnall and Alexander Jones, Mathematics, Metrology, and Model Contracts: A Codex From Late Antique Business Education (P.Math.), Institute for the Study of the Ancient World, New York University Press 2019</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1052,7 +1052,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Oxy__81" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b95756" type="monograph">
                <title type="short">P.Oxy. 81</title>
                <title type="long">J. H. Brusuelas u.a., The Oxyrhynchus Papyri. Volume LXXXI (Nos. 5258-5289). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 102), London, Egypt Exploration Society, 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
