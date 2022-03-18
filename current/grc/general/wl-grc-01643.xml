@@ -10,15 +10,15 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v'24">
-               <name>24. Version</name>
-               <date>07.07.2020'</date>
+            <edition n="v25">
+               <name>25. Version</name>
+               <date>14.02.2022</date>
             </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2020-09-30">30. September 2020</date>
+            <date when="2022-03-17">17. März 2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -27,6 +27,10 @@
                </licence>
             </availability>
          </publicationStmt>
+         <notesStmt>
+            <note>Verwandte Lemmata</note>
+            <relatedItem corresp="ἀρχιατρός" target="#wl-grc-01630"/>
+         </notesStmt>
          <sourceDesc>
             <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten">https://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
             <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
@@ -41,6 +45,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2020-09-30" who="'https://github.com/creativeDev6'">'24. Fassung vom 07.07.2020: Anpassung des bestehenden Eintrags (XProc-Workflow)'</change>
          <change when="2019-07-25" who="https://github.com/pdaengeli">23. Fassung vom 21.07.2019: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2018-06-19" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
@@ -72,7 +77,8 @@
                   </form>
                   <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
                      <date type="creation" notAfter="2016">vor 2016</date>.</note>
-                  <note type="ref">s. auch ἀρχιατρός</note>
+                  <note type="ref">s. auch <ref target="#wl-grc-01630">ἀρχιατρός</ref>
+                  </note>
                   <idno type="fp7">1770</idno>
                </form>
                <!--Belegstellen-->

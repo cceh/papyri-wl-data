@@ -1,0 +1,74 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text" xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-33134">αὔτοπτος</ref>
+            </title>
+            <respStmt>
+               <resp>kompiliert von</resp>
+               <name>Dieter Hagedorn</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="v25">
+               <name>25. Version</name>
+               <date>14.02.2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <pubPlace>Köln</pubPlace>
+            <date when="2022-03-17">17. März 2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"
+                        notBefore="2017-01-01">
+                  <p>Dieses Dokument wurde unter der <ref type="license" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported-Lizenz (CC BY 4.0)</ref> veröffentlicht.</p>
+                  <p>Die Lizenz wurde per 1. Januar 2017 hinzugefügt.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Die in dieser Datei aufgezeichneten Daten entstammen Hypercard- und Filemakerdatenbanken von Prof. D. Hagedorn. Bis 2016 wurde aus diesen Daten periodisch eine Vorgängerpublikation als PDF-Datei erzeugt. Seit 2017 werden die Daten unter <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten">https://papyri.uni-koeln.de/papyri-woerterlisten"</ref> bereitgestellt.</p>
+            <p>Für jedes Lemma sind jene papyrologischen Werke aufgeführt, in denen das jeweilige Lemma vorkommt. Eine Gesamtliste aller berücksichtigten Werke ist unter <ref target="/quellen">Quellen</ref> verfügbar.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
+         <change when="2022-02-14">Aufzeichnung des Vorkommens in: CPR 35</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="general">
+            <entry type="main" xml:id="wl-grc-33134">
+               <form type="lemma">
+                  <orth xml:lang="grc" type="original" extent="full">αὔτοπτος</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full">αυτοπτος</orth>
+                  <form type="derivative" value="reverse">
+                     <orth xml:lang="grc" type="original" extent="full">ςοτποτὔα</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full">ςοτποτυα</orth>
+                  </form>
+                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-03-17">17. März 2022</date>.</note>
+                  <idno type="fp7">20395</idno>
+               </form>
+               <!--Belegstellen-->
+               <xr>
+                  <list>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_CPR_35">CPR 35</ref>
+                     </item>
+                  </list>
+               </xr>
+            </entry>
+         </div>
+      </body>
+   </text>
+</TEI>
