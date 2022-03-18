@@ -76,14 +76,14 @@
       </item>
       <item id="[">
          <name>[</name>
-         <amount>6</amount>
+         <amount>7</amount>
          <item id="[ ">
             <name>[ </name>
             <amount>1</amount>
          </item>
          <item id="[α">
             <name>[α</name>
-            <amount>1</amount>
+            <amount>2</amount>
          </item>
          <item id="[μ">
             <name>[μ</name>
@@ -92,10 +92,10 @@
       </item>
       <item id="]">
          <name>]</name>
-         <amount>116</amount>
+         <amount>130</amount>
          <item id="] ">
             <name>] </name>
-            <amount>5</amount>
+            <amount>8</amount>
          </item>
          <item id="].">
             <name>].</name>
@@ -103,7 +103,7 @@
          </item>
          <item id="]α">
             <name>]α</name>
-            <amount>22</amount>
+            <amount>23</amount>
          </item>
          <item id="]β">
             <name>]β</name>
@@ -111,7 +111,7 @@
          </item>
          <item id="]γ">
             <name>]γ</name>
-            <amount>2</amount>
+            <amount>3</amount>
          </item>
          <item id="]δ">
             <name>]δ</name>
@@ -131,7 +131,7 @@
          </item>
          <item id="]θ">
             <name>]θ</name>
-            <amount>2</amount>
+            <amount>3</amount>
          </item>
          <item id="]ι">
             <name>]ι</name>
@@ -143,15 +143,15 @@
          </item>
          <item id="]λ">
             <name>]λ</name>
-            <amount>4</amount>
+            <amount>5</amount>
          </item>
          <item id="]μ">
             <name>]μ</name>
-            <amount>4</amount>
+            <amount>5</amount>
          </item>
          <item id="]ν">
             <name>]ν</name>
-            <amount>4</amount>
+            <amount>6</amount>
          </item>
          <item id="]ο">
             <name>]ο</name>
@@ -163,11 +163,11 @@
          </item>
          <item id="]ρ">
             <name>]ρ</name>
-            <amount>5</amount>
+            <amount>6</amount>
          </item>
          <item id="]σ">
             <name>]σ</name>
-            <amount>5</amount>
+            <amount>6</amount>
          </item>
          <item id="]τ">
             <name>]τ</name>
@@ -179,7 +179,7 @@
          </item>
          <item id="]φ">
             <name>]φ</name>
-            <amount>6</amount>
+            <amount>7</amount>
          </item>
          <item id="]χ">
             <name>]χ</name>
@@ -187,7 +187,7 @@
          </item>
          <item id="]ω">
             <name>]ω</name>
-            <amount>2</amount>
+            <amount>3</amount>
          </item>
       </item>
       <item id="¥">
@@ -204,7 +204,7 @@
       </item>
       <item id="Α">
          <name>Α</name>
-         <amount>4851</amount>
+         <amount>5040</amount>
          <item id="Α ">
             <name>Α </name>
             <amount>5</amount>
@@ -227,19 +227,19 @@
          </item>
          <item id="Αβ">
             <name>Αβ</name>
-            <amount>210</amount>
+            <amount>221</amount>
          </item>
          <item id="Αγ">
             <name>Αγ</name>
-            <amount>255</amount>
+            <amount>262</amount>
          </item>
          <item id="Αδ">
             <name>Αδ</name>
-            <amount>94</amount>
+            <amount>97</amount>
          </item>
          <item id="Αε">
             <name>Αε</name>
-            <amount>20</amount>
+            <amount>21</amount>
          </item>
          <item id="Αζ">
             <name>Αζ</name>
@@ -251,71 +251,71 @@
          </item>
          <item id="Αθ">
             <name>Αθ</name>
-            <amount>96</amount>
+            <amount>102</amount>
          </item>
          <item id="Αι">
             <name>Αι</name>
-            <amount>183</amount>
+            <amount>188</amount>
          </item>
          <item id="Ακ">
             <name>Ακ</name>
-            <amount>216</amount>
+            <amount>228</amount>
          </item>
          <item id="Αλ">
             <name>Αλ</name>
-            <amount>335</amount>
+            <amount>338</amount>
          </item>
          <item id="Αμ">
             <name>Αμ</name>
-            <amount>370</amount>
+            <amount>386</amount>
          </item>
          <item id="Αν">
             <name>Αν</name>
-            <amount>814</amount>
+            <amount>850</amount>
          </item>
          <item id="Αξ">
             <name>Αξ</name>
-            <amount>16</amount>
+            <amount>17</amount>
          </item>
          <item id="Αο">
             <name>Αο</name>
-            <amount>17</amount>
+            <amount>19</amount>
          </item>
          <item id="Απ">
             <name>Απ</name>
-            <amount>673</amount>
+            <amount>706</amount>
          </item>
          <item id="Αρ">
             <name>Αρ</name>
-            <amount>810</amount>
+            <amount>836</amount>
          </item>
          <item id="Ας">
             <name>Ας</name>
-            <amount>246</amount>
+            <amount>258</amount>
          </item>
          <item id="Ατ">
             <name>Ατ</name>
-            <amount>104</amount>
+            <amount>106</amount>
          </item>
          <item id="Αυ">
             <name>Αυ</name>
-            <amount>150</amount>
+            <amount>156</amount>
          </item>
          <item id="Αφ">
             <name>Αφ</name>
-            <amount>130</amount>
+            <amount>132</amount>
          </item>
          <item id="Αχ">
             <name>Αχ</name>
-            <amount>58</amount>
+            <amount>60</amount>
          </item>
          <item id="Αψ">
             <name>Αψ</name>
-            <amount>11</amount>
+            <amount>13</amount>
          </item>
          <item id="Αω">
             <name>Αω</name>
-            <amount>4</amount>
+            <amount>5</amount>
          </item>
          <item id="Αϭ">
             <name>Αϭ</name>
@@ -324,10 +324,10 @@
       </item>
       <item id="Β">
          <name>Β</name>
-         <amount>763</amount>
+         <amount>800</amount>
          <item id="Β ">
             <name>Β </name>
-            <amount>1</amount>
+            <amount>2</amount>
          </item>
          <item id="Β.">
             <name>Β.</name>
@@ -335,7 +335,7 @@
          </item>
          <item id="Βα">
             <name>Βα</name>
-            <amount>264</amount>
+            <amount>284</amount>
          </item>
          <item id="Βδ">
             <name>Βδ</name>
@@ -343,11 +343,11 @@
          </item>
          <item id="Βε">
             <name>Βε</name>
-            <amount>99</amount>
+            <amount>105</amount>
          </item>
          <item id="Βη">
             <name>Βη</name>
-            <amount>50</amount>
+            <amount>53</amount>
          </item>
          <item id="Βι">
             <name>Βι</name>
@@ -359,39 +359,39 @@
          </item>
          <item id="Βο">
             <name>Βο</name>
-            <amount>157</amount>
+            <amount>159</amount>
          </item>
          <item id="Βρ">
             <name>Βρ</name>
-            <amount>41</amount>
+            <amount>43</amount>
          </item>
          <item id="Βυ">
             <name>Βυ</name>
-            <amount>25</amount>
+            <amount>26</amount>
          </item>
          <item id="Βω">
             <name>Βω</name>
-            <amount>19</amount>
+            <amount>21</amount>
          </item>
       </item>
       <item id="Γ">
          <name>Γ</name>
-         <amount>460</amount>
+         <amount>475</amount>
          <item id="Γ ">
             <name>Γ </name>
             <amount>3</amount>
          </item>
          <item id="Γα">
             <name>Γα</name>
-            <amount>92</amount>
+            <amount>96</amount>
          </item>
          <item id="Γε">
             <name>Γε</name>
-            <amount>146</amount>
+            <amount>149</amount>
          </item>
          <item id="Γη">
             <name>Γη</name>
-            <amount>12</amount>
+            <amount>13</amount>
          </item>
          <item id="Γι">
             <name>Γι</name>
@@ -399,7 +399,7 @@
          </item>
          <item id="Γλ">
             <name>Γλ</name>
-            <amount>38</amount>
+            <amount>40</amount>
          </item>
          <item id="Γν">
             <name>Γν</name>
@@ -407,15 +407,15 @@
          </item>
          <item id="Γο">
             <name>Γο</name>
-            <amount>47</amount>
+            <amount>48</amount>
          </item>
          <item id="Γρ">
             <name>Γρ</name>
-            <amount>48</amount>
+            <amount>50</amount>
          </item>
          <item id="Γυ">
             <name>Γυ</name>
-            <amount>38</amount>
+            <amount>40</amount>
          </item>
          <item id="Γω">
             <name>Γω</name>
@@ -424,42 +424,42 @@
       </item>
       <item id="Δ">
          <name>Δ</name>
-         <amount>1301</amount>
+         <amount>1334</amount>
          <item id="Δ ">
             <name>Δ </name>
             <amount>3</amount>
          </item>
          <item id="Δα">
             <name>Δα</name>
-            <amount>129</amount>
+            <amount>130</amount>
          </item>
          <item id="Δε">
             <name>Δε</name>
-            <amount>177</amount>
+            <amount>178</amount>
          </item>
          <item id="Δη">
             <name>Δη</name>
-            <amount>91</amount>
+            <amount>95</amount>
          </item>
          <item id="Δι">
             <name>Δι</name>
-            <amount>650</amount>
+            <amount>669</amount>
          </item>
          <item id="Δο">
             <name>Δο</name>
-            <amount>86</amount>
+            <amount>89</amount>
          </item>
          <item id="Δρ">
             <name>Δρ</name>
-            <amount>58</amount>
+            <amount>61</amount>
          </item>
          <item id="Δυ">
             <name>Δυ</name>
-            <amount>40</amount>
+            <amount>41</amount>
          </item>
          <item id="Δω">
             <name>Δω</name>
-            <amount>66</amount>
+            <amount>67</amount>
          </item>
          <item id="Δ‹">
             <name>Δ‹</name>
@@ -468,7 +468,7 @@
       </item>
       <item id="Ε">
          <name>Ε</name>
-         <amount>2823</amount>
+         <amount>2913</amount>
          <item id="Ε ">
             <name>Ε </name>
             <amount>4</amount>
@@ -491,11 +491,11 @@
          </item>
          <item id="Εβ">
             <name>Εβ</name>
-            <amount>18</amount>
+            <amount>19</amount>
          </item>
          <item id="Εγ">
             <name>Εγ</name>
-            <amount>105</amount>
+            <amount>108</amount>
          </item>
          <item id="Εδ">
             <name>Εδ</name>
@@ -511,27 +511,27 @@
          </item>
          <item id="Ει">
             <name>Ει</name>
-            <amount>220</amount>
+            <amount>223</amount>
          </item>
          <item id="Εκ">
             <name>Εκ</name>
-            <amount>226</amount>
+            <amount>236</amount>
          </item>
          <item id="Ελ">
             <name>Ελ</name>
-            <amount>182</amount>
+            <amount>188</amount>
          </item>
          <item id="Εμ">
             <name>Εμ</name>
-            <amount>108</amount>
+            <amount>116</amount>
          </item>
          <item id="Εν">
             <name>Εν</name>
-            <amount>236</amount>
+            <amount>247</amount>
          </item>
          <item id="Εξ">
             <name>Εξ</name>
-            <amount>179</amount>
+            <amount>185</amount>
          </item>
          <item id="Εο">
             <name>Εο</name>
@@ -539,31 +539,31 @@
          </item>
          <item id="Επ">
             <name>Επ</name>
-            <amount>578</amount>
+            <amount>595</amount>
          </item>
          <item id="Ερ">
             <name>Ερ</name>
-            <amount>313</amount>
+            <amount>323</amount>
          </item>
          <item id="Εσ">
             <name>Εσ</name>
-            <amount>61</amount>
+            <amount>62</amount>
          </item>
          <item id="Ετ">
             <name>Ετ</name>
-            <amount>29</amount>
+            <amount>30</amount>
          </item>
          <item id="Ευ">
             <name>Ευ</name>
-            <amount>439</amount>
+            <amount>449</amount>
          </item>
          <item id="Εφ">
             <name>Εφ</name>
-            <amount>54</amount>
+            <amount>56</amount>
          </item>
          <item id="Εχ">
             <name>Εχ</name>
-            <amount>16</amount>
+            <amount>17</amount>
          </item>
          <item id="Εψ">
             <name>Εψ</name>
@@ -576,14 +576,14 @@
       </item>
       <item id="Ζ">
          <name>Ζ</name>
-         <amount>212</amount>
+         <amount>219</amount>
          <item id="Ζ ">
             <name>Ζ </name>
             <amount>1</amount>
          </item>
          <item id="Ζα">
             <name>Ζα</name>
-            <amount>33</amount>
+            <amount>35</amount>
          </item>
          <item id="Ζβ">
             <name>Ζβ</name>
@@ -595,7 +595,7 @@
          </item>
          <item id="Ζη">
             <name>Ζη</name>
-            <amount>31</amount>
+            <amount>32</amount>
          </item>
          <item id="Ζι">
             <name>Ζι</name>
@@ -603,7 +603,7 @@
          </item>
          <item id="Ζμ">
             <name>Ζμ</name>
-            <amount>27</amount>
+            <amount>28</amount>
          </item>
          <item id="Ζν">
             <name>Ζν</name>
@@ -619,12 +619,12 @@
          </item>
          <item id="Ζω">
             <name>Ζω</name>
-            <amount>42</amount>
+            <amount>45</amount>
          </item>
       </item>
       <item id="Η">
          <name>Η</name>
-         <amount>391</amount>
+         <amount>400</amount>
          <item id="Η">
             <name>Η</name>
             <amount>2</amount>
@@ -639,7 +639,7 @@
          </item>
          <item id="Ηγ">
             <name>Ηγ</name>
-            <amount>23</amount>
+            <amount>24</amount>
          </item>
          <item id="Ηδ">
             <name>Ηδ</name>
@@ -663,7 +663,7 @@
          </item>
          <item id="Ηλ">
             <name>Ηλ</name>
-            <amount>47</amount>
+            <amount>49</amount>
          </item>
          <item id="Ημ">
             <name>Ημ</name>
@@ -683,11 +683,11 @@
          </item>
          <item id="Ηρ">
             <name>Ηρ</name>
-            <amount>158</amount>
+            <amount>161</amount>
          </item>
          <item id="Ησ">
             <name>Ησ</name>
-            <amount>15</amount>
+            <amount>17</amount>
          </item>
          <item id="Ητ">
             <name>Ητ</name>
@@ -695,7 +695,7 @@
          </item>
          <item id="Ηυ">
             <name>Ηυ</name>
-            <amount>1</amount>
+            <amount>2</amount>
          </item>
          <item id="Ηφ">
             <name>Ηφ</name>
@@ -708,7 +708,7 @@
       </item>
       <item id="Θ">
          <name>Θ</name>
-         <amount>867</amount>
+         <amount>912</amount>
          <item id="Θ ">
             <name>Θ </name>
             <amount>2</amount>
@@ -719,7 +719,7 @@
          </item>
          <item id="Θα">
             <name>Θα</name>
-            <amount>166</amount>
+            <amount>173</amount>
          </item>
          <item id="Θβ">
             <name>Θβ</name>
@@ -727,7 +727,7 @@
          </item>
          <item id="Θε">
             <name>Θε</name>
-            <amount>349</amount>
+            <amount>370</amount>
          </item>
          <item id="Θζ">
             <name>Θζ</name>
@@ -735,11 +735,11 @@
          </item>
          <item id="Θη">
             <name>Θη</name>
-            <amount>48</amount>
+            <amount>52</amount>
          </item>
          <item id="Θι">
             <name>Θι</name>
-            <amount>53</amount>
+            <amount>56</amount>
          </item>
          <item id="Θλ">
             <name>Θλ</name>
@@ -747,19 +747,19 @@
          </item>
          <item id="Θμ">
             <name>Θμ</name>
-            <amount>44</amount>
+            <amount>45</amount>
          </item>
          <item id="Θν">
             <name>Θν</name>
-            <amount>7</amount>
+            <amount>8</amount>
          </item>
          <item id="Θο">
             <name>Θο</name>
-            <amount>64</amount>
+            <amount>71</amount>
          </item>
          <item id="Θρ">
             <name>Θρ</name>
-            <amount>45</amount>
+            <amount>46</amount>
          </item>
          <item id="Θυ">
             <name>Θυ</name>
@@ -780,7 +780,7 @@
       </item>
       <item id="Ι">
          <name>Ι</name>
-         <amount>781</amount>
+         <amount>815</amount>
          <item id="Ι ">
             <name>Ι </name>
             <amount>2</amount>
@@ -791,7 +791,7 @@
          </item>
          <item id="Ια">
             <name>Ια</name>
-            <amount>88</amount>
+            <amount>92</amount>
          </item>
          <item id="Ιβ">
             <name>Ιβ</name>
@@ -803,11 +803,11 @@
          </item>
          <item id="Ιδ">
             <name>Ιδ</name>
-            <amount>34</amount>
+            <amount>35</amount>
          </item>
          <item id="Ιε">
             <name>Ιε</name>
-            <amount>115</amount>
+            <amount>126</amount>
          </item>
          <item id="Ιζ">
             <name>Ιζ</name>
@@ -831,7 +831,7 @@
          </item>
          <item id="Ιμ">
             <name>Ιμ</name>
-            <amount>23</amount>
+            <amount>25</amount>
          </item>
          <item id="Ιν">
             <name>Ιν</name>
@@ -843,11 +843,11 @@
          </item>
          <item id="Ιο">
             <name>Ιο</name>
-            <amount>75</amount>
+            <amount>76</amount>
          </item>
          <item id="Ιπ">
             <name>Ιπ</name>
-            <amount>41</amount>
+            <amount>43</amount>
          </item>
          <item id="Ιρ">
             <name>Ιρ</name>
@@ -855,15 +855,15 @@
          </item>
          <item id="Ισ">
             <name>Ισ</name>
-            <amount>158</amount>
+            <amount>166</amount>
          </item>
          <item id="Ιτ">
             <name>Ιτ</name>
-            <amount>13</amount>
+            <amount>14</amount>
          </item>
          <item id="Ιφ">
             <name>Ιφ</name>
-            <amount>2</amount>
+            <amount>3</amount>
          </item>
          <item id="Ιχ">
             <name>Ιχ</name>
@@ -875,12 +875,12 @@
          </item>
          <item id="Ιω">
             <name>Ιω</name>
-            <amount>50</amount>
+            <amount>53</amount>
          </item>
       </item>
       <item id="Κ">
          <name>Κ</name>
-         <amount>2800</amount>
+         <amount>2884</amount>
          <item id="Κ ">
             <name>Κ </name>
             <amount>2</amount>
@@ -899,7 +899,7 @@
          </item>
          <item id="Κα">
             <name>Κα</name>
-            <amount>1123</amount>
+            <amount>1157</amount>
          </item>
          <item id="Κβ">
             <name>Κβ</name>
@@ -907,7 +907,7 @@
          </item>
          <item id="Κε">
             <name>Κε</name>
-            <amount>258</amount>
+            <amount>262</amount>
          </item>
          <item id="Κη">
             <name>Κη</name>
@@ -919,7 +919,7 @@
          </item>
          <item id="Κι">
             <name>Κι</name>
-            <amount>99</amount>
+            <amount>104</amount>
          </item>
          <item id="Κλ">
             <name>Κλ</name>
@@ -935,11 +935,11 @@
          </item>
          <item id="Κο">
             <name>Κο</name>
-            <amount>600</amount>
+            <amount>625</amount>
          </item>
          <item id="Κρ">
             <name>Κρ</name>
-            <amount>180</amount>
+            <amount>185</amount>
          </item>
          <item id="Κτ">
             <name>Κτ</name>
@@ -947,16 +947,16 @@
          </item>
          <item id="Κυ">
             <name>Κυ</name>
-            <amount>185</amount>
+            <amount>190</amount>
          </item>
          <item id="Κω">
             <name>Κω</name>
-            <amount>98</amount>
+            <amount>104</amount>
          </item>
       </item>
       <item id="Λ">
          <name>Λ</name>
-         <amount>917</amount>
+         <amount>948</amount>
          <item id="Λ(">
             <name>Λ(</name>
             <amount>2</amount>
@@ -967,27 +967,27 @@
          </item>
          <item id="Λα">
             <name>Λα</name>
-            <amount>230</amount>
+            <amount>240</amount>
          </item>
          <item id="Λε">
             <name>Λε</name>
-            <amount>179</amount>
+            <amount>185</amount>
          </item>
          <item id="Λη">
             <name>Λη</name>
-            <amount>51</amount>
+            <amount>54</amount>
          </item>
          <item id="Λι">
             <name>Λι</name>
-            <amount>141</amount>
+            <amount>146</amount>
          </item>
          <item id="Λο">
             <name>Λο</name>
-            <amount>192</amount>
+            <amount>196</amount>
          </item>
          <item id="Λυ">
             <name>Λυ</name>
-            <amount>86</amount>
+            <amount>89</amount>
          </item>
          <item id="Λω">
             <name>Λω</name>
@@ -996,7 +996,7 @@
       </item>
       <item id="Μ">
          <name>Μ</name>
-         <amount>1609</amount>
+         <amount>1667</amount>
          <item id="Μ ">
             <name>Μ </name>
             <amount>1</amount>
@@ -1011,19 +1011,19 @@
          </item>
          <item id="Μα">
             <name>Μα</name>
-            <amount>535</amount>
+            <amount>554</amount>
          </item>
          <item id="Με">
             <name>Με</name>
-            <amount>434</amount>
+            <amount>444</amount>
          </item>
          <item id="Μη">
             <name>Μη</name>
-            <amount>102</amount>
+            <amount>105</amount>
          </item>
          <item id="Μι">
             <name>Μι</name>
-            <amount>130</amount>
+            <amount>134</amount>
          </item>
          <item id="Μμ">
             <name>Μμ</name>
@@ -1031,43 +1031,43 @@
          </item>
          <item id="Μν">
             <name>Μν</name>
-            <amount>32</amount>
+            <amount>34</amount>
          </item>
          <item id="Μο">
             <name>Μο</name>
-            <amount>238</amount>
+            <amount>253</amount>
          </item>
          <item id="Μυ">
             <name>Μυ</name>
-            <amount>93</amount>
+            <amount>96</amount>
          </item>
          <item id="Μω">
             <name>Μω</name>
-            <amount>40</amount>
+            <amount>42</amount>
          </item>
       </item>
       <item id="Ν">
          <name>Ν</name>
-         <amount>740</amount>
+         <amount>773</amount>
          <item id="Ν">
             <name>Ν</name>
             <amount>1</amount>
          </item>
          <item id="Να">
             <name>Να</name>
-            <amount>113</amount>
+            <amount>119</amount>
          </item>
          <item id="Νε">
             <name>Νε</name>
-            <amount>290</amount>
+            <amount>304</amount>
          </item>
          <item id="Νη">
             <name>Νη</name>
-            <amount>38</amount>
+            <amount>40</amount>
          </item>
          <item id="Νι">
             <name>Νι</name>
-            <amount>128</amount>
+            <amount>131</amount>
          </item>
          <item id="Νκ">
             <name>Νκ</name>
@@ -1075,7 +1075,7 @@
          </item>
          <item id="Νο">
             <name>Νο</name>
-            <amount>121</amount>
+            <amount>125</amount>
          </item>
          <item id="Νσ">
             <name>Νσ</name>
@@ -1083,23 +1083,23 @@
          </item>
          <item id="Νυ">
             <name>Νυ</name>
-            <amount>28</amount>
+            <amount>31</amount>
          </item>
          <item id="Νω">
             <name>Νω</name>
-            <amount>19</amount>
+            <amount>20</amount>
          </item>
       </item>
       <item id="Ξ">
          <name>Ξ</name>
-         <amount>113</amount>
+         <amount>117</amount>
          <item id="Ξα">
             <name>Ξα</name>
             <amount>12</amount>
          </item>
          <item id="Ξε">
             <name>Ξε</name>
-            <amount>40</amount>
+            <amount>41</amount>
          </item>
          <item id="Ξη">
             <name>Ξη</name>
@@ -1111,11 +1111,11 @@
          </item>
          <item id="Ξο">
             <name>Ξο</name>
-            <amount>5</amount>
+            <amount>6</amount>
          </item>
          <item id="Ξυ">
             <name>Ξυ</name>
-            <amount>39</amount>
+            <amount>41</amount>
          </item>
          <item id="Ξω">
             <name>Ξω</name>
@@ -1124,7 +1124,7 @@
       </item>
       <item id="Ο">
          <name>Ο</name>
-         <amount>1068</amount>
+         <amount>1102</amount>
          <item id="Ο ">
             <name>Ο </name>
             <amount>1</amount>
@@ -1135,11 +1135,11 @@
          </item>
          <item id="Οα">
             <name>Οα</name>
-            <amount>13</amount>
+            <amount>14</amount>
          </item>
          <item id="Οβ">
             <name>Οβ</name>
-            <amount>18</amount>
+            <amount>19</amount>
          </item>
          <item id="Ογ">
             <name>Ογ</name>
@@ -1163,11 +1163,11 @@
          </item>
          <item id="Οθ">
             <name>Οθ</name>
-            <amount>16</amount>
+            <amount>17</amount>
          </item>
          <item id="Οι">
             <name>Οι</name>
-            <amount>97</amount>
+            <amount>101</amount>
          </item>
          <item id="Οκ">
             <name>Οκ</name>
@@ -1175,15 +1175,15 @@
          </item>
          <item id="Ολ">
             <name>Ολ</name>
-            <amount>60</amount>
+            <amount>66</amount>
          </item>
          <item id="Ομ">
             <name>Ομ</name>
-            <amount>69</amount>
+            <amount>70</amount>
          </item>
          <item id="Ον">
             <name>Ον</name>
-            <amount>90</amount>
+            <amount>92</amount>
          </item>
          <item id="Οξ">
             <name>Οξ</name>
@@ -1195,11 +1195,11 @@
          </item>
          <item id="Ορ">
             <name>Ορ</name>
-            <amount>163</amount>
+            <amount>170</amount>
          </item>
          <item id="Ος">
             <name>Ος</name>
-            <amount>59</amount>
+            <amount>63</amount>
          </item>
          <item id="Οτ">
             <name>Οτ</name>
@@ -1207,11 +1207,11 @@
          </item>
          <item id="Ου">
             <name>Ου</name>
-            <amount>243</amount>
+            <amount>248</amount>
          </item>
          <item id="Οφ">
             <name>Οφ</name>
-            <amount>33</amount>
+            <amount>34</amount>
          </item>
          <item id="Οχ">
             <name>Οχ</name>
@@ -1219,12 +1219,12 @@
          </item>
          <item id="Οψ">
             <name>Οψ</name>
-            <amount>22</amount>
+            <amount>23</amount>
          </item>
       </item>
       <item id="Π">
          <name>Π</name>
-         <amount>4948</amount>
+         <amount>5128</amount>
          <item id="Π ">
             <name>Π </name>
             <amount>2</amount>
@@ -1235,7 +1235,7 @@
          </item>
          <item id="Π.">
             <name>Π.</name>
-            <amount>1</amount>
+            <amount>2</amount>
          </item>
          <item id="Π[">
             <name>Π[</name>
@@ -1243,11 +1243,11 @@
          </item>
          <item id="Πα">
             <name>Πα</name>
-            <amount>1839</amount>
+            <amount>1891</amount>
          </item>
          <item id="Πβ">
             <name>Πβ</name>
-            <amount>6</amount>
+            <amount>9</amount>
          </item>
          <item id="Πγ">
             <name>Πγ</name>
@@ -1259,7 +1259,7 @@
          </item>
          <item id="Πε">
             <name>Πε</name>
-            <amount>979</amount>
+            <amount>1019</amount>
          </item>
          <item id="Πζ">
             <name>Πζ</name>
@@ -1267,19 +1267,19 @@
          </item>
          <item id="Πη">
             <name>Πη</name>
-            <amount>41</amount>
+            <amount>43</amount>
          </item>
          <item id="Πι">
             <name>Πι</name>
-            <amount>250</amount>
+            <amount>265</amount>
          </item>
          <item id="Πκ">
             <name>Πκ</name>
-            <amount>45</amount>
+            <amount>47</amount>
          </item>
          <item id="Πλ">
             <name>Πλ</name>
-            <amount>216</amount>
+            <amount>225</amount>
          </item>
          <item id="Πμ">
             <name>Πμ</name>
@@ -1287,11 +1287,11 @@
          </item>
          <item id="Πν">
             <name>Πν</name>
-            <amount>37</amount>
+            <amount>38</amount>
          </item>
          <item id="Πο">
             <name>Πο</name>
-            <amount>445</amount>
+            <amount>454</amount>
          </item>
          <item id="Ππ">
             <name>Ππ</name>
@@ -1299,7 +1299,7 @@
          </item>
          <item id="Πρ">
             <name>Πρ</name>
-            <amount>701</amount>
+            <amount>736</amount>
          </item>
          <item id="Πσ">
             <name>Πσ</name>
@@ -1307,15 +1307,15 @@
          </item>
          <item id="Πτ">
             <name>Πτ</name>
-            <amount>113</amount>
+            <amount>115</amount>
          </item>
          <item id="Πυ">
             <name>Πυ</name>
-            <amount>83</amount>
+            <amount>90</amount>
          </item>
          <item id="Πχ">
             <name>Πχ</name>
-            <amount>14</amount>
+            <amount>16</amount>
          </item>
          <item id="Πω">
             <name>Πω</name>
@@ -1336,18 +1336,18 @@
       </item>
       <item id="Ρ">
          <name>Ρ</name>
-         <amount>219</amount>
+         <amount>224</amount>
          <item id="Ρ ">
             <name>Ρ </name>
             <amount>1</amount>
          </item>
          <item id="Ρα">
             <name>Ρα</name>
-            <amount>56</amount>
+            <amount>58</amount>
          </item>
          <item id="Ρε">
             <name>Ρε</name>
-            <amount>19</amount>
+            <amount>20</amount>
          </item>
          <item id="Ρη">
             <name>Ρη</name>
@@ -1355,11 +1355,11 @@
          </item>
          <item id="Ρι">
             <name>Ρι</name>
-            <amount>17</amount>
+            <amount>18</amount>
          </item>
          <item id="Ρο">
             <name>Ρο</name>
-            <amount>70</amount>
+            <amount>71</amount>
          </item>
          <item id="Ρυ">
             <name>Ρυ</name>
@@ -1372,7 +1372,7 @@
       </item>
       <item id="Σ">
          <name>Σ</name>
-         <amount>2920</amount>
+         <amount>3044</amount>
          <item id="Σ ">
             <name>Σ </name>
             <amount>2</amount>
@@ -1387,7 +1387,7 @@
          </item>
          <item id="Σα">
             <name>Σα</name>
-            <amount>456</amount>
+            <amount>478</amount>
          </item>
          <item id="Σβ">
             <name>Σβ</name>
@@ -1399,7 +1399,7 @@
          </item>
          <item id="Σε">
             <name>Σε</name>
-            <amount>594</amount>
+            <amount>621</amount>
          </item>
          <item id="Σζ">
             <name>Σζ</name>
@@ -1407,7 +1407,7 @@
          </item>
          <item id="Ση">
             <name>Ση</name>
-            <amount>54</amount>
+            <amount>57</amount>
          </item>
          <item id="Σθ">
             <name>Σθ</name>
@@ -1415,11 +1415,11 @@
          </item>
          <item id="Σι">
             <name>Σι</name>
-            <amount>290</amount>
+            <amount>297</amount>
          </item>
          <item id="Σκ">
             <name>Σκ</name>
-            <amount>153</amount>
+            <amount>157</amount>
          </item>
          <item id="Σλ">
             <name>Σλ</name>
@@ -1427,7 +1427,7 @@
          </item>
          <item id="Σμ">
             <name>Σμ</name>
-            <amount>25</amount>
+            <amount>26</amount>
          </item>
          <item id="Σν">
             <name>Σν</name>
@@ -1435,11 +1435,11 @@
          </item>
          <item id="Σο">
             <name>Σο</name>
-            <amount>183</amount>
+            <amount>205</amount>
          </item>
          <item id="Σπ">
             <name>Σπ</name>
-            <amount>90</amount>
+            <amount>94</amount>
          </item>
          <item id="Σρ">
             <name>Σρ</name>
@@ -1447,35 +1447,35 @@
          </item>
          <item id="Στ">
             <name>Στ</name>
-            <amount>319</amount>
+            <amount>328</amount>
          </item>
          <item id="Συ">
             <name>Συ</name>
-            <amount>516</amount>
+            <amount>533</amount>
          </item>
          <item id="Σφ">
             <name>Σφ</name>
-            <amount>50</amount>
+            <amount>52</amount>
          </item>
          <item id="Σχ">
             <name>Σχ</name>
-            <amount>35</amount>
+            <amount>36</amount>
          </item>
          <item id="Σω">
             <name>Σω</name>
-            <amount>127</amount>
+            <amount>132</amount>
          </item>
       </item>
       <item id="Τ">
          <name>Τ</name>
-         <amount>2140</amount>
+         <amount>2211</amount>
          <item id="Τ ">
             <name>Τ </name>
             <amount>1</amount>
          </item>
          <item id="Τα">
             <name>Τα</name>
-            <amount>775</amount>
+            <amount>801</amount>
          </item>
          <item id="Τβ">
             <name>Τβ</name>
@@ -1491,7 +1491,7 @@
          </item>
          <item id="Τε">
             <name>Τε</name>
-            <amount>443</amount>
+            <amount>459</amount>
          </item>
          <item id="Τζ">
             <name>Τζ</name>
@@ -1499,15 +1499,15 @@
          </item>
          <item id="Τη">
             <name>Τη</name>
-            <amount>47</amount>
+            <amount>48</amount>
          </item>
          <item id="Τι">
             <name>Τι</name>
-            <amount>189</amount>
+            <amount>197</amount>
          </item>
          <item id="Τκ">
             <name>Τκ</name>
-            <amount>43</amount>
+            <amount>44</amount>
          </item>
          <item id="Τλ">
             <name>Τλ</name>
@@ -1515,15 +1515,15 @@
          </item>
          <item id="Τμ">
             <name>Τμ</name>
-            <amount>12</amount>
+            <amount>13</amount>
          </item>
          <item id="Τν">
             <name>Τν</name>
-            <amount>13</amount>
+            <amount>14</amount>
          </item>
          <item id="Το">
             <name>Το</name>
-            <amount>167</amount>
+            <amount>173</amount>
          </item>
          <item id="Τπ">
             <name>Τπ</name>
@@ -1531,15 +1531,15 @@
          </item>
          <item id="Τρ">
             <name>Τρ</name>
-            <amount>263</amount>
+            <amount>268</amount>
          </item>
          <item id="Τσ">
             <name>Τσ</name>
-            <amount>64</amount>
+            <amount>66</amount>
          </item>
          <item id="Τυ">
             <name>Τυ</name>
-            <amount>55</amount>
+            <amount>59</amount>
          </item>
          <item id="Τφ">
             <name>Τφ</name>
@@ -1568,7 +1568,7 @@
       </item>
       <item id="Υ">
          <name>Υ</name>
-         <amount>401</amount>
+         <amount>414</amount>
          <item id="Υα">
             <name>Υα</name>
             <amount>11</amount>
@@ -1583,7 +1583,7 @@
          </item>
          <item id="Υδ">
             <name>Υδ</name>
-            <amount>35</amount>
+            <amount>36</amount>
          </item>
          <item id="Υε">
             <name>Υε</name>
@@ -1591,7 +1591,7 @@
          </item>
          <item id="Υι">
             <name>Υι</name>
-            <amount>13</amount>
+            <amount>14</amount>
          </item>
          <item id="Υλ">
             <name>Υλ</name>
@@ -1599,7 +1599,7 @@
          </item>
          <item id="Υμ">
             <name>Υμ</name>
-            <amount>9</amount>
+            <amount>10</amount>
          </item>
          <item id="Υν">
             <name>Υν</name>
@@ -1607,11 +1607,11 @@
          </item>
          <item id="Υο">
             <name>Υο</name>
-            <amount>3</amount>
+            <amount>4</amount>
          </item>
          <item id="Υπ">
             <name>Υπ</name>
-            <amount>250</amount>
+            <amount>257</amount>
          </item>
          <item id="Υρ">
             <name>Υρ</name>
@@ -1623,7 +1623,7 @@
          </item>
          <item id="Υφ">
             <name>Υφ</name>
-            <amount>16</amount>
+            <amount>18</amount>
          </item>
          <item id="Υψ">
             <name>Υψ</name>
@@ -1636,14 +1636,14 @@
       </item>
       <item id="Φ">
          <name>Φ</name>
-         <amount>878</amount>
+         <amount>905</amount>
          <item id="Φ.">
             <name>Φ.</name>
             <amount>3</amount>
          </item>
          <item id="Φα">
             <name>Φα</name>
-            <amount>251</amount>
+            <amount>257</amount>
          </item>
          <item id="Φβ">
             <name>Φβ</name>
@@ -1651,7 +1651,7 @@
          </item>
          <item id="Φε">
             <name>Φε</name>
-            <amount>55</amount>
+            <amount>59</amount>
          </item>
          <item id="Φη">
             <name>Φη</name>
@@ -1663,7 +1663,7 @@
          </item>
          <item id="Φι">
             <name>Φι</name>
-            <amount>213</amount>
+            <amount>219</amount>
          </item>
          <item id="Φλ">
             <name>Φλ</name>
@@ -1675,19 +1675,19 @@
          </item>
          <item id="Φν">
             <name>Φν</name>
-            <amount>13</amount>
+            <amount>14</amount>
          </item>
          <item id="Φο">
             <name>Φο</name>
-            <amount>100</amount>
+            <amount>105</amount>
          </item>
          <item id="Φρ">
             <name>Φρ</name>
-            <amount>65</amount>
+            <amount>67</amount>
          </item>
          <item id="Φυ">
             <name>Φυ</name>
-            <amount>51</amount>
+            <amount>53</amount>
          </item>
          <item id="Φχ">
             <name>Φχ</name>
@@ -1695,12 +1695,12 @@
          </item>
          <item id="Φω">
             <name>Φω</name>
-            <amount>29</amount>
+            <amount>30</amount>
          </item>
       </item>
       <item id="Χ">
          <name>Χ</name>
-         <amount>753</amount>
+         <amount>780</amount>
          <item id="Χ ">
             <name>Χ </name>
             <amount>2</amount>
@@ -1711,7 +1711,7 @@
          </item>
          <item id="Χα">
             <name>Χα</name>
-            <amount>219</amount>
+            <amount>227</amount>
          </item>
          <item id="Χβ">
             <name>Χβ</name>
@@ -1719,11 +1719,11 @@
          </item>
          <item id="Χε">
             <name>Χε</name>
-            <amount>114</amount>
+            <amount>116</amount>
          </item>
          <item id="Χη">
             <name>Χη</name>
-            <amount>26</amount>
+            <amount>27</amount>
          </item>
          <item id="Χθ">
             <name>Χθ</name>
@@ -1731,7 +1731,7 @@
          </item>
          <item id="Χι">
             <name>Χι</name>
-            <amount>29</amount>
+            <amount>30</amount>
          </item>
          <item id="Χλ">
             <name>Χλ</name>
@@ -1739,23 +1739,23 @@
          </item>
          <item id="Χμ">
             <name>Χμ</name>
-            <amount>2</amount>
+            <amount>3</amount>
          </item>
          <item id="Χν">
             <name>Χν</name>
-            <amount>5</amount>
+            <amount>6</amount>
          </item>
          <item id="Χο">
             <name>Χο</name>
-            <amount>98</amount>
+            <amount>101</amount>
          </item>
          <item id="Χρ">
             <name>Χρ</name>
-            <amount>158</amount>
+            <amount>166</amount>
          </item>
          <item id="Χυ">
             <name>Χυ</name>
-            <amount>17</amount>
+            <amount>18</amount>
          </item>
          <item id="Χφ">
             <name>Χφ</name>
@@ -1763,27 +1763,27 @@
          </item>
          <item id="Χω">
             <name>Χω</name>
-            <amount>56</amount>
+            <amount>57</amount>
          </item>
       </item>
       <item id="Ψ">
          <name>Ψ</name>
-         <amount>607</amount>
+         <amount>620</amount>
          <item id="Ψα">
             <name>Ψα</name>
-            <amount>86</amount>
+            <amount>88</amount>
          </item>
          <item id="Ψε">
             <name>Ψε</name>
-            <amount>353</amount>
+            <amount>359</amount>
          </item>
          <item id="Ψη">
             <name>Ψη</name>
-            <amount>10</amount>
+            <amount>11</amount>
          </item>
          <item id="Ψι">
             <name>Ψι</name>
-            <amount>69</amount>
+            <amount>70</amount>
          </item>
          <item id="Ψλ">
             <name>Ψλ</name>
@@ -1791,7 +1791,7 @@
          </item>
          <item id="Ψο">
             <name>Ψο</name>
-            <amount>34</amount>
+            <amount>36</amount>
          </item>
          <item id="Ψσ">
             <name>Ψσ</name>
@@ -1799,7 +1799,7 @@
          </item>
          <item id="Ψυ">
             <name>Ψυ</name>
-            <amount>21</amount>
+            <amount>22</amount>
          </item>
          <item id="Ψω">
             <name>Ψω</name>
@@ -1808,7 +1808,7 @@
       </item>
       <item id="Ω">
          <name>Ω</name>
-         <amount>132</amount>
+         <amount>137</amount>
          <item id="Ω">
             <name>Ω</name>
             <amount>1</amount>
@@ -1835,7 +1835,7 @@
          </item>
          <item id="Ωλ">
             <name>Ωλ</name>
-            <amount>4</amount>
+            <amount>5</amount>
          </item>
          <item id="Ωμ">
             <name>Ωμ</name>
@@ -1843,7 +1843,7 @@
          </item>
          <item id="Ων">
             <name>Ων</name>
-            <amount>12</amount>
+            <amount>13</amount>
          </item>
          <item id="Ωο">
             <name>Ωο</name>
@@ -1855,11 +1855,11 @@
          </item>
          <item id="Ωρ">
             <name>Ωρ</name>
-            <amount>50</amount>
+            <amount>51</amount>
          </item>
          <item id="Ως">
             <name>Ως</name>
-            <amount>16</amount>
+            <amount>17</amount>
          </item>
          <item id="Ωτ">
             <name>Ωτ</name>
@@ -1867,7 +1867,7 @@
          </item>
          <item id="Ωφ">
             <name>Ωφ</name>
-            <amount>13</amount>
+            <amount>14</amount>
          </item>
          <item id="Ωχ">
             <name>Ωχ</name>
@@ -1887,7 +1887,7 @@
       <name>Lateinisch</name>
       <item id="A">
          <name>A</name>
-         <amount>233</amount>
+         <amount>235</amount>
          <item id="A">
             <name>A</name>
             <amount>1</amount>
@@ -1898,11 +1898,11 @@
          </item>
          <item id="Ac">
             <name>Ac</name>
-            <amount>12</amount>
+            <amount>13</amount>
          </item>
          <item id="Ad">
             <name>Ad</name>
-            <amount>24</amount>
+            <amount>25</amount>
          </item>
          <item id="Ae">
             <name>Ae</name>
@@ -1967,10 +1967,10 @@
       </item>
       <item id="B">
          <name>B</name>
-         <amount>55</amount>
+         <amount>56</amount>
          <item id="Ba">
             <name>Ba</name>
-            <amount>8</amount>
+            <amount>9</amount>
          </item>
          <item id="Be">
             <name>Be</name>
@@ -1999,7 +1999,7 @@
       </item>
       <item id="C">
          <name>C</name>
-         <amount>306</amount>
+         <amount>307</amount>
          <item id="Ca">
             <name>Ca</name>
             <amount>87</amount>
@@ -2014,7 +2014,7 @@
          </item>
          <item id="Ci">
             <name>Ci</name>
-            <amount>15</amount>
+            <amount>16</amount>
          </item>
          <item id="Cl">
             <name>Cl</name>
@@ -2211,14 +2211,14 @@
       </item>
       <item id="H">
          <name>H</name>
-         <amount>53</amount>
+         <amount>54</amount>
          <item id="Ha">
             <name>Ha</name>
             <amount>11</amount>
          </item>
          <item id="He">
             <name>He</name>
-            <amount>14</amount>
+            <amount>15</amount>
          </item>
          <item id="Hi">
             <name>Hi</name>
@@ -2331,14 +2331,14 @@
       </item>
       <item id="M">
          <name>M</name>
-         <amount>149</amount>
+         <amount>150</amount>
          <item id="Ma">
             <name>Ma</name>
             <amount>57</amount>
          </item>
          <item id="Me">
             <name>Me</name>
-            <amount>29</amount>
+            <amount>30</amount>
          </item>
          <item id="Mi">
             <name>Mi</name>
@@ -2359,14 +2359,14 @@
       </item>
       <item id="N">
          <name>N</name>
-         <amount>61</amount>
+         <amount>64</amount>
          <item id="Na">
             <name>Na</name>
             <amount>5</amount>
          </item>
          <item id="Ne">
             <name>Ne</name>
-            <amount>10</amount>
+            <amount>12</amount>
          </item>
          <item id="Ni">
             <name>Ni</name>
@@ -2378,7 +2378,7 @@
          </item>
          <item id="Nu">
             <name>Nu</name>
-            <amount>11</amount>
+            <amount>12</amount>
          </item>
       </item>
       <item id="O">
@@ -2435,14 +2435,14 @@
       </item>
       <item id="P">
          <name>P</name>
-         <amount>209</amount>
+         <amount>211</amount>
          <item id="Pa">
             <name>Pa</name>
             <amount>39</amount>
          </item>
          <item id="Pe">
             <name>Pe</name>
-            <amount>37</amount>
+            <amount>38</amount>
          </item>
          <item id="Ph">
             <name>Ph</name>
@@ -2474,15 +2474,15 @@
          </item>
          <item id="Pu">
             <name>Pu</name>
-            <amount>17</amount>
+            <amount>18</amount>
          </item>
       </item>
       <item id="Q">
          <name>Q</name>
-         <amount>33</amount>
+         <amount>34</amount>
          <item id="Qu">
             <name>Qu</name>
-            <amount>33</amount>
+            <amount>34</amount>
          </item>
       </item>
       <item id="R">
@@ -2515,10 +2515,10 @@
       </item>
       <item id="S">
          <name>S</name>
-         <amount>209</amount>
+         <amount>211</amount>
          <item id="Sa">
             <name>Sa</name>
-            <amount>35</amount>
+            <amount>36</amount>
          </item>
          <item id="Sc">
             <name>Sc</name>
@@ -2526,7 +2526,7 @@
          </item>
          <item id="Se">
             <name>Se</name>
-            <amount>54</amount>
+            <amount>55</amount>
          </item>
          <item id="Si">
             <name>Si</name>
@@ -2559,7 +2559,7 @@
       </item>
       <item id="T">
          <name>T</name>
-         <amount>109</amount>
+         <amount>110</amount>
          <item id="Ta">
             <name>Ta</name>
             <amount>22</amount>
@@ -2574,7 +2574,7 @@
          </item>
          <item id="Ti">
             <name>Ti</name>
-            <amount>10</amount>
+            <amount>11</amount>
          </item>
          <item id="To">
             <name>To</name>
@@ -2683,7 +2683,7 @@
       </item>
       <item id="]">
          <name>]</name>
-         <amount>26</amount>
+         <amount>27</amount>
          <item id="]a">
             <name>]a</name>
             <amount>1</amount>
@@ -2730,7 +2730,7 @@
          </item>
          <item id="]r">
             <name>]r</name>
-            <amount>2</amount>
+            <amount>3</amount>
          </item>
          <item id="]t">
             <name>]t</name>
