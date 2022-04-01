@@ -106,6 +106,12 @@
             </p:error>
         </p:when>
         <!-- case: no duplicates in 'input' -->
+        <p:otherwise>
+            <p:documentation>
+                <p>Following statement is used as a placeholder preventing an error when no duplicates are found.</p>
+            </p:documentation>
+            <pwl:identity/>
+        </p:otherwise>
     </p:choose>
     <p:sink/>
 

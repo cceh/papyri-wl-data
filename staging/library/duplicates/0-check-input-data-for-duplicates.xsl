@@ -45,10 +45,12 @@
                 <xsl:variable name="lemma" select="*:COL[$lemma-position]/*:DATA[text()]"/>
                 <xsl:variable name="language">
                         <xsl:choose>
-                            <xsl:when test="preceding-sibling::*:DATABASE[contains(@NAME,'Lateinisch')]">
+                            <xsl:when test="parent::*:RESULTSET/preceding-sibling::*:DATABASE[contains(@NAME,'Lateinisch')]">
                                 <xsl:value-of select="$latin-short"/>
                             </xsl:when>
-                            <xsl:otherwise><xsl:value-of select="$greece-short"/></xsl:otherwise>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$greece-short"/>
+                            </xsl:otherwise>
                         </xsl:choose>
                 </xsl:variable>
                 <xsl:variable name="wl_id" select="*:COL[$wl_id-position]/*:DATA[text()]"/>
@@ -61,23 +63,23 @@
                 <xsl:variable name="category">
                     <xsl:choose>
                         <!-- sortierhilfe is only used for latin because there is only one document for all 5 categories (unlike greece) -->
-                        <xsl:when test="preceding-sibling::*:DATABASE[contains(@NAME,'Lateinisch')]">
+                        <xsl:when test="$language = $latin-short">
                             <xsl:choose>
-                                <xsl:when test="COL[$sortierhilfe-position]/*:DATA='a'"><xsl:value-of select="$monthDays"/></xsl:when>
-                                <xsl:when test="COL[$sortierhilfe-position]/*:DATA='b'"><xsl:value-of select="$persons"/></xsl:when>
-                                <xsl:when test="COL[$sortierhilfe-position]/*:DATA='c'"><xsl:value-of select="$geography"/></xsl:when>
-                                <xsl:when test="COL[$sortierhilfe-position]/*:DATA='d'"><xsl:value-of select="$religion"/></xsl:when>
-                                <xsl:when test="COL[$sortierhilfe-position]/*:DATA='e'"><xsl:value-of select="$general"/></xsl:when>
+                                <xsl:when test="*:COL[$sortierhilfe-position]/*:DATA='a'"><xsl:value-of select="$monthDays"/></xsl:when>
+                                <xsl:when test="*:COL[$sortierhilfe-position]/*:DATA='b'"><xsl:value-of select="$persons"/></xsl:when>
+                                <xsl:when test="*:COL[$sortierhilfe-position]/*:DATA='c'"><xsl:value-of select="$geography"/></xsl:when>
+                                <xsl:when test="*:COL[$sortierhilfe-position]/*:DATA='d'"><xsl:value-of select="$religion"/></xsl:when>
+                                <xsl:when test="*:COL[$sortierhilfe-position]/*:DATA='e'"><xsl:value-of select="$general"/></xsl:when>
                                 <!-- uncategorized/spurious -->
-                                <xsl:otherwise>ohne Kategorie</xsl:otherwise>
+                                <xsl:otherwise><xsl:value-of select="$ohne_Kategorie"/></xsl:otherwise>
                             </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:if test="preceding-sibling::*:DATABASE[contains(@NAME,'Monate')]"><xsl:value-of select="$monthDays"/></xsl:if>
-                            <xsl:if test="preceding-sibling::*:DATABASE[contains(@NAME,'Namen')]"><xsl:value-of select="$persons"/></xsl:if>
-                            <xsl:if test="preceding-sibling::*:DATABASE[contains(@NAME,'Geographie')]"><xsl:value-of select="$geography"/></xsl:if>
-                            <xsl:if test="preceding-sibling::*:DATABASE[contains(@NAME,'Religion')]"><xsl:value-of select="$religion"/></xsl:if>
-                            <xsl:if test="preceding-sibling::*:DATABASE[contains(@NAME,'allgemein')]"><xsl:value-of select="$general"/></xsl:if>
+                            <xsl:if test="parent::*:RESULTSET/preceding-sibling::*:DATABASE[contains(@NAME,'Monate')]"><xsl:value-of select="$monthDays"/></xsl:if>
+                            <xsl:if test="parent::*:RESULTSET/preceding-sibling::*:DATABASE[contains(@NAME,'Namen')]"><xsl:value-of select="$persons"/></xsl:if>
+                            <xsl:if test="parent::*:RESULTSET/preceding-sibling::*:DATABASE[contains(@NAME,'Geographie')]"><xsl:value-of select="$geography"/></xsl:if>
+                            <xsl:if test="parent::*:RESULTSET/preceding-sibling::*:DATABASE[contains(@NAME,'Religion')]"><xsl:value-of select="$religion"/></xsl:if>
+                            <xsl:if test="parent::*:RESULTSET/preceding-sibling::*:DATABASE[contains(@NAME,'allgemein')]"><xsl:value-of select="$general"/></xsl:if>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
