@@ -16,7 +16,7 @@ Please make sure that each lemma is unique within its category.
 | Lemma   | language     | WL ID | FileMaker RecordId | category | references |
 | -----------|-----------|-------------|-------------|-------------|-------------|
 </xsl:text>
-            <xsl:for-each select="*:input/*:lemma">
+            <xsl:for-each select="*:input/*:orth">
                 <xsl:sort select="text()"/>
                 <xsl:text>| </xsl:text>
                 <xsl:value-of select="text()"/>

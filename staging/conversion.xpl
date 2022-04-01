@@ -85,18 +85,18 @@
     <p:xslt name="duplicate-check-input">
         <p:with-param name="input-folder" select="'staging/input'"/>
         <p:input port="source">
-            <p:document href="library/duplicates/0-check-input-data-for-duplicates.xsl"/>
+            <p:document href="library/duplicates/1-check-input-data-for-duplicates.xsl"/>
         </p:input>
         <p:input port="stylesheet">
-            <p:document href="library/duplicates/0-check-input-data-for-duplicates.xsl"/>
+            <p:document href="library/duplicates/1-check-input-data-for-duplicates.xsl"/>
         </p:input>
     </p:xslt>
     <p:choose>
         <!-- case: duplicates in 'input' -->
-        <p:when test="*:input/*:lemma">
+        <p:when test="*:input/*:orth">
             <p:xslt name="duplicates-input">
                 <p:input port="stylesheet">
-                    <p:document href="library/duplicates/0-check-input-data-for-duplicates-md.xsl"/>
+                    <p:document href="library/duplicates/1-check-input-data-for-duplicates-md.xsl"/>
                 </p:input>
             </p:xslt>
             <p:error name="error-duplicates-input" code="duplicates-input">
@@ -122,10 +122,10 @@
     <p:xslt name="duplicate-check-current">
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
         <p:input port="source">
-            <p:document href="library/transformation/0-check-current-data-for-duplicates.xsl"/>
+            <p:document href="library/duplicates/2-check-current-data-for-duplicates.xsl"/>
         </p:input>
         <p:input port="stylesheet">
-            <p:document href="library/transformation/0-check-current-data-for-duplicates.xsl"/>
+            <p:document href="library/duplicates/2-check-current-data-for-duplicates.xsl"/>
         </p:input>
     </p:xslt>
     <p:choose>
@@ -133,7 +133,7 @@
         <p:when test="*:current/*:orth">
             <p:xslt name="duplicates">
                 <p:input port="stylesheet">
-                    <p:document href="library/transformation/0-check-current-data-for-duplicates-md.xsl"/>
+                    <p:document href="library/duplicates/2-check-current-data-for-duplicates-md.xsl"/>
                 </p:input>
             </p:xslt>
             <p:error name="error-duplicates" code="duplicates">

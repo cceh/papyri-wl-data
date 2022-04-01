@@ -83,14 +83,14 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
-                <lemma>
+                <orth>
                     <xsl:attribute name="xml:lang" select="$language"/>
                     <xsl:attribute name="xml:id" select="$wl_id"/>
                     <xsl:attribute name="filemaker_id" select="$filemaker_id"/>
                     <xsl:attribute name="category" select="$category"/>
                     <xsl:attribute name="references" select="$references"/>
                     <xsl:value-of select="$lemma"/>
-                </lemma>
+                </orth>
             </xsl:for-each>
         </input>
     </xsl:variable>
@@ -99,7 +99,7 @@
         <!--<xsl:result-document href="duplicates.xml">-->
             <xsl:variable name="duplicates">
                 <!-- grouping all lemma elements by category -->
-                <xsl:for-each-group select="$input-lemmata//*:lemma" group-by="@category">
+                <xsl:for-each-group select="$input-lemmata//*:orth" group-by="@category">
                      <!-- looking for duplicates (identical text nodes) within categories;
                          groups with two (or more) members – as identified by [current-group()[2]] – are duplicates -->
                      <xsl:for-each-group select="current-group()" group-by="text()">
