@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-33767">Ἑρμ[</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-33767">Ἠσάϊς</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -18,7 +18,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2022-03-17">17. März 2022</date>
+            <date when="2022-04-06">6. April 2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,7 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
+         <change when="2022-04-06" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
          <change when="2022-02-14">Aufzeichnung des Vorkommens in: P.Giss. 02</change>
       </revisionDesc>
    </teiHeader>
@@ -50,14 +50,14 @@
          <div type="persons">
             <entry type="main" xml:id="wl-grc-33767">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="part">Ἑρμ[</orth>
-                  <orth xml:lang="grc" type="regularised" extent="part">Ερμ[</orth>
+                  <orth xml:lang="grc" type="original" extent="full">Ἠσάϊς</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full">Ησαις</orth>
                   <form type="derivative" value="reverse">
-                     <orth xml:lang="grc" type="original" extent="part">[μρἙ</orth>
-                     <orth xml:lang="grc" type="regularised" extent="part">[μρΕ</orth>
+                     <orth xml:lang="grc" type="original" extent="full">ςϊάσἨ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full">ςιασΗ</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-03-17">17. März 2022</date>.</note>
-                  <idno type="fp7">15161</idno>
+                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-04-06">6. April 2022</date>.</note>
+                  <idno type="fp7">15169</idno>
                </form>
                <!--Belegstellen-->
                <xr>
