@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-34070">Μάρυλλος</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-34070">Μέθη</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -18,7 +18,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2022-03-17">17. März 2022</date>
+            <date when="2022-04-06">6. April 2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,8 +41,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
+         <change when="2022-04-06" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
          <change when="2022-02-14">Aufzeichnung des Vorkommens in: P.Oxy. 86</change>
+         <change when="2002-02-15">Aufzeichnung des Vorkommens in: SB 21</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="en">
@@ -50,20 +51,23 @@
          <div type="persons">
             <entry type="main" xml:id="wl-grc-34070">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">Μάρυλλος</orth>
-                  <orth xml:lang="grc" type="regularised" extent="full">Μαρυλλος</orth>
+                  <orth xml:lang="grc" type="original" extent="full">Μέθη</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full">Μεθη</orth>
                   <form type="derivative" value="reverse">
-                     <orth xml:lang="grc" type="original" extent="full">ςολλυράΜ</orth>
-                     <orth xml:lang="grc" type="regularised" extent="full">ςολλυραΜ</orth>
+                     <orth xml:lang="grc" type="original" extent="full">ηθέΜ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full">ηθεΜ</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-03-17">17. März 2022</date>.</note>
-                  <idno type="fp7">16769</idno>
+                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-04-06">6. April 2022</date>.</note>
+                  <idno type="fp7">16771</idno>
                </form>
                <!--Belegstellen-->
                <xr>
                   <list>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__86">P.Oxy. 86</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b67807">SB 21</ref>
                      </item>
                   </list>
                </xr>
