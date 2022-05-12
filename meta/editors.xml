@@ -229,12 +229,6 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="ohne_Verweis_C_Pap_Gr_Clergé_04">C.Pap.Gr.Clergé 04</ref>)
-                    </resp>
-                    <persName sameAs="messerer_c">Carmen Messerer</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Überlassung elektronischer Daten (für
                         <ref target="#b95354">P.Aktenbuch</ref>,
                         <ref target="#b95284">P.Cairo Mich. II</ref>,
                         <ref target="#b20674">P.Poethke</ref>,
@@ -300,6 +294,12 @@
                         <ref target="#b16093">P.Bingen</ref>)
                     </resp>
                     <persName xml:id="melaerts_h">Henri Melaerts</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für
+                        <ref target="ohne_Verweis_C_Pap_Gr_Clergé_04">C.Pap.Gr.Clergé 04</ref>)
+                    </resp>
+                    <persName sameAs="messerer_c">Carmen Messerer</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
