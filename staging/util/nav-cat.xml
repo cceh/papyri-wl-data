@@ -2,7 +2,7 @@
 <nav>
    <item id="grc"><!--Griechisch-->
       <item id="general">
-         <amount>14874</amount>
+         <amount>14875</amount>
          <item id="(">
             <name>(</name>
             <amount>1</amount>
@@ -1085,7 +1085,7 @@
          </item>
          <item id="Σ">
             <name>Σ</name>
-            <amount>1311</amount>
+            <amount>1312</amount>
             <item id="Σα">
                <name>Σα</name>
                <amount>108</amount>
@@ -1096,7 +1096,7 @@
             </item>
             <item id="Σε">
                <name>Σε</name>
-               <amount>60</amount>
+               <amount>61</amount>
             </item>
             <item id="Ση">
                <name>Ση</name>

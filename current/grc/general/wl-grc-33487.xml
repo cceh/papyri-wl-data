@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-33487">θρησκεύω</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-33487">θεόω</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -18,7 +18,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2022-04-06">6. April 2022</date>
+            <date when="2022-03-17">17. März 2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,7 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-04-06" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
+         <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="en">
@@ -49,14 +49,14 @@
          <div type="general">
             <entry type="main" xml:id="wl-grc-33487">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">θρησκεύω</orth>
-                  <orth xml:lang="grc" type="regularised" extent="full">θρησκευω</orth>
+                  <orth xml:lang="grc" type="original" extent="full">θεόω</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full">θεοω</orth>
                   <form type="derivative" value="reverse">
-                     <orth xml:lang="grc" type="original" extent="full">ωύεκσηρθ</orth>
-                     <orth xml:lang="grc" type="regularised" extent="full">ωυεκσηρθ</orth>
+                     <orth xml:lang="grc" type="original" extent="full">ωόεθ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full">ωοεθ</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-04-06">6. April 2022</date>.</note>
-                  <idno type="fp7">26112</idno>
+                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-03-17">17. März 2022</date>.</note>
+                  <idno type="fp7">26107</idno>
                </form>
                <!--Belegstellen-->
                <xr>

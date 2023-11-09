@@ -633,19 +633,5 @@
         </p:group>
     
     </p:declare-step>
-
-    <p:declare-step type="pwl:identity" name="identity">
-
-        <p:input port="source" sequence="true"/>
-        <p:output port="result" sequence="true"/>
-
-        <p:documentation>
-            <h2>Placeholder</h2>
-            <p>This step is used as a placeholder, e.g. when using only the when branch inside of a choose-statement then you can place it inside otherwise to prevent an error when this branch is selected.</p>
-        </p:documentation>
-
-        <p:identity/>
-
-    </p:declare-step>
-
+    
 </p:library>

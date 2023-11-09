@@ -77,55 +77,18 @@
         </p:otherwise>
     </p:choose>
     <p:sink/>
-
+    
     <p:documentation>
-        <h2>Duplicate check in input</h2>
-        <p>This step checks for identical lemmata that occur within the same category in input files `staging/input`(does not recurse into subfolders). Such cases are not handled by the ingest pipeline and if they indeed should be part of the dataset, they need to be added manually.</p>
-    </p:documentation>
-    <p:xslt name="duplicate-check-input">
-        <p:with-param name="input-folder" select="'staging/input'"/>
-        <p:input port="source">
-            <p:document href="library/duplicates/1-check-input-data-for-duplicates.xsl"/>
-        </p:input>
-        <p:input port="stylesheet">
-            <p:document href="library/duplicates/1-check-input-data-for-duplicates.xsl"/>
-        </p:input>
-    </p:xslt>
-    <p:choose>
-        <!-- case: duplicates in 'input' -->
-        <p:when test="*:input/*:orth">
-            <p:xslt name="duplicates-input">
-                <p:input port="stylesheet">
-                    <p:document href="library/duplicates/1-check-input-data-for-duplicates-md.xsl"/>
-                </p:input>
-            </p:xslt>
-            <p:error name="error-duplicates-input" code="duplicates-input">
-                <p:input port="source">
-                    <p:pipe port="result" step="duplicates-input"/>
-                </p:input>
-            </p:error>
-        </p:when>
-        <!-- case: no duplicates in 'input' -->
-        <p:otherwise>
-            <p:documentation>
-                <p>Following statement is used as a placeholder preventing an error when no duplicates are found.</p>
-            </p:documentation>
-            <pwl:identity/>
-        </p:otherwise>
-    </p:choose>
-    <p:sink/>
-
-    <p:documentation>
-        <h2>Duplicate check in current</h2>
+        <h2>Duplicate check</h2>
         <p>This step checks for identical lemmata that occur within the same category. Such cases are not handled by the ingest pipeline and if they indeed should be part of the dataset, they need to be added manually.</p>
     </p:documentation>
-    <p:xslt name="duplicate-check-current">
+    <p:xslt name="duplicate-check">
         <p:with-param name="comparisonBase" select="$comparisonBase"/>
         <p:input port="source">
-            <p:document href="library/duplicates/2-check-current-data-for-duplicates.xsl"/>
+            <p:document href="library/transformation/0-check-current-data-for-duplicates.xsl"/>
         </p:input>
         <p:input port="stylesheet">
-            <p:document href="library/duplicates/2-check-current-data-for-duplicates.xsl"/>
+            <p:document href="library/transformation/0-check-current-data-for-duplicates.xsl"/>
         </p:input>
     </p:xslt>
     <p:choose>
@@ -133,7 +96,7 @@
         <p:when test="*:current/*:orth">
             <p:xslt name="duplicates">
                 <p:input port="stylesheet">
-                    <p:document href="library/duplicates/2-check-current-data-for-duplicates-md.xsl"/>
+                    <p:document href="library/transformation/0-check-current-data-for-duplicates-md.xsl"/>
                 </p:input>
             </p:xslt>
             <p:error name="error-duplicates" code="duplicates">

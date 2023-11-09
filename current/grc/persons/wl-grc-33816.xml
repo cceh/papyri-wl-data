@@ -2,7 +2,7 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-33816">Ἀμενωθ</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-33816">Ἀμασι</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
@@ -18,7 +18,7 @@
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2022-04-06">6. April 2022</date>
+            <date when="2022-03-17">17. März 2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,7 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-04-06" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
+         <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
          <change when="2022-02-14">Aufzeichnung des Vorkommens in: P.Hoogendijk</change>
       </revisionDesc>
    </teiHeader>
@@ -50,14 +50,14 @@
          <div type="persons">
             <entry type="main" xml:id="wl-grc-33816">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">Ἀμενωθ</orth>
-                  <orth xml:lang="grc" type="regularised" extent="full">Αμενωθ</orth>
+                  <orth xml:lang="grc" type="original" extent="full">Ἀμασι</orth>
+                  <orth xml:lang="grc" type="regularised" extent="full">Αμασι</orth>
                   <form type="derivative" value="reverse">
-                     <orth xml:lang="grc" type="original" extent="full">θωνεμἈ</orth>
-                     <orth xml:lang="grc" type="regularised" extent="full">θωνεμΑ</orth>
+                     <orth xml:lang="grc" type="original" extent="full">ισαμἈ</orth>
+                     <orth xml:lang="grc" type="regularised" extent="full">ισαμΑ</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-04-06">6. April 2022</date>.</note>
-                  <idno type="fp7">15465</idno>
+                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-03-17">17. März 2022</date>.</note>
+                  <idno type="fp7">15463</idno>
                </form>
                <!--Belegstellen-->
                <xr>
