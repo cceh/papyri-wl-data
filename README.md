@@ -18,36 +18,36 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen 36270 Einträge, wovon 34026 in griechischer und 2244 in lateinischer Sprache (Stand 17. März 2022, 25. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen 36903 Einträge, wovon 34623 in griechischer und 2280 in lateinischer Sprache (Stand 14. November 2023, 26. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||16359
-geography:    ||||||||||||||||||||||4559
+general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||16548
+geography:    |||||||||||||||||||||||4639
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15093
 monthsDays:   121
-persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14732
-religion:     ||499
+religion:     ||502
 ```
 
 **Griechisch**
 
 ```txt
-general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14875
-geography:    ||||||||||||||||||||||4492
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15045
+geography:    ||||||||||||||||||||||4572
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14416
 monthsDays:   99
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14072
-religion:     ||488
+religion:     ||491
 ```
 
 **Lateinisch**
 
 ```txt
 monthsDays:   22
-persons:      |||660
+persons:      |||677
 geography:    67
 religion:     11
-general:      |||||||1484
+general:      |||||||1503
             
 | = 200 Einträge            
 ```
@@ -126,4 +126,4 @@ Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 *Daten und README zuletzt generiert am 
-17. März 2022 mit XML Calabash 1.3.2 (for Saxon 9.9.1.7/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 9.9.1.7 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*
+14. November 2023 mit XML Calabash 1.5.3 (for Saxon 11.4/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 11.4 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*
