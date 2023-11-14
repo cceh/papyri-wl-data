@@ -12,10 +12,10 @@
         <p>The option 'comparisonBase' allows to select a smaller data set to facilitate testing/development.</p>
         <p>For testing purposes, it is possible to output a single file using the outputScenario 'oneFile'.</p>
     </p:documentation>
-    <p:option name="version" select="'25¦25. Version¦14.02.2022'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
-    <p:option name="editor" select="'https://github.com/creativeDev6'"/><!-- Bearbeiter -->
-    <p:option name="task-newEntries" select="'25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
-    <p:option name="task-existingEntries" select="'25. Fassung vom 14.02.2022: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
+    <p:option name="version" select="'26¦26. Version¦12.05.2023'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
+    <p:option name="editor" select="'https://github.com/lguenth'"/><!-- Bearbeiter -->
+    <p:option name="task-newEntries" select="'26. Fassung vom 12.05.2023: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
+    <p:option name="task-existingEntries" select="'26. Fassung vom 12.05.2023: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
     <p:option name="schemaPath" select="'../validation'"/>
     <p:option name="comparisonBase" select="'current'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
