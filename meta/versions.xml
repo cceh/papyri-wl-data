@@ -19,11 +19,24 @@
         </fileDesc>
         <revisionDesc>
             <listChange type="versions">
-                <!--<change when="2023-XX-YY" n="26">
-                    <label>26. Fassung vom XX. YY 2023</label>
+                <!--<change when="2024-YY-XX" n="27">
+                    <label>27. Fassung vom XX. YY 2024</label>
                     <note>hinzugekommen:
                     </note>
                 </change>-->
+                <change when="2023-05-12" n="26">
+                    <label>26. Fassung vom 12. Mai 2023</label>
+                    <note>hinzugekommen:
+                        <ref target="ohne_Verweis_CPR__36">CPR 36</ref>;
+                        <ref target="ohne_Verweis_O_Blem">O.Blem.</ref>;
+                        <ref target="ohne_Verweis_O_NYU">O.NYU</ref>;
+                        <ref target="ohne_Verweis_P_Aegyptus__Cent">P.Aegyptus Cent.</ref>;
+                        <ref target="ohne_Verweis_P_Cair__Gad">P.Cair. Gad</ref>;
+                        <ref target="ohne_Verweis_P_Köln__Sarapion">P.Köln Sarapion</ref>;
+                        <ref target="ohne_Verweis_P_Leid__Inst__02">P.Leid. Inst. 02</ref>;
+                        <ref target="ohne_Verweis_P_Louvre__03">P.Louvre 03</ref>
+                    </note>
+                </change>
                 <change when="2022-02-14" n="25">
                     <label>25. Fassung vom 24. Februar 2022</label>
                     <note>hinzugekommen:

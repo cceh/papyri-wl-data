@@ -70,8 +70,9 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#ohne_Verweis_P_Math_">P.Math.</ref>,
-                        <ref target="#ohne_Verweis_P_Nekr">P.Nekr.</ref>)
+                        <ref target="#b95870">P.Math.</ref>,
+                        <ref target="#b96094">P.Nekr.</ref>,
+                        <ref target="#ohne_Verweis_O_NYU">O.NYU</ref>)
                     </resp>
                     <persName xml:id="bagnall_r">Roger S. Bagnall</persName>
                 </respStmt>
@@ -101,7 +102,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#ohne_Verweis_P_Petra_05">P.Petra 05</ref>)
+                        <ref target="#ohne_Verweis_P_Petra_05">P.Petra IV</ref>)
                     </resp>
                     <persName xml:id="buchholz_m">Matias Buchholz</persName>
                 </respStmt>
@@ -111,6 +112,12 @@
                         <ref target="#ohne_Verweis_O_krok__02">O.Krok. 02</ref>)
                     </resp>
                     <persName xml:id="buelowjacobsen_a">Adam Bülow-Jacobsen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P_Aegyptus__Cent">P.Aegyptus Cent.</ref>)
+                    </resp>
+                    <persName xml:id="casanova_g">Gerardo Casanova</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
@@ -135,7 +142,8 @@
                     <resp>Überlassung elektronischer Daten (für
                         <ref target="#b18535">O.Krok.</ref>,
                         <ref target="#b81797">O.Did</ref>,
-                        <ref target="#ohne_Verweis_P_Yale_04">P.Yale IV</ref>)
+                        <ref target="#ohne_Verweis_P_Yale_04">P.Yale IV</ref>,
+                        <ref target="#ohne_Verweis_O_Blem">O.Blem.</ref>)
                     </resp>
                     <persName xml:id="cuvigny_h">Hélène Cuvigny</persName>
                 </respStmt>
@@ -194,14 +202,15 @@
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
                         <ref target="#b95281">P.Oxy. LXXX</ref>,
-                        <ref target="#ohne_Verweis_P_Oxy__84">P.Oxy. 84</ref>,
-                        <ref target="#ohne_Verweis_P_Oxy__85">P.Oxy. 85</ref>)
+                        <ref target="#ohne_Verweis_P_Oxy__84">P.Oxy. LXXXIV</ref>,
+                        <ref target="#ohne_Verweis_P_Oxy__85">P.Oxy. LXXXV</ref>)
                     </resp>
                     <persName xml:id="henry_b">Benjamin Henry</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#b20909">BL XII</ref>)
+                        <ref target="#b20909">BL XII</ref>,
+                        <ref target="#ohne_Verweis_P_Leid__Inst__02">P.Leid. Inst. II</ref>)
                     </resp>
                     <persName xml:id="hoogendijk_faj">Francisca A. J. Hoogendijk</persName>
                 </respStmt>
@@ -209,6 +218,7 @@
                     <resp>Überlassung elektronischer Daten (für
                         <ref target="#b15271">P.Louvre I</ref>,
                         <ref target="#b18650">P.Louvre II</ref>,
+                        <ref target="#ohne_Verweis_P_Louvre__03">P.Louvre III</ref>,
                         <ref target="#b67807">SB XXI</ref>,
                         <ref target="#b17117">SB XXIII</ref>,
                         <ref target="#b84774">SB XXIX</ref>)
@@ -223,7 +233,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#ohne_Verweis_P_Griss__02">P.Giss. 02</ref>)
+                        <ref target="#ohne_Verweis_P_Griss__02">P.Giss. II</ref>)
                     </resp>
                     <persName sameAs="kotyl_m">Marcin Kotyl</persName>
                 </respStmt>
@@ -275,7 +285,7 @@
                         <ref target="#b17706">P.Köln X</ref>,
                         <ref target="#b19894">P.Köln XI</ref>,
                         <ref target="#b21216">P.Köln XII</ref>,
-                        <ref target="#ohne_Verweis_P_Köln_13">P.Köln XIII</ref>,
+                        <ref target="#b95269">P.Köln XIII</ref>,
                         <ref target="#b95289">P.Köln XIV</ref>,
                         <ref target="#b17397">P.Phrur. Diosk.</ref>,
                         <ref target="#b16381">P.Polit. Iud.</ref>)
@@ -297,7 +307,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#ohne_Verweis_C_Pap_Gr_Clergé_04">C.Pap.Gr.Clergé 04</ref>)
+                        <ref target="#ohne_Verweis_C_Pap_Gr_Clergé_04">C.Pap.Gr.Clergé IV</ref>)
                     </resp>
                     <persName sameAs="messerer_c">Carmen Messerer</persName>
                 </respStmt>
@@ -329,7 +339,8 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#b16831">CPR XXII</ref>)
+                        <ref target="#b16831">CPR XXII</ref>,
+                        <ref target="#ohne_Verweis_CPR__36">CPR XXXVI</ref>)
                     </resp>
                     <persName xml:id="morelli_f">Federico Morelli</persName>
                 </respStmt>
@@ -361,7 +372,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#b95288">PSI Com. 12</ref>)
+                        <ref target="#b95288">PSI Com. XII</ref>)
                     </resp>
                     <persName xml:id="russo_s">Simona Russo</persName>
                 </respStmt>
@@ -388,13 +399,13 @@
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
                         <ref target="#ohne_Verweis_P_Oxyrhyncha">P.Oxyrhyncha</ref>,
-                        <ref target="#ohne_Verweis_P_Köln_17">P.Köln 17</ref>)
+                        <ref target="#ohne_Verweis_P_Köln_17">P.Köln XVII</ref>)
                     </resp>
                     <persName xml:id="skarsouli_e">Eleni Skarsouli</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#ohne_Verweis_P.Tebt.Pad.01">P.Tebt Pad. I</ref>)
+                        <ref target="#b95286">P.Tebt Pad. I</ref>)
                     </resp>
                     <persName xml:id="soldati_a">Agostino Soldati</persName>
                 </respStmt>
@@ -412,7 +423,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#ohne_Verweis_P.Erbstreit">P.Erbstreit</ref>)
+                        <ref target="#b96314">P.Erbstreit</ref>)
                     </resp>
                     <persName xml:id="vandorpe_k">Katelijn Vandorpe</persName>
                 </respStmt>
@@ -421,6 +432,12 @@
                         <ref target="#b86506">BASP 43-50</ref>)
                     </resp>
                     <persName xml:id="vanminnen_p">Peter van Minnen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P_Köln__Sarapion">P.Köln Sarapion</ref>)
+                    </resp>
+                    <persName xml:id="vecchiato_r">Riccardo Vecchiato</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
@@ -436,14 +453,14 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#ohne_Verweis_P_Trier_02">P.Trier 02</ref>)
+                        <ref target="#ohne_Verweis_P_Trier_02">P.Trier II</ref>)
                     </resp>
                     <persName xml:id="werner_c">Cindy Werner</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
                         <ref target="#b18379">O.Kellis</ref>,
-                        <ref target="#b80638">P.Mich. 20</ref>,
+                        <ref target="#b80638">P.Mich. XX</ref>,
                         <ref target="#b21002">P.NYU II</ref>)
                     </resp>
                     <persName xml:id="worp_ka">Klaas A. Worp</persName>

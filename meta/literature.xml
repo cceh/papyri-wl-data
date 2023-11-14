@@ -143,6 +143,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2022</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_CPR__36" type="monograph">
+               <title type="short">CPR 36</title>
+               <title type="long">Federico Morelli, Documenti del primo periodo arabo dall'archivio di Senouthios anystes e testi connessi. Corpus Papyrorum Raineri XXXVI. Berlin, de Gruyter, 2022.</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
+            </bibl>
             <bibl xml:id="b71893" type="monograph">
                <title type="short">Cuvigny, Myos Hormos</title>
                <title type="long">Hélène Cuvigny (Hrsg.), La Route de Myos Hormos. L’armée romaine dans le désert Oriental d’Egypte. Praesidia du désert de Bérénice. I. Volume 1; - Volume 2. (Fouilles de l’Institut français d’Archéologie orientale. 48.), Le Caire 2003</title>
@@ -247,6 +254,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2022</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_O_Blem" type="monograph">
+               <title type="short">O.Blem.</title>
+               <title type="long">Hélène Cuvigny (ed.), [with the collaboration of] Marie-Pierre Chaufray, Julien Cooper, Jennifer Gates-Foster, Blemmyes. New Documents and New Perspectives. Including O.Blem. 1–107 (Documents de fouilles de l’Ifao 52–2022). Le Caire, Institut français d’Archéologie orientale, 2022.</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
+            </bibl>
             <bibl xml:id="b14684" type="monograph">
                <title type="short">O.Claud. 02</title>
                <title type="long">Jean Bingen, Adam Bülow-Jacobsen, Walter E.H. Cockle, Hélène Cuvigny, François Kayser et Wilfried Van Rengen, Mons Claudianus. Ostraca Graeca et Latina. II (O. Claud. 191 à 416). (Documents de fouilles. 32), Le Caire, Institut français d’Archéologie orientale, 1997</title>
@@ -332,6 +346,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_O_NYU" type="monograph">
+               <title type="short">O.NYU</title>
+               <title type="long">Gert Baetens, Roger S. Bagnall, Clementina Caputo, Élodie Mazy, and David M. Ratzan, Ostraka in the Collection of New York University (ISAW Monographs), New York 2021.</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
+            </bibl>
             <bibl xml:id="b82190" type="monograph">
                <title type="short">O.Petr. Mus.</title>
                <title type="long">Maria Serena Funghi, Gabriella Messeri, Cornelia Eva Römer, Ostraca greci e bilingui del Petrie Museum of Egyptian Archaeology (O.Petr. Mus.) (Papyrologica Florentina 42), Firenze, Edizioni Gonnelli 2012</title>
@@ -362,6 +383,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2018</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Aegyptus__Cent" type="monograph">
+               <title type="short">P.Aegyptus Cent.</title>
+               <title type="long">Edizione di testi nel centenario della rivista Aegyptus (P.Aegyptus Cent.), Aegyptus 100, 2020 und Aegyptus 101, 2021.</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
             </bibl>
             <bibl xml:id="b95354" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Aktenbuch</title>
@@ -467,6 +495,13 @@
                <title type="long">Papyrus coptes et grecs du monastère d’apa Apollô de Baouît conservés aux Musées royaux d’Art et d’Histoire de Bruxelles (Mémoires de la Classe des Lettres et des Sciences morales et politiques de l’Académie royale de Belgique. Collection in-8°. Troisième série. Tome XLIII, No. 2045), Bruxelles 2007</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Cair__Gad" type="monograph">
+               <title type="short">P.Cair. Gad</title>
+               <title type="long">Ushama Ali Gad, Eine Edition griechischer Papyrusurkunden aus dem ägyptischen Museum in Kairo (P.Cair.Gad). Heidelberg 2022. Open Access: https://archiv.ub.uni-heidelberg.de/volltextserver/31193/</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
             </bibl>
             <bibl xml:id="b95284" type="monograph">
                <title type="short">P.Cairo Mich. 02</title>
@@ -578,7 +613,7 @@
                  <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                  <date type="creation">vor 2016</date>
              </bibl>
-            <bibl xml:id="ohne_Verweis_P.Erbstreit" type="monograph">
+            <bibl xml:id="b96314" type="monograph">
                <title type="short">P.Erbstreit</title>
                <title type="long">Katelijn Vandorpe und Sven P. Vleeming, The Erbstreit Papyri. A Bilingual Dossier from Pathyris of the Second Century BC (Studia Demotica 13), Leuven, Peeters, 2017</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -796,11 +831,25 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2022</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Köln__Sarapion" type="monograph">
+               <title type="short">P.Köln Sarapion</title>
+               <title type="long">Riccardo Vecchiato, Edition griechischer Papyri aus der Kölner Papyrussammlung. Das Archiv des Sarapion (P. Köln Sarapion),  Pap. Colon. XLVI/2, Paderborn, Brill Schöningh, 2022.</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
+            </bibl>
             <bibl xml:id="b20743" type="monograph">
                <title type="short">P.Kramer</title>
                <title type="long">Raimar Eberhard u.a. (Hgg.), „… vor dem Papyrus sind alle gleich!“. Papyrologische Beiträge zu Ehren von Bärbel Kramer (P.Kramer). (APF, Beiheft 27), Berlin - New York, Walter de Gruyter 2009</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Leid__Inst__02" type="monograph">
+               <title type="short">P.Leid. Inst. 02</title>
+               <title type="long">Francisca A.J. Hoogendijk, J.V. Stolk, Greek, Demotic and Coptic Papyri and Ostraca in the Leiden Papyrological Institute (P.L.Bat. 40). Leiden, Brill, 2023.</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
             </bibl>
             <bibl xml:id="b16943" type="monograph">
                <title type="short">P.Lips. 02</title>
@@ -837,6 +886,13 @@
                <title type="long">Andrea Jördens und Paul Schubert, Griechische Papyri der Cahiers P. 1 und P. 2 aus der Sammlung des Louvre (P.Louvre II). (Papyrologische Texte und Abhandlungen. 44), Bonn, R. Habelt, 2005</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Louvre__03" type="monograph">
+               <title type="short">P.Louvre 03</title>
+               <title type="long">Andrea Jördens (Hrsg.), Griechische Papyri aus der Sammlung des Louvre (P.Louvre III), Papyrologische Texte und Abhandlungen 47, Bonn, Habelt, 2022.</title>
+               <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2023</date>
             </bibl>
             <bibl xml:id="b95279" type="monograph"><!-- kein Treffer -->
                <title type="short">P.Louvre Bawit</title>
@@ -925,7 +981,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Nekr" type="monograph">
+            <bibl xml:id="b96094" type="monograph">
                <title type="short">P.Nekr.</title>
                <title type="long">Roger S. Bagnall, The Undertakers of the Great Oasis (P. Nekr.) (Graeco-Roman Memoirs, Supplemental Vol. 1), London, Egypt Exploration Society, 2017</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1064,7 +1120,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2017</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_P_Oxy__83" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="b96088" type="monograph">
                <title type="short">P.Oxy. 83</title>
                <title type="long">P. J. Parsons u.a., The Oxyrhynchus Papyri. Volume LXXXIII (Nos. 5344-5403). (Egypt Exploration Society. Graeco-Roman Memoirs. No. 104), London, Egypt Exploration Society, 2018</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -1333,7 +1389,7 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_PSI_Com__13" type="monograph">
+            <bibl xml:id="b96170" type="monograph">
                <title type="short">PSI Com. 13</title>
                <title type="long">Comunicazioni dell’Istituto Papirologico «G. Vitelli» 13 (2019). Il volume è disponibile in Open Access sul sito dell'editore, la Firenze University Press (https://www.fupress.com/catalogo/comunicazioni/3942)</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
