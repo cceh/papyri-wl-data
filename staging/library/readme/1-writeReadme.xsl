@@ -20,6 +20,7 @@
     <xsl:param name="vendor-uri"/>
 
 <xsl:template match="/">
+    <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
     <wrapper>
         <!-- The README file is generated in the conversion process. Thus it should not be edited in the root directory but here in this file. -->
         <xsl:text>

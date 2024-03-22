@@ -38,6 +38,7 @@
     </xsl:variable>
     
     <xsl:template match="/">
+        <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
         <!--<xsl:result-document href="duplicates.xml">-->
             <xsl:variable name="duplicates">
                 <!-- grouping all orth elements by category -->

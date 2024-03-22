@@ -22,6 +22,7 @@
     </xsl:template>
    
     <xsl:template match="/">
+        <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
         <wl-wrapper>
             <xsl:for-each-group select="*:wl-wrapper/*:div" group-by="*:entry[1]/*:form[1]/*:orth[1]/@xml:lang">
                 <xsl:element name="{*:entry[1]/*:form[1]/*:orth[1]/@xml:lang}">

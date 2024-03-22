@@ -26,6 +26,7 @@
     <!--<xsl:variable name="files" select="collection(concat('../../../',$comparisonBase,'/?recurse=yes;select=wl-*.xml'))"/>-->
     
     <xsl:template match="/">
+        <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
         <!-- Processing instruction -->
         <xsl:processing-instruction name="xml-model"><xsl:value-of select="concat('href=',$quot,$schemaPath,'/papyri-wl.rng',$quot,' type=',$quot,'application/xml',$quot,' schematypens=',$quot,'http://relaxng.org/ns/structure/1.0',$quot)"/></xsl:processing-instruction>
         <!--<xsl:processing-instruction name="xml-model">href="papyri-wl.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>-->

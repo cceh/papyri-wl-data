@@ -22,6 +22,7 @@
     </xsl:variable>
     
     <xsl:template match="/">
+        <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
         <xsl:for-each select="collection('../../input?select=*.xml')">
             <xsl:result-document href="{concat(base-uri() => substring-before('input'),'return/',tokenize(base-uri(),'/')[last()])}">
                 <!-- for an alternative approach to set @href see: https://lists.w3.org/Archives/Public/xproc-dev/2011Nov/0011.html -->

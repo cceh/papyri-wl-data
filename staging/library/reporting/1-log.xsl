@@ -46,6 +46,7 @@
     <xsl:variable name="versions" select="document('../../../meta/versions.xml')//*:listChange[@type='versions']//*:change[preceding-sibling::*:change/*:note]"/>
     
     <xsl:template match="/">
+        <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
         <md-wrapper>
 <xsl:text>
 # WL Import Report </xsl:text><xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/><xsl:text>

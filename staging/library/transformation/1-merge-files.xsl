@@ -20,6 +20,7 @@
     </xsl:template>
     
     <xsl:template match="/">
+        <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
         <wl-wrapper>
             <!-- global rule -->
             <xsl:apply-templates select="collection('../../input/?select=*.xml')/*:FMPXMLRESULT"/>
