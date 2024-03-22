@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xi="http://www.w3.org/2001/XInclude"
+<list xmlns=""
       xmlns:ckbk="http://www.oreilly.com/xsltckbk"
+      xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
       type="index"
       subtype="cat_abc_la">
    <head>Einträge pro Kategorie und Initial (lateinisch)</head>
@@ -54,17 +56,17 @@
    </item>
    <item>
       <label type="persons"/>
-      <num>660</num>
+      <num>677</num>
    </item>
    <item>
       <list type="index" subtype="persons">
          <item>
             <label>A</label>
-            <num>82</num>
+            <num>84</num>
          </item>
          <item>
             <label>B</label>
-            <num>19</num>
+            <num>21</num>
          </item>
          <item>
             <label>]</label>
@@ -72,7 +74,7 @@
          </item>
          <item>
             <label>C</label>
-            <num>75</num>
+            <num>78</num>
          </item>
          <item>
             <label>D</label>
@@ -108,7 +110,7 @@
          </item>
          <item>
             <label>N</label>
-            <num>22</num>
+            <num>24</num>
          </item>
          <item>
             <label>O</label>
@@ -116,7 +118,7 @@
          </item>
          <item>
             <label>P</label>
-            <num>53</num>
+            <num>58</num>
          </item>
          <item>
             <label>Q</label>
@@ -128,11 +130,11 @@
          </item>
          <item>
             <label>S</label>
-            <num>66</num>
+            <num>68</num>
          </item>
          <item>
             <label>T</label>
-            <num>37</num>
+            <num>38</num>
          </item>
          <item>
             <label>U</label>
@@ -262,13 +264,13 @@
    </item>
    <item>
       <label type="general"/>
-      <num>1484</num>
+      <num>1503</num>
    </item>
    <item>
       <list type="index" subtype="general">
          <item>
             <label>A</label>
-            <num>138</num>
+            <num>139</num>
          </item>
          <item>
             <label>]</label>
@@ -280,7 +282,7 @@
          </item>
          <item>
             <label>C</label>
-            <num>222</num>
+            <num>225</num>
          </item>
          <item>
             <label>D</label>
@@ -288,7 +290,7 @@
          </item>
          <item>
             <label>E</label>
-            <num>66</num>
+            <num>67</num>
          </item>
          <item>
             <label>F</label>
@@ -296,7 +298,7 @@
          </item>
          <item>
             <label>G</label>
-            <num>12</num>
+            <num>13</num>
          </item>
          <item>
             <label>H</label>
@@ -304,7 +306,7 @@
          </item>
          <item>
             <label>I</label>
-            <num>77</num>
+            <num>78</num>
          </item>
          <item>
             <label>K</label>
@@ -312,7 +314,7 @@
          </item>
          <item>
             <label>L</label>
-            <num>62</num>
+            <num>64</num>
          </item>
          <item>
             <label>M</label>
@@ -324,11 +326,11 @@
          </item>
          <item>
             <label>O</label>
-            <num>43</num>
+            <num>44</num>
          </item>
          <item>
             <label>P</label>
-            <num>149</num>
+            <num>150</num>
          </item>
          <item>
             <label>Q</label>
@@ -336,11 +338,11 @@
          </item>
          <item>
             <label>R</label>
-            <num>48</num>
+            <num>49</num>
          </item>
          <item>
             <label>S</label>
-            <num>141</num>
+            <num>146</num>
          </item>
          <item>
             <label>T</label>
@@ -352,7 +354,7 @@
          </item>
          <item>
             <label>V</label>
-            <num>66</num>
+            <num>68</num>
          </item>
          <item>
             <label>Z</label>

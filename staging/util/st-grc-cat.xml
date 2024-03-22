@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xi="http://www.w3.org/2001/XInclude"
+<list xmlns=""
       xmlns:ckbk="http://www.oreilly.com/xsltckbk"
+      xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
       type="index"
       subtype="cat_grc">
    <head>Einträge pro Kategorie (griechisch)</head>
    <item>
       <label type="general"/>
-      <num>14875</num>
+      <num>15045</num>
    </item>
    <item>
       <label type="geography"/>
-      <num>4492</num>
+      <num>4572</num>
+   </item>
+   <item>
+      <label type="persons"/>
+      <num>14416</num>
    </item>
    <item>
       <label type="monthsDays"/>
       <num>99</num>
    </item>
    <item>
-      <label type="persons"/>
-      <num>14072</num>
-   </item>
-   <item>
       <label type="religion"/>
-      <num>488</num>
+      <num>491</num>
    </item>
 </list>

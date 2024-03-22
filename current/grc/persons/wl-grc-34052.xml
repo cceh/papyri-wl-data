@@ -10,15 +10,15 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v25">
-               <name>25. Version</name>
-               <date>14.02.2022</date>
+            <edition n="v26">
+               <name>26. Version</name>
+               <date>12.05.2023</date>
             </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2022-03-17">17. März 2022</date>
+            <date when="2024-03-12">12. März 2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-03-12" who="https://github.com/lguenth">26. Fassung vom 12.05.2023: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
          <change when="2022-02-14">Aufzeichnung des Vorkommens in: P.Christodote</change>
       </revisionDesc>
@@ -56,7 +57,8 @@
                      <orth xml:lang="grc" type="original" extent="full">χωχΠ</orth>
                      <orth xml:lang="grc" type="regularised" extent="full">χωχΠ</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2022-03-17">17. März 2022</date>.</note>
+                  <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
+                     <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <idno type="fp7">16653</idno>
                </form>
                <!--Belegstellen-->
