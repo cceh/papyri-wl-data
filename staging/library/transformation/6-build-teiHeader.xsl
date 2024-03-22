@@ -43,7 +43,7 @@
                         <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/{*:entry/@xml:id}"><xsl:value-of select="*:entry/*:form/*:orth[@type='original']"/></ref></title>
                         <respStmt>
                             <resp>kompiliert von</resp>
-                            <name>Dieter Hagedorn</name>
+                            <name>Dieter Hagedorn†</name> und <name>Klaus Maresch</name>
                         </respStmt>
                     </titleStmt>
                     <editionStmt>
@@ -57,7 +57,7 @@
                         </edition>
                     </editionStmt>
                     <publicationStmt>
-                        <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+                        <publisher>Universität zu Köln, Klaus Maresch</publisher>
                         <pubPlace>Köln</pubPlace>
                         <date>
                             <xsl:attribute name="when" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>

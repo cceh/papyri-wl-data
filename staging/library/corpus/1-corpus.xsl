@@ -40,7 +40,7 @@
                         <title>Papyri-Wörterlisten</title>
                         <respStmt>
                             <resp>kompiliert von</resp>
-                            <name><persName>Dieter Hagedorn</persName> und <persName>Klaus Maresch</persName></name>
+                            <name><persName>Dieter Hagedorn†</persName> und <persName>Klaus Maresch</persName></name>
                         </respStmt>
                     </titleStmt>
                     <editionStmt>
@@ -55,7 +55,7 @@
                         <xsl:copy-of select="$editors"/>
                     </editionStmt>
                     <publicationStmt>
-                        <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+                        <publisher>Universität zu Köln, Klaus Maresch</publisher>
                         <pubPlace>Köln</pubPlace>
                         <date>
                             <xsl:attribute name="when" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
