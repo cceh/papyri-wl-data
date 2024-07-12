@@ -3,8 +3,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:fmpxml="http://www.filemaker.com/fmpxmlresult"
     xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten"
+    xmlns="http://www.filemaker.com/fmpxmlresult"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs"
+    exclude-result-prefixes="xs fmpxml"
     version="3.0">
     
     <!-- Adding new pwl-id values for re-import to FileMaker. -->
@@ -33,6 +34,24 @@
     
     <xsl:template match="fmpxml:ROW/fmpxml:COL[5]/fmpxml:DATA[not(matches(.,'\S'))]">
         <xsl:copy expand-text="true">{$map(pwl:type(//fmpxml:DATABASE/@NAME => substring-before('.')) || '-' || ancestor::fmpxml:ROW[1]/@RECORDID)}</xsl:copy>
+    </xsl:template>
+    
+    <!-- Add Datensatz id to METADATA -->
+    <xsl:template match="fmpxml:METADATA">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+            <FIELD EMPTYOK="YES" MAXREPEAT="1" NAME="Datensatz id" TYPE="TEXT"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <!-- Apppend Datensatz id to each row-->
+    <xsl:template match="fmpxml:ROW">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+            <COL>
+                <DATA><xsl:value-of select="@RECORDID"/></DATA>
+            </COL>
+        </xsl:copy>
     </xsl:template>
     
     <xsl:function name="pwl:type">
