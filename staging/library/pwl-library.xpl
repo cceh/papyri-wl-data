@@ -143,6 +143,19 @@
             </p:input>
         </p:xslt>
         
+        <p:identity name="merge-result">
+            <p:input port="source"/>
+        </p:identity>
+        <p:store>
+            <p:with-option name="href" select="'debug/merge-result.xml'"/>
+            <p:with-option name="indent" select="'true'"/>
+        </p:store>
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="merge-result"/>
+            </p:input>
+        </p:identity>
+        
         <p:documentation>
             <h2>Creating a generic structure</h2>
             <p>This step assimilates differing export formats in a generic manner to a homogeneous data structure.</p>
@@ -152,6 +165,19 @@
                 <p:document href="transformation/2-create-generic-structure.xsl"/>
             </p:input>
         </p:xslt>
+        
+        <p:identity name="generic-structure-result">
+            <p:input port="source"/>
+        </p:identity>
+        <p:store>
+            <p:with-option name="href" select="'debug/generic-structure-result.xml'"/>
+            <p:with-option name="indent" select="'true'"/>
+        </p:store>
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="generic-structure-result"/>
+            </p:input>
+        </p:identity>
 
         <p:documentation>
             <h2>Initial TEI structure</h2>
@@ -167,6 +193,19 @@
                 <p:document href="transformation/3-build-up-TEI-FM-IDs.xsl"/>
             </p:input>
         </p:xslt>
+        
+        <p:identity name="build-up-tei-result">
+            <p:input port="source"/>
+        </p:identity>
+        <p:store>
+            <p:with-option name="href" select="'debug/build-up-tei-result.xml'"/>
+            <p:with-option name="indent" select="'true'"/>
+        </p:store>
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="build-up-tei-result"/>
+            </p:input>
+        </p:identity>
                 
         <p:documentation>
             <h2>Group entries by language</h2>
@@ -177,6 +216,19 @@
                 <p:document href="transformation/4-gather-by-language.xsl"/>
             </p:input>
         </p:xslt>
+        
+        <p:identity name="gather-language-result">
+            <p:input port="source"/>
+        </p:identity>
+        <p:store>
+            <p:with-option name="href" select="'debug/gather-language-tei-result.xml'"/>
+            <p:with-option name="indent" select="'true'"/>
+        </p:store>
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="gather-language-result"/>
+            </p:input>
+        </p:identity>
 
         <p:documentation>
             <h2>New IDs</h2>
@@ -187,6 +239,19 @@
                 <p:document href="transformation/5-assign-new-IDs.xsl"/>
             </p:input>
         </p:xslt>
+        
+        <p:identity name="new-id-result">
+            <p:input port="source"/>
+        </p:identity>
+        <p:store>
+            <p:with-option name="href" select="'debug/new-id-result.xml'"/>
+            <p:with-option name="indent" select="'true'"/>
+        </p:store>
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="new-id-result"/>
+            </p:input>
+        </p:identity>
         
         <p:documentation>
             <h2>Metadata / teiHeader</h2>
@@ -203,6 +268,19 @@
                 <p:document href="transformation/6-build-teiHeader.xsl"/>
             </p:input>
         </p:xslt>
+        
+        <p:identity name="build-tei-header-result">
+            <p:input port="source"/>
+        </p:identity>
+        <p:store>
+            <p:with-option name="href" select="'debug/build-tei-header-result.xml'"/>
+            <p:with-option name="indent" select="'true'"/>
+        </p:store>
+        <p:identity>
+            <p:input port="source">
+                <p:pipe port="result" step="build-tei-header-result"/>
+            </p:input>
+        </p:identity>
         
         <p:choose>
             <p:when test="$outputScenario='oneFile'">
