@@ -6,19 +6,19 @@
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
-               <name>Dieter Hagedorn</name>
+               <name>Dieter Hagedorn†</name> und <name>Klaus Maresch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v26">
-               <name>26. Version</name>
-               <date>12.05.2023</date>
+            <edition n="v27">
+               <name>27. Version</name>
+               <date>21.05.2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <publisher>Universität zu Köln, Klaus Maresch</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2024-03-12">12. März 2024</date>
+            <date when="2024-07-12">12. Juli 2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-07-12" who="https://github.com/olvidalo">27. Fassung vom 21.05.2024: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2024-03-12" who="https://github.com/lguenth">26. Fassung vom 12.05.2023: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2020-09-30" who="'https://github.com/creativeDev6'">'24. Fassung vom 07.07.2020: Anpassung des bestehenden Eintrags (XProc-Workflow)'</change>
@@ -105,6 +106,10 @@
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Köln__Sarapion">P.Köln Sarapion</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Würzb_02">P.Würzb. 02</ref>
+                        <note type="addInfo">Index VI</note>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b67807">SB 21</ref>

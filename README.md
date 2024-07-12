@@ -18,33 +18,33 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen 36903 Einträge, wovon 34623 in griechischer und 2280 in lateinischer Sprache (Stand 12. März 2024, 26. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen 37427 Einträge, wovon 35145 in griechischer und 2282 in lateinischer Sprache (Stand 12. Juli 2024, 27. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||16548
-geography:    |||||||||||||||||||||||4639
-persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15093
-monthsDays:   121
-religion:     ||502
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||16714
+geography:    |||||||||||||||||||||||4748
+persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15316
+monthsDays:   127
+religion:     ||522
 ```
 
 **Griechisch**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15045
-geography:    ||||||||||||||||||||||4572
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14416
-monthsDays:   99
-religion:     ||491
+general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15211
+geography:    |||||||||||||||||||||||4681
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14637
+monthsDays:   105
+religion:     ||511
 ```
 
 **Lateinisch**
 
 ```txt
 monthsDays:   22
-persons:      |||677
+persons:      |||679
 geography:    67
 religion:     11
 general:      |||||||1503
@@ -126,4 +126,4 @@ Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 *Daten und README zuletzt generiert am 
-12. März 2024 mit XML Calabash 1.5.7 (for Saxon 12.3/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 12.3 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*
+12. Juli 2024 mit XML Calabash 1.5.7 (for Saxon 12.3/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 12.3 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*

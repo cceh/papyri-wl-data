@@ -2,23 +2,23 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-01014">ἀντίγραφον</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-01014">ἀντίγραφον</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
-               <name>Dieter Hagedorn</name>
+               <name>Dieter Hagedorn†</name> und <name>Klaus Maresch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v26">
-               <name>26. Version</name>
-               <date>12.05.2023</date>
+            <edition n="v27">
+               <name>27. Version</name>
+               <date>21.05.2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <publisher>Universität zu Köln, Klaus Maresch</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2024-03-12">12. März 2024</date>
+            <date when="2024-07-12">12. Juli 2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-07-12" who="https://github.com/olvidalo">27. Fassung vom 21.05.2024: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2024-03-12" who="https://github.com/lguenth">26. Fassung vom 12.05.2023: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2020-09-30" who="'https://github.com/creativeDev6'">'24. Fassung vom 07.07.2020: Anpassung des bestehenden Eintrags (XProc-Workflow)'</change>
@@ -85,10 +86,10 @@
          <div type="general">
             <entry type="main" xml:id="wl-grc-01014">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">ἀντίγραφον</orth>
+                  <orth xml:lang="grc" type="original" extent="full">ἀντίγραφον</orth>
                   <orth xml:lang="grc" type="regularised" extent="full">αντιγραφον</orth>
                   <form type="derivative" value="reverse">
-                     <orth xml:lang="grc" type="original" extent="full">νοφαργίτνἀ</orth>
+                     <orth xml:lang="grc" type="original" extent="full">νοφαργίτνἀ</orth>
                      <orth xml:lang="grc" type="regularised" extent="full">νοφαργιτνα</orth>
                   </form>
                   <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
@@ -117,6 +118,9 @@
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b95275">BGU 20</ref>
                      </item>
                      <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_BGU21">BGU 21</ref>
+                     </item>
+                     <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17118">BL 11</ref>
                      </item>
                      <item>
@@ -136,9 +140,6 @@
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15928">DJD 38</ref>
-                     </item>
-                     <item>
-                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_FSVleeming">FS Vleeming</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_FSVleeming">FS Vleeming</ref>
@@ -204,6 +205,9 @@
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b96314">P.Erbstreit</ref>
                      </item>
                      <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P.Fouad02">P.Fouad 02</ref>
+                     </item>
+                     <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b95292">P.Gascou</ref>
                      </item>
                      <item>
@@ -219,6 +223,9 @@
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b15286">P.Hamb. 04</ref>
                      </item>
                      <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Harr_03">P.Harr. 03</ref>
+                     </item>
+                     <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P.Haun_04">P.Haun. 04</ref>
                      </item>
                      <item>
@@ -232,6 +239,9 @@
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20221">P.Iand. Zen.</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Jördens">P.Jördens</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b14792">P.Köln 08</ref>
@@ -331,6 +341,9 @@
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Trier_02">P.Trier 02</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Van_Minnen">P.Van Minnen</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b79358">P.Vet. Aelii</ref>

@@ -6,19 +6,19 @@
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
-               <name>Dieter Hagedorn</name>
+               <name>Dieter Hagedorn†</name> und <name>Klaus Maresch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v26">
-               <name>26. Version</name>
-               <date>12.05.2023</date>
+            <edition n="v27">
+               <name>27. Version</name>
+               <date>21.05.2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <publisher>Universität zu Köln, Klaus Maresch</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2024-03-12">12. März 2024</date>
+            <date when="2024-07-12">12. Juli 2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,27 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-07-12" who="https://github.com/olvidalo">27. Fassung vom 21.05.2024: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2024-03-12" who="https://github.com/lguenth">26. Fassung vom 12.05.2023: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2020-09-30" who="'https://github.com/creativeDev6'">'24. Fassung vom 07.07.2020: Anpassung des bestehenden Eintrags (XProc-Workflow)'</change>
+         <change when="2019-07-25" who="https://github.com/pdaengeli">23. Fassung vom 21.07.2019: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2018-06-19" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
+         <change when="2018-06-16" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow); Übernahme von Lemma-Referenzen</change>
+         <change when="2018-05-30" who="https://github.com/pdaengeli">22. Fassung vom 14.05.2018: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2017-07-29" who="https://github.com/pdaengeli">21. Fassung vom 26.07.2017: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
+         <change when="2017-06-23" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Datum der Aufnahme)</change>
+         <change when="2017-04-06" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (vgl. https://github.com/cceh/papyri-wl/issues/138 )</change>
+         <change when="2017-01-24" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags (Verzeichnisstruktur)</change>
+         <change when="2017-01-08" who="https://github.com/pdaengeli">XProc-Workflow; Anpassung des bestehenden Eintrags</change>
+         <change when="2016-09-15" who="https://github.com/pdaengeli">Erstvergabe von xml:ids</change>
+         <change when="2016-06-24" who="https://github.com/pdaengeli">Anpassung TEI-Modell; inkl. Literatur</change>
+         <change when="2016-05-03" who="https://github.com/pdaengeli">Einführung des TEI-Modells</change>
+         <change when="2016-04-22" who="https://github.com/pdaengeli">Ergänzung einer regularisierten Form</change>
+         <change when="2016-02-11" who="https://github.com/pdaengeli">Initialtransformation</change>
+         <change when="2014-01-26">Aufzeichnung des Vorkommens in: BGU 20</change>
+         <change when="2006-08-29">Aufzeichnung des Vorkommens in: BGU 19</change>
+         <change when="2004-03-06">Aufzeichnung des Vorkommens in: CPR 24</change>
          <change when="2024-03-12" who="https://github.com/lguenth">26. Fassung vom 12.05.2023: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2020-09-30" who="'https://github.com/creativeDev6'">'24. Fassung vom 07.07.2020: Anpassung des bestehenden Eintrags (XProc-Workflow)'</change>

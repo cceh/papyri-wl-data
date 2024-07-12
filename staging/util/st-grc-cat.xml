@@ -8,22 +8,22 @@
    <head>Einträge pro Kategorie (griechisch)</head>
    <item>
       <label type="general"/>
-      <num>15045</num>
+      <num>15211</num>
    </item>
    <item>
       <label type="geography"/>
-      <num>4572</num>
+      <num>4681</num>
    </item>
    <item>
       <label type="persons"/>
-      <num>14416</num>
+      <num>14637</num>
    </item>
    <item>
       <label type="monthsDays"/>
-      <num>99</num>
+      <num>105</num>
    </item>
    <item>
       <label type="religion"/>
-      <num>491</num>
+      <num>511</num>
    </item>
 </list>

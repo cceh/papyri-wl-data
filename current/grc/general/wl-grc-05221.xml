@@ -2,23 +2,23 @@
    <teiHeader type="text" xml:lang="de">
       <fileDesc>
          <titleStmt>
-            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-05221">θειότατος</ref>
+            <title>Papyri-Wörterlisten. Lemma <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/wort/wl-grc-05221">θειότατος</ref>
             </title>
             <respStmt>
                <resp>kompiliert von</resp>
-               <name>Dieter Hagedorn</name>
+               <name>Dieter Hagedorn†</name> und <name>Klaus Maresch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v26">
-               <name>26. Version</name>
-               <date>12.05.2023</date>
+            <edition n="v27">
+               <name>27. Version</name>
+               <date>21.05.2024</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Universität zu Köln, Dieter Hagedorn</publisher>
+            <publisher>Universität zu Köln, Klaus Maresch</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2024-03-12">12. März 2024</date>
+            <date when="2024-07-12">12. Juli 2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-07-12" who="https://github.com/olvidalo">27. Fassung vom 21.05.2024: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2024-03-12" who="https://github.com/lguenth">26. Fassung vom 12.05.2023: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2022-03-17" who="https://github.com/creativeDev6">25. Fassung vom 14.02.2022: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2020-09-30" who="'https://github.com/creativeDev6'">'24. Fassung vom 07.07.2020: Anpassung des bestehenden Eintrags (XProc-Workflow)'</change>
@@ -77,10 +78,10 @@
          <div type="general">
             <entry type="main" xml:id="wl-grc-05221">
                <form type="lemma">
-                  <orth xml:lang="grc" type="original" extent="full">θειότατος</orth>
+                  <orth xml:lang="grc" type="original" extent="full">θειότατος</orth>
                   <orth xml:lang="grc" type="regularised" extent="full">θειοτατος</orth>
                   <form type="derivative" value="reverse">
-                     <orth xml:lang="grc" type="original" extent="full">ςοτατόιεθ</orth>
+                     <orth xml:lang="grc" type="original" extent="full">ςοτατόιεθ</orth>
                      <orth xml:lang="grc" type="regularised" extent="full">ςοτατοιεθ</orth>
                   </form>
                   <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
@@ -92,6 +93,9 @@
                   <list>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b18710">BGU 19</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_BGU21">BGU 21</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_C_Pap_Gr_Clergé_04">C.Pap.Gr.Clergé 04</ref>
@@ -113,6 +117,9 @@
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Eirene_04">P.Eirene 04</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Harr_03">P.Harr. 03</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b17907">P.Horak</ref>
@@ -149,6 +156,9 @@
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__85">P.Oxy. 85</ref>
+                     </item>
+                     <item>
+                        <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#ohne_Verweis_P_Oxy__87">P.Oxy. 87</ref>
                      </item>
                      <item>
                         <ref target="https://papyri.uni-koeln.de/papyri-woerterlisten/quellen#b20674">P.Poethke</ref>
