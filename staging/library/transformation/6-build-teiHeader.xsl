@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs tei"
     version="2.0">
     
     <!-- 
@@ -21,7 +22,10 @@
     <xsl:param name="comparisonBase"/>
     <xsl:param name="quot">"</xsl:param>
     
+<!--    <xsl:key name="entry-by-id" match="tei:entry" use="@xml:id"/>-->
+    
     <xsl:variable name="files" select="collection(concat('../../../',$comparisonBase,'/?recurse=yes;select=wl-*.xml'))"/>
+    
     
     <xsl:template match="/">
         <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
@@ -121,7 +125,21 @@
                             </change>
                             <!-- inherit existing changes -->
                             <xsl:variable name="currentID" select="*:entry/@xml:id"/>
-                            <xsl:apply-templates select="$files//*:TEI[*:text//*:entry[@xml:id = $currentID]]/*:teiHeader/*:revisionDesc/*:change"/>
+                            <xsl:copy-of select="$files/id($currentID)/../../../../tei:teiHeader/tei:revisionDesc/tei:change"/>
+                            
+                            
+                            <!-- the following left in for reference: tested alternatives to original XPath to reduce processing time -->
+                            <!-- 112s -->
+<!--                            <xsl:copy-of select="$files/key('entry-by-id', $currentID)/../../../tei:teiHeader/tei:revisionDesc/tei:change"/>-->
+                            <!-- 105s -->
+<!--                            <xsl:copy-of select="$files/tei:TEI[key('entry-by-id', $currentID)]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
+                            <!-- 148s, 120s -->
+<!--                            <xsl:copy-of select="$files/tei:TEI[tei:text/tei:body/tei:div/tei:entry[@xml:id = $currentID]]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
+                            <!-- 250s -->
+<!--                            <xsl:apply-templates select="$files/tei:TEI[tei:text/tei:body/tei:div/tei:entry[@xml:id = $currentID]]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
+
+
+                            <!-- <xsl:apply-templates select="$files/tei:TEI[key('entry-by-id', $currentID)]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
                             
                             <!-- initial changes; removed after first run -->
                             <!--
