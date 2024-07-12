@@ -102,6 +102,12 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P_Jördens">P.Jördens</ref>)
+                    </resp>
+                    <persName xml:id="berkes_l">Lajos Berkes</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für
                         <ref target="#ohne_Verweis_P_Petra_05">P.Petra IV</ref>)
                     </resp>
                     <persName xml:id="buchholz_m">Matias Buchholz</persName>
@@ -143,7 +149,7 @@
                         <ref target="#b18535">O.Krok.</ref>,
                         <ref target="#b81797">O.Did</ref>,
                         <ref target="#ohne_Verweis_P_Yale_04">P.Yale IV</ref>,
-                        <ref target="#ohne_Verweis_O_Blem">O.Blem.</ref>)
+                        <ref target="#b96764">O.Blem.</ref>)
                     </resp>
                     <persName xml:id="cuvigny_h">Hélène Cuvigny</persName>
                 </respStmt>
@@ -152,6 +158,18 @@
                         <ref target="#b16943">P.Lips. II</ref>)
                     </resp>
                     <persName xml:id="duttenhoefer_r">Ruth Duttenhöfer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P.Fouad02">P.Fouad II</ref>)
+                    </resp>
+                    <persName xml:id="elmaghrabi_mg">Mohamed Gaber Elmaghrabi</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P_Würzb_02">P.Würzb. II</ref>)
+                    </resp>
+                    <persName xml:id="essler_h">Holger Essler</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
@@ -173,6 +191,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P_Harr_03">P.Harr. 03</ref>
                         <ref target="#b17700">P.Oxy. LXVIII</ref>,
                         <ref target="#b18607">P.Oxy. LXIX</ref>,
                         <ref target="#b19164">P.Oxy. LXX</ref>,
@@ -181,7 +200,8 @@
                         <ref target="#b20869">P.Oxy. LXXIII</ref>,
                         <ref target="#b20830">P.Oxy. LXXIV</ref>,
                         <ref target="#b79323">P.Oxy. LXXVII</ref>,
-                        <ref target="#b95258">P.Oxy. LXXVIII</ref>)
+                        <ref target="#b95258">P.Oxy. LXXVIII</ref>,
+                        <ref target="#ohne_Verweis_P_Oxy__86">P.Oxy. LXXXVII</ref>)
                     </resp>
                     <persName xml:id="gonis_n">Nikolaos Gonis</persName>
                 </respStmt>
@@ -366,9 +386,16 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
-                        <ref target="#b95275">BGU XX</ref>)
+                        <ref target="#b95275">BGU XX</ref>,
+                        <ref target="#ohne_Verweis_BGU21">BGU XXI</ref>)
                     </resp>
                     <persName xml:id="reiter_f">Fabian Reiter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P_Cair_Reggiani">P.Cair. Reggiani</ref>)
+                    </resp>
+                    <persName xml:id="reggiani_n">Niccola Reggiani</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
@@ -405,6 +432,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_An_Pap__33">An.Pap. 33</ref>,
                         <ref target="#b95286">P.Tebt Pad. I</ref>)
                     </resp>
                     <persName xml:id="soldati_a">Agostino Soldati</persName>
@@ -435,6 +463,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Überlassung elektronischer Daten (für
+                        <ref target="#ohne_Verweis_P_Köln_Land">P.Köln Land.</ref>,
                         <ref target="#ohne_Verweis_P_Köln__Sarapion">P.Köln Sarapion</ref>)
                     </resp>
                     <persName xml:id="vecchiato_r">Riccardo Vecchiato</persName>

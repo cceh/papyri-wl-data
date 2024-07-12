@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:pwl="http://papyri.uni-koeln.de/papyri-woerterlisten">
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Verzeichnis der Fassungen</title>
@@ -19,11 +19,22 @@
         </fileDesc>
         <revisionDesc>
             <listChange type="versions">
-                <!--<change when="2024-YY-XX" n="27">
-                    <label>27. Fassung vom XX. YY 2024</label>
+                <change when="2024-05-21" n="27">
+                    <label>27. Fassung vom 21. Mai 2024</label>
                     <note>hinzugekommen:
+                        <ref target="ohne_Verweis_An_Pap__33">An.Pap. 33</ref>;
+                        <ref target="ohne_Verweis_An_Pap__34">An.Pap. 34</ref>;
+                        <ref target="ohne_Verweis_BGU21">BGU 21</ref>;
+                        <ref target="ohne_Verweis_P_Cair_Reggiani">P.Cair. Reggiani</ref>;
+                        <ref target="ohne_Verweis_P.Fouad02">P.Fouad 02</ref>;
+                        <ref target="ohne_Verweis_P_Harr_03">P.Harr. 03</ref>;
+                        <ref target="ohne_Verweis_P_Jördens">P.Jördens</ref>;
+                        <ref target="ohne_Verweis_P_Köln_Land">P.Köln Land.</ref>;
+                        <ref target="ohne_Verweis_P_Oxy__87">P.Oxy. 87</ref>;
+                        <ref target="ohne_Verweis_P_Van_Minnen">P.Van Minnen</ref>;
+                        <ref target="ohne_Verweis_P_Würzb_02">P.Würzb. 02</ref>
                     </note>
-                </change>-->
+                </change>
                 <change when="2023-05-12" n="26">
                     <label>26. Fassung vom 12. Mai 2023</label>
                     <note>hinzugekommen:

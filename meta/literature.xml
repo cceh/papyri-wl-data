@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader type="text">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Verzeichnis der Abkürzungen</title>
@@ -49,7 +49,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_BGU_22" type="monograph"><!-- kein Treffer -->
+            <bibl xml:id="ohne_Verweis_BGU21" type="monograph">
+               <title type="short">BGU 21</title>
+               <title type="long">Fabian Reiter (Hrsg.), Dokumentarische Texte der Berliner Papyrussammlung aus byzantinischer und früharabischer Zeit zur Wiedereröffnung des Neuen Museums (BGU XXI), Berlin-Boston, de Gruyter, 2024</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
+            </bibl>
+            <bibl xml:id="b96455" type="monograph"><!-- kein Treffer -->
                <title type="short">BGU 22</title>
                <title type="long">Sophie Kambitsis (Hg.), Des pittakia de Théadelphie (Berliner Griechische Urkunden, Band 22), Berlin - Boston, W. de Gruyter, 2018</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -254,7 +260,7 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2022</date>
             </bibl>
-            <bibl xml:id="ohne_Verweis_O_Blem" type="monograph">
+            <bibl xml:id="b96764" type="monograph">
                <title type="short">O.Blem.</title>
                <title type="long">Hélène Cuvigny (ed.), [with the collaboration of] Marie-Pierre Chaufray, Julien Cooper, Jennifer Gates-Foster, Blemmyes. New Documents and New Perspectives. Including O.Blem. 1–107 (Documents de fouilles de l’Ifao 52–2022). Le Caire, Institut français d’Archéologie orientale, 2022.</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
@@ -503,6 +509,12 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2023</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Cair_Reggiani" type="monograph">
+               <title type="short">P.Cair. Reggiani</title>
+               <title type="long">Niccola Reggiani, Greek Papyri from the Fayum in the Cairo Egyptian Museum, (Papyrotheke, Studi e Testi di Papirologia e Cultura Scrittoria Antica 13), Parma, Silva Editore, 2023</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
+            </bibl>
             <bibl xml:id="b95284" type="monograph">
                <title type="short">P.Cairo Mich. 02</title>
                <title type="long">Mohamed Gaber El-Maghrabi - Cornelia Römer, Texts from the "Archive" of Socrates, the Tax Collector, and Other Contexts at Karanis (P. Cair. Mich. II) (APF, Beihefte 35), Berlin - Boston, Walter de Gruyter 2015</title>
@@ -632,6 +644,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P.Fouad02" type="monograph">
+               <title type="short">P.Fouad 02</title>
+               <title type="long">Mohamed Gaber Elmaghrabi, Documentary Papyri from the Fouad Collection at the Institut Français dʼArchéologie Orientale (P.Fouad II 90–100). Institut Français dʼArchéologie Orientale, Cairo 2023</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
+            </bibl>
             <bibl xml:id="b95292" type="monograph">
                <title type="short">P.Gascou</title>
                <title type="long">Jean-Luc Fournet &amp; Arietta Papaconstantinou, Mélanges Jean Gascou. Textes et études papyrologiques (P.Gascou) (Travaux et Mémoires 20/1), Paris 2016</title>
@@ -674,6 +692,12 @@
                <title type="long">Bärbel Kramer und Dieter Hagedorn, Griechische Papyri der Staats- und Universitätsbibliothek Hamburg (P. Hamb. IV). (APF, Beiheft 4), Stuttgart - Leipzig, B.G. Teubner, 1998</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Harr_03" type="monograph">
+               <title type="short">P.Harr. 03</title>
+               <title type="long">Nikolaos Gonis, The Rendel Harris Papyri, Volume III (Archiv für Papyrusforschung, Beiheft 51), Berlin-Boston, de Gruyter, 2024</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
             </bibl>
             <bibl xml:id="b16599" type="monograph">
                <title type="short">P.Harrauer</title>
@@ -756,6 +780,13 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Jördens" type="monograph">
+               <title type="short">P.Jördens</title>
+               <title type="long">Lajos Berkes, W. Graham Claytor, Maria Nowak (Hrsg.), Papyrologische und althistorische Studien zum 65. Geburtstag von Andrea Jördens (Philippika 167), Wiesbaden, Harrassowitz, 2023</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
+            </bibl>
+            
             <bibl xml:id="b14664" type="monograph">
                <title type="short">P.Kell. 04</title>
                <title type="long">Roger S. Bagnall, The Kellis Agricultural Account Book (P. Kell. IV Gr. 96). (Dakhleh Oasis Project: Monograph No. 7 = Oxbow Monograph. 92), Oxford, Oxbow Books, 1997</title>
@@ -830,6 +861,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2022</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Köln_Land" type="monograph">
+               <title type="short">P.Köln Land.</title>
+               <title type="long">Riccardo Vecchiato, Ein Beitrag zur hellenistischen Wirtschafts- und Verwaltungsgeschichte: Fragmentarische Landregister aus der Kölner Papyrussammlung (P.Köln Land.), Bonn, Habelt, 2023</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_P_Köln__Sarapion" type="monograph">
                <title type="short">P.Köln Sarapion</title>
@@ -1148,6 +1185,13 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2022</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Oxy__87" type="monograph">
+               <title type="short">P.Oxy. 87</title>
+               <title type="long">P. J. Parsons and N. Gonis with contributions by 15 others, The Oxyrhynchus Papyri. Volume LXXXVII (Egypt Exploration Society. Graeco-Roman Memoirs), London, Egypt Exploration Society, 2023</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
+            </bibl>
+            
             <bibl xml:id="b14666" type="monograph">
                <title type="short">P.Oxy. 984</title>
                <title type="long">Roger S. Bagnall, Bruce W. Frier and Ian C. Rutherford, The Census Register P. Oxy. 984: The Reverse of Pindar’s Paeans. (Papyrologica Bruxellensia 29), Bruxelles, Fondation Égyptologique Reine Élisabeth, 1997</title>
@@ -1321,6 +1365,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Van_Minnen" type="monograph">
+               <title type="short">P.Van Minnen</title>
+               <title type="long">Andrew Connor, Jitse H.F. Dijkstra and Francisca A.J. Hoogendijk (edd.), Unending Variety: Papyrological Texts and Studies in Honour of Peter van Minnen (Pap. Lugd.-Bat. 42), Leiden-Boston, Brill, 2024</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
+            </bibl>
             <bibl xml:id="b79358" type="monograph">
                <title type="short">P.Vet. Aelii</title>
                <title type="long">Patrick Sänger, Veteranen unter den Severern und frühen Soldatenkaisern (HABES 48), Stuttgart 2011</title>
@@ -1332,6 +1382,12 @@
                <title type="long">Sixty-Five Papyrological Texts, presented to Klaas A. Worp on the Occasion of his 65th Birthday (P. L. Bat. 33), edited by F.A.J. Hoogendijk and B.P. Muhs, with indexes by M.J. Bakker (Papyrologica Lugduno-Batava XXXIII), Leiden-Boston, E.J. Brill, 2008</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Würzb_02" type="monograph">
+               <title type="short">P.Würzb. 02</title>
+               <title type="long">Holger Essler (Hrsg.), Mitteilungen aus der Würzburger Papyrussammlung II (P.Würzb. II), Archiv für Papyrusforschung Beiheft 49, Berlin-Boston, de Gruyter, 2024</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
             </bibl>
             <bibl xml:id="b16656" type="monograph">
                <title type="short">P.Yale 03</title>
@@ -1616,6 +1672,18 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2022</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_An_Pap__33" type="journal">
+               <title type="short">An.Pap. 33</title>
+               <title type="long">Analecta Papyrologica 33 (2021)</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_An_Pap__34" type="journal">
+               <title type="short">An.Pap. 34</title>
+               <title type="long">Analecta Papyrologica 34 (2022)</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2024</date>
             </bibl>
             <bibl xml:id="ohne_Verweis_Antinoupolis__03" type="journal">
                <title type="short">Antinoupolis 03</title>
