@@ -19,6 +19,17 @@
         </fileDesc>
         <revisionDesc>
             <listChange type="versions">
+                <change when="2025-12-11" n="28">
+                    <label>28. Fassung vom 11. Dezember 2025</label>
+                    <note>hinzugekommen:
+                        <ref target="ohne_Verweis_P_Kynopolites">P.Kynopolites</ref>;
+                        <ref target="ohne_Verweis_P_Oxy__88">P.Oxy. 88</ref>;
+                        <ref target="ohne_Verweis_P_Tebt__06">P.Tebt. 06</ref>;
+                        <ref target="ohne_Verweis_P_Vic_">P.Vic.</ref>;
+                        <ref target="ohne_Verweis_PSI_Com__15">PSI Com. 15</ref>;
+                        <ref target="ohne_Verweis_SB_31">SB 31</ref>
+                    </note>
+                </change>
                 <change when="2024-05-21" n="27">
                     <label>27. Fassung vom 21. Mai 2024</label>
                     <note>hinzugekommen:
