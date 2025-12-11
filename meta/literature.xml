@@ -881,6 +881,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Kynopolites" type="monograph">
+               <title type="short">P.Kynopolites</title>
+               <title type="long">Gert Baetens and Willy Clarysse, An Undertaker's Archive from the Kynopolite Nome (P.Kynopolis), Collectanea Hellenistica – KVAB 10, Leuven 2024</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2025</date>
+            </bibl>
             <bibl xml:id="ohne_Verweis_P_Leid__Inst__02" type="monograph">
                <title type="short">P.Leid. Inst. 02</title>
                <title type="long">Francisca A.J. Hoogendijk, J.V. Stolk, Greek, Demotic and Coptic Papyri and Ostraca in the Leiden Papyrological Institute (P.L.Bat. 40). Leiden, Brill, 2023.</title>
@@ -1191,7 +1197,12 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2024</date>
             </bibl>
-            
+            <bibl xml:id="ohne_Verweis_P_Oxy__88" type="monograph">
+               <title type="short">P.Oxy. 88</title>
+               <title type="long">A. Benaissa and W.B. Henry u.a., The Oxyrhynchus Papyri. Volume LXXXVIII (Egypt Exploration Society. Graeco-Roman Memoirs), London, Egypt Exploration Society, 2025</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2025</date>
+            </bibl>
             <bibl xml:id="b14666" type="monograph">
                <title type="short">P.Oxy. 984</title>
                <title type="long">Roger S. Bagnall, Bruce W. Frier and Ian C. Rutherford, The Census Register P. Oxy. 984: The Reverse of Pindar’s Paeans. (Papyrologica Bruxellensia 29), Bruxelles, Fondation Égyptologique Reine Élisabeth, 1997</title>
@@ -1340,6 +1351,12 @@
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_P_Tebt__06" type="monograph">
+               <title type="short">P.Tebt. 06</title>
+               <title type="long">Papiri da Tebtynis pubblicati dal Seminario di Papirologia dell'Università di Parma (P.Tebt. VI) a cura di Nicola Reggiani. Berkeley California 2025</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2025</date>
+            </bibl>
             <bibl xml:id="b95286" type="monograph">
                <title type="short">P.Tebt. Pad. 01</title>	
                <title type="long">Agostino Soldati, Papiri Greci da Tebtynis della Università di Padova, Volume 1 (P.Tebt. Pad. 1-25), (Philippika 85,1), Wiesbaden 2015</title>
@@ -1376,6 +1393,12 @@
                <title type="long">Patrick Sänger, Veteranen unter den Severern und frühen Soldatenkaisern (HABES 48), Stuttgart 2011</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">vor 2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_P_Vic_" type="monograph">
+               <title type="short">P.Vic.</title>
+               <title type="long">Il papiro di Vicenza (P.Vic.). Un nuovo papiro latino del VI secolo, a cura di Teresa De Robertis, Antonella Ghignoli, Stefano Zamponi, Edizioni dell'Istituto Papirologico «G. Vitelli», Vol. 15. Firenze University Press 2024</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2025</date>
             </bibl>
             <bibl xml:id="b20490" type="monograph">
                <title type="short">P.Worp</title>
@@ -1452,6 +1475,12 @@
                <editor ref="editors.xml#maresch_k">K. Maresch</editor>
                <date type="creation">2020</date>
             </bibl>
+            <bibl xml:id="ohne_Verweis_PSI_Com__15" type="monograph">
+               <title type="short">PSI Com. 15</title>
+               <title type="long">Francesca Maltomini – Simona Russo, Comunicazioni dell'Istituto Papirologico «G. Vitelli» 15, Firenze University Press 2024</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2025</date>
+            </bibl>
             <bibl xml:id="b95293" type="monograph">
                <title type="short">PUG 04</title>
                <title type="long">Livia Migliardi Zingale - Gerardo Casanova, Papiri dell’Universitá di Genova (PUG IV) (Papyrologica Florentina 46), Firenze 2016</title>
@@ -1493,6 +1522,12 @@
                <title type="long">Andrea Jördens, Sammelbuch Griechischer Urkunden aus Ägypten, XXIX. Band (Index zu Band XXVIII), bearbeitet von Rodney Ast unter Mitarbeit von Andrea Bernini, Wiesbaden, Harrassowitz Verlag 2016</title>
                <editor ref="editors.xml#hagedorn_d">D. Hagedorn</editor>
                <date type="creation">2016</date>
+            </bibl>
+            <bibl xml:id="ohne_Verweis_SB_31" type="monograph">
+               <title type="short">SB 31</title>
+               <title type="long">Andrea Jördens, Sammelbuch Griechischer Urkunden aus Ägypten. Band 31. Wortindex zu Band 30, unter Mitarbeit von Andrea Bernini, Wiesbaden, Harrassowitz Verlag 2025</title>
+               <editor ref="editors.xml#maresch_k">K. Maresch</editor>
+               <date type="creation">2025</date>
             </bibl>
             <bibl xml:id="b81764" type="monograph">
                <title type="short">Short Texts 02</title>
