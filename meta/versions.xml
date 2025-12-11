@@ -24,26 +24,26 @@
                     <note>hinzugekommen:
                         <ref target="ohne_Verweis_An_Pap__33">An.Pap. 33</ref>;
                         <ref target="ohne_Verweis_An_Pap__34">An.Pap. 34</ref>;
-                        <ref target="ohne_Verweis_BGU21">BGU 21</ref>;
+                        <ref target="97090">BGU 21</ref>;
                         <ref target="ohne_Verweis_P_Cair_Reggiani">P.Cair. Reggiani</ref>;
                         <ref target="ohne_Verweis_P.Fouad02">P.Fouad 02</ref>;
-                        <ref target="ohne_Verweis_P_Harr_03">P.Harr. 03</ref>;
-                        <ref target="ohne_Verweis_P_Jördens">P.Jördens</ref>;
-                        <ref target="ohne_Verweis_P_Köln_Land">P.Köln Land.</ref>;
-                        <ref target="ohne_Verweis_P_Oxy__87">P.Oxy. 87</ref>;
-                        <ref target="ohne_Verweis_P_Van_Minnen">P.Van Minnen</ref>;
-                        <ref target="ohne_Verweis_P_Würzb_02">P.Würzb. 02</ref>
+                        <ref target="97100">P.Harr. 03</ref>;
+                        <ref target="96524">P.Jördens</ref>;
+                        <ref target="97109">P.Köln Land.</ref>;
+                        <ref target="96837">P.Oxy. 87</ref>;
+                        <ref target="97125">P.Van Minnen</ref>;
+                        <ref target="97126">P.Würzb. 02</ref>
                     </note>
                 </change>
                 <change when="2023-05-12" n="26">
                     <label>26. Fassung vom 12. Mai 2023</label>
                     <note>hinzugekommen:
-                        <ref target="ohne_Verweis_CPR__36">CPR 36</ref>;
+                        <ref target="97093">CPR 36</ref>;
                         <ref target="ohne_Verweis_O_Blem">O.Blem.</ref>;
-                        <ref target="ohne_Verweis_O_NYU">O.NYU</ref>;
+                        <ref target="97134">O.NYU</ref>;
                         <ref target="ohne_Verweis_P_Aegyptus__Cent">P.Aegyptus Cent.</ref>;
                         <ref target="ohne_Verweis_P_Cair__Gad">P.Cair. Gad</ref>;
-                        <ref target="ohne_Verweis_P_Köln__Sarapion">P.Köln Sarapion</ref>;
+                        <ref target="97111">P.Köln Sarapion</ref>;
                         <ref target="ohne_Verweis_P_Leid__Inst__02">P.Leid. Inst. 02</ref>;
                         <ref target="ohne_Verweis_P_Louvre__03">P.Louvre 03</ref>
                     </note>
@@ -54,15 +54,15 @@
                         <ref target="ohne_Verweis_An_Pap__32">An.Pap. 32</ref>;
                         <ref target="ohne_Verweis_C_Pap_Gr_Clergé_04">C.Pap.Gr.Clergé 04</ref>;
                         <ref target="ohne_Verweis_CPR_35">CPR 35</ref>;
-                        <ref target="ohne_Verweis_O_Bir_Shawish">O.Bir Shawish</ref>;
+                        <ref target="97129">O.Bir Shawish</ref>;
                         <ref target="b95884">P.Cairo Mich. 03</ref>;
                         <ref target="ohne_Verweis_P_Christodote">P.Christodote</ref>;
-                        <ref target="ohne_Verweis_P_Griss__02">P.Giss. 02</ref>;
-                        <ref target="ohne_Verweis_P_Heid__11">P.Heid. 11</ref>;
+                        <ref target="97099">P.Giss. 02</ref>;
+                        <ref target="97102">P.Heid. 11</ref>;
                         <ref target="ohne_Verweis_P_Hoogendijk">P.Hoogendijk</ref>;
-                        <ref target="ohne_Verweis_P_Köln_17">P.Köln 17</ref>;
+                        <ref target="97107">P.Köln 17</ref>;
                         <ref target="b95728">P.Messeri</ref>;
-                        <ref target="ohne_Verweis_P_Oxy__85">P.Oxy. 85</ref>;
+                        <ref target="96619">P.Oxy. 85</ref>;
                         <ref target="ohne_Verweis_P_Oxy__86">P.Oxy. 86</ref>;
                         <ref target="ohne_Verweis_P_Yale_04">P.Yale 04</ref>
                     </note>
@@ -75,10 +75,10 @@
                         <ref target="ohne_Verweis_O_Krok__02">O.Krok. 02</ref>;
                         <ref target="b95467">P.Bas. 02</ref>;
                         <ref target="ohne_Verweis_P_Math_">P.Math.</ref>;
-                        <ref target="ohne_Verweis_P_Oxyrhyncha">P.Oxyrhyncha</ref>;
-                        <ref target="ohne_Verweis_P_Oxy__84">P.Oxy. 84</ref>;
-                        <ref target="ohne_Verweis_P_Petra_05">P.Petra 05</ref>;
-                        <ref target="ohne_Verweis_P_Trier_02">P.Trier 02</ref>;
+                        <ref target="97116">P.Oxyrhyncha</ref>;
+                        <ref target="96842">P.Oxy. 84</ref>;
+                        <ref target="97120">P.Petra 05</ref>;
+                        <ref target="97124">P.Trier 02</ref>;
                         <ref target="ohne_Verweis_PSI_Com__13">PSI Com. 13</ref>
                     </note>
                 </change>
@@ -106,11 +106,11 @@
                         <ref target="b95297">O.Trim. II</ref>;
                         <ref target="ohne_Verweis_P_BandiLit">P.BandiLit.</ref>;
                         <ref target="ohne_Verweis_P.Erbstreit">P.Erbstreit</ref>;
-                        <ref target="ohne_Verweis_P.Haun_04">P.Haun. IV</ref>;
-                        <ref target="ohne_Verweis_P_Köln_15">P.Köln XV</ref>;
-                        <ref target="ohne_Verweis_P_Köln_16">P.Köln XVI</ref>;
+                        <ref target="97101">P.Haun. IV</ref>;
+                        <ref target="97105">P.Köln XV</ref>;
+                        <ref target="97106">P.Köln XVI</ref>;
                         <ref target="ohne_Verweis_P_Nekr">P.Nekr.</ref>;
-                        <ref target="ohne_Verweis_P_Petrie_Kleon">P.Petrie Kleon</ref>;
+                        <ref target="97119">P.Petrie Kleon</ref>;
                         <ref target="b84427">P.Sorb. IV</ref>;
                         <ref target="b95669">Vega, Acta Alex.</ref>
                     </note>
