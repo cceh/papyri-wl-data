@@ -39,32 +39,48 @@
     
     <xsl:template match="/">
         <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
-        <!--<xsl:result-document href="duplicates.xml">-->
-            <xsl:variable name="duplicates">
-                <!-- grouping all orth elements by category -->
-                <xsl:for-each-group select="$current-lemmata//*:orth" group-by="@category">
-                     <!-- looking for duplicates (identical text nodes) within categories; 
-                         groups with two (or more) members – as identified by [current-group()[2]] – are duplicates -->
-                     <xsl:for-each-group select="current-group()" group-by="text()">
-                         <xsl:if test="current-group()[current-group()[2]]">
-                             <xsl:sequence select="current-group()[current-group()[2]]"/>
-                         </xsl:if>
-                     </xsl:for-each-group>
-                </xsl:for-each-group>
-            </xsl:variable>
-            <current>
+
+        <!-- Check 1: Duplicate lemmata within categories -->
+        <xsl:variable name="duplicate-lemmata">
+            <!-- grouping all orth elements by category -->
+            <xsl:for-each-group select="$current-lemmata//*:orth" group-by="@category">
+                 <!-- looking for duplicates (identical text nodes) within categories;
+                     groups with two (or more) members – as identified by [current-group()[2]] – are duplicates -->
+                 <xsl:for-each-group select="current-group()" group-by="text()">
+                     <xsl:if test="current-group()[current-group()[2]]">
+                         <xsl:sequence select="current-group()[current-group()[2]]"/>
+                     </xsl:if>
+                 </xsl:for-each-group>
+            </xsl:for-each-group>
+        </xsl:variable>
+
+        <!-- Check 2: Duplicate xml:ids across all categories -->
+        <xsl:variable name="duplicate-ids">
+            <xsl:for-each-group select="$current-lemmata//*:orth" group-by="@xml:id">
+                <xsl:if test="current-group()[2]">
+                    <xsl:sequence select="current-group()"/>
+                </xsl:if>
+            </xsl:for-each-group>
+        </xsl:variable>
+
+        <current>
+            <xsl:if test="$duplicate-lemmata/*">
                 <h2>Mehrfach vorkommende Lemmata:</h2>
-                <xsl:choose>
-                    <xsl:when test="$duplicates/*">
-                        <xsl:copy-of select="$duplicates"/>
-                        <p>Empfohlenes Vorgehen: Duplikate beheben (zumindest für die Transformation); dann diese Datei entfernen (ggf. nach erneutem Testen).</p>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <p>Alle Lemmata sind innerhalb der Kategorien einmalig. Diese Datei kann entfernt werden.</p>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </current>
-        <!--</xsl:result-document>-->
+                <xsl:copy-of select="$duplicate-lemmata"/>
+            </xsl:if>
+            <xsl:if test="$duplicate-ids/*">
+                <h2>Mehrfach vorkommende xml:ids:</h2>
+                <xsl:copy-of select="$duplicate-ids"/>
+            </xsl:if>
+            <xsl:choose>
+                <xsl:when test="$duplicate-lemmata/* or $duplicate-ids/*">
+                    <p>Empfohlenes Vorgehen: Duplikate beheben (zumindest für die Transformation); dann diese Datei entfernen (ggf. nach erneutem Testen).</p>
+                </xsl:when>
+                <xsl:otherwise>
+                    <p>Alle Lemmata sind innerhalb der Kategorien einmalig und alle xml:ids sind eindeutig.</p>
+                </xsl:otherwise>
+            </xsl:choose>
+        </current>
     </xsl:template>
     
 </xsl:stylesheet>

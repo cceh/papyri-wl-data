@@ -18,36 +18,36 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen 37427 Einträge, wovon 35145 in griechischer und 2282 in lateinischer Sprache (Stand 12. Juli 2024, 27. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen 38605 Einträge, wovon 36215 in griechischer und 2390 in lateinischer Sprache (Stand 8. Januar 2026, 28. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||16714
-geography:    |||||||||||||||||||||||4748
-persons:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15316
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||17163
+geography:    ||||||||||||||||||||||||4900
 monthsDays:   127
-religion:     ||522
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15853
+religion:     ||562
 ```
 
 **Griechisch**
 
 ```txt
-general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15211
-geography:    |||||||||||||||||||||||4681
-persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||14637
+general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15607
+geography:    ||||||||||||||||||||||||4825
 monthsDays:   105
-religion:     ||511
+persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15128
+religion:     ||550
 ```
 
 **Lateinisch**
 
 ```txt
 monthsDays:   22
-persons:      |||679
-geography:    67
-religion:     11
-general:      |||||||1503
+persons:      |||725
+geography:    75
+religion:     12
+general:      |||||||1556
             
 | = 200 Einträge            
 ```
@@ -114,11 +114,7 @@ Der Datenabgleich/Import verläuft nur erfolgreich bzw. die Datenkonversion wird
 
 Jedem Lemma wird im Zuge der Datenübernahme eine sog. PWL-ID zugewiesen. Seit Juli 2019 basiert die Datenkonversion nicht mehr auf einem zeichenidentischen Lemma-Abgleich, sondern auf dieser ID.
 
-Als Konsequenz daraus müssen neu zugewiesene PWL-IDs für jede neue Fassung/Version in FileMaker importiert werden. Die Konversionsroutine legt dazu im Verzeichnis `output/return` für jede Inputdatei eine um die IDs erweiterte Datei an, die sich in FileMaker importieren lässt.
-
-##### Bibliographie-IDs aktualisieren
-
-Für neue Literatureinträge werden zunächst temporäre `xml:id`-Attribute vergeben (z.B. `ohne_Verweis_...`). Sobald die offiziellen papyri.info-Bibliographie-IDs vorliegen, können diese mit den Hilfsskripten in [`staging/scripts/`](/staging/scripts/) aktualisiert werden. Siehe dortige [README](/staging/scripts/README.md) für Details.
+Als Konsequenz daraus müssen neu zugewiesene PWL-IDs für jede neue Fassung/Version in FileMaker importiert werden. Die Konversionsroutine legt dazu im Verzeichnis `output/return` für jede Inputdatei eine um die IDs erweiterte Datei an, die sich in FileMaker importieren lässt. 
 
 Kontakt/Mitarbeit
 ---------------------------
@@ -130,4 +126,4 @@ Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 *Daten und README zuletzt generiert am 
-12. Juli 2024 mit XML Calabash 1.5.7 (for Saxon 12.3/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 12.3 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*
+8. Januar 2026 mit XML Calabash 1.5.7 (for Saxon 12.5/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 12.5 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*

@@ -12,10 +12,10 @@
         <p>The option 'comparisonBase' allows to select a smaller data set to facilitate testing/development.</p>
         <p>For testing purposes, it is possible to output a single file using the outputScenario 'oneFile'.</p>
     </p:documentation>
-    <p:option name="version" select="'27¦27. Version¦21.05.2024'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
+    <p:option name="version" select="'28¦28. Version¦11.12.2025'"/><!-- Version: leer lassen, wenn es sich nicht um eine neue Version handelt -->
     <p:option name="editor" select="'https://github.com/olvidalo'"/><!-- Bearbeiter -->
-    <p:option name="task-newEntries" select="'27. Fassung vom 21.05.2024: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
-    <p:option name="task-existingEntries" select="'27. Fassung vom 21.05.2024: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
+    <p:option name="task-newEntries" select="'28. Fassung vom 11.12.2025: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)'"/><!-- Bearbeitungsschritt (Neuaufnahmen) -->
+    <p:option name="task-existingEntries" select="'28. Fassung vom 11.12.2025: Anpassung des bestehenden Eintrags (XProc-Workflow)'"/><!-- Bearbeitungsschritt (bestehende Einträge) -->
     <p:option name="schemaPath" select="'../validation'"/>
     <p:option name="comparisonBase" select="'current'"/><!-- current -->
     <p:option name="outputScenario" select="'manyFiles'"/><!-- oneFile / manyFiles -->
@@ -176,19 +176,19 @@
                 </p:when>
                 <!-- case: no PWL-ID mismatches - run the main transformation -->
                 <p:otherwise>
-            <pwl:transform>
-                <p:with-param name="version" select="$version"/>
-                <p:with-param name="editor" select="$editor"/>
-                <p:with-param name="task-newEntries" select="$task-newEntries"/>
-                <p:with-param name="task-existingEntries" select="$task-existingEntries"/>
-                <p:with-param name="comparisonBase" select="$comparisonBase"/>
-                <p:with-param name="schemaPath" select="$schemaPath"/>
-                <p:with-param name="outputScenario" select="$outputScenario"/>
-                <p:with-param name="result-path" select="$result-path"/>
-                <p:with-param name="result-url" select="$result-url"/>
-            </pwl:transform>
-        </p:otherwise>
-    </p:choose>
+                    <pwl:transform>
+                        <p:with-param name="version" select="$version"/>
+                        <p:with-param name="editor" select="$editor"/>
+                        <p:with-param name="task-newEntries" select="$task-newEntries"/>
+                        <p:with-param name="task-existingEntries" select="$task-existingEntries"/>
+                        <p:with-param name="comparisonBase" select="$comparisonBase"/>
+                        <p:with-param name="schemaPath" select="$schemaPath"/>
+                        <p:with-param name="outputScenario" select="$outputScenario"/>
+                        <p:with-param name="result-path" select="$result-path"/>
+                        <p:with-param name="result-url" select="$result-url"/>
+                    </pwl:transform>
+                </p:otherwise>
+            </p:choose>
         </p:otherwise>
     </p:choose>
     
