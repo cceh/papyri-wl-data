@@ -144,7 +144,38 @@
         </p:when>
         <!-- case: no duplicates in 'current' -->
         <p:otherwise>
-            <!-- run the main transformation -->
+            <!-- PWL-ID consistency check -->
+            <p:documentation>
+                <h2>PWL-ID consistency check</h2>
+                <p>This step verifies that PWL-IDs in input files match the corresponding entries in current/.
+                It catches swapped IDs, duplicated IDs, and wrong ID assignments.</p>
+            </p:documentation>
+            <p:xslt name="pwlid-check">
+                <p:with-param name="input-folder" select="'staging/input'"/>
+                <p:with-param name="comparisonBase" select="$comparisonBase"/>
+                <p:input port="source">
+                    <p:document href="library/duplicates/2a-check-input-pwlids.xsl"/>
+                </p:input>
+                <p:input port="stylesheet">
+                    <p:document href="library/duplicates/2a-check-input-pwlids.xsl"/>
+                </p:input>
+            </p:xslt>
+            <p:choose>
+                <!-- case: PWL-ID mismatches detected -->
+                <p:when test="*:input/*:orth">
+                    <p:xslt name="pwlid-errors">
+                        <p:input port="stylesheet">
+                            <p:document href="library/duplicates/2a-check-input-pwlids-md.xsl"/>
+                        </p:input>
+                    </p:xslt>
+                    <p:error name="error-pwlid-mismatch" code="pwlid-mismatch">
+                        <p:input port="source">
+                            <p:pipe port="result" step="pwlid-errors"/>
+                        </p:input>
+                    </p:error>
+                </p:when>
+                <!-- case: no PWL-ID mismatches - run the main transformation -->
+                <p:otherwise>
             <pwl:transform>
                 <p:with-param name="version" select="$version"/>
                 <p:with-param name="editor" select="$editor"/>
@@ -156,6 +187,8 @@
                 <p:with-param name="result-path" select="$result-path"/>
                 <p:with-param name="result-url" select="$result-url"/>
             </pwl:transform>
+        </p:otherwise>
+    </p:choose>
         </p:otherwise>
     </p:choose>
     
