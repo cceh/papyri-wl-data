@@ -10,15 +10,15 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="v27">
-               <name>27. Version</name>
-               <date>21.05.2024</date>
+            <edition n="v28">
+               <name>28. Version</name>
+               <date>11.12.2025</date>
             </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Universität zu Köln, Klaus Maresch</publisher>
             <pubPlace>Köln</pubPlace>
-            <date when="2024-07-12">12. Juli 2024</date>
+            <date when="2026-11-20">20. November 2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/"
                         notBefore="2017-01-01">
@@ -41,6 +41,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2026-11-20" who="https://github.com/olvidalo">28. Fassung vom 11.12.2025: Anpassung des bestehenden Eintrags (XProc-Workflow)</change>
          <change when="2024-07-12" who="https://github.com/olvidalo">27. Fassung vom 21.05.2024: Neuanlage des Eintrags und Vergabe der xml:id (XProc-Workflow)</change>
       </revisionDesc>
    </teiHeader>
@@ -55,7 +56,8 @@
                      <orth xml:lang="grc" type="original" extent="full">ςιδῦεΖ</orth>
                      <orth xml:lang="grc" type="regularised" extent="full">ςιδυεΖ</orth>
                   </form>
-                  <note type="resp">Anlage des Lemmas am <date type="creation" when="2024-07-12">12. Juli 2024</date>.</note>
+                  <note type="resp">Anlage des Lemmas durch <name ref="../../corpus.xml#hagedorn_d">D. Hagedorn</name>
+                     <date type="creation" notAfter="2016">vor 2016</date>.</note>
                   <idno type="fp7">19820</idno>
                </form>
                <!--Belegstellen-->

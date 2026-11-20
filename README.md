@@ -18,12 +18,12 @@ Dieses Repositorium umfasst einen Transformations-Workflow ab FileMaker-XML-Expo
 
 ### Datenumfang
 
-Die Wörterlisten umfassen 38605 Einträge, wovon 36215 in griechischer und 2390 in lateinischer Sprache (Stand 8. Januar 2026, 28. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
+Die Wörterlisten umfassen 38606 Einträge, wovon 36216 in griechischer und 2390 in lateinischer Sprache (Stand 20. November 2026, 28. Fassung). Die Verteilung auf die Kategorien ist nachstehend illustriert.
 
 **Sprachübergreifend**
 
 ```txt
-general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||17163
+general:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||17164
 geography:    ||||||||||||||||||||||||4900
 monthsDays:   127
 persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15853
@@ -33,7 +33,7 @@ religion:     ||562
 **Griechisch**
 
 ```txt
-general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15607
+general:      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15608
 geography:    ||||||||||||||||||||||||4825
 monthsDays:   105
 persons:      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||15128
@@ -126,4 +126,4 @@ Institut für Altertumskunde, Universität zu Köln, Albertus-Magnus-Platz, D-50
 Cologne Center for eHumanities, Universität zu Köln, Albertus-Magnus-Platz, D-50923 Köln
 
 *Daten und README zuletzt generiert am 
-8. Januar 2026 mit XML Calabash 1.5.7 (for Saxon 12.5/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 12.5 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*
+20. November 2026 mit XML Calabash 1.5.7 (for Saxon 12.5/EE) von [Norman Walsh](http://xmlcalabash.com/) und SAXON EE 12.5 von [Saxonica](http://www.saxonica.com/) (XSL 3.0).*
