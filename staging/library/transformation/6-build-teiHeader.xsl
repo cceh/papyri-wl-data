@@ -2,8 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs tei"
-    version="2.0">
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+    exclude-result-prefixes="xs tei map"
+    version="3.0">
     
     <!-- 
         <p:documentation>
@@ -22,10 +23,12 @@
     <xsl:param name="comparisonBase"/>
     <xsl:param name="quot">"</xsl:param>
     
-<!--    <xsl:key name="entry-by-id" match="tei:entry" use="@xml:id"/>-->
-    
     <xsl:variable name="files" select="collection(concat('../../../',$comparisonBase,'/?recurse=yes;select=wl-*.xml'))"/>
-    
+
+    <!-- revision history of every entry in $comparisonBase, built once: a per-entry lookup across all files is quadratic -->
+    <xsl:variable name="changes-by-id" as="map(xs:string, element()*)"
+        select="map:merge(for $e in $files//tei:entry[@xml:id] return map:entry(string($e/@xml:id), $e/../../../../tei:teiHeader/tei:revisionDesc/tei:change), map{'duplicates':'combine'})"/>
+
     
     <xsl:template match="/">
         <xsl:message><xsl:value-of select="current-dateTime() || ' – ' || static-base-uri()"/></xsl:message>
@@ -125,22 +128,8 @@
                             </change>
                             <!-- inherit existing changes -->
                             <xsl:variable name="currentID" select="*:entry/@xml:id"/>
-                            <xsl:copy-of select="$files/id($currentID)/../../../../tei:teiHeader/tei:revisionDesc/tei:change"/>
-                            
-                            
-                            <!-- the following left in for reference: tested alternatives to original XPath to reduce processing time -->
-                            <!-- 112s -->
-<!--                            <xsl:copy-of select="$files/key('entry-by-id', $currentID)/../../../tei:teiHeader/tei:revisionDesc/tei:change"/>-->
-                            <!-- 105s -->
-<!--                            <xsl:copy-of select="$files/tei:TEI[key('entry-by-id', $currentID)]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
-                            <!-- 148s, 120s -->
-<!--                            <xsl:copy-of select="$files/tei:TEI[tei:text/tei:body/tei:div/tei:entry[@xml:id = $currentID]]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
-                            <!-- 250s -->
-<!--                            <xsl:apply-templates select="$files/tei:TEI[tei:text/tei:body/tei:div/tei:entry[@xml:id = $currentID]]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
+                            <xsl:copy-of select="$changes-by-id(string($currentID))"/>
 
-
-                            <!-- <xsl:apply-templates select="$files/tei:TEI[key('entry-by-id', $currentID)]/tei:teiHeader/tei:revisionDesc/tei:change"/>-->
-                            
                             <!-- initial changes; removed after first run -->
                             <!--
                             <change when="2016-09-15" who="http://github.com/pdaengeli">Erstvergabe von xml:ids</change>
